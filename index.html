@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f4ee">
+  <title>Mnema — flashcards de idiomas</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=20261018-deck-list-2">
+</head>
+<body>
+  <div class="shell">
+    <aside class="sidebar">
+      <a class="brand" href="#study"><span class="brand-mark">m.</span><span>mnema<span class="brand-dot">.</span></span></a>
+      <div class="side-label">MEUS ESTUDOS <button id="addContextBtn" title="Criar contexto">＋</button></div>
+      <div id="contextTree" class="context-tree"></div>
+      <nav class="secondary-nav">
+        <button class="nav-item" data-view="library"><span class="nav-icon">▤</span> Todos os cartões <span class="nav-count" id="navCount">0</span></button>
+        <button class="nav-item" data-view="import"><span class="nav-icon">↥</span> Importar cartões</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="local-note"><span class="lock-icon">⌑</span><div><strong>Seus dados, neste dispositivo</strong><small>Armazenados localmente</small></div></div>
+        <button id="backupBtn" class="backup-link"><span>↧</span> Exportar backup</button>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar"><div class="breadcrumb">Seus estudos <span>/</span> <b id="crumb">Selecione um deck</b></div><div class="top-actions"><span class="sync-dot"></span><span>Salvo neste Mac</span><button id="addTopBtn" class="icon-add" title="Adicionar cartão">＋</button></div></header>
+
+      <section class="view active" id="studyView">
+        <div class="page-heading"><div><div class="eyebrow" id="studyContextEyebrow">SEU MOMENTO DE APRENDER</div><h1 id="studyHeading">Escolha um deck<span class="period">.</span></h1><p id="studyDescription">Seus contextos e decks ficam organizados aqui.</p></div><div class="study-heading-actions"><button class="text-button" id="addDeckBtn">＋ Novo deck</button><button class="text-button" id="shuffleBtn">↻ <span>Embaralhar</span></button></div></div>
+        <div class="context-deck-list hidden" id="contextDeckList"></div><div class="context-deck-empty hidden" id="contextDeckEmpty">Nenhum deck neste idioma ainda. Use <b>Novo deck</b> para criar o primeiro.</div>
+        <div class="study-controls" id="studyControls">
+          <label class="select-wrap"><span>FRENTE</span><select id="frontLang"></select><i>⌄</i></label>
+          <div class="direction-mark">↔</div>
+          <label class="select-wrap"><span>VERSO</span><select id="backLang"></select><i>⌄</i></label>
+          <div class="control-separator"></div><div class="deck-count"><strong id="deckCount">0</strong><span>cartões<br>neste sentido</span></div>
+        </div>
+        <div class="study-area" id="studyArea">
+          <div class="card-stage">
+            <div class="flashcard" id="flashcard" role="button" tabindex="0" aria-label="Revelar tradução">
+              <div class="card-top"><span class="language-pill" id="cardFrontLang">PORTUGUÊS</span><span class="card-position" id="cardPosition">01 <span>/ 00</span></span></div>
+              <div class="card-content"><div class="word" id="cardWord">Seu próximo cartão</div><span id="cardPartOfSpeech" class="card-pos hidden"></span><div class="example-label">EXEMPLOS</div><div class="example-sentence" id="frontExample"></div><div class="card-hint" id="cardHint">Clique para revelar a tradução</div></div>
+              <div class="card-bottom"><span>PALAVRA</span><span class="flip-hint">⤢ &nbsp;clique para virar</span></div>
+              <div class="card-back-content" id="cardBackContent"><span class="language-pill" id="cardBackLang">INGLÊS</span><div class="back-word" id="backWord">—</div><span id="backPartOfSpeech" class="card-pos hidden"></span><div class="back-example-label">EXEMPLOS</div><div class="back-example" id="backExample"></div><div class="back-note" id="backNote"></div></div>
+            </div>
+            <div class="card-shadow"></div>
+          </div>
+          <div class="review-actions"><button id="forgotBtn" class="review-button forgot"><span>←</span> Ainda não sei</button><span id="reviewProgress" class="review-progress"></span><button id="rememberedBtn" class="review-button remembered">Já sei <span>→</span></button></div>
+          <div class="study-footer"><div class="keyboard-hint"><kbd>←</kbd> não sei <kbd>→</kbd> já sei <kbd>espaço</kbd> revelar</div><div class="study-nav"><button id="prevBtn" class="circle-button" aria-label="Anterior">‹</button><span id="progressText">0 de 0</span><button id="nextBtn" class="circle-button primary" aria-label="Próximo">›</button></div></div>
+        </div>
+        <div class="review-complete hidden" id="reviewComplete"><div class="empty-icon">✓</div><h2 id="reviewCompleteTitle">Pacote concluído.</h2><p id="reviewCompleteText">Você terminou este pacote.</p><button class="button primary-button" id="nextBatchBtn">Revisar mais 10 palavras <span>↗</span></button></div>
+        <div class="empty-state hidden" id="studyEmpty"><div class="empty-icon">✳</div><h2 id="studyEmptyTitle">Seu espaço de estudo começa aqui.</h2><p id="studyEmptyText">Crie um contexto de idioma e organize as palavras em decks.</p><button class="button primary-button" id="emptyContextBtn">＋ Criar contexto</button><button class="button primary-button hidden" id="emptyImportBtn">Importar cartões <span>↗</span></button><button class="quiet-button hidden" id="emptyAddBtn">＋ Adicionar cartão</button></div>
+      </section>
+
+      <section class="view" id="libraryView">
+        <div class="page-heading"><div><div class="eyebrow">SUA COLEÇÃO</div><h1>Todos os cartões<span class="period">.</span></h1><p id="librarySubtitle">Palavras de todos os contextos e decks.</p></div><button class="button primary-button" id="addLibraryBtn">＋ Novo cartão</button></div>
+        <div class="library-tools"><label class="search-box"><span>⌕</span><input id="searchInput" placeholder="Buscar palavra, significado ou idioma…"></label><span class="library-total" id="libraryTotal">0 cartões</span></div>
+        <div class="card-list" id="cardList"></div>
+        <div class="empty-state compact hidden" id="libraryEmpty"><div class="empty-icon">▤</div><h2>Nenhum cartão por aqui ainda.</h2><p>Crie seu primeiro cartão ou importe uma coleção.</p><button class="button primary-button" data-go="import">Importar cartões <span>↗</span></button></div>
+      </section>
+
+      <section class="view" id="importView">
+        <div class="page-heading"><div><div class="eyebrow">TRAGA SUAS PALAVRAS</div><h1>Importar cartões<span class="period">.</span></h1><p>O fluxo principal do Mnema é pedir a um agente de IA para pesquisar palavras e escrevê-las diretamente nos arquivos JSON.</p><div class="import-kit"><strong>Agentes atualizam os arquivos; Mnema cuida do estudo</strong><span>O agente verifica duplicatas e adiciona cartões ao JSON. A interface sincroniza o conteúdo automaticamente.</span><div><a href="AGENTS.md" download>Instruções para agentes</a><a href="IMPORT_FORMAT.md" download>Formato dos dados</a></div></div></div></div>
+        <div class="import-grid">
+          <div class="import-main panel"><div class="panel-title"><div class="panel-icon">↥</div><div><h2>Importar arquivo ou colar</h2><p>CSV, TSV ou JSON. Seus dados permanecem neste computador.</p></div></div>
+            <div class="import-meta"><label class="form-label">CONTEXTO<select id="importContext"></select></label><label class="form-label">DECK<select id="importTargetDeck"></select></label><label class="form-label">ORIGEM <span>opcional</span><input id="importSource" value="importação" placeholder="Ex.: Preply, lista pessoal, artigo"></label></div>
+            <div id="dropZone" class="drop-zone"><div class="upload-icon">↑</div><strong>Solte seu arquivo aqui</strong><span>ou</span><button class="text-button" id="chooseFileBtn">escolha no computador</button><small>CSV, TSV ou JSON · até 8 MB</small><input type="file" id="fileInput" accept=".csv,.tsv,.txt,.json,text/csv,application/json" hidden></div>
+            <div class="or-divider"><span>OU COLE O CONTEÚDO</span></div>
+            <label class="paste-label" for="pasteInput">Cole CSV, TSV ou JSON</label><textarea id="pasteInput" rows="7" placeholder="português, inglês, exemplo português, example english, notes
+guardar, save, Eu guardo dinheiro todo mês., I save money every month., uma quantia ou recurso
+me poupe, spare, Me poupe de ouvir isso., Spare me from hearing that., pedido para evitar algo"></textarea>
+            <div class="import-actions"><span class="format-hint">Repita colunas “example English 1”, “example English 2” etc., ou use listas de frases no JSON.</span><button id="importBtn" class="button primary-button">Importar palavras <span>↗</span></button></div>
+            <div class="import-kit"><strong>Preparar uma lista com IA</strong><span>Baixe o modelo ou copie um prompt que explica o formato aceito.</span><div><button id="downloadCsvTemplate" class="quiet-button">↓ Modelo CSV</button><button id="copyImportPrompt" class="quiet-button">Copiar prompt para IA</button><a href="IMPORT_FORMAT.md" download>Guia completo</a></div></div>
+            <div id="importResult" class="import-result hidden"></div>
+          </div>
+          <aside class="import-aside"><div class="aside-card preply-card"><div class="preply-mark">P</div><div class="eyebrow">FONTE DE PALAVRAS</div><h3>Vindo do Preply?</h3><p>Peça ao agente para ler seus cartões na sessão já autenticada do navegador, se necessário.</p><p class="aside-small">O agente verifica duplicatas e escreve os cartões diretamente no JSON. O navegador serve para ler a fonte; não para preencher o Mnema.</p><button id="preplyInfoBtn" class="aside-link">Ver como funciona <span>↗</span></button></div>
+            <div class="aside-card format-card"><div class="eyebrow">FORMATO ACEITO</div><h3>Uma linha por cartão</h3><p>Os cabeçalhos da planilha viram idiomas. Use pelo menos duas colunas com idiomas.</p><div class="mini-table"><div>português <span>inglês</span></div><div>saudade <span>longing</span></div><div>ficar à vontade <span>make yourself at home</span></div></div></div></aside>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="modal-backdrop hidden" id="modalBackdrop"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="closeModal" aria-label="Fechar">×</button><div class="eyebrow" id="modalEyebrow">SUA COLEÇÃO</div><h2 id="modalTitle">Novo cartão</h2><p class="modal-intro">Inclua exemplos nos idiomas do cartão para praticar em qualquer direção.</p><form id="cardForm"><div class="form-selects"><label class="form-label">CONTEXTO<select name="context_name" id="cardContext"></select></label><label class="form-label">DECK<select name="deck_name" id="cardDeck"></select></label></div><label class="form-label">CLASSE GRAMATICAL <span>opcional</span><input id="cardPos" placeholder="Ex.: verb, noun, adjective, expressão"></label><div id="termFields"></div><button type="button" id="addLanguageField" class="add-language">＋ Adicionar idioma</button><label class="form-label notes-label">SIGNIFICADO / NOTAS <span>opcional</span><textarea name="notes" rows="2" placeholder="Sentido específico ou observação adicional"></textarea></label><div class="form-actions"><button type="button" class="quiet-button" id="cancelModal">Cancelar</button><button class="button primary-button" type="submit">Salvar cartão <span>↗</span></button></div></form></div></div>
+  <div class="modal-backdrop hidden" id="collectionBackdrop"><div class="modal small-modal" role="dialog" aria-modal="true" aria-labelledby="collectionTitle"><button class="modal-close" id="closeCollection" aria-label="Fechar">×</button><div class="eyebrow" id="collectionEyebrow">ORGANIZE SEUS ESTUDOS</div><h2 id="collectionTitle">Novo contexto</h2><p class="modal-intro" id="collectionIntro">Crie uma pasta de estudo para um idioma.</p><form id="collectionForm"><label class="form-label" id="collectionNameLabel">NOME<input id="collectionName" required placeholder="Ex.: Inglês"></label><label class="form-label" id="collectionLanguageLabel">IDIOMA ESTUDADO<input id="collectionLanguage" placeholder="Ex.: inglês" required></label><div class="form-actions"><button type="button" class="quiet-button" id="cancelCollection">Cancelar</button><button class="button primary-button" id="saveCollection" type="submit">Criar contexto <span>↗</span></button></div></form></div></div>
+  <div class="toast" id="toast"></div>
+  <script src="app.js?v=20261018-deck-list-2"></script>
+</body>
+</html>
