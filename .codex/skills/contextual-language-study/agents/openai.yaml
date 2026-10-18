@@ -1,0 +1,7 @@
+interface:
+  display_name: "Contextual Language Study"
+  short_description: "Topic lessons and interactive speaking practice"
+  default_prompt: "Use $contextual-language-study to build a lesson for this topic: "
+
+policy:
+  allow_implicit_invocation: true

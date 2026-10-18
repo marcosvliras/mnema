@@ -42,6 +42,8 @@ Open a deck, choose which language appears on the front and which appears on the
 
 > I want to start learning Spanish. Create that context with General and Travel decks, then make cards for these words.
 
+> Use `$contextual-language-study` to create a lesson about airports in English. Prioritize these words: boarding pass, layover, and gate.
+
 ## Your data
 
 Mnema stores your decks as JSON files in the repository's `data/` folder. Review progress is saved with each card, so the collection can be backed up and moved with the project. If you use a public copy of this repository, anything committed to `data/` is visible to everyone; use a private repository for personal collections you do not want to share. Ask your AI agent to sync the repository before and after making changes on another computer.
