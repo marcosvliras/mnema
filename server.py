@@ -16,6 +16,8 @@ from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
 ROOT = Path(__file__).resolve().parent
+# Correct answers in a row after which a word counts as learned (matches LEARNED_STREAK in app.js).
+LEARNED_STREAK = 3
 DB_PATH = Path(os.environ.get("FLASHCARDS_DB", ROOT / "flashcards.db"))
 HOST = os.environ.get("FLASHCARDS_HOST", "127.0.0.1")
 PORT = int(os.environ.get("PORT", "8765"))
@@ -74,6 +76,8 @@ def init_db():
             db.execute("ALTER TABLE cards ADD COLUMN last_reviewed_at TEXT NOT NULL DEFAULT ''")
         if "part_of_speech" not in columns:
             db.execute("ALTER TABLE cards ADD COLUMN part_of_speech TEXT NOT NULL DEFAULT ''")
+        if "pronunciation" not in columns:
+            db.execute("ALTER TABLE cards ADD COLUMN pronunciation TEXT NOT NULL DEFAULT ''")
         db.execute("UPDATE cards SET due_at=? WHERE due_at=''", (datetime.now(timezone.utc).isoformat(),))
         db.execute("""CREATE TABLE IF NOT EXISTS study_contexts (
             name TEXT PRIMARY KEY COLLATE NOCASE,
@@ -145,6 +149,9 @@ def load_file_collections():
                      int(raw.get("review_total", 0)), str(raw.get("due_at") or now),
                      str(raw.get("last_reviewed_at") or ""))
                     )
+                # Pronunciation (IPA of the learned term) lives only in collection files.
+                db.execute("UPDATE cards SET pronunciation=? WHERE source_key=?",
+                           (str(raw.get("pronunciation", "")).strip(), key))
 
 
 def sync_file_collections():
@@ -179,13 +186,16 @@ def persist_deck_file(db, context_name, deck_name):
     if target is None:
         target = data_root / slug_component(context["learning_language"]) / slug_component(context["name"]) / f"{slug_component(deck_name)}.json"
     cards = []
-    for row in db.execute("SELECT terms,examples,notes,part_of_speech,source,review_streak,review_correct,review_total,due_at,last_reviewed_at FROM cards WHERE context_name=? COLLATE NOCASE AND deck_name=? COLLATE NOCASE ORDER BY id",
+    for row in db.execute("SELECT terms,examples,notes,part_of_speech,pronunciation,source,review_streak,review_correct,review_total,due_at,last_reviewed_at FROM cards WHERE context_name=? COLLATE NOCASE AND deck_name=? COLLATE NOCASE ORDER BY id",
                            (context["name"], deck_name)):
-        cards.append({"terms": json.loads(row["terms"]), "examples": json.loads(row["examples"] or "{}"),
+        card = {"terms": json.loads(row["terms"]), "examples": json.loads(row["examples"] or "{}"),
                       "part_of_speech": row["part_of_speech"] or "", "meaning": row["notes"] or "",
                       "source": row["source"] or "local", "review_streak": row["review_streak"],
                       "review_correct": row["review_correct"], "review_total": row["review_total"],
-                      "due_at": row["due_at"], "last_reviewed_at": row["last_reviewed_at"]})
+                      "due_at": row["due_at"], "last_reviewed_at": row["last_reviewed_at"]}
+        if row["pronunciation"]:
+            card["pronunciation"] = row["pronunciation"]
+        cards.append(card)
     payload = {"schema_version": 1,
                "context": {"name": context["name"], "learning_language": context["learning_language"]},
                "deck": deck_name, "source": "local", "cards": cards}
@@ -379,6 +389,31 @@ class Handler(SimpleHTTPRequestHandler):
                     ensure_deck(db, context_name, name)
                     persist_deck_file(db, context_name, name)
                     return self.send_json({"contexts": get_structure(db)})
+            if path.startswith("/api/cards/") and path.endswith("/status"):
+                # Manual move: "learned" jumps to the learned streak (next review in 7 days);
+                # "relearn" counts as a miss: it resets the streak and the word comes back right away.
+                card_id = int(path.split("/")[-2])
+                status = str(body.get("status", ""))
+                if status not in ("learned", "relearn"):
+                    return self.send_json({"error": "Status inválido."}, 400)
+                now = datetime.now(timezone.utc)
+                with connect() as db:
+                    card = db.execute("SELECT * FROM cards WHERE id=?", (card_id,)).fetchone()
+                    if not card:
+                        return self.send_json({"error": "Cartão não encontrado."}, 404)
+                    if status == "learned":
+                        streak = max(int(card["review_streak"] or 0), LEARNED_STREAK)
+                        due = now.timestamp() + 7 * 86400
+                    total = int(card["review_total"] or 0)
+                    if status == "relearn":
+                        streak = 0
+                        total += 1
+                        due = now.timestamp()
+                    db.execute("UPDATE cards SET review_streak=?,review_total=?,due_at=? WHERE id=?",
+                               (streak, total, datetime.fromtimestamp(due, timezone.utc).isoformat(), card_id))
+                    persist_deck_file(db, card["context_name"], card["deck_name"])
+                    result = card_dict(db.execute("SELECT * FROM cards WHERE id=?", (card_id,)).fetchone())
+                return self.send_json({"card": result})
             if path.startswith("/api/cards/") and path.endswith("/review"):
                 card_id = int(path.split("/")[-2])
                 remembered = bool(body.get("remembered"))

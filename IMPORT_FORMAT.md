@@ -39,6 +39,7 @@ Example: `data/english/airport.json` can describe context “English” and deck
           "Juntamos o suficiente para uma viagem."
         ]
       },
+      "pronunciation": "/seɪv/",
       "part_of_speech": "verb",
       "meaning": "To keep money or resources for later use.",
       "source": "Preply"
@@ -57,6 +58,7 @@ Example: `data/english/airport.json` can describe context “English” and deck
 - `cards`: array of flashcards.
 - `terms`: map from language names to the equivalent term or phrase. Every card must contain a term for `learning_language`.
 - `examples`: map from language names to arrays of natural example sentences. Prefer multiple examples for the learned term; examples should show the same sense as `meaning`.
+- `pronunciation`: optional IPA for the learned term, with slashes (for example `/ˈkɛrfəl/`). Use American English for English. Mnema shows it under the word.
 - `part_of_speech`: optional class such as `verb`, `noun`, `adjective`, or `expression`.
 - `meaning`: optional concise, sense-specific definition. This is stored with the card's notes.
 

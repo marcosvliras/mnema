@@ -30,6 +30,7 @@ Write directly to `data/<context-slug>/<deck-slug>.json`. Create parent director
         "English": ["I save money every month.", "She saved enough for a trip."],
         "Portuguese": ["Eu economizo dinheiro todo mês.", "Ela juntou o bastante para uma viagem."]
       },
+      "pronunciation": "/seɪv/",
       "part_of_speech": "verb",
       "meaning": "To keep money or resources for later use.",
       "source": "Preply"
@@ -38,7 +39,7 @@ Write directly to `data/<context-slug>/<deck-slug>.json`. Create parent director
 }
 ```
 
-Each card must include the learned term under a language key matching `learning_language`. Include translations, a concise sense-specific meaning, and natural examples in the learned language. Add examples in other languages when useful and supported. Keep the same sense across the examples. Use UTF-8 and valid JSON.
+Each card must include the learned term under a language key matching `learning_language`. Include translations, the IPA pronunciation of the learned term (`pronunciation`, American English for English), a concise sense-specific meaning, and natural examples in the learned language. Add examples in other languages when useful and supported. Keep the same sense across the examples. Use UTF-8 and valid JSON.
 
 ## Backup and synchronization
 

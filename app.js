@@ -1,7 +1,8 @@
 const $ = (q) => document.querySelector(q);
 const $$ = (q) => [...document.querySelectorAll(q)];
+let savedDeckDirections={};try{savedDeckDirections=JSON.parse(localStorage.getItem('mnema.deckDirections')||'{}')||{};}catch{}
 let savedDeckBatchSizes={};try{savedDeckBatchSizes=JSON.parse(localStorage.getItem('palavra.deckBatchSizes')||'{}')||{};}catch{}
-const state = { cards: [], contexts: [], context: '', deck: '', view: 'study', screen: 'decks', study: [], roundReviewed: new Set(), batchSize: 10, deckBatchSizes:savedDeckBatchSizes, studyStarted: false, index: 0, revealed: false, editing: null, collectionMode: 'context', collectionParent: '', swipeStart: null, suppressCardClick: false, ratingBusy: false };
+const state = { cards: [], contexts: [], context: '', deck: '', view: 'study', screen: 'decks', study: [], batchIds: null, batchKey: '', studyMode: 'all', deckFilter: 'learned', deckPage: 0, roundReviewed: new Set(), batchSize: 10, deckBatchSizes:savedDeckBatchSizes, deckDirections:savedDeckDirections, studyStarted: false, index: 0, revealed: false, editing: null, collectionMode: 'context', collectionParent: '', swipeStart: null, suppressCardClick: false, ratingBusy: false };
 
 const norm = s => String(s || '').trim().toLocaleLowerCase();
 const languageAliases = {en:'english',eng:'english',ingles:'english',english:'english',pt:'portuguese',por:'portuguese',portugues:'portuguese',portuguese:'portuguese',es:'spanish',spa:'spanish',espanhol:'spanish',spanish:'spanish',fr:'french',fra:'french',frances:'french',french:'french',de:'german',deu:'german',alemao:'german',german:'german',it:'italian',ita:'italian',italiano:'italian',italian:'italian'};
@@ -10,6 +11,17 @@ function termFor(card,language){if(!card?.terms)return '';if(card.terms[language
 function examplesFor(card,language){return [...new Set(Object.entries(card.examples||{}).filter(([label])=>langKey(label)===langKey(language)).flatMap(([,values])=>Array.isArray(values)?values:[values]))];}
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmtLang = s => (s || '').toLocaleUpperCase('pt-BR');
+const speechLangs={english:'en-US',portuguese:'pt-BR',spanish:'es-ES',french:'fr-FR',german:'de-DE',italian:'it-IT'};
+const SPEAK_ICON='<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg>';
+// Speech: wait for the voice list, prefer high-quality voices for the language, and skip macOS novelty voices.
+let speechVoices=[];const loadVoices=()=>{speechVoices=speechSynthesis.getVoices();};
+if('speechSynthesis' in window){loadVoices();speechSynthesis.addEventListener('voiceschanged',loadVoices);}
+const noveltyVoices=/^(Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Good News|Jester|Organ|Superstar|Trinoids|Whisper|Wobble|Zarvox|Junior|Ralph|Fred|Kathy|Eddy|Flo|Grandma|Grandpa|Reed|Rocko|Sandy|Shelley)\b/i;
+function pickVoice(lang){const norm=v=>v.lang.replace('_','-').toLowerCase(),want=lang.toLowerCase(),base=want.split('-')[0];const list=speechVoices.filter(v=>norm(v).startsWith(base)&&!noveltyVoices.test(v.name));const exact=list.filter(v=>norm(v)===want);for(const re of [/premium/i,/enhanced/i,/natural/i,/^Google/i,/Samantha|Ava|Allison|Evan|Nathan|Joelle|Luciana|Felipe/i]){const v=exact.find(x=>re.test(x.name))||list.find(x=>re.test(x.name));if(v)return v;}return exact.find(v=>v.localService)||exact[0]||list[0]||null;}
+let currentUtterance=null;
+function speak(text,language){if(!('speechSynthesis' in window)||!text)return;if(!speechVoices.length)loadVoices();const lang=speechLangs[langKey(language)]||'en-US';const u=new SpeechSynthesisUtterance(text);u.lang=lang;const voice=pickVoice(lang);if(voice)u.voice=voice;u.rate=.9;currentUtterance=u;u.onend=()=>{if(currentUtterance===u)currentUtterance=null;};const start=()=>{speechSynthesis.resume();speechSynthesis.speak(u);};if(speechSynthesis.speaking||speechSynthesis.pending){speechSynthesis.cancel();setTimeout(start,80);}else start();}
+function highlightTerm(text,term){let html=esc(text);String(term||'').split(/[;,]/).map(t=>t.trim()).filter(t=>t.length>1).sort((a,b)=>b.length-a.length).some(t=>{const re=new RegExp(`(${esc(t).replace(/[.*+?^${}()|[\]\\]/g,'\\$&')})`,'i');if(!re.test(html))return false;html=html.replace(re,'<mark>$1</mark>');return true;});return html;}
+function exampleList(examples,translations,term,translatedTerm,language){if(!examples.length)return '<div class="examples-empty">Exemplo ainda não adicionado</div>';return examples.map((example,i)=>`<article class="example-card"><div class="example-text"><p class="example-main">${highlightTerm(example,term)}</p>${translations[i]?`<p class="example-translation">${highlightTerm(translations[i],translatedTerm)}</p>`:''}</div><button type="button" class="speak-btn small" data-speak="${esc(example)}" data-speak-lang="${esc(language)}" aria-label="Ouvir a frase" title="Ouvir a frase">${SPEAK_ICON}</button></article>`).join('');}
 async function api(url, options={}) {
   const res = await fetch(url, {headers:{'Content-Type':'application/json', ...(options.headers||{})}, ...options});
   const data = await res.json();
@@ -20,15 +32,18 @@ function toast(message) { const el=$('#toast'); el.textContent=message; el.class
 function findContext(name=state.context) { return state.contexts.find(c=>norm(c.name)===norm(name)); }
 function findDeck(context=state.context, name=state.deck) { return findContext(context)?.decks.find(d=>norm(d.name)===norm(name)); }
 function deckBatchKey(context,deck){return `${norm(context)}::${norm(deck)}`;}
-function getDeckBatchSize(context,deck){const value=Number(state.deckBatchSizes[deckBatchKey(context,deck)]);return [10,20,30,50].includes(value)?value:10;}
+// The "today" session mixes every deck of a language; it uses this pseudo deck name.
+const ALL_DECKS='*';
+const deckName=deck=>deck===ALL_DECKS?'Hoje':deck;
+function getDeckBatchSize(context,deck){if(deck===ALL_DECKS)return state.todaySize||10;const value=Number(state.deckBatchSizes[deckBatchKey(context,deck)]);return [10,20,30,50].includes(value)?value:10;}
 
 async function refresh(preserve=true) {
   const [cardsData, structureData] = await Promise.all([api('/api/cards'),api('/api/structure')]);
   state.cards=cardsData.cards; state.contexts=structureData.contexts;
   if (!preserve || !findContext()) state.context=state.contexts[0]?.name || '';
   const context=findContext();
-  if (state.screen==='study'&&!context?.decks.some(d=>norm(d.name)===norm(state.deck))) {state.screen='decks';state.studyStarted=false;state.deck='';}
-  if(state.screen==='study')state.batchSize=getDeckBatchSize(state.context,state.deck);
+  if ((state.screen==='study'||state.screen==='deck')&&state.deck!==ALL_DECKS&&!context?.decks.some(d=>norm(d.name)===norm(state.deck))) {state.screen='decks';state.studyStarted=false;state.deck='';}
+  if(state.screen==='study'||state.screen==='deck')state.batchSize=getDeckBatchSize(state.context,state.deck);
   $('#navCount').textContent=state.cards.length;
   renderContextTree(); renderContextDecks(); populateImportTarget(); renderLibrary(); prepareStudy();
 }
@@ -36,16 +51,19 @@ function renderContextTree() {
   $('#contextTree').innerHTML=state.contexts.map(context=>`<section class="context-group"><div class="context-heading"><button class="context-name ${norm(context.name)===norm(state.context)?'active':''}" data-open-context-decks="${esc(context.name)}" title="Abrir decks de ${esc(context.name)}">▸ &nbsp;${esc(context.name)}</button><button class="add-deck-small" data-add-deck="${esc(context.name)}" title="Criar deck em ${esc(context.name)}">＋</button></div></section>`).join('');
   $('#contextTree').classList.toggle('empty-tree',state.contexts.length===0);
 }
+// Words for today: reviewed words that are due, then new words, up to the deck's session size.
+function todayFor(cards,size){const now=Date.now();const due=cards.filter(c=>Number(c.review_total)>0&&Date.parse(c.due_at)<=now).length;const fresh=cards.filter(c=>!(Number(c.review_total)>0)&&Number(c.review_streak)<LEARNED_STREAK).length;const review=Math.min(due,size),fresh_=Math.min(fresh,size-review);return {review,fresh:fresh_,total:review+fresh_};}
+const deckColors=['#2E6BFF','#7B5CFF','#12A150','#E5484D','#F5A524','#0EA5B7'];
 function renderContextDecks(){
   const context=findContext();
-  $('#contextDeckList').innerHTML=(context?.decks||[]).map(deck=>{
-    const deckCards=state.cards.filter(card=>norm(card.context_name)===norm(context.name)&&norm(card.deck_name)===norm(deck.name));
-    const reviews=deckCards.reduce((sum,card)=>sum+(Number(card.review_total)||0),0);
-    const correct=deckCards.reduce((sum,card)=>sum+(Number(card.review_correct)||0),0);
-    const accuracy=reviews?Math.round(correct/reviews*100):null;
-    const batchSize=getDeckBatchSize(context.name,deck.name);
-    return `<article class="context-deck-row"><div class="context-deck-info"><h2>${esc(deck.name)}</h2><p>${reviews?`${reviews} revisões · ${correct} acertos · ${accuracy}% de acerto`:'Ainda sem revisões'} <span>· ${deck.count} cartões</span></p></div><div class="deck-row-actions"><button class="button primary-button" data-start-context="${esc(context.name)}" data-start-deck="${esc(deck.name)}">Iniciar</button><div class="deck-options"><button class="deck-options-trigger" type="button" aria-label="Quantidade de palavras em ${esc(deck.name)}" aria-haspopup="menu" aria-expanded="false">⋯</button><div class="deck-options-menu hidden" role="menu" aria-label="Palavras por tentativa">${[10,20,30,50].map(size=>`<button type="button" role="menuitemradio" aria-checked="${size===batchSize}" class="${size===batchSize?'selected':''}" data-deck-batch="${size}" data-batch-context="${esc(context.name)}" data-batch-deck="${esc(deck.name)}">${size} palavras</button>`).join('')}</div></div></div></article>`;
-  }).join('');
+  const decks=(context?.decks||[]).map((deck,i)=>{const cards=state.cards.filter(card=>norm(card.context_name)===norm(context.name)&&norm(card.deck_name)===norm(deck.name));const counts={learned:0,learning:0,new:0};cards.forEach(c=>counts[cardStatus(c)]++);return {deck,cards,counts,today:todayFor(cards,getDeckBatchSize(context.name,deck.name)),color:deckColors[i%deckColors.length]};});
+  const today=decks.reduce((t,d)=>({review:t.review+d.today.review,fresh:t.fresh+d.today.fresh,total:t.total+d.today.total}),{review:0,fresh:0,total:0});
+  state.todaySize=Math.max(1,Math.min(50,today.total));
+  const minutes=Math.max(1,Math.round(today.total*20/60));
+  const hero=!decks.length?'':`<section class="today-hero"><div><div class="today-label">${esc(context.name)} · sessão de hoje</div><div class="today-count"><b>${today.total}</b><span>${today.total===1?'palavra':'palavras'}</span></div><div class="today-sub">${today.review} para revisar · ${today.fresh} novas · cerca de ${minutes} min</div></div>${today.total?`<button type="button" class="today-start" data-start-today>Começar sessão de hoje →</button>`:'<span class="today-done">Tudo em dia por hoje ✓</span>'}</section>`;
+  const rows=decks.map(({deck,cards,counts,today,color})=>{const pct=n=>cards.length?Math.max(n?1:0,Math.round(n/cards.length*1000)/10):0;
+    return `<article class="deck-line" data-open-deck="${esc(deck.name)}" data-open-context="${esc(context.name)}" title="Abrir ${esc(deck.name)}"><div class="deck-icon" style="background:${color}">${esc(deck.name.trim().charAt(0).toUpperCase())}</div><div class="deck-line-name"><b>${esc(deck.name)}</b><span>${deck.count} cartões</span></div><div class="deck-line-bar" title="${counts.learned} aprendidas · ${counts.learning} aprendendo · ${counts.new} novas"><i class="learned" style="width:${pct(counts.learned)}%"></i><i class="learning" style="width:${pct(counts.learning)}%"></i></div><div class="deck-line-today"><b>${today.total}</b> para hoje</div><button type="button" class="deck-line-study" data-start-deck="${esc(deck.name)}" data-start-context="${esc(context.name)}">Estudar</button></article>`;}).join('');
+  $('#contextDeckList').innerHTML=hero+(decks.length?`<div class="deck-list-head"><span>Seus decks</span><button type="button" class="text-button" data-new-deck>＋ Novo deck</button></div>${rows}`:'');
   $('#contextDeckEmpty').classList.toggle('hidden',!context||!!context.decks.length);
 }
 function populateImportTarget() {
@@ -61,21 +79,40 @@ function updateImportDecks(preferred='') {
   if(decks.some(d=>norm(d.name)===norm(state.deck))) $('#importTargetDeck').value=state.deck;
   else if(decks.some(d=>norm(d.name)===norm(preferred))) $('#importTargetDeck').value=preferred;
 }
-function cardsInDeck() { return state.cards.filter(c=>norm(c.context_name)===norm(state.context)&&norm(c.deck_name)===norm(state.deck)); }
+// Weighted random batch: missed words weigh most, new words next, and words with a long
+// correct streak (especially ones not yet due) rarely come up. Sampling without replacement
+// uses the Efraimidis-Spirakis key random^(1/weight).
+function cardWeight(card,now=Date.now()){const total=Number(card.review_total)||0;if(!total)return 3;const correct=Number(card.review_correct)||0,streak=Number(card.review_streak)||0;let weight=(1+4*(1-correct/total))*(streak?1/streak:2);const due=Date.parse(card.due_at);if(due&&due>now)weight*=.25;return Math.max(weight,.05);}
+function pickBatch(cards,size){const now=Date.now();return cards.map(card=>({id:card.id,key:Math.random()**(1/cardWeight(card,now))})).sort((a,b)=>b.key-a.key).slice(0,size).map(item=>item.id);}
+// A word counts as learned after this many correct answers in a row (the 7-day review step).
+const LEARNED_STREAK=3;
+function cardStatus(card){if(Number(card.review_streak)>=LEARNED_STREAK)return 'learned';return Number(card.review_total)>0?'learning':'new';}
+const statusLabels={all:'Todas',learned:'Aprendidas',learning:'Aprendendo',new:'Novas'};
+const langLabels={english:'Inglês',portuguese:'Português',spanish:'Espanhol',french:'Francês',german:'Alemão',italian:'Italiano'};
+const langLabel=language=>langLabels[langKey(language)]||language;
+function deckLanguages(cards){const seen=new Map();cards.flatMap(c=>Object.keys(c.terms)).forEach(language=>{if(!seen.has(langKey(language)))seen.set(langKey(language),language);});return [...seen.values()].sort((a,b)=>a.localeCompare(b));}
+// Each deck remembers which language goes on the front; by default the learned language goes on the back.
+function deckDirection(languages,learningLanguage){const find=l=>languages.find(x=>langKey(x)===langKey(l));const saved=state.deckDirections[deckBatchKey(state.context,state.deck)];if(saved&&find(saved.front)&&find(saved.back)&&langKey(saved.front)!==langKey(saved.back))return {front:find(saved.front),back:find(saved.back)};const learned=find(learningLanguage)||languages[0];return {front:languages.find(x=>langKey(x)!==langKey(learned))||learned,back:learned};}
+function saveDeckDirection(front,back){state.deckDirections[deckBatchKey(state.context,state.deck)]={front,back};try{localStorage.setItem('mnema.deckDirections',JSON.stringify(state.deckDirections));}catch{}}
+async function moveCard(id,status){try{await api(`/api/cards/${id}/status`,{method:'POST',body:JSON.stringify({status})});if(state.screen==='study'){state.roundReviewed.add(id);}await refresh();toast(status==='learned'?'Movida para Aprendidas.':'Movida para Aprendendo — ela volta nas próximas sessões.');}catch(err){toast(err.message);}}
+function cardsInDeck() { return state.cards.filter(c=>norm(c.context_name)===norm(state.context)&&(state.deck===ALL_DECKS||norm(c.deck_name)===norm(state.deck))); }
 function prepareStudy(keepIndex=false) {
   const deckCards=cardsInDeck(), context=findContext();
   const langMap=new Map();for(const language of deckCards.flatMap(c=>Object.keys(c.terms))){const key=langKey(language);if(!langMap.has(key))langMap.set(key,language);}const langs=[...langMap.values()].sort((a,b)=>a.localeCompare(b));
   const front=$('#frontLang').value, back=$('#backLang').value;
   const fallback=langs.length ? langs : [context?.learning_language || 'inglês','português'];
-  $('#frontLang').innerHTML=fallback.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('');
-  $('#backLang').innerHTML=fallback.map(x=>`<option value="${esc(x)}">${esc(x)}</option>`).join('');
-  if (fallback.includes(front)) $('#frontLang').value=front;
-  if (fallback.includes(back) && norm(back)!==norm($('#frontLang').value)) $('#backLang').value=back;
+  $('#frontLang').innerHTML=fallback.map(x=>`<option value="${esc(x)}">${esc(langLabel(x))}</option>`).join('');
+  $('#backLang').innerHTML=fallback.map(x=>`<option value="${esc(x)}">${esc(langLabel(x))}</option>`).join('');
+  if(state.deck&&state.screen!=='decks'&&langs.length>1){const direction=deckDirection(langs,context?.learning_language);$('#frontLang').value=direction.front;$('#backLang').value=direction.back;}
+  else if (fallback.includes(front)) $('#frontLang').value=front;
+  if (!(state.deck&&state.screen!=='decks'&&langs.length>1) && fallback.includes(back) && norm(back)!==norm($('#frontLang').value)) $('#backLang').value=back;
   if (norm($('#backLang').value)===norm($('#frontLang').value)) $('#backLang').value=fallback.find(x=>norm(x)!==norm($('#frontLang').value)) || fallback[0];
   const frontLanguage=$('#frontLang').value, learningLanguage=context?.learning_language||frontLanguage;
-  const candidates=deckCards.filter(c=>termFor(c,frontLanguage)||termFor(c,learningLanguage));
-  const remaining=candidates.filter(c=>!state.roundReviewed.has(c.id));
-  state.study=state.roundReviewed.size>=state.batchSize?[]:remaining.slice(0,state.batchSize-state.roundReviewed.size);
+  const candidates=deckCards.filter(c=>(termFor(c,frontLanguage)||termFor(c,learningLanguage))&&(state.studyMode==='all'||cardStatus(c)===state.studyMode));
+  const batchKey=`${norm(state.context)}|${norm(state.deck)}|${state.studyMode}`;
+  if(!state.batchIds||state.batchKey!==batchKey){state.batchIds=pickBatch(candidates.filter(c=>!state.roundReviewed.has(c.id)),Math.max(0,state.batchSize-state.roundReviewed.size));state.batchKey=batchKey;}
+  const byId=new Map(candidates.map(c=>[c.id,c]));
+  state.study=state.batchIds.map(id=>byId.get(id)).filter(c=>c&&!state.roundReviewed.has(c.id));
   if (!keepIndex) state.index=0;
   state.index=Math.min(state.index,Math.max(0,state.study.length-1)); state.revealed=false;
   $('#deckCount').textContent=state.study.length;
@@ -83,20 +120,24 @@ function prepareStudy(keepIndex=false) {
   $('#studyEmpty').classList.toggle('hidden',!!context&&(state.screen!=='study'||deckCards.length>0));
   $('#reviewComplete').classList.toggle('hidden',deckCards.length===0||state.study.length>0);
   $('#contextDeckList').classList.toggle('hidden',state.screen!=='decks'||!context);
+  $('#deckDetail').classList.toggle('hidden',state.screen!=='deck'||!context);
+  $('#backBtn').classList.toggle('hidden',!context||state.screen==='decks');$('#backBtn').textContent=state.screen==='study'&&state.deck!==ALL_DECKS?`‹ ${state.deck}`:'‹ Decks';
   $('#studyControls').classList.toggle('hidden',state.screen!=='study'||!context);
   $('#studyArea').classList.toggle('hidden',state.screen!=='study'||deckCards.length===0||state.study.length===0);
   $('#reviewComplete').classList.toggle('hidden',state.screen!=='study'||deckCards.length===0||state.study.length>0);
   if(state.screen==='study'&&deckCards.length&&!state.study.length){
-    $('#reviewCompleteTitle').textContent=candidates.length?'Pacote concluído.':'Escolha um idioma com cartões.';
+    $('#reviewCompleteTitle').textContent=candidates.length?'Pacote concluído.':state.studyMode!=='all'?`Nenhuma palavra em ${statusLabels[state.studyMode]}.`:'Escolha um idioma com cartões.';
     $('#reviewCompleteText').textContent=candidates.length?`Você revisou ${state.roundReviewed.size} palavra(s). Pode começar mais ${state.batchSize} quando quiser.`:'Este deck não tem cartões no idioma selecionado.';
     $('#nextBatchBtn').classList.toggle('hidden',!candidates.length);
     $('#nextBatchBtn').innerHTML=`Revisar mais ${state.batchSize} palavras <span>↗</span>`;
   }
-  $('#addDeckBtn').classList.toggle('hidden',!context||state.screen==='study');
+  $('#addDeckBtn').classList.toggle('hidden',!context||state.screen!=='decks');
   $('#shuffleBtn').classList.toggle('hidden',state.screen!=='study'||!deckCards.length);
-  $('#studyHeading').innerHTML=context?(state.screen==='study'?`${esc(context.name)} <span class="heading-slash">/</span> ${esc(state.deck)}<span class="period">.</span>`:`${esc(context.name)}<span class="period">.</span>`):'Escolha um idioma<span class="period">.</span>';
+  $('#studyHeading').innerHTML=context?(state.screen==='study'||state.screen==='deck'?`${esc(context.name)} <span class="heading-slash">/</span> ${esc(deckName(state.deck))}<span class="period">.</span>`:`${esc(context.name)}<span class="period">.</span>`):'Escolha um idioma<span class="period">.</span>';
+  if(state.screen==='deck'&&context)renderDeckDetail();
   $('#studyContextEyebrow').textContent=context?`ESTUDANDO ${fmtLang(context.learning_language)}`:'SEU MOMENTO DE APRENDER';
-  $('#studyDescription').textContent=state.screen==='decks'?'Seus decks de estudo.':deckCards.length?`Pacote de até ${state.batchSize} palavras · ${deckCards.length} no deck.`:context?`Este deck está vazio. Adicione ou importe cartões para ${context.name}.`:'Crie um contexto de idioma e organize as palavras em decks.';
+  document.querySelector('#studyView .page-heading').classList.toggle('decks-heading-hidden',state.screen==='decks'&&!!context?.decks.length);
+  $('#studyDescription').textContent=state.screen==='decks'?'Seus decks de estudo.':state.deck===ALL_DECKS&&state.screen==='study'?`Sessão de hoje · palavras de todos os decks de ${context.name}.`:state.screen==='deck'?`${deckCards.length} cartões neste deck.`:deckCards.length?(state.studyMode!=='all'?`Estudando: ${statusLabels[state.studyMode]} · pacote de até ${state.batchSize}.`:`Pacote de até ${state.batchSize} palavras · ${deckCards.length} no deck.`):context?`Este deck está vazio. Adicione ou importe cartões para ${context.name}.`:'Crie um contexto de idioma e organize as palavras em decks.';
   $('#crumb').textContent=context?(state.screen==='study'?`${context.name} / ${state.deck}`:context.name):'Selecione um idioma';
   $('#studyEmptyTitle').textContent=context?'Este deck ainda está vazio.':'Seu espaço de estudo começa aqui.';
   $('#studyEmptyText').textContent=context?'Adicione cartões aqui ou importe palavras para este deck.':'Crie uma pasta para cada idioma que está aprendendo.';
@@ -108,8 +149,8 @@ function drawCard() {
   $('#flashcard').classList.remove('swipe-left','swipe-right','drag-left','drag-right');$('#flashcard').style.transform='';
   const learningLanguage=findContext()?.learning_language||$('#frontLang').value;
   const displayFront=termFor(card||{},$('#frontLang').value)?$('#frontLang').value:learningLanguage;
-  $('#cardFrontLang').textContent=fmtLang(displayFront);
-  $('#cardBackLang').textContent=fmtLang($('#backLang').value);
+  $('#cardFrontLang').textContent=fmtLang(langLabel(displayFront));
+  $('#cardBackLang').textContent=fmtLang(langLabel($('#backLang').value));
   $('#cardPosition').innerHTML=state.study.length?`${String(state.index+1).padStart(2,'0')} <span>/ ${String(state.study.length).padStart(2,'0')}</span>`:'00 <span>/ 00</span>';
   $('#progressText').textContent=state.study.length?`${state.index+1} de ${state.study.length}`:'0 de 0';
   const deckCards=cardsInDeck(),deckReviews=deckCards.reduce((sum,item)=>sum+(Number(item.review_total)||0),0),deckCorrect=deckCards.reduce((sum,item)=>sum+(Number(item.review_correct)||0),0);
@@ -121,9 +162,15 @@ function drawCard() {
   const backTerm=langKey($('#backLang').value)===langKey(displayFront)?'':termFor(card,$('#backLang').value);
   $('#cardWord').textContent=termFor(card,displayFront);
   $('#cardPartOfSpeech').textContent=card.part_of_speech||'';$('#cardPartOfSpeech').classList.toggle('hidden',!card.part_of_speech);
-  $('#frontExample').innerHTML=frontExamples.length?frontExamples.map(example=>`<span class="example-line">${esc(example)}</span>`).join(''):'<span class="example-missing">Exemplo ainda não adicionado</span>';
+  const frontTerm=termFor(card,displayFront);
+  $('#speakWord').dataset.speak=frontTerm;$('#speakWord').dataset.speakLang=displayFront;$('#speakWord').classList.toggle('hidden',langKey(displayFront)!==langKey(learningLanguage));
+  $('#frontExample').innerHTML=exampleList(frontExamples,[],frontTerm,'',displayFront);
+  const learningTerm=termFor(card,learningLanguage),pron=card.pronunciation||'',frontIsLearning=langKey(displayFront)===langKey(learningLanguage);
+  $('#cardPronunciation').textContent=frontIsLearning?pron:'';$('#cardPronunciation').classList.toggle('hidden',!frontIsLearning||!pron);
+  $('#backPronunciation').innerHTML=pron?(frontIsLearning?`${esc(learningTerm)} <span>${esc(pron)}</span>`:`<span>${esc(pron)}</span>`):'';$('#backPronunciation').classList.toggle('hidden',!pron);
+  $('#speakBackWord').dataset.speak=learningTerm;$('#speakBackWord').dataset.speakLang=learningLanguage;$('#speakBackWord').classList.toggle('hidden',!learningTerm);
   $('#cardHint').textContent=state.revealed?'Tradução revelada':'Clique para revelar a tradução';
-  $('#backWord').textContent=backTerm||'Tradução ainda não adicionada';$('#backPartOfSpeech').textContent=card.part_of_speech||'';$('#backPartOfSpeech').classList.toggle('hidden',!card.part_of_speech);$('#backExample').innerHTML=backExamples.map(example=>`<span class="example-line">${esc(example)}</span>`).join('');$('#backNote').textContent=card.notes||'';
+  $('#backWord').textContent=backTerm||'Tradução ainda não adicionada';$('#backPartOfSpeech').textContent=card.part_of_speech||'';$('#backPartOfSpeech').classList.toggle('hidden',!card.part_of_speech);const otherLanguage=frontIsLearning?$('#backLang').value:displayFront;$('#backExample').innerHTML=exampleList(examplesFor(card,learningLanguage),examplesFor(card,otherLanguage),learningTerm,termFor(card,otherLanguage),learningLanguage);fitCard();$('#backNote').textContent=card.notes||'';
 }
 function renderLibrary() {
   const query=norm($('#searchInput').value);
@@ -140,7 +187,40 @@ function setView(view) {
   if(view==='library')$('#crumb').textContent='Todos os cartões';
 }
 function showContextDecks(context){state.context=context;state.deck='';state.screen='decks';state.studyStarted=false;state.roundReviewed.clear();renderContextTree();renderContextDecks();setView('study');}
-function selectDeck(context,deck) { state.roundReviewed.clear();state.context=context;state.deck=deck;state.batchSize=getDeckBatchSize(context,deck);state.screen='study';state.studyStarted=true;renderContextTree();setView('study'); }
+function openDeck(context,deck){state.roundReviewed.clear();state.batchIds=null;state.context=context;state.deck=deck;state.deckPage=0;state.batchSize=getDeckBatchSize(context,deck);state.screen='deck';state.studyStarted=false;renderContextTree();setView('study');}
+function deckWordItem(card,learningLanguage){const term=termFor(card,learningLanguage),translation=Object.entries(card.terms).find(([lang])=>langKey(lang)!==langKey(learningLanguage))?.[1]||'',streak=Math.min(Number(card.review_streak)||0,LEARNED_STREAK),status=cardStatus(card);
+  const dots=status==='new'?'':`<span class="streak-dots" title="${Number(card.review_streak)||0} acerto(s) seguido(s)">${Array.from({length:LEARNED_STREAK},(_,i)=>`<i class="${i<streak?'on':''}"></i>`).join('')}</span>`;
+  const move=status==='learned'?`<button type="button" class="word-move" data-move-card="${card.id}" data-move-status="relearn" title="Voltar para Aprendendo">↺ Reaprender</button>`:`<button type="button" class="word-move" data-move-card="${card.id}" data-move-status="learned" title="Mover para Aprendidas">✓ Aprendida</button>`;
+  return `<div class="deck-word">${move}<div class="deck-word-main"><b>${esc(term)}</b>${card.pronunciation?`<span class="deck-word-ipa">${esc(card.pronunciation.split(' (')[0])}</span>`:''}</div><div class="deck-word-sub"><span>${esc(translation)}</span>${dots}</div></div>`;}
+function renderDeckDetail(){
+  const context=findContext(),cards=cardsInDeck(),learningLanguage=context?.learning_language||'English',direction=deckDirection(deckLanguages(cards),learningLanguage);
+  const groups={learned:[],learning:[],new:[]};cards.forEach(card=>groups[cardStatus(card)].push(card));
+  const total=cards.length,reviews=cards.reduce((s,c)=>s+(Number(c.review_total)||0),0),correct=cards.reduce((s,c)=>s+(Number(c.review_correct)||0),0);
+  const pct=n=>total?Math.round(n/total*1000)/10:0;
+  const labels={learned:'Aprendidas',learning:'Aprendendo',new:'Novas'};
+  const sorters={learned:(a,b)=>(Number(b.review_streak)||0)-(Number(a.review_streak)||0),learning:(a,b)=>(Number(a.review_correct)/Number(a.review_total))-(Number(b.review_correct)/Number(b.review_total)),new:()=>0};
+  const filter=state.deckFilter,list=[...groups[filter]].sort((a,b)=>sorters[filter](a,b)||termFor(a,learningLanguage).localeCompare(termFor(b,learningLanguage)));
+  const emptyText={learned:`Nenhuma palavra aprendida ainda. Uma palavra entra aqui depois de ${LEARNED_STREAK} acertos seguidos.`,learning:'Nenhuma palavra em andamento. Erre ou acerte uma palavra nova para ela aparecer aqui.',new:'Você já começou a estudar todas as palavras deste deck.'};
+  $('#deckDetail').innerHTML=`<section class="deck-summary">
+    <div class="deck-stats">${['learned','learning','new'].map(key=>`<div class="deck-stat ${key}"><span>${labels[key]}</span><b>${groups[key].length}</b></div>`).join('')}<div class="deck-stat"><span>Acerto</span><b>${reviews?Math.round(correct/reviews*100)+'%':'—'}</b></div></div>
+    <div class="deck-progress" title="${groups.learned.length} aprendidas de ${total}"><i class="learned" style="width:${pct(groups.learned.length)}%"></i><i class="learning" style="width:${pct(groups.learning.length)}%"></i></div>
+    <div class="deck-actions"><button class="button primary-button" data-deck-start="all">Iniciar sessão</button><div class="deck-direction" title="O que aparece na frente e no verso do cartão"><span>Frente</span><b>${esc(langLabel(direction.front))}</b><button type="button" class="dir-swap" data-deck-swap aria-label="Inverter frente e verso" title="Inverter frente e verso">⇄</button><span>Verso</span><b>${esc(langLabel(direction.back))}</b></div><label class="deck-batch">Palavras por sessão<select id="deckBatchSelect">${[10,20,30,50].map(n=>`<option value="${n}" ${n===state.batchSize?'selected':''}>${n}</option>`).join('')}</select></label></div>
+  </section>
+  <section class="deck-words">
+    <div class="deck-tabs" role="tablist">${['learned','learning','new'].map(key=>`<button type="button" role="tab" aria-selected="${key===filter}" class="${key===filter?'active':''}" data-deck-filter="${key}">${labels[key]} <span>${groups[key].length}</span></button>`).join('')}${groups[filter].length?`<button type="button" class="deck-study-group" data-deck-start="${filter}">Estudar estas ${groups[filter].length} ›</button>`:''}<div class="deck-pager" id="deckPager"></div></div>
+    <div class="deck-word-grid" id="deckWordGrid"></div>
+  </section>`;
+  const grid=$('#deckWordGrid');
+  if(!list.length){grid.innerHTML=`<div class="deck-words-empty">${emptyText[filter]}</div>`;return;}
+  grid.innerHTML=deckWordItem(list[0],learningLanguage);
+  const itemH=grid.firstElementChild.offsetHeight||56,gap=parseFloat(getComputedStyle(grid).rowGap)||8,cols=getComputedStyle(grid).gridTemplateColumns.split(' ').length||1;
+  const rows=Math.max(1,Math.floor((grid.clientHeight+gap)/(itemH+gap))),pageSize=rows*cols,pages=Math.max(1,Math.ceil(list.length/pageSize));
+  state.deckPage=Math.min(state.deckPage,pages-1);
+  grid.innerHTML=list.slice(state.deckPage*pageSize,(state.deckPage+1)*pageSize).map(card=>deckWordItem(card,learningLanguage)).join('');
+  $('#deckPager').innerHTML=pages>1?`<button type="button" data-deck-page="-1" aria-label="Página anterior" ${state.deckPage===0?'disabled':''}>‹</button><span>${state.deckPage+1} / ${pages}</span><button type="button" data-deck-page="1" aria-label="Próxima página" ${state.deckPage>=pages-1?'disabled':''}>›</button>`:'';
+}
+function selectDeck(context,deck,mode='all') { state.roundReviewed.clear();state.batchIds=null;state.studyMode=mode;state.context=context;state.deck=deck;state.batchSize=getDeckBatchSize(context,deck);state.screen='study';state.studyStarted=true;renderContextTree();setView('study'); }
+function fitCard(){const card=$('#flashcard'),sides=[$('#flashcard .card-content'),$('#cardBackContent')];let fit=1;card.style.setProperty('--fit','1');const overflows=()=>sides.some(el=>el&&el.scrollHeight>el.clientHeight+1);while(overflows()&&fit>.6){fit-=.05;card.style.setProperty('--fit',fit.toFixed(2));}}
 function flip(){if(!state.study.length||state.suppressCardClick)return;state.revealed=!state.revealed;drawCard();}
 function move(step){if(!state.study.length)return;state.index=(state.index+step+state.study.length)%state.study.length;state.revealed=false;drawCard();}
 async function rateCard(remembered){if(state.ratingBusy)return;const card=state.study[state.index];if(!card)return;state.ratingBusy=true;drawCard();const stage=$('#flashcard');stage.classList.add(remembered?'swipe-right':'swipe-left');try{await new Promise(resolve=>setTimeout(resolve,280));await api(`/api/cards/${card.id}/review`,{method:'POST',body:JSON.stringify({remembered})});state.roundReviewed.add(card.id);state.ratingBusy=false;stage.classList.remove('swipe-right','swipe-left');await refresh();toast(remembered?'Resposta registrada.':'Anotado — você pode tentar de novo em outro pacote.');}catch(err){stage.classList.remove('swipe-right','swipe-left');state.ratingBusy=false;drawCard();toast(err.message);}}
@@ -182,10 +262,16 @@ async function importText(text){const context=findContext($('#importContext').va
 $$('.secondary-nav .nav-item').forEach(b=>b.addEventListener('click',()=>setView(b.dataset.view)));
 $$('[data-go="import"]').forEach(b=>b.addEventListener('click',()=>setView('import')));
 $('#contextTree').addEventListener('click',e=>{const context=e.target.closest('[data-open-context-decks]'),add=e.target.closest('[data-add-deck]');if(add)openCollection('deck',add.dataset.addDeck);else if(context)showContextDecks(context.dataset.openContextDecks);});
-$('#frontLang').addEventListener('change',()=>prepareStudy());$('#backLang').addEventListener('change',()=>prepareStudy());
+function changeDirection(changed){let front=$('#frontLang').value,back=$('#backLang').value;if(langKey(front)===langKey(back)){const options=[...$('#frontLang').options].map(o=>o.value);const other=options.find(x=>langKey(x)!==langKey(changed==='front'?front:back));if(changed==='front')back=other||back;else front=other||front;}if(state.deck)saveDeckDirection(front,back);$('#frontLang').value=front;$('#backLang').value=back;prepareStudy(true);}
+$('#frontLang').addEventListener('change',()=>changeDirection('front'));$('#backLang').addEventListener('change',()=>changeDirection('back'));
+document.addEventListener('click',e=>{const moveBtn=e.target.closest('#flashcard [data-card-move]');if(moveBtn){e.stopPropagation();const card=state.study[state.index];if(card)moveCard(card.id,moveBtn.dataset.cardMove);return;}const speakBtn=e.target.closest('#flashcard [data-speak]');if(!speakBtn)return;e.stopPropagation();speak(speakBtn.dataset.speak,speakBtn.dataset.speakLang);},true);
+window.addEventListener('resize',()=>{fitCard();if(state.screen==='deck'&&state.view==='study')renderDeckDetail();});
+$('#deckDetail').addEventListener('click',e=>{const start=e.target.closest('[data-deck-start]'),tab=e.target.closest('[data-deck-filter]'),page=e.target.closest('[data-deck-page]'),swap=e.target.closest('[data-deck-swap]'),moveBtn=e.target.closest('[data-move-card]');if(moveBtn){moveCard(Number(moveBtn.dataset.moveCard),moveBtn.dataset.moveStatus);return;}if(swap){const cards=cardsInDeck(),d=deckDirection(deckLanguages(cards),findContext()?.learning_language);saveDeckDirection(d.back,d.front);prepareStudy(true);return;}if(start){selectDeck(state.context,state.deck,start.dataset.deckStart);return;}if(tab){state.deckFilter=tab.dataset.deckFilter;state.deckPage=0;renderDeckDetail();return;}if(page){state.deckPage+=Number(page.dataset.deckPage);renderDeckDetail();}});
+$('#deckDetail').addEventListener('change',e=>{if(e.target.id!=='deckBatchSelect')return;state.batchSize=Number(e.target.value);state.deckBatchSizes[deckBatchKey(state.context,state.deck)]=state.batchSize;try{localStorage.setItem('palavra.deckBatchSizes',JSON.stringify(state.deckBatchSizes));}catch{}});
+$('#backBtn').addEventListener('click',()=>{if(state.screen==='study'&&state.deck!==ALL_DECKS)openDeck(state.context,state.deck);else showContextDecks(state.context);});
 $('#flashcard').addEventListener('click',flip);$('#flashcard').addEventListener('keydown',e=>{if(e.key==='Enter')flip();});$('#prevBtn').addEventListener('click',()=>move(-1));$('#nextBtn').addEventListener('click',()=>move(1));
-$('#nextBatchBtn').addEventListener('click',()=>{state.roundReviewed.clear();prepareStudy();});
-$('#contextDeckList').addEventListener('click',e=>{const start=e.target.closest('[data-start-deck]'),trigger=e.target.closest('.deck-options-trigger'),option=e.target.closest('[data-deck-batch]');if(start){selectDeck(start.dataset.startContext,start.dataset.startDeck);return;}if(trigger){const menu=trigger.nextElementSibling,open=menu.classList.contains('hidden');$$('.deck-options-menu').forEach(item=>item.classList.add('hidden'));$$('.deck-options-trigger').forEach(item=>item.setAttribute('aria-expanded','false'));menu.classList.toggle('hidden',!open);trigger.setAttribute('aria-expanded',String(open));return;}if(option){const key=deckBatchKey(option.dataset.batchContext,option.dataset.batchDeck);state.deckBatchSizes[key]=Number(option.dataset.deckBatch);localStorage.setItem('palavra.deckBatchSizes',JSON.stringify(state.deckBatchSizes));if(norm(state.context)===norm(option.dataset.batchContext)&&norm(state.deck)===norm(option.dataset.batchDeck))state.batchSize=Number(option.dataset.deckBatch);renderContextDecks();return;}});
+$('#nextBatchBtn').addEventListener('click',()=>{state.roundReviewed.clear();state.batchIds=null;prepareStudy();});
+$('#contextDeckList').addEventListener('click',e=>{if(e.target.closest('[data-start-today]')){selectDeck(state.context,ALL_DECKS);return;}if(e.target.closest('[data-new-deck]')){openCollection('deck',state.context);return;}const start=e.target.closest('[data-start-deck]'),trigger=e.target.closest('.deck-options-trigger'),option=e.target.closest('[data-deck-batch]'),row=e.target.closest('[data-open-deck]');if(start){selectDeck(start.dataset.startContext,start.dataset.startDeck);return;}if(row&&!e.target.closest('button')){openDeck(row.dataset.openContext,row.dataset.openDeck);return;}if(trigger){const menu=trigger.nextElementSibling,open=menu.classList.contains('hidden');$$('.deck-options-menu').forEach(item=>item.classList.add('hidden'));$$('.deck-options-trigger').forEach(item=>item.setAttribute('aria-expanded','false'));menu.classList.toggle('hidden',!open);trigger.setAttribute('aria-expanded',String(open));return;}if(option){const key=deckBatchKey(option.dataset.batchContext,option.dataset.batchDeck);state.deckBatchSizes[key]=Number(option.dataset.deckBatch);localStorage.setItem('palavra.deckBatchSizes',JSON.stringify(state.deckBatchSizes));if(norm(state.context)===norm(option.dataset.batchContext)&&norm(state.deck)===norm(option.dataset.batchDeck))state.batchSize=Number(option.dataset.deckBatch);renderContextDecks();return;}});
 document.addEventListener('click',e=>{if(!e.target.closest('.deck-options')){$$('.deck-options-menu').forEach(menu=>menu.classList.add('hidden'));$$('.deck-options-trigger').forEach(button=>button.setAttribute('aria-expanded','false'));}});
 $('#flashcard').addEventListener('pointerdown',startSwipe);$('#flashcard').addEventListener('pointermove',moveSwipe);$('#flashcard').addEventListener('pointerup',endSwipe);$('#flashcard').addEventListener('pointercancel',endSwipe);$('#forgotBtn').addEventListener('click',()=>rateCard(false));$('#rememberedBtn').addEventListener('click',()=>rateCard(true));
 $('#shuffleBtn').addEventListener('click',()=>{state.study.sort(()=>Math.random()-.5);state.index=0;state.revealed=false;drawCard();});

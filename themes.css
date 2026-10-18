@@ -1,0 +1,321 @@
+/* Visual themes. "navy" and "black" share one layout; only the tokens differ.
+   Loaded after styles.css, so every rule is scoped under html[data-theme]. */
+html[data-theme="navy"]{
+  --t-ink:#0A1F44;--t-ink-hover:#132B5C;--t-muted:#6B7894;--t-faint:#9AA5BC;--t-accent:#2E6BFF;
+  --t-side:#fff;--t-side-border:#E6EBF3;--t-active:#EEF3FF;--t-card:#E7EEF9;--t-card-border:#D3DEEF;--t-card-shadow:0 1px 2px rgba(10,31,68,.06),0 12px 32px rgba(10,31,68,.08);--t-line:#E6EBF3;
+  --t-btn2:#fff;--t-btn2-border:#D3DBE8;--t-btn2-hover:#F5F8FD;--t-chip:#fff;
+}
+html[data-theme="black"]{
+  --t-ink:#191C1F;--t-ink-hover:#30343A;--t-muted:#6B7280;--t-faint:#9CA3AF;--t-accent:#191C1F;
+  --t-side:#F7F7F8;--t-side-border:transparent;--t-active:#fff;--t-card:#ECEDF0;--t-card-border:#DCDEE3;--t-card-shadow:0 1px 2px rgba(0,0,0,.05),0 12px 32px rgba(0,0,0,.07);--t-line:#ECEEF1;
+  --t-btn2:#F1F2F4;--t-btn2-border:transparent;--t-btn2-hover:#E8EAED;--t-chip:#fff;
+}
+html[data-theme]{
+  --paper:#fff;--white:#fff;--ink:var(--t-ink);--muted:var(--t-muted);--line:var(--t-line);
+  --green:var(--t-ink);--green-dark:var(--t-ink-hover);--pale:var(--t-card);--accent:var(--t-accent);
+  --serif:'Inter Tight','Inter',sans-serif;--sans:'Inter',sans-serif;
+}
+html[data-theme] body{background:#fff;color:var(--t-ink);-webkit-font-smoothing:antialiased}
+html[data-theme] .period,html[data-theme] .brand-dot{display:none}
+
+/* Sidebar */
+html[data-theme] .sidebar{background:var(--t-side);border-right:1px solid var(--t-side-border)}
+html[data-theme] .brand{font:700 22px var(--serif);letter-spacing:-.03em;margin-bottom:40px}
+html[data-theme] .brand-mark{background:var(--t-ink);border-radius:50%;font:700 16px var(--serif)}
+html[data-theme] .side-label{color:var(--t-faint);font-size:11px;letter-spacing:.08em}
+html[data-theme] .side-label button{background:var(--t-active);color:var(--t-ink);border-radius:50%}
+html[data-theme] .context-name{color:var(--t-ink);font:600 13px var(--sans);letter-spacing:0;text-transform:none;border-radius:12px;padding:10px 12px}
+html[data-theme] .context-name:hover{background:var(--t-active)}
+html[data-theme] .context-name.active{background:var(--t-active);color:var(--t-ink)}
+html[data-theme] .add-deck-small:hover{background:var(--t-active);color:var(--t-ink)}
+html[data-theme] .deck-nav{border-radius:12px;color:var(--t-muted)}
+html[data-theme] .deck-nav.active{background:var(--t-active);color:var(--t-ink)}
+html[data-theme] .deck-nav:before,html[data-theme] .deck-nav.active:before{background:var(--t-accent);border-radius:50%}
+html[data-theme] .secondary-nav{border-top-color:var(--t-line)}
+html[data-theme] .nav-item{border-radius:12px;color:var(--t-muted);font:500 14px var(--sans)}
+html[data-theme] .nav-item:hover{background:var(--t-active);color:var(--t-ink)}
+html[data-theme] .nav-item.active{background:var(--t-active);color:var(--t-ink);font-weight:600}
+html[data-theme] .nav-count{color:var(--t-faint)}
+html[data-theme] .local-note{border-top-color:var(--t-line)}
+html[data-theme] .lock-icon{border-color:var(--t-line);color:var(--t-ink);border-radius:50%}
+html[data-theme] .backup-link{color:var(--t-muted)}
+
+/* Top bar and headings */
+html[data-theme] .topbar{border-bottom-color:var(--t-line);color:var(--t-muted);font-size:12px}
+html[data-theme] .breadcrumb b{color:var(--t-ink)}
+html[data-theme] .sync-dot{background:#12A150}
+html[data-theme] .icon-add{border-color:var(--t-line);color:var(--t-ink)}
+html[data-theme] .eyebrow{color:var(--t-faint);font-size:11px;letter-spacing:.08em}
+html[data-theme] .page-heading h1{font-family:var(--serif);font-weight:700;letter-spacing:-.035em;color:var(--t-ink)}
+html[data-theme] .page-heading p{color:var(--t-muted)}
+html[data-theme] .heading-slash{color:var(--t-faint);font-weight:500}
+html[data-theme] .text-button{color:var(--t-accent)}
+
+/* Buttons */
+html[data-theme] .button{border-radius:999px;font:600 13px var(--sans);padding:12px 20px}
+html[data-theme] .primary-button{background:var(--t-ink);color:#fff}
+html[data-theme] .primary-button:hover{background:var(--t-ink-hover)}
+html[data-theme] .quiet-button{color:var(--t-muted)}
+html[data-theme] .circle-button{border-color:var(--t-btn2-border);background:var(--t-btn2);color:var(--t-ink)}
+html[data-theme] .circle-button.primary{background:var(--t-ink);border-color:var(--t-ink);color:#fff}
+html[data-theme] .theme-toggle{display:inline-flex;align-items:center;gap:7px;margin-left:10px;height:32px;padding:0 13px 0 9px;border-radius:999px;border:1px solid var(--t-btn2-border);background:var(--t-btn2);color:var(--t-ink);font:600 12px var(--sans);cursor:pointer}
+html[data-theme] .theme-toggle:hover{background:var(--t-btn2-hover)}
+html[data-theme] .theme-swatch{width:14px;height:14px;border-radius:50%;background:var(--t-ink);box-shadow:0 0 0 2px #fff,0 0 0 3px var(--t-line)}
+
+/* Study controls */
+html[data-theme] .study-controls{background:var(--t-card);border:0;border-radius:20px}
+html[data-theme] .select-wrap>span{color:var(--t-faint)}
+html[data-theme] .select-wrap select{color:var(--t-ink)}
+html[data-theme] .deck-count strong{color:var(--t-ink);font-family:var(--serif)}
+html[data-theme] .control-separator{background:var(--t-line)}
+
+/* Flashcard */
+html[data-theme] .card-shadow{display:none}
+html[data-theme] .flashcard,html[data-theme] #studyView .flashcard{background:var(--t-card);border:1px solid var(--t-card-border);border-radius:32px;box-shadow:var(--t-card-shadow);padding:26px 30px}
+html[data-theme] .flashcard:hover{transform:none}
+html[data-theme] .language-pill{background:var(--t-chip);color:var(--t-ink);border-radius:999px;font-size:11px;padding:7px 12px;letter-spacing:.08em}
+html[data-theme] .card-position{color:var(--t-ink)}
+html[data-theme] .card-position span{color:var(--t-faint)}
+html[data-theme] .word,html[data-theme] #studyView .word{font-family:var(--serif);font-weight:700;letter-spacing:-.045em;color:var(--t-ink)}
+html[data-theme] .card-pos{background:var(--t-chip);color:var(--t-muted);font-size:11px;font-weight:500;padding:5px 11px}
+html[data-theme] .example-label,html[data-theme] .back-example-label{color:var(--t-faint);font-size:10px;letter-spacing:.1em}
+html[data-theme] .example-sentence,html[data-theme] #studyView .example-sentence{background:#fff;border-radius:18px;padding:12px 18px;color:var(--t-muted)}
+html[data-theme] .example-line{margin-bottom:4px}
+html[data-theme] .card-hint{color:var(--t-faint)}
+html[data-theme] .card-bottom{color:var(--t-faint)}
+html[data-theme] .card-back-content{background:var(--t-card)}
+html[data-theme] .back-word,html[data-theme] #studyView .back-word{font-family:var(--serif);font-weight:700;letter-spacing:-.035em;color:var(--t-ink)}
+html[data-theme] .back-example,html[data-theme] #studyView .back-example{background:#fff;border-radius:18px;padding:12px 18px;color:var(--t-muted)}
+html[data-theme] .back-note{color:var(--t-muted)}
+html[data-theme] .flashcard.drag-right{box-shadow:0 0 0 2px #12A150}
+html[data-theme] .flashcard.drag-left{box-shadow:0 0 0 2px #E5484D}
+
+/* Review buttons */
+html[data-theme] .review-button,html[data-theme] #studyView .review-button{border-radius:999px;font-family:var(--sans);font-weight:600}
+html[data-theme] .review-button.forgot{background:var(--t-btn2);border:1px solid var(--t-btn2-border);color:var(--t-ink)}
+html[data-theme] .review-button.forgot:hover{background:var(--t-btn2-hover);border-color:var(--t-btn2-border);color:var(--t-ink)}
+html[data-theme] .review-button.remembered{background:var(--t-ink);border:1px solid var(--t-ink);color:#fff}
+html[data-theme] .review-button.remembered:hover{background:var(--t-ink-hover)}
+html[data-theme] .review-progress,html[data-theme] .study-nav,html[data-theme] .keyboard-hint{color:var(--t-muted)}
+html[data-theme] .keyboard-hint kbd{background:var(--t-card);border-color:var(--t-line);color:var(--t-ink);border-radius:6px}
+
+/* Deck list, empty and complete states */
+html[data-theme] .context-deck-row{background:var(--t-card);border:0;border-radius:20px;padding:18px 22px;margin-bottom:10px}
+html[data-theme] .context-deck-info h2{font-family:var(--serif);font-weight:700;color:var(--t-ink)}
+html[data-theme] .context-deck-info p{color:var(--t-muted)}
+html[data-theme] .deck-options-trigger{background:#fff;border:1px solid var(--t-btn2-border);border-radius:50%;color:var(--t-ink)}
+html[data-theme] .deck-options-trigger:hover{background:var(--t-btn2-hover);color:var(--t-ink)}
+html[data-theme] .deck-options-menu{border-radius:14px;border-color:var(--t-line)}
+html[data-theme] .deck-options-menu button{border-radius:9px;color:var(--t-ink)}
+html[data-theme] .deck-options-menu button:hover,html[data-theme] .deck-options-menu button.selected{background:var(--t-active);color:var(--t-ink)}
+html[data-theme] .deck-overview{background:var(--t-card);border:0;border-radius:24px}
+html[data-theme] .deck-batch-label{color:var(--t-ink)}
+html[data-theme] .review-complete{background:var(--t-card);border:0;border-radius:32px}
+html[data-theme] .empty-icon,html[data-theme] .review-complete .empty-icon{background:var(--t-ink);color:#fff;border-radius:50%}
+html[data-theme] .empty-state h2,html[data-theme] .review-complete h2{font-family:var(--serif);font-weight:700;color:var(--t-ink)}
+html[data-theme] .review-tag{background:#FFF4E0;color:#9A5B06}
+html[data-theme] .review-tag.mastered{background:#E5F6EC;color:#0E7A3D}
+
+/* Library */
+html[data-theme] .search-box{background:var(--t-card);border:0;border-radius:999px;height:44px;padding:0 18px}
+html[data-theme] .library-card{background:var(--t-card);border:0;border-radius:20px;padding:18px 20px}
+html[data-theme] .deck-tag{color:var(--t-ink)}
+html[data-theme] .term-cell strong{font-family:var(--serif);font-weight:700;font-size:16px;color:var(--t-ink)}
+html[data-theme] .term-cell small,html[data-theme] .library-total{color:var(--t-faint)}
+
+/* Import, forms and modals */
+html[data-theme] .panel,html[data-theme] .aside-card{background:var(--t-card);border:0;border-radius:24px}
+html[data-theme] .panel-icon,html[data-theme] .preply-mark{background:var(--t-ink);color:#fff;border-radius:50%}
+html[data-theme] .panel-title h2,html[data-theme] .aside-card h3{font-family:var(--serif);font-weight:700;color:var(--t-ink)}
+html[data-theme] .import-kit{background:#fff;border-color:var(--t-line);border-radius:16px}
+html[data-theme] .import-kit a,html[data-theme] .aside-link,html[data-theme] .add-language{color:var(--t-accent)}
+html[data-theme] .drop-zone{background:#fff;border-color:var(--t-btn2-border);border-radius:16px}
+html[data-theme] .drop-zone.dragging{background:var(--t-active);border-color:var(--t-ink)}
+html[data-theme] .upload-icon{color:var(--t-ink)}
+html[data-theme] .form-label{color:var(--t-faint)}
+html[data-theme] .form-label input,html[data-theme] .form-label textarea,html[data-theme] .form-label select,html[data-theme] .import-main>textarea,html[data-theme] .term-field .example-value{background:#fff;border:1px solid var(--t-btn2-border);border-radius:12px;color:var(--t-ink)}
+html[data-theme] .form-label input:focus,html[data-theme] .form-label textarea:focus,html[data-theme] .import-main textarea:focus,html[data-theme] .term-field .example-value:focus{border-color:var(--t-accent);box-shadow:0 0 0 3px color-mix(in srgb,var(--t-accent) 15%,transparent)}
+html[data-theme] .import-result{background:var(--t-active);color:var(--t-ink);border-radius:12px}
+html[data-theme] .modal-backdrop{background:rgba(10,15,30,.45)}
+html[data-theme] .modal{background:#fff;border-radius:28px}
+html[data-theme] .modal h2{font-family:var(--serif);font-weight:700;color:var(--t-ink)}
+html[data-theme] .form-actions{border-top-color:var(--t-line)}
+html[data-theme] .toast{background:var(--t-ink);border-radius:999px;font-size:12px;padding:12px 20px}
+html[data-theme] .example-sentence:empty,html[data-theme] .back-example:empty,
+html[data-theme] .example-label:has(+ .example-sentence:empty),html[data-theme] .back-example-label:has(+ .back-example:empty){display:none}
+
+/* Card surfaces get a visible edge so they separate from the white page. */
+html[data-theme] .study-controls,html[data-theme] .context-deck-row,html[data-theme] .library-card,
+html[data-theme] .review-complete,html[data-theme] .deck-overview,html[data-theme] .panel,html[data-theme] .aside-card{border:1px solid var(--t-card-border)}
+html[data-theme] .example-sentence,html[data-theme] #studyView .example-sentence,html[data-theme] .back-example,html[data-theme] #studyView .back-example{border:1px solid var(--t-card-border)}
+
+html[data-theme]{--t-mark-bg:#FFE1EC;--t-mark-text:#B3134F}
+html[data-theme] .card-bottom{display:none}
+html[data-theme] .card-content{justify-content:flex-start;padding-top:6px}
+html[data-theme] .word-row{margin-top:auto;display:flex;align-items:center;justify-content:center;gap:14px}
+html[data-theme] .speak-btn{flex:none;width:40px;height:40px;border-radius:50%;border:0;background:var(--t-ink);color:#fff;display:grid;place-items:center;cursor:pointer}
+html[data-theme] .speak-btn:hover{background:var(--t-ink-hover)}
+html[data-theme] .speak-btn.small{width:30px;height:30px;background:var(--t-card);color:var(--t-ink)}
+html[data-theme] .speak-btn.small:hover{background:var(--t-active);color:var(--t-accent)}
+html[data-theme] .card-content .card-pos{margin-top:10px}
+html[data-theme] .card-hint,html[data-theme] #studyView .card-hint{margin-top:10px;font-size:12px}
+
+html[data-theme] .example-main{margin:0;font-size:16px;line-height:1.45;color:var(--t-ink)}
+
+html[data-theme] .card-back-content{justify-content:flex-start;align-items:center;padding:22px 30px 24px}
+html[data-theme] .card-back-content .language-pill{align-self:center}
+html[data-theme] .back-word,html[data-theme] #studyView .back-word{margin-top:auto;font-size:clamp(34px,3.6vw,46px);line-height:1.1}
+html[data-theme] .back-note,html[data-theme] #studyView .back-note{margin-top:8px;font-size:14px;line-height:1.45;max-width:90%;color:var(--t-muted)}
+html[data-theme] .card-back-content .card-pos{margin-top:8px}
+html[data-theme] .card-back-content{padding:18px 30px 18px;overflow:hidden}
+
+/* The study screen always fits the window: no page or card scrolling. The card takes whatever
+   height is left and its contents scale with the viewport height. */
+html[data-theme] .breadcrumb{visibility:hidden}
+html[data-theme] #studyContextEyebrow{display:none}
+@media(min-width:761px){
+  html[data-theme] .topbar{height:46px}
+  html[data-theme] #studyView.active{overflow:hidden}
+  html[data-theme] #studyView .page-heading{padding:10px 0 6px}
+  html[data-theme] #studyView .page-heading h1{font-size:clamp(20px,2.6vh,26px);letter-spacing:-.02em}
+  html[data-theme] #studyView .page-heading p{margin-top:2px;font-size:11px}
+  html[data-theme] #studyView .study-controls{margin:0 auto;padding:6px 16px}
+  html[data-theme] #studyView .study-area{justify-content:flex-start;min-height:0}
+  html[data-theme] #studyView .card-stage{flex:1 1 0;display:flex;min-height:0;max-height:560px;margin-top:clamp(8px,1.6vh,16px);padding-bottom:0}
+  html[data-theme] #studyView .flashcard{flex:1;height:auto;min-height:0;padding:clamp(12px,2vh,22px) clamp(18px,2.2vw,28px)}
+  html[data-theme] #studyView .flashcard{display:flex;flex-direction:column}
+  html[data-theme] #studyView .card-content{flex:1 1 0;min-height:0;height:auto;padding-top:0}
+  html[data-theme] #studyView .word{font-size:calc(clamp(34px,7vh,64px) * var(--fit,1))}
+  html[data-theme] #studyView .card-content .card-pos{margin-top:clamp(4px,1vh,10px)}
+  html[data-theme] #studyView .speak-btn{width:clamp(30px,4.4vh,40px);height:clamp(30px,4.4vh,40px)}
+  html[data-theme] #studyView .card-hint{margin-top:clamp(4px,1vh,10px);font-size:12px}
+  html[data-theme] #studyView .example-card{padding:calc(clamp(8px,1.4vh,14px) * var(--fit,1)) 16px}
+  html[data-theme] #studyView .example-list{gap:calc(clamp(5px,1vh,10px) * var(--fit,1))}
+  html[data-theme] #studyView .example-main{font-size:calc(clamp(13px,2vh,16px) * var(--fit,1))}
+  html[data-theme] #studyView .example-translation{font-size:calc(clamp(12px,1.75vh,14px) * var(--fit,1));padding-top:clamp(5px,.9vh,9px)}
+  html[data-theme] #studyView .speak-btn.small{width:26px;height:26px}
+  html[data-theme] #studyView .card-back-content{padding:clamp(10px,1.8vh,18px) 30px;overflow:hidden}
+  html[data-theme] #studyView .back-word{font-size:calc(clamp(24px,4.6vh,44px) * var(--fit,1))}
+  html[data-theme] #studyView .back-note{font-size:calc(clamp(12px,1.8vh,14px) * var(--fit,1));margin-top:clamp(2px,.8vh,8px)}
+  html[data-theme] #studyView .review-actions{margin-top:clamp(8px,1.6vh,18px)}
+  html[data-theme] #studyView .review-button{min-height:clamp(38px,5.4vh,49px);padding-top:0;padding-bottom:0}
+  html[data-theme] #studyView .study-footer{margin-top:clamp(4px,1vh,8px)}
+}
+
+/* Examples stacked in one list (option 7): white rows, term highlighted in yellow, speaker on the right. */
+html[data-theme]{--t-mark-bg:#FFE9A8;--t-mark-text:var(--t-ink)}
+html[data-theme] .word-meta{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:clamp(4px,1vh,10px)}
+html[data-theme] .word-meta .card-pos{margin:0}
+html[data-theme] .card-ipa{font-size:15px;color:var(--t-muted);letter-spacing:.01em}
+html[data-theme] .card-ipa-chip{font-weight:600;color:var(--t-ink)}
+html[data-theme] .card-ipa-chip span{font-weight:400;color:var(--t-muted);margin-left:4px}
+html[data-theme] .example-list{width:100%;margin-top:auto;display:flex;flex-direction:column;gap:10px;text-align:left}
+html[data-theme] .example-card{display:flex;align-items:center;gap:12px;background:#fff;border-radius:16px;padding:12px 16px;box-shadow:0 2px 0 var(--t-card-border)}
+html[data-theme] .example-text{flex:1;min-width:0}
+html[data-theme] .example-main{margin:0;font-size:16px;line-height:1.4;color:var(--t-ink)}
+html[data-theme] .example-translation{margin:3px 0 0;font-size:14px;line-height:1.4;color:var(--t-muted)}
+html[data-theme] .example-card mark{background:var(--t-mark-bg);color:var(--t-mark-text);font-weight:700;padding:0 4px;border-radius:5px}
+html[data-theme] .examples-empty{font-size:13px;color:var(--t-faint);font-style:italic;text-align:center;margin-top:auto}
+html[data-theme] .card-back-content .back-note{margin-bottom:clamp(8px,1.6vh,16px)}
+@media(min-width:761px){
+  html[data-theme] #studyView .card-ipa{font-size:calc(clamp(13px,1.8vh,16px) * var(--fit,1))}
+  html[data-theme] #studyView .example-translation{padding-top:0;border-top:0}
+}
+html[data-theme] .word-meta .speak-btn.small{background:var(--t-ink);color:#fff}
+html[data-theme] .word-meta .speak-btn.small:hover{background:var(--t-ink-hover);color:#fff}
+
+/* Deck screen: summary, actions and a paged word list that always fits the window. */
+html[data-theme] .back-link{border:0;background:none;padding:0;margin-bottom:4px;color:var(--t-accent);font:600 13px var(--sans);cursor:pointer}
+html[data-theme] .back-link:hover{text-decoration:underline}
+html[data-theme] .context-deck-row{cursor:pointer;transition:border-color .15s,box-shadow .15s}
+html[data-theme] .context-deck-row:hover{border-color:var(--t-accent);box-shadow:var(--t-card-shadow)}
+html[data-theme] .deck-detail{width:min(1000px,100%);margin:0 auto;display:flex;flex-direction:column;gap:14px}
+html[data-theme] .deck-summary{background:var(--t-card);border:1px solid var(--t-card-border);border-radius:24px;padding:18px 22px;display:grid;gap:14px}
+html[data-theme] .deck-stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+html[data-theme] .deck-stat{background:#fff;border-radius:16px;padding:10px 14px;display:flex;flex-direction:column;gap:2px}
+html[data-theme] .deck-stat span{font-size:12px;color:var(--t-muted)}
+html[data-theme] .deck-stat b{font:700 26px var(--serif);letter-spacing:-.02em;color:var(--t-ink)}
+html[data-theme] .deck-stat.learned b{color:#12A150}
+html[data-theme] .deck-stat.learning b{color:#C77A06}
+html[data-theme] .deck-progress{height:8px;border-radius:8px;background:#fff;display:flex;overflow:hidden}
+html[data-theme] .deck-progress i.learned{background:#12A150}
+html[data-theme] .deck-progress i.learning{background:#F5A524}
+html[data-theme] .deck-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+html[data-theme] .deck-actions .button{padding:12px 22px}
+html[data-theme] .deck-secondary{background:#fff;color:var(--t-ink);border:1px solid var(--t-btn2-border)}
+html[data-theme] .deck-secondary:hover{background:var(--t-btn2-hover)}
+html[data-theme] .deck-batch{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:13px;color:var(--t-muted)}
+html[data-theme] .deck-batch select{border:1px solid var(--t-btn2-border);border-radius:999px;background:#fff;color:var(--t-ink);padding:7px 12px;font:600 13px var(--sans)}
+html[data-theme] .deck-words{display:flex;flex-direction:column;gap:10px;min-height:0}
+html[data-theme] .deck-tabs{display:flex;align-items:center;gap:6px}
+html[data-theme] .deck-tabs>button{border:1px solid var(--t-btn2-border);background:#fff;color:var(--t-muted);border-radius:999px;padding:7px 14px;font:600 13px var(--sans);cursor:pointer}
+html[data-theme] .deck-tabs>button span{margin-left:4px;color:var(--t-faint)}
+html[data-theme] .deck-tabs>button.active{background:var(--t-ink);border-color:var(--t-ink);color:#fff}
+html[data-theme] .deck-tabs>button.active span{color:rgba(255,255,255,.7)}
+html[data-theme] .deck-pager{margin-left:auto;display:flex;align-items:center;gap:8px;font-size:13px;color:var(--t-muted)}
+html[data-theme] .deck-pager button{width:30px;height:30px;border-radius:50%;border:1px solid var(--t-btn2-border);background:#fff;color:var(--t-ink);font-size:17px;line-height:1;cursor:pointer}
+html[data-theme] .deck-pager button:disabled{opacity:.35;cursor:default}
+html[data-theme] .deck-word-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-auto-rows:min-content;gap:8px;align-content:start}
+html[data-theme] .deck-word{background:#fff;border:1px solid var(--t-card-border);border-radius:14px;padding:8px 12px;min-width:0}
+html[data-theme] .deck-word-main{display:flex;align-items:baseline;gap:8px;min-width:0}
+html[data-theme] .deck-word-main b{font:700 15px var(--serif);color:var(--t-ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+html[data-theme] .deck-word-ipa{font-size:12px;color:var(--t-faint);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+html[data-theme] .deck-word-sub{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:2px;font-size:12.5px;color:var(--t-muted)}
+html[data-theme] .deck-word-sub>span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+html[data-theme] .streak-dots{display:flex;gap:3px;flex:none}
+html[data-theme] .streak-dots i{width:7px;height:7px;border-radius:50%;background:var(--t-card-border)}
+html[data-theme] .streak-dots i.on{background:#12A150}
+html[data-theme] .deck-words-empty{grid-column:1/-1;padding:28px 10px;text-align:center;color:var(--t-muted);font-size:14px}
+@media(min-width:761px){
+  html[data-theme] #studyView .deck-detail:not(.hidden){flex:1;min-height:0;padding-bottom:10px}
+  html[data-theme] #studyView .deck-words{flex:1}
+  html[data-theme] #studyView .deck-word-grid{flex:1;min-height:0;overflow:hidden}
+}
+@media(max-width:900px){html[data-theme] .deck-word-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+
+/* Cards are added by agents, so manual entry, import and the all-cards list are hidden. */
+html[data-theme] .secondary-nav,html[data-theme] #addTopBtn,html[data-theme] #emptyImportBtn,html[data-theme] #emptyAddBtn{display:none!important}
+
+/* Deck direction, category sessions and manual moves. */
+html[data-theme] .deck-direction{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--t-btn2-border);border-radius:999px;padding:5px 6px 5px 14px;font-size:13px;color:var(--t-muted)}
+html[data-theme] .deck-direction b{color:var(--t-ink);font-weight:700}
+html[data-theme] .dir-swap{width:30px;height:30px;border-radius:50%;border:0;background:var(--t-ink);color:#fff;font-size:15px;line-height:1;cursor:pointer;margin:0 2px}
+html[data-theme] .dir-swap:hover{background:var(--t-ink-hover)}
+html[data-theme] .deck-study-group{margin-left:6px;border:0;background:var(--t-accent);color:#fff;border-radius:999px;padding:8px 14px;font:600 13px var(--sans);cursor:pointer}
+html[data-theme][data-theme="black"] .deck-study-group{background:var(--t-ink)}
+html[data-theme] .deck-word{position:relative}
+html[data-theme] .word-move{position:absolute;top:6px;right:8px;border:1px solid var(--t-btn2-border);background:#fff;color:var(--t-ink);border-radius:999px;padding:2px 9px;font:600 11px var(--sans);cursor:pointer;opacity:0;transition:opacity .12s}
+html[data-theme] .deck-word:hover .word-move,html[data-theme] .word-move:focus-visible{opacity:1}
+html[data-theme] .word-move:hover{background:var(--t-active)}
+html[data-theme] .card-move-actions{position:absolute;top:clamp(10px,1.8vh,18px);right:24px;display:flex;gap:6px;z-index:2}
+html[data-theme] .card-move-actions button{border:1px solid var(--t-card-border);background:#fff;color:var(--t-muted);border-radius:999px;padding:5px 11px;font:600 12px var(--sans);cursor:pointer}
+html[data-theme] .card-move-actions button:hover{color:var(--t-ink);border-color:var(--t-ink)}
+html[data-theme] .card-move-actions button[data-card-move="learned"]:hover{color:#12A150;border-color:#12A150}
+
+/* Decks screen (option 2): "today" hero on top, one line per deck below. */
+html[data-theme] #studyView .page-heading.decks-heading-hidden{display:none}
+html[data-theme] .context-deck-list{width:min(1100px,100%);margin:clamp(14px,3vh,28px) auto 0}
+html[data-theme] .today-hero{background:var(--t-ink);color:#fff;border-radius:28px;padding:clamp(20px,3.4vh,30px) 34px;display:flex;align-items:center;gap:30px}
+html[data-theme] .today-hero>div{flex:1}
+html[data-theme] .today-label{font-size:14px;color:rgba(255,255,255,.65)}
+html[data-theme] .today-count{display:flex;align-items:baseline;gap:10px;margin-top:4px}
+html[data-theme] .today-count b{font:700 clamp(48px,8vh,72px)/1 var(--serif);letter-spacing:-.04em}
+html[data-theme] .today-count span{font:700 24px var(--serif);letter-spacing:-.02em;color:rgba(255,255,255,.65)}
+html[data-theme] .today-sub{margin-top:8px;font-size:15px;color:rgba(255,255,255,.65)}
+html[data-theme] .today-start{border:0;background:#fff;color:var(--t-ink);border-radius:999px;padding:16px 28px;font:700 16px var(--sans);cursor:pointer;white-space:nowrap}
+html[data-theme] .today-start:hover{background:#EEF3FF}
+html[data-theme] .today-done{font-weight:600;color:#9FE8BF}
+html[data-theme] .deck-list-head{display:flex;align-items:center;justify-content:space-between;margin:clamp(16px,3vh,28px) 0 10px;font-size:11px;font-weight:600;letter-spacing:.1em;text-transform:uppercase;color:var(--t-faint)}
+html[data-theme] .deck-list-head .text-button{font-size:13px;letter-spacing:0;text-transform:none}
+html[data-theme] .deck-line{display:grid;grid-template-columns:44px minmax(140px,1.2fr) minmax(120px,2fr) 120px 120px;align-items:center;gap:22px;padding:12px 14px 12px 14px;border:1px solid var(--t-line);border-radius:18px;margin-bottom:10px;background:#fff;cursor:pointer;transition:border-color .15s,box-shadow .15s}
+html[data-theme] .deck-line:hover{border-color:var(--t-card-border);box-shadow:var(--t-card-shadow)}
+html[data-theme] .deck-icon{width:44px;height:44px;border-radius:14px;color:#fff;display:grid;place-items:center;font:700 19px var(--serif)}
+html[data-theme] .deck-line-name b{display:block;font-size:17px;color:var(--t-ink)}
+html[data-theme] .deck-line-name span{font-size:13px;color:var(--t-muted)}
+html[data-theme] .deck-line-bar{height:8px;border-radius:8px;background:var(--t-card);display:flex;overflow:hidden}
+html[data-theme] .deck-line-bar i.learned{background:#12A150}
+html[data-theme] .deck-line-bar i.learning{background:#F5A524}
+html[data-theme] .deck-line-today{font-size:14px;color:var(--t-muted);text-align:right}
+html[data-theme] .deck-line-today b{color:var(--t-ink)}
+html[data-theme] .deck-line-study{border:1px solid var(--t-btn2-border);background:#fff;color:var(--t-ink);border-radius:999px;padding:10px 0;font:700 14px var(--sans);cursor:pointer}
+html[data-theme] .deck-line-study:hover{background:var(--t-active)}
