@@ -1,86 +1,51 @@
 # Mnema
 
-**Mnema** is a local-first, agent-ready flashcard app for language learning. The name comes from *Mnemosyne*, the Greek figure associated with memory and the origin of “mnemonic.” AI agents are the intended way to build and maintain a collection: they research or receive words, check for duplicates, write cards directly to JSON, and Mnema presents them for review.
+Um espaço pessoal para aprender idiomas com flashcards, organizado e atualizado por um agente de IA.
 
-## Run locally
+O nome vem de *Mnemosyne*, figura grega associada à memória e origem da palavra “mnemônico”. A ideia do Mnema é ajudar você a guardar palavras e lembrar delas quando precisar.
 
-Requires Python 3. No package installation or external database is needed.
+## Como usar
 
-### macOS / Linux
+Você não precisa configurar pastas, editar arquivos ou entender como os cartões são armazenados. Converse com um agente de IA: peça para preparar o Mnema nesta máquina, organizar seus estudos, buscar palavras e abrir o app para você.
 
-```sh
-./run.sh
-```
+### Organize seus estudos
 
-### Windows
+Crie um contexto para cada idioma que estiver aprendendo. Dentro dele, peça quantos decks quiser:
 
-```powershell
-py server.py
-```
+- **Inglês**: Geral, Aeroporto, Phrasal verbs
+- **Espanhol**: Geral, Viagem, Restaurante
 
-Open <http://127.0.0.1:8765>. Stop the server with Ctrl+C. Set `PORT=9000` (macOS/Linux) or `$env:PORT=9000` (PowerShell) to use a different port.
+Cada deck mantém seu próprio progresso e suas estatísticas de revisão.
 
-The server binds to localhost by default. To use Mnema from another device on the same trusted network, start it with `FLASHCARDS_HOST=0.0.0.0` (PowerShell: `$env:FLASHCARDS_HOST='0.0.0.0'`) and open `http://<computer-local-IP>:8765` on that device. This exposes the app to the local network; do not expose it directly to the public internet.
+### Escolha de onde vêm as palavras
 
-## The agent-first workflow
+Peça ao agente para trabalhar com a fonte que fizer sentido para você:
 
-The app is the study interface. **Agents are the content workflow:** an agent can use any source the user requests—Preply, a pasted list, a book, a website, or research—and write the resulting cards straight into JSON. Browser automation is useful only when needed to read a source that requires an authenticated browser session. It is not needed to enter cards into Mnema.
+- seus flashcards do Preply;
+- uma lista que você colar na conversa;
+- palavras ou expressões que encontrar na internet;
+- um tema, como “vocabulário para viagens”.
 
-1. Read [AGENTS.md](AGENTS.md) and the existing JSON files under `data/`.
-2. Identify the study context (the language being learned) and deck (for example, `English/General` or `English/Airport`).
-3. Check existing cards in that context for the same learned-language term before adding anything. Duplicate identity is the normalized term + learning language + context, across sources and decks. Report duplicates instead of adding a second card.
-4. Add only new cards to `data/<context-slug>/<deck-slug>.json`, preserving the existing schema and cards.
-5. Refresh Mnema. The server syncs JSON content on API reads, so new or edited cards appear without restarting it. Review progress remains in the local SQLite database and is not overwritten by JSON sync.
+O agente confere o que já existe antes de acrescentar cartões. Se uma palavra já estiver no contexto de estudo, ele avisa e não cria outra cópia. Para cada cartão novo, pode incluir tradução, significado, classe gramatical e exemplos naturais de uso.
 
-Agents should not use the app's manual entry or import UI to populate the collection. JSON files are the durable content source and can be reviewed, versioned, and moved with the project. Mnema's interface is for studying and managing the local review experience.
+### Estude do seu jeito
 
-## Organizing a collection
+Abra um deck, escolha qual idioma aparece na frente e qual fica no verso e inicie a revisão. Cada tentativa começa com 10 cartões; se quiser, ajuste para 20, 30 ou 50. Você pode estudar quantas vezes quiser. Marque **Já sei** ou **Ainda não sei** e acompanhe o progresso daquele deck.
 
-Each study context represents a language being learned, such as English or Spanish. Each context contains any number of decks, such as General, Phrasal Verbs, Airport, or Road Trips. Store one collection per deck:
+## Exemplos de pedidos
 
-```text
-data/
-  english/
-    general.json
-    airport.json
-  spanish/
-    general.json
-```
+> Prepare o Mnema nesta máquina e abra o app para mim. Quero estudar inglês.
 
-The context name and learning language are stored in each file. Deck names do not need to match the filename exactly.
+> No meu contexto de inglês, crie os decks Geral e Aeroporto. Leia os cartões que tenho no Preply e acrescente apenas as palavras que ainda não aparecem nos meus estudos. Complete os cartões novos com significado e exemplos de uso.
 
-## Card format
+> Adicione estas palavras ao deck Phrasal verbs do inglês. Confira primeiro se já existem; se alguma for repetida, me avise em vez de duplicá-la.
 
-See [IMPORT_FORMAT.md](IMPORT_FORMAT.md) for the JSON schema and complete field descriptions. A compact example:
+> Quero começar espanhol. Crie esse contexto com os decks Geral e Viagem e monte cartões para estas palavras.
 
-```json
-{
-  "schema_version": 1,
-  "context": { "name": "English", "learning_language": "English" },
-  "deck": "General",
-  "source": "user-provided list",
-  "cards": [
-    {
-      "terms": { "English": "save", "Portuguese": "poupar; economizar" },
-      "examples": {
-        "English": ["I save money every month."],
-        "Portuguese": ["Eu economizo dinheiro todo mês."]
-      },
-      "part_of_speech": "verb",
-      "meaning": "To keep money or resources for later use."
-    }
-  ]
-}
-```
+## Seus dados
 
-Add useful, natural examples in the studied language and translations where available. A term can have multiple senses; keep each card focused on one sense and use its examples to make that sense clear.
+Seu progresso e suas coleções ficam na sua máquina. O repositório público contém o aplicativo e as orientações para o agente, mas não inclui os cartões pessoais de ninguém. Ao trocar de computador, peça ao agente para ajudar a levar sua coleção e seu progresso para a nova máquina.
 
-## Local data and portability
+## Para agentes de IA
 
-Mnema stores study progress and app state in `flashcards.db` (SQLite) on the computer running the server. The database and all `data/**/*.json` personal card collections are ignored by Git, so they cannot accidentally be published with this public project. To carry review progress to another computer, copy `flashcards.db` with Mnema closed; to carry just the collection, copy the `data/` files or keep them in a separate private repository.
-
-A public code repository should contain generic example content only. Keep personal collections and review databases out of public commits.
-
-## Study sessions
-
-A deck starts with a 10-card package. Use its three-dot menu to choose 20, 30, or 50 cards. Mark a card “Já sei” or “Ainda não sei” as often as you like; no due date blocks another session. Review totals and correct answers are tracked per deck.
+As instruções para preparar, iniciar e atualizar o Mnema estão em [AGENTS.md](AGENTS.md). O formato de dados está documentado em [IMPORT_FORMAT.md](IMPORT_FORMAT.md). A pessoa usuária não precisa ler esses guias nem manipular os arquivos diretamente.
