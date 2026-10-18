@@ -1,51 +1,51 @@
 # Mnema
 
-Um espaço pessoal para aprender idiomas com flashcards, organizado e atualizado por um agente de IA.
+A personal space for learning languages with flashcards, organized and updated by an AI agent.
 
-O nome vem de *Mnemosyne*, figura grega associada à memória e origem da palavra “mnemônico”. A ideia do Mnema é ajudar você a guardar palavras e lembrar delas quando precisar.
+The name comes from *Mnemosyne*, the Greek figure associated with memory and the origin of the word “mnemonic.” Mnema helps you keep new words in mind and recall them when you need them.
 
-## Como usar
+## How to use it
 
-Você não precisa configurar pastas, editar arquivos ou entender como os cartões são armazenados. Converse com um agente de IA: peça para preparar o Mnema nesta máquina, organizar seus estudos, buscar palavras e abrir o app para você.
+You do not need to configure folders, edit files, or understand how cards are stored. Talk to an AI agent: ask it to set up Mnema on this computer, organize your studies, find words, and open the app for you.
 
-### Organize seus estudos
+### Organize your studies
 
-Crie um contexto para cada idioma que estiver aprendendo. Dentro dele, peça quantos decks quiser:
+Create a study context for each language you are learning. Add as many decks as you like inside each context:
 
-- **Inglês**: Geral, Aeroporto, Phrasal verbs
-- **Espanhol**: Geral, Viagem, Restaurante
+- **English**: General, Airport, Phrasal Verbs
+- **Spanish**: General, Travel, Restaurant
 
-Cada deck mantém seu próprio progresso e suas estatísticas de revisão.
+Each deck keeps its own review progress and statistics.
 
-### Escolha de onde vêm as palavras
+### Choose where your words come from
 
-Peça ao agente para trabalhar com a fonte que fizer sentido para você:
+Ask the agent to work with whichever source makes sense:
 
-- seus flashcards do Preply;
-- uma lista que você colar na conversa;
-- palavras ou expressões que encontrar na internet;
-- um tema, como “vocabulário para viagens”.
+- your Preply flashcards;
+- a list you paste into the conversation;
+- words or expressions you find online;
+- a topic, such as “travel vocabulary.”
 
-O agente confere o que já existe antes de acrescentar cartões. Se uma palavra já estiver no contexto de estudo, ele avisa e não cria outra cópia. Para cada cartão novo, pode incluir tradução, significado, classe gramatical e exemplos naturais de uso.
+Before adding cards, the agent checks what is already in your study context. If a word is already there, it tells you and skips it instead of creating a duplicate. New cards can include translations, meanings, parts of speech, and natural usage examples.
 
-### Estude do seu jeito
+### Study your way
 
-Abra um deck, escolha qual idioma aparece na frente e qual fica no verso e inicie a revisão. Cada tentativa começa com 10 cartões; se quiser, ajuste para 20, 30 ou 50. Você pode estudar quantas vezes quiser. Marque **Já sei** ou **Ainda não sei** e acompanhe o progresso daquele deck.
+Open a deck, choose which language appears on the front and which appears on the back, then start reviewing. Each session starts with 10 cards; change it to 20, 30, or 50 whenever you like. Study as often as you want. Mark each card **I know it** or **I don't know it yet**, and track your progress for that deck.
 
-## Exemplos de pedidos
+## Example requests
 
-> Prepare o Mnema nesta máquina e abra o app para mim. Quero estudar inglês.
+> Set up Mnema on this computer and open the app for me. I want to study English.
 
-> No meu contexto de inglês, crie os decks Geral e Aeroporto. Leia os cartões que tenho no Preply e acrescente apenas as palavras que ainda não aparecem nos meus estudos. Complete os cartões novos com significado e exemplos de uso.
+> In my English context, create the General and Airport decks. Read my Preply cards and add only words that are not already in my collection. Add meanings and usage examples to the new cards.
 
-> Adicione estas palavras ao deck Phrasal verbs do inglês. Confira primeiro se já existem; se alguma for repetida, me avise em vez de duplicá-la.
+> Add these words to my English Phrasal Verbs deck. Check whether they already exist first; tell me about duplicates instead of adding them again.
 
-> Quero começar espanhol. Crie esse contexto com os decks Geral e Viagem e monte cartões para estas palavras.
+> I want to start learning Spanish. Create that context with General and Travel decks, then make cards for these words.
 
-## Seus dados
+## Your data
 
-Seu progresso e suas coleções ficam na sua máquina. O repositório público contém o aplicativo e as orientações para o agente, mas não inclui os cartões pessoais de ninguém. Ao trocar de computador, peça ao agente para ajudar a levar sua coleção e seu progresso para a nova máquina.
+Your progress and collections stay on your computer. The public repository contains the app and guidance for the agent, but no one's personal flashcards. When you move to a different computer, ask the agent to help transfer your collection and progress.
 
-## Para agentes de IA
+## For AI agents
 
-As instruções para preparar, iniciar e atualizar o Mnema estão em [AGENTS.md](AGENTS.md). O formato de dados está documentado em [IMPORT_FORMAT.md](IMPORT_FORMAT.md). A pessoa usuária não precisa ler esses guias nem manipular os arquivos diretamente.
+Instructions for setting up, starting, and updating Mnema are in [AGENTS.md](AGENTS.md). The data format is documented in [IMPORT_FORMAT.md](IMPORT_FORMAT.md). Users do not need to read these guides or handle the files themselves.
