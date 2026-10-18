@@ -131,8 +131,8 @@ def load_file_collections():
                 cn, dn, language, terms, examples, notes, pos, card_source, key = normalize_card(raw, defaults)
                 now = datetime.now(timezone.utc).isoformat()
                 db.execute("""INSERT INTO cards
-                    (context_name,deck_name,learning_language,terms,examples,notes,part_of_speech,source,source_key,created_at,updated_at)
-                    VALUES(?,?,?,?,?,?,?,?,?,?,?)
+                    (context_name,deck_name,learning_language,terms,examples,notes,part_of_speech,source,source_key,created_at,updated_at,review_streak,review_correct,review_total,due_at,last_reviewed_at)
+                    VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)
                     ON CONFLICT(source_key) DO UPDATE SET
                       context_name=excluded.context_name, deck_name=excluded.deck_name,
                       learning_language=excluded.learning_language, terms=excluded.terms,
@@ -140,7 +140,10 @@ def load_file_collections():
                       part_of_speech=excluded.part_of_speech, source=excluded.source,
                       updated_at=excluded.updated_at""",
                     (cn, dn, language, json.dumps(terms, ensure_ascii=False),
-                     json.dumps(examples, ensure_ascii=False), notes, pos, card_source, key, now, now)
+                     json.dumps(examples, ensure_ascii=False), notes, pos, card_source, key, now, now,
+                     int(raw.get("review_streak", 0)), int(raw.get("review_correct", 0)),
+                     int(raw.get("review_total", 0)), str(raw.get("due_at") or now),
+                     str(raw.get("last_reviewed_at") or ""))
                     )
 
 
@@ -176,11 +179,13 @@ def persist_deck_file(db, context_name, deck_name):
     if target is None:
         target = data_root / slug_component(context["learning_language"]) / slug_component(context["name"]) / f"{slug_component(deck_name)}.json"
     cards = []
-    for row in db.execute("SELECT terms,examples,notes,part_of_speech,source FROM cards WHERE context_name=? COLLATE NOCASE AND deck_name=? COLLATE NOCASE ORDER BY id",
+    for row in db.execute("SELECT terms,examples,notes,part_of_speech,source,review_streak,review_correct,review_total,due_at,last_reviewed_at FROM cards WHERE context_name=? COLLATE NOCASE AND deck_name=? COLLATE NOCASE ORDER BY id",
                            (context["name"], deck_name)):
         cards.append({"terms": json.loads(row["terms"]), "examples": json.loads(row["examples"] or "{}"),
                       "part_of_speech": row["part_of_speech"] or "", "meaning": row["notes"] or "",
-                      "source": row["source"] or "local"})
+                      "source": row["source"] or "local", "review_streak": row["review_streak"],
+                      "review_correct": row["review_correct"], "review_total": row["review_total"],
+                      "due_at": row["due_at"], "last_reviewed_at": row["last_reviewed_at"]})
     payload = {"schema_version": 1,
                "context": {"name": context["name"], "learning_language": context["learning_language"]},
                "deck": deck_name, "source": "local", "cards": cards}
@@ -396,6 +401,7 @@ class Handler(SimpleHTTPRequestHandler):
                     reviewed_at = now.isoformat()
                     db.execute("UPDATE cards SET review_streak=?,review_correct=?,review_total=?,due_at=?,last_reviewed_at=? WHERE id=?",
                                (streak, correct, total, due_at, reviewed_at, card_id))
+                    persist_deck_file(db, card["context_name"], card["deck_name"])
                     result = card_dict(db.execute("SELECT * FROM cards WHERE id=?", (card_id,)).fetchone())
                 return self.send_json({"card": result})
             if path == "/api/cards":

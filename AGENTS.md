@@ -40,8 +40,12 @@ Write directly to `data/<context-slug>/<deck-slug>.json`. Create parent director
 
 Each card must include the learned term under a language key matching `learning_language`. Include translations, a concise sense-specific meaning, and natural examples in the learned language. Add examples in other languages when useful and supported. Keep the same sense across the examples. Use UTF-8 and valid JSON.
 
+## Backup and synchronization
+
+The `data/` folder is the portable source of truth for both card content and review progress. Keep existing review metadata when editing a card. Before working on another computer, synchronize the repository; after adding cards or studying, commit and push the updated data files when the user requests a backup. Never push personal data to a public repository unless the user explicitly authorizes that specific public disclosure. If repository visibility or GitHub authentication prevents a sync, explain that clearly rather than claiming the backup was uploaded.
+
 ## After writing
 
 - Re-read/parse the JSON you changed and summarize how many cards were added, skipped as duplicates, and which sources were used.
 - Do not restart the server just to load changed JSON: Mnema syncs file collections as the app reads its API.
-- Never commit personal word lists or `flashcards.db` to a public repository without the user's explicit approval.
+- Never commit `flashcards.db`; the portable JSON files are the backup format.

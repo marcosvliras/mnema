@@ -3,5 +3,3 @@ __pycache__/
 flashcards.db
 flashcards.db-shm
 flashcards.db-wal
-# Personal card collections are local user data, not public project fixtures.
-/data/**/*.json

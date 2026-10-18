@@ -44,7 +44,7 @@ Open a deck, choose which language appears on the front and which appears on the
 
 ## Your data
 
-Your progress and collections stay on your computer. The public repository contains the app and guidance for the agent, but no one's personal flashcards. When you move to a different computer, ask the agent to help transfer your collection and progress.
+Mnema stores your decks as JSON files in the repository's `data/` folder. Review progress is saved with each card, so the collection can be backed up and moved with the project. If you use a public copy of this repository, anything committed to `data/` is visible to everyone; use a private repository for personal collections you do not want to share. Ask your AI agent to sync the repository before and after making changes on another computer.
 
 ## For AI agents
 
