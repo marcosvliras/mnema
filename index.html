@@ -10,7 +10,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css?v=20261018-deck-list-2">
-  <link rel="stylesheet" href="themes.css?v=20261018-today-1">
+  <link rel="stylesheet" href="themes.css?v=20261019-reveal-2">
   <script src="theme.js?v=20261018-themes-1"></script>
 </head>
 <body>
@@ -43,7 +43,7 @@
         </div>
         <div class="study-area" id="studyArea">
           <div class="card-stage">
-            <div class="flashcard" id="flashcard" role="button" tabindex="0" aria-label="Revelar tradução">
+            <div class="flashcard" id="flashcard" role="button" tabindex="0" aria-label="Revelar tradução"><div class="card-image" id="cardImage" aria-hidden="true"></div>
               <div class="card-top"><span class="language-pill" id="cardFrontLang">PORTUGUÊS</span><span class="card-position" id="cardPosition">01 <span>/ 00</span></span></div>
               <div class="card-content"><div class="word-row"><div class="word" id="cardWord">Seu próximo cartão</div><button type="button" class="speak-btn" id="speakWord" aria-label="Ouvir a palavra" title="Ouvir a palavra"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M11 5 6 9H3v6h3l5 4V5z"/><path d="M15.5 8.5a5 5 0 0 1 0 7"/><path d="M18.5 5.5a9 9 0 0 1 0 13"/></svg></button></div><div class="word-meta"><span id="cardPronunciation" class="card-ipa hidden"></span><span id="cardPartOfSpeech" class="card-pos hidden"></span></div><div class="example-list" id="frontExample"></div><div class="card-hint" id="cardHint">Clique para revelar a tradução</div></div>
               <div class="card-bottom"><span>PALAVRA</span><span class="flip-hint">⤢ &nbsp;clique para virar</span></div>
@@ -89,6 +89,6 @@ me poupe, spare, Me poupe de ouvir isso., Spare me from hearing that., pedido pa
   <div class="modal-backdrop hidden" id="modalBackdrop"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="closeModal" aria-label="Fechar">×</button><div class="eyebrow" id="modalEyebrow">SUA COLEÇÃO</div><h2 id="modalTitle">Novo cartão</h2><p class="modal-intro">Inclua exemplos nos idiomas do cartão para praticar em qualquer direção.</p><form id="cardForm"><div class="form-selects"><label class="form-label">CONTEXTO<select name="context_name" id="cardContext"></select></label><label class="form-label">DECK<select name="deck_name" id="cardDeck"></select></label></div><label class="form-label">CLASSE GRAMATICAL <span>opcional</span><input id="cardPos" placeholder="Ex.: verb, noun, adjective, expressão"></label><div id="termFields"></div><button type="button" id="addLanguageField" class="add-language">＋ Adicionar idioma</button><label class="form-label notes-label">SIGNIFICADO / NOTAS <span>opcional</span><textarea name="notes" rows="2" placeholder="Sentido específico ou observação adicional"></textarea></label><div class="form-actions"><button type="button" class="quiet-button" id="cancelModal">Cancelar</button><button class="button primary-button" type="submit">Salvar cartão <span>↗</span></button></div></form></div></div>
   <div class="modal-backdrop hidden" id="collectionBackdrop"><div class="modal small-modal" role="dialog" aria-modal="true" aria-labelledby="collectionTitle"><button class="modal-close" id="closeCollection" aria-label="Fechar">×</button><div class="eyebrow" id="collectionEyebrow">ORGANIZE SEUS ESTUDOS</div><h2 id="collectionTitle">Novo contexto</h2><p class="modal-intro" id="collectionIntro">Crie uma pasta de estudo para um idioma.</p><form id="collectionForm"><label class="form-label" id="collectionNameLabel">NOME<input id="collectionName" required placeholder="Ex.: Inglês"></label><label class="form-label" id="collectionLanguageLabel">IDIOMA ESTUDADO<input id="collectionLanguage" placeholder="Ex.: inglês" required></label><div class="form-actions"><button type="button" class="quiet-button" id="cancelCollection">Cancelar</button><button class="button primary-button" id="saveCollection" type="submit">Criar contexto <span>↗</span></button></div></form></div></div>
   <div class="toast" id="toast"></div>
-  <script src="app.js?v=20261018-today-1"></script>
+  <script src="app.js?v=20261019-reveal-2"></script>
 </body>
 </html>

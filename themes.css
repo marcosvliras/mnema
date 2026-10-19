@@ -319,3 +319,39 @@ html[data-theme] .deck-line-today{font-size:14px;color:var(--t-muted);text-align
 html[data-theme] .deck-line-today b{color:var(--t-ink)}
 html[data-theme] .deck-line-study{border:1px solid var(--t-btn2-border);background:#fff;color:var(--t-ink);border-radius:999px;padding:10px 0;font:700 14px var(--sans);cursor:pointer}
 html[data-theme] .deck-line-study:hover{background:var(--t-active)}
+
+/* Cards with an image (option 4): the picture fills the front, the word sits on a dark fade;
+   on the back it stays as a faint background behind the translation and examples. */
+html[data-theme] .card-image{display:none}
+html[data-theme] .flashcard.has-image .card-image{display:block;position:absolute;inset:0;z-index:0;overflow:hidden;border-radius:inherit}
+html[data-theme] .flashcard.has-image .card-image img{width:100%;height:100%;object-fit:cover;display:block}
+html[data-theme] .flashcard.has-image .card-image::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,31,68,0) 38%,rgba(10,31,68,.85) 100%)}
+html[data-theme] .flashcard.has-image>.card-top,html[data-theme] .flashcard.has-image>.card-content{position:relative;z-index:1}
+html[data-theme] .flashcard.has-image .card-position,html[data-theme] .flashcard.has-image .card-position span{color:#fff}
+html[data-theme] .flashcard.has-image .word-row{margin-top:auto;justify-content:flex-start}
+html[data-theme] .flashcard.has-image .word,html[data-theme] .flashcard.has-image #studyView .word{color:#fff;text-align:left}
+html[data-theme] #studyView .flashcard.has-image .word{color:#fff}
+html[data-theme] .flashcard.has-image .word-meta{justify-content:flex-start}
+html[data-theme] .flashcard.has-image .card-ipa{color:rgba(255,255,255,.8)}
+html[data-theme] .flashcard.has-image .card-content .card-pos{background:rgba(255,255,255,.18);color:#fff}
+html[data-theme] .flashcard.has-image #speakWord{background:#fff;color:var(--t-ink)}
+html[data-theme] .flashcard.has-image .card-content .example-list{margin-top:10px}
+html[data-theme] .flashcard.has-image .card-content .example-card{background:transparent;box-shadow:none;padding:0}
+html[data-theme] .flashcard.has-image .card-content .example-main{color:#fff}
+html[data-theme] .flashcard.has-image .card-content .speak-btn.small{background:rgba(255,255,255,.2);color:#fff}
+html[data-theme] .flashcard.has-image .card-hint{color:rgba(255,255,255,.7);text-align:left;align-self:flex-start}
+html[data-theme] .flashcard.has-image .card-back-content{background:color-mix(in srgb,var(--t-card) 84%,transparent);z-index:2}
+html[data-theme] .flashcard.has-image.revealed .card-image::after{opacity:0}
+html[data-theme] .flashcard.has-image.revealed .card-image img{opacity:.35}
+
+/* Back of the card: example translations stay hidden until the sentence (or its eye button) is tapped. */
+html[data-theme] .example-card.can-reveal{cursor:pointer}
+html[data-theme] .example-card.can-reveal .example-translation,html[data-theme] .example-card.can-reveal .speak-btn.after-reveal{display:none}
+html[data-theme] .example-card.can-reveal.shown .example-translation{display:block}
+html[data-theme] .example-card.can-reveal.shown .speak-btn.after-reveal{display:grid}
+html[data-theme] .reveal-btn{flex:none;display:inline-flex;align-items:center;gap:4px;height:30px;padding:0 10px;border-radius:999px;border:1px solid var(--t-card-border);background:var(--t-card);color:var(--t-ink);font:700 11px var(--sans);letter-spacing:.04em;cursor:pointer}
+html[data-theme] .reveal-btn:hover{background:var(--t-active);color:var(--t-accent)}
+html[data-theme] .example-card.shown .reveal-btn{background:var(--t-ink);color:#fff;border-color:var(--t-ink)}
+/* When flipped, the back takes the clicks (audio, reveal, move buttons) instead of the faded front underneath. */
+html[data-theme] .flashcard.revealed .card-back-content{pointer-events:auto}
+html[data-theme] .flashcard.revealed .card-content{pointer-events:none}

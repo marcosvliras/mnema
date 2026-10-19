@@ -3,3 +3,4 @@ __pycache__/
 flashcards.db
 flashcards.db-shm
 flashcards.db-wal
+.tts-cache/

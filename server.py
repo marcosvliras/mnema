@@ -7,6 +7,7 @@ import json
 import os
 import re
 import sqlite3
+import subprocess
 import threading
 import unicodedata
 import webbrowser
@@ -23,6 +24,12 @@ HOST = os.environ.get("FLASHCARDS_HOST", "127.0.0.1")
 PORT = int(os.environ.get("PORT", "8765"))
 DEFAULT_DECK = "Geral"
 FILE_SYNC_LOCK = threading.Lock()
+# Spoken audio is rendered with macOS `say` and cached here, so playback does not depend on the browser's speech engine.
+TTS_DIR = ROOT / ".tts-cache"
+TTS_LOCALES = {"english": "en_US", "portuguese": "pt_BR", "spanish": "es_ES", "french": "fr_FR", "german": "de_DE", "italian": "it_IT"}
+TTS_PREFERRED = re.compile(r"Premium|Enhanced|Samantha|Ava|Allison|Evan|Nathan|Joelle|Luciana|Felipe|Monica|Paulina|Thomas|Anna|Alice", re.I)
+TTS_NOVELTY = re.compile(r"^(Albert|Bad News|Bahh|Bells|Boing|Bubbles|Cellos|Good News|Jester|Organ|Superstar|Trinoids|Whisper|Wobble|Zarvox|Junior|Ralph|Fred|Kathy|Eddy|Flo|Grandma|Grandpa|Reed|Rocko|Sandy|Shelley)\b", re.I)
+_tts_voices: dict[str, str] | None = None
 LANGUAGE_ALIASES = {
     "en": "english", "eng": "english", "ingles": "english", "english": "english",
     "pt": "portuguese", "por": "portuguese", "portugues": "portuguese", "portuguese": "portuguese",
@@ -78,6 +85,8 @@ def init_db():
             db.execute("ALTER TABLE cards ADD COLUMN part_of_speech TEXT NOT NULL DEFAULT ''")
         if "pronunciation" not in columns:
             db.execute("ALTER TABLE cards ADD COLUMN pronunciation TEXT NOT NULL DEFAULT ''")
+        if "image" not in columns:
+            db.execute("ALTER TABLE cards ADD COLUMN image TEXT NOT NULL DEFAULT ''")
         db.execute("UPDATE cards SET due_at=? WHERE due_at=''", (datetime.now(timezone.utc).isoformat(),))
         db.execute("""CREATE TABLE IF NOT EXISTS study_contexts (
             name TEXT PRIMARY KEY COLLATE NOCASE,
@@ -149,9 +158,9 @@ def load_file_collections():
                      int(raw.get("review_total", 0)), str(raw.get("due_at") or now),
                      str(raw.get("last_reviewed_at") or ""))
                     )
-                # Pronunciation (IPA of the learned term) lives only in collection files.
-                db.execute("UPDATE cards SET pronunciation=? WHERE source_key=?",
-                           (str(raw.get("pronunciation", "")).strip(), key))
+                # Pronunciation (IPA of the learned term) and image path live only in collection files.
+                db.execute("UPDATE cards SET pronunciation=?, image=? WHERE source_key=?",
+                           (str(raw.get("pronunciation", "")).strip(), str(raw.get("image", "")).strip(), key))
 
 
 def sync_file_collections():
@@ -186,7 +195,7 @@ def persist_deck_file(db, context_name, deck_name):
     if target is None:
         target = data_root / slug_component(context["learning_language"]) / slug_component(context["name"]) / f"{slug_component(deck_name)}.json"
     cards = []
-    for row in db.execute("SELECT terms,examples,notes,part_of_speech,pronunciation,source,review_streak,review_correct,review_total,due_at,last_reviewed_at FROM cards WHERE context_name=? COLLATE NOCASE AND deck_name=? COLLATE NOCASE ORDER BY id",
+    for row in db.execute("SELECT terms,examples,notes,part_of_speech,pronunciation,image,source,review_streak,review_correct,review_total,due_at,last_reviewed_at FROM cards WHERE context_name=? COLLATE NOCASE AND deck_name=? COLLATE NOCASE ORDER BY id",
                            (context["name"], deck_name)):
         card = {"terms": json.loads(row["terms"]), "examples": json.loads(row["examples"] or "{}"),
                       "part_of_speech": row["part_of_speech"] or "", "meaning": row["notes"] or "",
@@ -195,6 +204,8 @@ def persist_deck_file(db, context_name, deck_name):
                       "due_at": row["due_at"], "last_reviewed_at": row["last_reviewed_at"]}
         if row["pronunciation"]:
             card["pronunciation"] = row["pronunciation"]
+        if row["image"]:
+            card["image"] = row["image"]
         cards.append(card)
     payload = {"schema_version": 1,
                "context": {"name": context["name"], "learning_language": context["learning_language"]},
@@ -310,6 +321,46 @@ def get_structure(db):
     return contexts
 
 
+def language_key(value):
+    plain = "".join(c for c in unicodedata.normalize("NFD", str(value or "").casefold())
+                    if unicodedata.category(c) != "Mn").strip()
+    return LANGUAGE_ALIASES.get(plain, plain)
+
+
+def tts_voice(language):
+    """Best installed macOS voice for a language (premium/enhanced first, novelty voices skipped)."""
+    global _tts_voices
+    if _tts_voices is None:
+        _tts_voices = {}
+        try:
+            listing = subprocess.run(["say", "-v", "?"], capture_output=True, text=True, timeout=10).stdout
+        except (OSError, subprocess.SubprocessError):
+            listing = ""
+        voices = [m.groups() for m in re.finditer(r"^(.+?)\s+([a-z]{2}_[A-Z]{2})\s+#", listing, re.M)]
+        for locale in TTS_LOCALES.values():
+            names = [n.strip() for n, loc in voices if loc == locale and not TTS_NOVELTY.match(n.strip())]
+            ranked = sorted(names, key=lambda n: (not re.search("Premium", n), not re.search("Enhanced", n), not TTS_PREFERRED.search(n)))
+            if ranked:
+                _tts_voices[locale] = ranked[0]
+    locale = TTS_LOCALES.get(language_key(language), "en_US")
+    return _tts_voices.get(locale)
+
+
+def tts_file(text, language):
+    text = " ".join(str(text or "").split())[:500]
+    voice = tts_voice(language)
+    if not text or not voice:
+        return None
+    TTS_DIR.mkdir(exist_ok=True)
+    target = TTS_DIR / (hashlib.sha1(f"{voice}\n{text}".encode("utf-8")).hexdigest() + ".m4a")
+    if not target.exists():
+        tmp = target.with_suffix(".tmp.m4a")
+        subprocess.run(["say", "-v", voice, "--file-format=m4af", "--data-format=aac", "-o", str(tmp), "--", text],
+                       check=True, capture_output=True, timeout=30)
+        tmp.replace(target)
+    return target
+
+
 class Handler(SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT), **kwargs)
@@ -358,6 +409,22 @@ class Handler(SimpleHTTPRequestHandler):
                 rows = db.execute("SELECT terms FROM cards").fetchall()
             langs = sorted({lang for row in rows for lang in json.loads(row[0])}, key=str.casefold)
             return self.send_json({"languages": langs})
+        if path == "/api/tts":
+            query = parse_qs(urlparse(self.path).query)
+            try:
+                audio = tts_file(query.get("text", [""])[0], query.get("lang", ["English"])[0])
+            except (OSError, subprocess.SubprocessError):
+                audio = None
+            if not audio:
+                return self.send_json({"error": "Áudio indisponível"}, 404)
+            data = audio.read_bytes()
+            self.send_response(200)
+            self.send_header("Content-Type", "audio/mp4")
+            self.send_header("Content-Length", str(len(data)))
+            self.send_header("Cache-Control", "max-age=31536000")
+            self.end_headers()
+            self.wfile.write(data)
+            return None
         if path == "/api/backup":
             with connect() as db:
                 rows = db.execute("SELECT * FROM cards ORDER BY id").fetchall()
