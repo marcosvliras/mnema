@@ -7,6 +7,7 @@ import json
 import os
 import re
 import shutil
+import socket
 import sqlite3
 import subprocess
 import sys
@@ -16,6 +17,7 @@ import webbrowser
 from datetime import datetime, timezone
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
+from socketserver import TCPServer
 from urllib.parse import parse_qs, urlparse
 
 ROOT = Path(__file__).resolve().parent
@@ -637,9 +639,26 @@ class Handler(SimpleHTTPRequestHandler):
             return self.send_json({"error": str(exc)}, 400)
 
 
+class LocalHTTPServer(ThreadingHTTPServer):
+    # Windows SO_REUSEADDR can let a second app take the same listening port.
+    allow_reuse_address = os.name != "nt"
+    allow_reuse_port = False
+
+    def server_bind(self):
+        if os.name == "nt" and hasattr(socket, "SO_EXCLUSIVEADDRUSE"):
+            self.socket.setsockopt(socket.SOL_SOCKET, socket.SO_EXCLUSIVEADDRUSE, 1)
+        TCPServer.server_bind(self)
+        # HTTPServer normally does reverse DNS here. A local app does not need it,
+        # and a slow/unavailable resolver must not delay startup.
+        self.server_name = self.server_address[0]
+        self.server_port = self.server_address[1]
+
+
 def main():
+    print("Loading local collections...", flush=True)
     init_db()
-    server = ThreadingHTTPServer((HOST, PORT), Handler)
+    print("Starting local server...", flush=True)
+    server = LocalHTTPServer((HOST, PORT), Handler)
     browser_host = "127.0.0.1" if HOST == "0.0.0.0" else HOST
     url = f"http://{browser_host}:{server.server_port}"
     print(f"Mnema: {url}\nDatabase: {DB_PATH}\nPress Ctrl+C to stop.", flush=True)

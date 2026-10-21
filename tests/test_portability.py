@@ -1,5 +1,6 @@
 """Exercise a fresh distribution without using the maintainer's database or server."""
 import hashlib
+import importlib.util
 import json
 import os
 from pathlib import Path
@@ -10,6 +11,7 @@ import sys
 import tempfile
 import time
 import unittest
+from unittest import mock
 import urllib.error
 import urllib.request
 
@@ -91,6 +93,14 @@ class PortabilityTests(unittest.TestCase):
         actual = {(c["name"], d["name"]): d["count"] for c in self.get_json("/api/structure")["contexts"] for d in c["decks"]}
         for deck, count in expected.items():
             self.assertEqual(actual.get(deck), count, deck)
+
+    def test_server_startup_does_not_require_dns(self):
+        spec = importlib.util.spec_from_file_location("mnema_server_test", self.root / "server.py")
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        with mock.patch("socket.getfqdn", side_effect=AssertionError("DNS unavailable")):
+            with module.LocalHTTPServer(("127.0.0.1", 0), module.Handler) as server:
+                self.assertGreater(server.server_port, 0)
 
     def test_fresh_import_retains_all_cards_images_and_review_progress(self):
         actual = self.get_json("/api/cards")["cards"]
