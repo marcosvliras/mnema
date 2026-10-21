@@ -4,6 +4,28 @@ A personal space for learning languages with flashcards, organized and updated b
 
 The name comes from *Mnemosyne*, the Greek figure associated with memory and the origin of the word “mnemonic.” Mnema helps you keep new words in mind and recall them when you need them.
 
+## Run on your computer
+
+Download and extract the **whole repository**, or clone it with Git. You need **Python 3.11+ with SQLite** and a current browser. There are no pip/npm packages or build steps. Styles, fonts, and the included images are bundled.
+
+On **macOS/Linux**, open a terminal in the project folder:
+
+```sh
+python3 start.py --check
+python3 start.py
+```
+
+On **Windows**, use PowerShell or Command Prompt in the project folder:
+
+```powershell
+py -3 start.py --check
+py -3 start.py
+```
+
+If Windows provides `python` instead of `py`, use `python start.py`. The app opens at **http://127.0.0.1:8765**; keep the terminal running. Do not open `index.html` directly or use a generic static server.
+
+See [SETUP.md](SETUP.md) for Python installation, ZIP downloads, alternative commands, audio support, and troubleshooting. To let an AI agent do the setup, give it this repository URL and ask it to read `AGENTS.md` and `.agents/skills/mnema-setup/SKILL.md`.
+
 ## How to use it
 
 You do not need to configure folders, edit files, or understand how cards are stored. Talk to an AI agent: ask it to set up Mnema on this computer, organize your studies, find words, and open the app for you.
@@ -50,4 +72,4 @@ Mnema stores your decks as JSON files in the repository's `data/` folder. Review
 
 ## For AI agents
 
-Instructions for setting up, starting, and updating Mnema are in [AGENTS.md](AGENTS.md). The data format is documented in [IMPORT_FORMAT.md](IMPORT_FORMAT.md). Users do not need to read these guides or handle the files themselves.
+Start with [AGENTS.md](AGENTS.md) and the included [mnema-setup skill](.agents/skills/mnema-setup/SKILL.md). Installation commands and troubleshooting are in [SETUP.md](SETUP.md). The data format is documented in [IMPORT_FORMAT.md](IMPORT_FORMAT.md).

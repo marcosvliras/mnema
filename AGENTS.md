@@ -2,6 +2,13 @@
 
 Mnema is agent-first: collect and curate flashcards in JSON files. Do not populate cards through the app UI or browser. Use a browser only to read a requested source when its content is not otherwise available.
 
+## Setup, launch, and troubleshooting
+
+- For a new computer or startup/interface problem, read [SETUP.md](SETUP.md) and the repository's [mnema-setup skill](.agents/skills/mnema-setup/SKILL.md). The skill is included for other agents to read directly, even without automatic skill discovery.
+- Require Python 3.11+ with SQLite and a current browser. No pip/npm dependencies or build step are needed. Keep the whole checkout, including local fonts in `assets/` and collection images in `data/`.
+- Validate with `python3 start.py --check`, then launch `python3 start.py` (Windows: `py -3 start.py` or `python start.py`). Use the printed HTTP URL and keep the server process alive. Do not open the HTML directly or start a generic static server.
+- Check `/api/health`, API data, and static assets through HTTP. Diagnose the running checkout, port, missing files, cache, and theme before changing the interface. Preserve existing collections and review progress throughout setup.
+
 ## Before changing cards
 
 - Read this file and the relevant files in `data/`.

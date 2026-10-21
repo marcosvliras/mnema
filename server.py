@@ -6,8 +6,10 @@ import hashlib
 import json
 import os
 import re
+import shutil
 import sqlite3
 import subprocess
+import sys
 import threading
 import unicodedata
 import webbrowser
@@ -330,6 +332,8 @@ def language_key(value):
 def tts_voice(language):
     """Best installed macOS voice for a language (premium/enhanced first, novelty voices skipped)."""
     global _tts_voices
+    if not native_tts_available():
+        return None
     if _tts_voices is None:
         _tts_voices = {}
         try:
@@ -344,6 +348,10 @@ def tts_voice(language):
                 _tts_voices[locale] = ranked[0]
     locale = TTS_LOCALES.get(language_key(language), "en_US")
     return _tts_voices.get(locale)
+
+
+def native_tts_available():
+    return sys.platform == "darwin" and shutil.which("say") is not None
 
 
 def tts_file(text, language):
@@ -362,11 +370,21 @@ def tts_file(text, language):
 
 
 class Handler(SimpleHTTPRequestHandler):
+    extensions_map = {**SimpleHTTPRequestHandler.extensions_map,
+                      ".svg": "image/svg+xml", ".ttf": "font/ttf",
+                      ".css": "text/css", ".js": "text/javascript"}
+
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=str(ROOT), **kwargs)
 
     def log_message(self, fmt, *args):
         print(f"[{self.log_date_time_string()}] {fmt % args}")
+
+    def end_headers(self):
+        # Revalidate local UI assets after a git pull, including unchanged URLs.
+        if not any(header.lower().startswith(b"cache-control:") for header in self._headers_buffer):
+            self.send_header("Cache-Control", "no-cache")
+        super().end_headers()
 
     def send_json(self, payload, status=200):
         data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
@@ -385,6 +403,8 @@ class Handler(SimpleHTTPRequestHandler):
 
     def do_GET(self):
         path = urlparse(self.path).path
+        if path == "/api/health":
+            return self.send_json({"app": "mnema", "status": "ok", "native_tts": native_tts_available()})
         if path == "/api/cards":
             sync_file_collections()
             query = parse_qs(urlparse(self.path).query)
@@ -620,8 +640,9 @@ class Handler(SimpleHTTPRequestHandler):
 def main():
     init_db()
     server = ThreadingHTTPServer((HOST, PORT), Handler)
-    url = f"http://{HOST}:{PORT}"
-    print(f"Flashcards rodando em {url}\nBanco local: {DB_PATH}\nPressione Ctrl+C para encerrar.")
+    browser_host = "127.0.0.1" if HOST == "0.0.0.0" else HOST
+    url = f"http://{browser_host}:{server.server_port}"
+    print(f"Mnema: {url}\nDatabase: {DB_PATH}\nPress Ctrl+C to stop.", flush=True)
     if os.environ.get("FLASHCARDS_NO_BROWSER") != "1":
         threading.Timer(0.7, lambda: webbrowser.open(url)).start()
     try:

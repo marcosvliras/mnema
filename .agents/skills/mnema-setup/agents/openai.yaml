@@ -1,0 +1,4 @@
+interface:
+  display_name: "Mnema Setup"
+  short_description: "Install and run Mnema on another computer"
+  default_prompt: "Use $mnema-setup to validate this checkout and start Mnema on this computer."
