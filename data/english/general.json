@@ -678,11 +678,11 @@
       "part_of_speech": "adjective",
       "meaning": "Painful, especially from overuse or injury.",
       "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
+      "review_streak": 1,
+      "review_correct": 1,
+      "review_total": 1,
+      "due_at": "2026-10-21T23:21:51.651345+00:00",
+      "last_reviewed_at": "2026-10-20T23:21:51.651345+00:00",
       "pronunciation": "/sɔr/"
     },
     {
@@ -1550,9 +1550,9 @@
       "source": "Preply",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
+      "review_total": 1,
+      "due_at": "2026-10-19T23:59:31.759547+00:00",
+      "last_reviewed_at": "2026-10-19T23:49:31.759547+00:00",
       "pronunciation": "/ˌɛkspərˈtiz/"
     },
     {
@@ -2070,33 +2070,6 @@
     },
     {
       "terms": {
-        "English": "get together",
-        "Portuguese": "se reunir; se encontrar"
-      },
-      "examples": {
-        "English": [
-          "We should get together for coffee next week.",
-          "The cousins get together every summer.",
-          "They got together to plan the neighborhood party."
-        ],
-        "Portuguese": [
-          "A gente devia se encontrar para um café semana que vem.",
-          "Os primos se reúnem todo verão.",
-          "Eles se reuniram para planejar a festa do bairro."
-        ]
-      },
-      "part_of_speech": "phrasal verb",
-      "meaning": "To meet socially or to work on something together.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˌɡɛt təˈɡɛðər/"
-    },
-    {
-      "terms": {
         "English": "sweat",
         "Portuguese": "suar; suor"
       },
@@ -2308,9 +2281,9 @@
       "source": "Preply",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
+      "review_total": 1,
+      "due_at": "2026-10-20T23:28:38.287602+00:00",
+      "last_reviewed_at": "2026-10-20T23:18:38.287602+00:00",
       "pronunciation": "/dʒæmz/",
       "image": "data/english/images/general/jams.svg"
     },
@@ -2939,33 +2912,6 @@
       "due_at": "2026-10-18T21:43:57.174271+00:00",
       "last_reviewed_at": "",
       "pronunciation": "/ˈɡæðər/"
-    },
-    {
-      "terms": {
-        "English": "hold back",
-        "Portuguese": "segurar; conter; impedir"
-      },
-      "examples": {
-        "English": [
-          "Fear held him back from applying for the job.",
-          "The dam holds back the river during heavy rain.",
-          "She tried to hold back her laughter."
-        ],
-        "Portuguese": [
-          "O medo o impediu de se candidatar à vaga.",
-          "A barragem contém o rio durante chuvas fortes.",
-          "Ela tentou segurar o riso."
-        ]
-      },
-      "part_of_speech": "phrasal verb",
-      "meaning": "To stop someone or something from moving forward or being expressed.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˌhoʊld ˈbæk/"
     },
     {
       "terms": {
@@ -3973,33 +3919,6 @@
     },
     {
       "terms": {
-        "English": "grow out of",
-        "Portuguese": "perder (com o tempo); deixar de usar/fazer ao crescer"
-      },
-      "examples": {
-        "English": [
-          "Most children grow out of their old shoes quickly.",
-          "She hopes he will grow out of that habit.",
-          "I grew out of playing with toy cars years ago."
-        ],
-        "Portuguese": [
-          "A maioria das crianças perde os sapatos antigos rapidinho.",
-          "Ela espera que ele largue esse hábito com o tempo.",
-          "Deixei de brincar com carrinhos há anos."
-        ]
-      },
-      "part_of_speech": "phrasal verb",
-      "meaning": "To become too big for something, or to stop doing something as you get older.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 1,
-      "due_at": "2026-10-19T00:30:14.433613+00:00",
-      "last_reviewed_at": "2026-10-19T00:20:14.433613+00:00",
-      "pronunciation": "/ˌɡroʊ ˈaʊt əv/"
-    },
-    {
-      "terms": {
         "English": "fault",
         "Portuguese": "culpa; defeito; falha"
       },
@@ -4616,9 +4535,9 @@
       "source": "Preply",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 1,
-      "due_at": "2026-10-19T00:35:56.991312+00:00",
-      "last_reviewed_at": "2026-10-19T00:25:56.991312+00:00",
+      "review_total": 2,
+      "due_at": "2026-10-20T23:41:36.130489+00:00",
+      "last_reviewed_at": "2026-10-20T23:31:36.130489+00:00",
       "pronunciation": "/ˌoʊvərˈwɛlmd/"
     },
     {
@@ -6538,33 +6457,6 @@
     },
     {
       "terms": {
-        "English": "left off",
-        "Portuguese": "parou (em um ponto); deixou de fora"
-      },
-      "examples": {
-        "English": [
-          "We left off at chapter five and will continue tomorrow.",
-          "The list left off the names of two new employees.",
-          "She picked up the conversation where they had left off."
-        ],
-        "Portuguese": [
-          "Paramos no capítulo cinco e vamos continuar amanhã.",
-          "A lista deixou de fora os nomes de dois novos funcionários.",
-          "Ela retomou a conversa de onde tinham parado."
-        ]
-      },
-      "part_of_speech": "phrasal verb (past)",
-      "meaning": "Stopped at a certain point; also omitted from a list.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˌlɛft ˈɔf/"
-    },
-    {
-      "terms": {
         "English": "spacious",
         "Portuguese": "espaçoso; amplo"
       },
@@ -6617,60 +6509,6 @@
       "last_reviewed_at": "",
       "pronunciation": "/ˈfɝnɪtʃər/",
       "image": "data/english/images/general/furniture.svg"
-    },
-    {
-      "terms": {
-        "English": "keep up",
-        "Portuguese": "acompanhar; manter"
-      },
-      "examples": {
-        "English": [
-          "It's hard to keep up when everyone speaks so quickly.",
-          "She walks fast, but I can keep up with her.",
-          "We need to keep up our practice every day."
-        ],
-        "Portuguese": [
-          "É difícil acompanhar quando todo mundo fala tão rápido.",
-          "Ela anda rápido, mas consigo acompanhá-la.",
-          "Precisamos manter a prática todos os dias."
-        ]
-      },
-      "part_of_speech": "phrasal verb",
-      "meaning": "To move or progress at the same speed as others; to continue doing something.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˌkip ˈʌp/"
-    },
-    {
-      "terms": {
-        "English": "zoned out",
-        "Portuguese": "viajou; se desligou; ficou aéreo"
-      },
-      "examples": {
-        "English": [
-          "I zoned out during the long lecture and missed the instructions.",
-          "He looked tired and zoned out on the bus.",
-          "Sorry, I zoned out for a moment—could you repeat that?"
-        ],
-        "Portuguese": [
-          "Eu me desliguei durante a aula longa e perdi as instruções.",
-          "Ele parecia cansado e aéreo no ônibus.",
-          "Desculpa, viajei por um instante — pode repetir?"
-        ]
-      },
-      "part_of_speech": "phrasal verb (past)",
-      "meaning": "Stopped paying attention, often because of tiredness or boredom.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˌzoʊnd ˈaʊt/"
     },
     {
       "terms": {
@@ -6808,33 +6646,6 @@
       "due_at": "2026-10-18T21:43:57.174271+00:00",
       "last_reviewed_at": "",
       "pronunciation": "/ˌdɪsəˈbɪlətiz/"
-    },
-    {
-      "terms": {
-        "English": "cheers me up",
-        "Portuguese": "me anima; me alegra"
-      },
-      "examples": {
-        "English": [
-          "A call from my sister always cheers me up.",
-          "This cheerful music cheers me up when I'm tired.",
-          "Knowing the weekend is near cheers me up."
-        ],
-        "Portuguese": [
-          "Uma ligação da minha irmã sempre me anima.",
-          "Esta música alegre me anima quando estou cansado.",
-          "Saber que o fim de semana está chegando me alegra."
-        ]
-      },
-      "part_of_speech": "phrasal verb",
-      "meaning": "Makes me feel happier.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˈtʃɪrz mi ˌʌp/"
     },
     {
       "terms": {
@@ -7166,33 +6977,6 @@
     },
     {
       "terms": {
-        "English": "take part in",
-        "Portuguese": "participar de"
-      },
-      "examples": {
-        "English": [
-          "Would you like to take part in the discussion?",
-          "More than a hundred runners will take part in the race.",
-          "She decided to take part in a volunteer project."
-        ],
-        "Portuguese": [
-          "Você gostaria de participar da discussão?",
-          "Mais de cem corredores vão participar da corrida.",
-          "Ela decidiu participar de um projeto voluntário."
-        ]
-      },
-      "part_of_speech": "phrasal verb",
-      "meaning": "To be involved in an activity.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˌteɪk ˈpɑrt ɪn/"
-    },
-    {
-      "terms": {
         "English": "swindle",
         "Portuguese": "enganar; aplicar um golpe; trapacear"
       },
@@ -7354,60 +7138,6 @@
       "last_reviewed_at": "",
       "pronunciation": "/drɔrz/",
       "image": "data/english/images/general/drawers.svg"
-    },
-    {
-      "terms": {
-        "English": "keep up with",
-        "Portuguese": "acompanhar; manter-se atualizado com"
-      },
-      "examples": {
-        "English": [
-          "I read the news to keep up with current events.",
-          "He struggles to keep up with the latest software updates.",
-          "She walks quickly, and I have to keep up with her."
-        ],
-        "Portuguese": [
-          "Leio as notícias para acompanhar o que está acontecendo.",
-          "Ele tem dificuldade para acompanhar as atualizações de software mais recentes.",
-          "Ela anda rápido, e eu tenho que acompanhar o passo dela."
-        ]
-      },
-      "part_of_speech": "phrasal verb",
-      "meaning": "To stay informed about something; to move at the same speed as someone.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˌkip ˈʌp wɪð/"
-    },
-    {
-      "terms": {
-        "English": "take up",
-        "Portuguese": "começar (um hobby); ocupar (espaço)"
-      },
-      "examples": {
-        "English": [
-          "I want to take up swimming this year.",
-          "The new sofa takes up too much space.",
-          "She decided to take up painting after retirement."
-        ],
-        "Portuguese": [
-          "Quero começar a nadar este ano.",
-          "O sofá novo ocupa espaço demais.",
-          "Ela decidiu começar a pintar depois de se aposentar."
-        ]
-      },
-      "part_of_speech": "phrasal verb",
-      "meaning": "To start a new activity; to fill an amount of space or time.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 1,
-      "due_at": "2026-10-19T00:36:13.878426+00:00",
-      "last_reviewed_at": "2026-10-19T00:26:13.878426+00:00",
-      "pronunciation": "/ˌteɪk ˈʌp/"
     },
     {
       "terms": {
@@ -7710,33 +7440,6 @@
     },
     {
       "terms": {
-        "English": "come across",
-        "Portuguese": "encontrar por acaso; passar a impressão de"
-      },
-      "examples": {
-        "English": [
-          "I came across an old photo while cleaning the attic.",
-          "He comes across as confident in interviews.",
-          "You may come across unfamiliar words in the article."
-        ],
-        "Portuguese": [
-          "Encontrei uma foto antiga por acaso enquanto limpava o sótão.",
-          "Ele passa uma imagem de confiança nas entrevistas.",
-          "Você pode se deparar com palavras desconhecidas no artigo."
-        ]
-      },
-      "part_of_speech": "phrasal verb",
-      "meaning": "To find something by chance; to seem a certain way to others.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˌkʌm əˈkrɔs/"
-    },
-    {
-      "terms": {
         "English": "tactful",
         "Portuguese": "diplomático; discreto; com tato"
       },
@@ -7865,9 +7568,9 @@
       "source": "Preply",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
+      "review_total": 1,
+      "due_at": "2026-10-20T23:19:57.673987+00:00",
+      "last_reviewed_at": "2026-10-20T23:09:57.673987+00:00",
       "pronunciation": "/ˈvɝtʃu/"
     },
     {
@@ -7926,33 +7629,6 @@
     },
     {
       "terms": {
-        "English": "drop out",
-        "Portuguese": "abandonar; desistir; largar"
-      },
-      "examples": {
-        "English": [
-          "She decided to drop out of the course.",
-          "He had to drop out of the race because of an injury.",
-          "Many students drop out when they lack support."
-        ],
-        "Portuguese": [
-          "Ela decidiu largar o curso.",
-          "Ele teve que abandonar a corrida por causa de uma lesão.",
-          "Muitos alunos desistem quando não têm apoio."
-        ]
-      },
-      "part_of_speech": "phrasal verb",
-      "meaning": "To stop taking part in a course, race, or activity before finishing.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˌdrɑp ˈaʊt/"
-    },
-    {
-      "terms": {
         "English": "interest",
         "Portuguese": "interesse; juros"
       },
@@ -7998,11 +7674,11 @@
       "part_of_speech": "noun",
       "meaning": "The process of thinking logically to reach a conclusion.",
       "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
+      "review_streak": 1,
+      "review_correct": 1,
+      "review_total": 1,
+      "due_at": "2026-10-21T23:13:02.326677+00:00",
+      "last_reviewed_at": "2026-10-20T23:13:02.326677+00:00",
       "pronunciation": "/ˈrizənɪŋ/"
     },
     {
@@ -9188,11 +8864,11 @@
       "part_of_speech": "adjective",
       "meaning": "Extremely pleased and excited.",
       "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
+      "review_streak": 1,
+      "review_correct": 1,
+      "review_total": 1,
+      "due_at": "2026-10-21T23:23:27.410671+00:00",
+      "last_reviewed_at": "2026-10-20T23:23:27.410671+00:00",
       "pronunciation": "/θrɪld/"
     },
     {
@@ -9706,9 +9382,9 @@
       "source": "Preply",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
+      "review_total": 1,
+      "due_at": "2026-10-20T23:39:33.388924+00:00",
+      "last_reviewed_at": "2026-10-20T23:29:33.388924+00:00",
       "pronunciation": "/ˈpɪti/"
     },
     {
@@ -9900,33 +9576,6 @@
       "due_at": "2026-10-18T21:43:57.174271+00:00",
       "last_reviewed_at": "",
       "pronunciation": "/ˈdoʊpəˌmin/"
-    },
-    {
-      "terms": {
-        "English": "wind down",
-        "Portuguese": "relaxar; desacelerar; ir encerrando"
-      },
-      "examples": {
-        "English": [
-          "I like to read before bed to wind down.",
-          "The meeting began to wind down after an hour.",
-          "Let's wind down with some quiet music."
-        ],
-        "Portuguese": [
-          "Gosto de ler antes de dormir para relaxar.",
-          "A reunião começou a se encaminhar para o fim depois de uma hora.",
-          "Vamos relaxar com uma música tranquila."
-        ]
-      },
-      "part_of_speech": "phrasal verb",
-      "meaning": "To relax after activity; to gradually come to an end.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 1,
-      "due_at": "2026-10-19T00:36:08.087241+00:00",
-      "last_reviewed_at": "2026-10-19T00:26:08.087241+00:00",
-      "pronunciation": "/ˌwaɪnd ˈdaʊn/"
     },
     {
       "terms": {
@@ -10302,9 +9951,9 @@
       "source": "Preply",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 1,
-      "due_at": "2026-10-19T00:36:10.159190+00:00",
-      "last_reviewed_at": "2026-10-19T00:26:10.159190+00:00",
+      "review_total": 2,
+      "due_at": "2026-10-20T23:43:56.829058+00:00",
+      "last_reviewed_at": "2026-10-20T23:33:56.829058+00:00",
       "pronunciation": "/ˌæləˈkeɪʃən/"
     },
     {
@@ -10356,9 +10005,9 @@
       "source": "Preply",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 2,
-      "due_at": "2026-10-19T00:36:07.087734+00:00",
-      "last_reviewed_at": "2026-10-19T00:26:07.087734+00:00",
+      "review_total": 3,
+      "due_at": "2026-10-20T23:38:09.356213+00:00",
+      "last_reviewed_at": "2026-10-20T23:28:09.356213+00:00",
       "pronunciation": "/kənˈstreɪnts/"
     },
     {
@@ -10707,12 +10356,1132 @@
       "part_of_speech": "adjective",
       "meaning": "Giving attention to avoid harm or mistakes.",
       "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 1,
-      "review_total": 3,
-      "due_at": "2026-10-18T22:36:23.097299+00:00",
-      "last_reviewed_at": "2026-10-18T22:26:23.097299+00:00",
+      "review_streak": 1,
+      "review_correct": 2,
+      "review_total": 4,
+      "due_at": "2026-10-21T23:15:43.403270+00:00",
+      "last_reviewed_at": "2026-10-20T23:15:43.403270+00:00",
       "pronunciation": "/ˈkɛrfəl/"
+    },
+    {
+      "terms": {
+        "English": "halt",
+        "Portuguese": "parar; interromper"
+      },
+      "examples": {
+        "English": [
+          "The rain brought traffic to a halt."
+        ]
+      },
+      "part_of_speech": "verb",
+      "meaning": "To stop or bring something to a stop.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.053882+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/hɔːlt/"
+    },
+    {
+      "terms": {
+        "English": "stun",
+        "Portuguese": "atordoar; deixar atônito"
+      },
+      "examples": {
+        "English": [
+          "The unexpected result stunned everyone."
+        ]
+      },
+      "part_of_speech": "verb",
+      "meaning": "To shock or temporarily make someone unable to react.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.053898+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/stʌn/"
+    },
+    {
+      "terms": {
+        "English": "stun grenades",
+        "Portuguese": "granadas de efeito moral"
+      },
+      "examples": {
+        "English": [
+          "Police used stun grenades to disperse the crowd."
+        ]
+      },
+      "part_of_speech": "plural noun",
+      "meaning": "Grenades designed to disorient people with a loud bang and bright flash.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.053915+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈstʌn ɡrəˌneɪdz/"
+    },
+    {
+      "terms": {
+        "English": "swept",
+        "Portuguese": "varreu; levado (pelo vento/correnteza)"
+      },
+      "examples": {
+        "English": [
+          "The strong wind swept leaves across the yard."
+        ]
+      },
+      "part_of_speech": "verb (past)",
+      "meaning": "Moved quickly and forcefully across or away.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.053928+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/swɛpt/"
+    },
+    {
+      "terms": {
+        "English": "shut",
+        "Portuguese": "fechar; fechado"
+      },
+      "examples": {
+        "English": [
+          "Please shut the window before you leave."
+        ]
+      },
+      "part_of_speech": "verb / adjective",
+      "meaning": "To close something; closed.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.053946+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ʃʌt/"
+    },
+    {
+      "terms": {
+        "English": "disproportionate",
+        "Portuguese": "desproporcional"
+      },
+      "examples": {
+        "English": [
+          "The response seemed disproportionate to the mistake."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Too large or small in relation to something else.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.053961+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌdɪsprəˈpɔːrʃənət/"
+    },
+    {
+      "terms": {
+        "English": "proposals",
+        "Portuguese": "propostas"
+      },
+      "examples": {
+        "English": [
+          "The committee reviewed three proposals."
+        ]
+      },
+      "part_of_speech": "plural noun",
+      "meaning": "Plans or suggestions offered for consideration.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.053974+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/prəˈpoʊzəlz/"
+    },
+    {
+      "terms": {
+        "English": "further",
+        "Portuguese": "adicional; mais; promover"
+      },
+      "examples": {
+        "English": [
+          "We need to investigate the matter further."
+        ]
+      },
+      "part_of_speech": "adverb / adjective / verb",
+      "meaning": "To a greater degree or a more advanced point; additional.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.053986+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈfɝːðɚ/"
+    },
+    {
+      "terms": {
+        "English": "determine",
+        "Portuguese": "determinar; descobrir"
+      },
+      "examples": {
+        "English": [
+          "The test will determine whether the water is safe."
+        ]
+      },
+      "part_of_speech": "verb",
+      "meaning": "To establish something after considering evidence.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.053998+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/dɪˈtɝːmɪn/"
+    },
+    {
+      "terms": {
+        "English": "rumor",
+        "Portuguese": "boato; rumor"
+      },
+      "examples": {
+        "English": [
+          "A rumor about the store closing spread quickly."
+        ]
+      },
+      "part_of_speech": "noun",
+      "meaning": "An unverified story or piece of information.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054011+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈruːmɚ/"
+    },
+    {
+      "terms": {
+        "English": "assumptions",
+        "Portuguese": "suposições"
+      },
+      "examples": {
+        "English": [
+          "We should check our assumptions before deciding."
+        ]
+      },
+      "part_of_speech": "plural noun",
+      "meaning": "Things accepted as true without proof.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054028+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/əˈsʌmpʃənz/"
+    },
+    {
+      "terms": {
+        "English": "long-lasting",
+        "Portuguese": "duradouro"
+      },
+      "examples": {
+        "English": [
+          "They built a long-lasting friendship."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Continuing for a long time.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054041+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌlɔːŋ ˈlæstɪŋ/"
+    },
+    {
+      "terms": {
+        "English": "discredited",
+        "Portuguese": "desacreditado; desmentido"
+      },
+      "examples": {
+        "English": [
+          "The report was discredited by new evidence."
+        ]
+      },
+      "part_of_speech": "adjective / verb (past participle)",
+      "meaning": "Shown to be untrustworthy or false.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054053+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/dɪˈskrɛdɪtɪd/"
+    },
+    {
+      "terms": {
+        "English": "rarely",
+        "Portuguese": "raramente"
+      },
+      "examples": {
+        "English": [
+          "She rarely eats dessert."
+        ]
+      },
+      "part_of_speech": "adverb",
+      "meaning": "Not often.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054066+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈrɛrli/"
+    },
+    {
+      "terms": {
+        "English": "foraging",
+        "Portuguese": "procurando alimento; forrageando"
+      },
+      "examples": {
+        "English": [
+          "The birds were foraging for seeds."
+        ]
+      },
+      "part_of_speech": "verb (present participle) / noun",
+      "meaning": "Searching for food, especially in nature.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054079+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈfɔːrɪdʒɪŋ/"
+    },
+    {
+      "terms": {
+        "English": "signal",
+        "Portuguese": "sinal; sinalizar"
+      },
+      "examples": {
+        "English": [
+          "She raised her hand to signal that she was ready."
+        ]
+      },
+      "part_of_speech": "noun / verb",
+      "meaning": "A sign, sound, or action that communicates information.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054093+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈsɪɡnəl/"
+    },
+    {
+      "terms": {
+        "English": "underrated",
+        "Portuguese": "subestimado"
+      },
+      "examples": {
+        "English": [
+          "This small café is an underrated place for lunch."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not valued or recognized as highly as it deserves.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054105+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌʌndɚˈreɪtɪd/"
+    },
+    {
+      "terms": {
+        "English": "embrace",
+        "Portuguese": "abraçar; adotar"
+      },
+      "examples": {
+        "English": [
+          "The company decided to embrace new technology."
+        ]
+      },
+      "part_of_speech": "verb / noun",
+      "meaning": "To accept an idea or change willingly; to hold someone closely.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054118+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɪmˈbreɪs/"
+    },
+    {
+      "terms": {
+        "English": "homemade",
+        "Portuguese": "caseiro; feito em casa"
+      },
+      "examples": {
+        "English": [
+          "We had homemade soup for dinner."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Made at home rather than commercially.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054130+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌhoʊmˈmeɪd/"
+    },
+    {
+      "terms": {
+        "English": "tin",
+        "Portuguese": "lata; estanho"
+      },
+      "examples": {
+        "English": [
+          "She opened a tin of tomatoes."
+        ]
+      },
+      "part_of_speech": "noun",
+      "meaning": "A light metal; a container made from it.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054148+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/tɪn/"
+    },
+    {
+      "terms": {
+        "English": "pie",
+        "Portuguese": "torta"
+      },
+      "examples": {
+        "English": [
+          "He baked an apple pie for the party."
+        ]
+      },
+      "part_of_speech": "noun",
+      "meaning": "A baked dish with a pastry crust and a sweet or savory filling.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054161+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/paɪ/"
+    },
+    {
+      "terms": {
+        "English": "cake",
+        "Portuguese": "bolo"
+      },
+      "examples": {
+        "English": [
+          "We had chocolate cake after dinner."
+        ]
+      },
+      "part_of_speech": "noun",
+      "meaning": "A sweet baked food, usually served in slices.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054173+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/keɪk/"
+    },
+    {
+      "terms": {
+        "English": "sweet and sour sauce",
+        "Portuguese": "molho agridoce"
+      },
+      "examples": {
+        "English": [
+          "I ordered chicken with sweet and sour sauce."
+        ]
+      },
+      "part_of_speech": "noun phrase",
+      "meaning": "A sauce combining sweet and acidic flavors.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054186+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌswiːt ən ˈsaʊɚ sɔːs/"
+    },
+    {
+      "terms": {
+        "English": "shrimp",
+        "Portuguese": "camarão"
+      },
+      "examples": {
+        "English": [
+          "We grilled shrimp with garlic and lemon."
+        ]
+      },
+      "part_of_speech": "noun",
+      "meaning": "A small edible shellfish.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054213+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ʃrɪmp/"
+    },
+    {
+      "terms": {
+        "English": "formidable",
+        "Portuguese": "formidável; impressionante"
+      },
+      "examples": {
+        "English": [
+          "They faced a formidable opponent in the final."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Inspiring respect or fear because of great size, strength, or difficulty.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054240+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈfɔːrmɪdəbəl/"
+    },
+    {
+      "terms": {
+        "English": "threat",
+        "Portuguese": "ameaça"
+      },
+      "examples": {
+        "English": [
+          "The storm posed a serious threat to the coast."
+        ]
+      },
+      "part_of_speech": "noun",
+      "meaning": "A statement or sign that harm or danger may happen.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054265+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/θrɛt/"
+    },
+    {
+      "terms": {
+        "English": "threaten",
+        "Portuguese": "ameaçar"
+      },
+      "examples": {
+        "English": [
+          "The dark clouds threatened to bring more rain."
+        ]
+      },
+      "part_of_speech": "verb",
+      "meaning": "To express an intention to cause harm or trouble.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054281+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈθrɛtən/"
+    },
+    {
+      "terms": {
+        "English": "harm (harming)",
+        "Portuguese": "prejudicar; causar dano"
+      },
+      "examples": {
+        "English": [
+          "Too much sun can harm your skin."
+        ]
+      },
+      "part_of_speech": "noun / verb",
+      "meaning": "To cause injury, damage, or a negative effect.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054304+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/hɑːrm/"
+    },
+    {
+      "terms": {
+        "English": "brave",
+        "Portuguese": "corajoso; enfrentar"
+      },
+      "examples": {
+        "English": [
+          "The brave firefighter entered the building."
+        ]
+      },
+      "part_of_speech": "adjective / verb",
+      "meaning": "Showing courage in a difficult or dangerous situation.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054318+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/breɪv/"
+    },
+    {
+      "terms": {
+        "English": "rare",
+        "Portuguese": "raro"
+      },
+      "examples": {
+        "English": [
+          "It is rare to see snow in this region."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not common or occurring infrequently.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054331+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/rɛr/"
+    },
+    {
+      "terms": {
+        "English": "extreme",
+        "Portuguese": "extremo; extremo(a)"
+      },
+      "examples": {
+        "English": [
+          "The hikers were unprepared for the extreme heat."
+        ]
+      },
+      "part_of_speech": "adjective / noun",
+      "meaning": "Very great in degree or intensity; the greatest possible degree.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054344+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɪkˈstriːm/"
+    },
+    {
+      "terms": {
+        "English": "launch",
+        "Portuguese": "lançar; inaugurar"
+      },
+      "examples": {
+        "English": [
+          "The company will launch its new app next month."
+        ]
+      },
+      "part_of_speech": "verb / noun",
+      "meaning": "To start or introduce something, or send it into motion.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054357+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/lɔːntʃ/"
+    },
+    {
+      "terms": {
+        "English": "advertising",
+        "Portuguese": "publicidade; propaganda"
+      },
+      "examples": {
+        "English": [
+          "The company spends a lot on online advertising."
+        ]
+      },
+      "part_of_speech": "noun",
+      "meaning": "The activity of promoting products or services.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054378+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈædvɚˌtaɪzɪŋ/"
+    },
+    {
+      "terms": {
+        "English": "perceive",
+        "Portuguese": "perceber; compreender"
+      },
+      "examples": {
+        "English": [
+          "People may perceive the same situation differently."
+        ]
+      },
+      "part_of_speech": "verb",
+      "meaning": "To notice or understand something through the senses or thought.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054391+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/pɚˈsiːv/"
+    },
+    {
+      "terms": {
+        "English": "obvious",
+        "Portuguese": "óbvio; evidente"
+      },
+      "examples": {
+        "English": [
+          "It was obvious that he was tired."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Easy to notice or understand.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054404+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈɑːbviəs/"
+    },
+    {
+      "terms": {
+        "English": "detected",
+        "Portuguese": "detectado; percebeu"
+      },
+      "examples": {
+        "English": [
+          "The sensor detected movement near the door."
+        ]
+      },
+      "part_of_speech": "verb (past) / adjective",
+      "meaning": "Found or noticed, often by using a method or instrument.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054417+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/dɪˈtɛktɪd/"
+    },
+    {
+      "terms": {
+        "English": "scent",
+        "Portuguese": "cheiro; fragrância"
+      },
+      "examples": {
+        "English": [
+          "The scent of fresh bread filled the kitchen."
+        ]
+      },
+      "part_of_speech": "noun / verb",
+      "meaning": "A distinctive smell, especially a pleasant one.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054430+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/sɛnt/"
+    },
+    {
+      "terms": {
+        "English": "lingered",
+        "Portuguese": "permaneceu; persistiu"
+      },
+      "examples": {
+        "English": [
+          "The smell of smoke lingered in the room."
+        ]
+      },
+      "part_of_speech": "verb (past)",
+      "meaning": "Stayed longer than expected or continued to be present.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054443+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈlɪŋɡɚd/"
+    },
+    {
+      "terms": {
+        "English": "dig",
+        "Portuguese": "cavar; escavar"
+      },
+      "examples": {
+        "English": [
+          "They had to dig a hole for the new tree."
+        ]
+      },
+      "part_of_speech": "verb / noun",
+      "meaning": "To break up and move earth with a tool or hands.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054455+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/dɪɡ/"
+    },
+    {
+      "terms": {
+        "English": "dip",
+        "Portuguese": "mergulhar; dar uma caída"
+      },
+      "examples": {
+        "English": [
+          "Dip the vegetables in the sauce."
+        ]
+      },
+      "part_of_speech": "verb / noun",
+      "meaning": "To put something briefly into liquid or move downward.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054468+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/dɪp/"
+    },
+    {
+      "terms": {
+        "English": "shovels",
+        "Portuguese": "pás"
+      },
+      "examples": {
+        "English": [
+          "They used shovels to clear the snow."
+        ]
+      },
+      "part_of_speech": "plural noun / verb",
+      "meaning": "Tools with a broad blade used for digging or moving material.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054481+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈʃʌvəlz/"
+    },
+    {
+      "terms": {
+        "English": "praise",
+        "Portuguese": "elogiar; elogio"
+      },
+      "examples": {
+        "English": [
+          "The coach praised the team for its effort."
+        ]
+      },
+      "part_of_speech": "verb / noun",
+      "meaning": "To express approval or admiration.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054494+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/preɪz/"
+    },
+    {
+      "terms": {
+        "English": "unwilling",
+        "Portuguese": "relutante; sem vontade"
+      },
+      "examples": {
+        "English": [
+          "He was unwilling to share the details."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not wanting to do something.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054507+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ʌnˈwɪlɪŋ/"
+    },
+    {
+      "terms": {
+        "English": "willingness",
+        "Portuguese": "disposição; boa vontade"
+      },
+      "examples": {
+        "English": [
+          "Her willingness to help made a difference."
+        ]
+      },
+      "part_of_speech": "noun",
+      "meaning": "The state of being ready or prepared to do something.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054521+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈwɪlɪŋnəs/"
+    },
+    {
+      "terms": {
+        "English": "broad",
+        "Portuguese": "amplo; largo"
+      },
+      "examples": {
+        "English": [
+          "The course gives a broad overview of history."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Wide in extent or covering many areas.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054533+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/brɔːd/"
+    },
+    {
+      "terms": {
+        "English": "abroad",
+        "Portuguese": "no exterior; para o exterior"
+      },
+      "examples": {
+        "English": [
+          "He plans to study abroad next year."
+        ]
+      },
+      "part_of_speech": "adverb",
+      "meaning": "In or to a foreign country.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054546+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/əˈbrɔːd/"
+    },
+    {
+      "terms": {
+        "English": "broadly",
+        "Portuguese": "em termos gerais; amplamente"
+      },
+      "examples": {
+        "English": [
+          "The two proposals are broadly similar."
+        ]
+      },
+      "part_of_speech": "adverb",
+      "meaning": "In a general way or over a wide range.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054559+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈbrɔːdli/"
+    },
+    {
+      "terms": {
+        "English": "by chance",
+        "Portuguese": "por acaso"
+      },
+      "examples": {
+        "English": [
+          "I found the old photo by chance."
+        ]
+      },
+      "part_of_speech": "adverbial phrase",
+      "meaning": "Without planning or intention.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054571+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/baɪ tʃæns/"
+    },
+    {
+      "terms": {
+        "English": "garage",
+        "Portuguese": "garagem; oficina"
+      },
+      "examples": {
+        "English": [
+          "The car is parked in the garage."
+        ]
+      },
+      "part_of_speech": "noun",
+      "meaning": "A building or part of a building used to store or repair vehicles.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054584+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɡəˈrɑːʒ/"
+    },
+    {
+      "terms": {
+        "English": "profit",
+        "Portuguese": "lucro; lucrar"
+      },
+      "examples": {
+        "English": [
+          "The shop made a small profit last year."
+        ]
+      },
+      "part_of_speech": "noun / verb",
+      "meaning": "Money gained after costs are paid; to gain an advantage.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054596+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈprɑːfɪt/"
+    },
+    {
+      "terms": {
+        "English": "lacking something",
+        "Portuguese": "sem algo; com falta de algo"
+      },
+      "examples": {
+        "English": [
+          "The report is clear, but it is lacking specific examples."
+        ]
+      },
+      "part_of_speech": "phrase",
+      "meaning": "Not having or not containing something needed or expected.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054610+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈlækɪŋ ˈsʌmθɪŋ/"
+    },
+    {
+      "terms": {
+        "English": "to the best of your ability",
+        "Portuguese": "da melhor forma possível; o melhor que você puder"
+      },
+      "examples": {
+        "English": [
+          "Please complete the task to the best of your ability."
+        ]
+      },
+      "part_of_speech": "phrase",
+      "meaning": "As well as you are capable of doing something.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054624+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/tə ðə bɛst əv jɚ əˈbɪləti/"
+    },
+    {
+      "terms": {
+        "English": "above and beyond",
+        "Portuguese": "além do esperado; muito além"
+      },
+      "examples": {
+        "English": [
+          "The nurse went above and beyond to help us."
+        ]
+      },
+      "part_of_speech": "idiom",
+      "meaning": "More than what is required or expected.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054638+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/əˈbʌv ən bɪˈjɑːnd/"
+    },
+    {
+      "terms": {
+        "English": "went out of her way",
+        "Portuguese": "fez um esforço especial; fez de tudo"
+      },
+      "examples": {
+        "English": [
+          "She went out of her way to make us feel welcome."
+        ]
+      },
+      "part_of_speech": "idiom / verb phrase",
+      "meaning": "Made a special effort to do something for someone.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054651+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/wɛnt aʊt əv hɚ weɪ/"
+    },
+    {
+      "terms": {
+        "English": "stride",
+        "Portuguese": "passada larga; avançar a passos largos"
+      },
+      "examples": {
+        "English": [
+          "The project is moving ahead in stride."
+        ]
+      },
+      "part_of_speech": "noun / verb",
+      "meaning": "A long step, or to make progress confidently.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054665+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/straɪd/"
+    },
+    {
+      "terms": {
+        "English": "a few seconds shy of the record",
+        "Portuguese": "a poucos segundos do recorde"
+      },
+      "examples": {
+        "English": [
+          "She finished a few seconds shy of the record."
+        ]
+      },
+      "part_of_speech": "phrase",
+      "meaning": "Only a few seconds slower than a record time.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054678+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ə fjuː ˈsɛkəndz ʃaɪ əv ðə ˈrɛkɚd/"
     }
   ]
 }

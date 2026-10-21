@@ -1,0 +1,1877 @@
+{
+  "schema_version": 1,
+  "context": {
+    "name": "Inglês",
+    "learning_language": "English"
+  },
+  "deck": "Phrasal Verbs",
+  "source": "Lista fornecida pelo usuário",
+  "cards": [
+    {
+      "terms": {
+        "English": "get together",
+        "Portuguese": "se reunir; se encontrar"
+      },
+      "examples": {
+        "English": [
+          "We should get together for coffee next week.",
+          "The cousins get together every summer.",
+          "They got together to plan the neighborhood party."
+        ],
+        "Portuguese": [
+          "A gente devia se encontrar para um café semana que vem.",
+          "Os primos se reúnem todo verão.",
+          "Eles se reuniram para planejar a festa do bairro."
+        ]
+      },
+      "part_of_speech": "phrasal verb",
+      "meaning": "To meet socially or to work on something together.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌɡɛt təˈɡɛðər/"
+    },
+    {
+      "terms": {
+        "English": "hold back",
+        "Portuguese": "segurar; conter; impedir"
+      },
+      "examples": {
+        "English": [
+          "Fear held him back from applying for the job.",
+          "The dam holds back the river during heavy rain.",
+          "She tried to hold back her laughter."
+        ],
+        "Portuguese": [
+          "O medo o impediu de se candidatar à vaga.",
+          "A barragem contém o rio durante chuvas fortes.",
+          "Ela tentou segurar o riso."
+        ]
+      },
+      "part_of_speech": "phrasal verb",
+      "meaning": "To stop someone or something from moving forward or being expressed.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌhoʊld ˈbæk/"
+    },
+    {
+      "terms": {
+        "English": "grow out of",
+        "Portuguese": "perder (com o tempo); deixar de usar/fazer ao crescer"
+      },
+      "examples": {
+        "English": [
+          "Most children grow out of their old shoes quickly.",
+          "She hopes he will grow out of that habit.",
+          "I grew out of playing with toy cars years ago."
+        ],
+        "Portuguese": [
+          "A maioria das crianças perde os sapatos antigos rapidinho.",
+          "Ela espera que ele largue esse hábito com o tempo.",
+          "Deixei de brincar com carrinhos há anos."
+        ]
+      },
+      "part_of_speech": "phrasal verb",
+      "meaning": "To become too big for something, or to stop doing something as you get older.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-10-19T00:30:14.433613+00:00",
+      "last_reviewed_at": "2026-10-19T00:20:14.433613+00:00",
+      "pronunciation": "/ˌɡroʊ ˈaʊt əv/"
+    },
+    {
+      "terms": {
+        "English": "left off",
+        "Portuguese": "parou (em um ponto); deixou de fora"
+      },
+      "examples": {
+        "English": [
+          "We left off at chapter five and will continue tomorrow.",
+          "The list left off the names of two new employees.",
+          "She picked up the conversation where they had left off."
+        ],
+        "Portuguese": [
+          "Paramos no capítulo cinco e vamos continuar amanhã.",
+          "A lista deixou de fora os nomes de dois novos funcionários.",
+          "Ela retomou a conversa de onde tinham parado."
+        ]
+      },
+      "part_of_speech": "phrasal verb (past)",
+      "meaning": "Stopped at a certain point; also omitted from a list.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌlɛft ˈɔf/"
+    },
+    {
+      "terms": {
+        "English": "keep up",
+        "Portuguese": "acompanhar; manter"
+      },
+      "examples": {
+        "English": [
+          "It's hard to keep up when everyone speaks so quickly.",
+          "She walks fast, but I can keep up with her.",
+          "We need to keep up our practice every day."
+        ],
+        "Portuguese": [
+          "É difícil acompanhar quando todo mundo fala tão rápido.",
+          "Ela anda rápido, mas consigo acompanhá-la.",
+          "Precisamos manter a prática todos os dias."
+        ]
+      },
+      "part_of_speech": "phrasal verb",
+      "meaning": "To move or progress at the same speed as others; to continue doing something.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌkip ˈʌp/"
+    },
+    {
+      "terms": {
+        "English": "zoned out",
+        "Portuguese": "viajou; se desligou; ficou aéreo"
+      },
+      "examples": {
+        "English": [
+          "I zoned out during the long lecture and missed the instructions.",
+          "He looked tired and zoned out on the bus.",
+          "Sorry, I zoned out for a moment—could you repeat that?"
+        ],
+        "Portuguese": [
+          "Eu me desliguei durante a aula longa e perdi as instruções.",
+          "Ele parecia cansado e aéreo no ônibus.",
+          "Desculpa, viajei por um instante — pode repetir?"
+        ]
+      },
+      "part_of_speech": "phrasal verb (past)",
+      "meaning": "Stopped paying attention, often because of tiredness or boredom.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌzoʊnd ˈaʊt/"
+    },
+    {
+      "terms": {
+        "English": "cheers me up",
+        "Portuguese": "me anima; me alegra"
+      },
+      "examples": {
+        "English": [
+          "A call from my sister always cheers me up.",
+          "This cheerful music cheers me up when I'm tired.",
+          "Knowing the weekend is near cheers me up."
+        ],
+        "Portuguese": [
+          "Uma ligação da minha irmã sempre me anima.",
+          "Esta música alegre me anima quando estou cansado.",
+          "Saber que o fim de semana está chegando me alegra."
+        ]
+      },
+      "part_of_speech": "phrasal verb",
+      "meaning": "Makes me feel happier.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈtʃɪrz mi ˌʌp/"
+    },
+    {
+      "terms": {
+        "English": "take part in",
+        "Portuguese": "participar de"
+      },
+      "examples": {
+        "English": [
+          "Would you like to take part in the discussion?",
+          "More than a hundred runners will take part in the race.",
+          "She decided to take part in a volunteer project."
+        ],
+        "Portuguese": [
+          "Você gostaria de participar da discussão?",
+          "Mais de cem corredores vão participar da corrida.",
+          "Ela decidiu participar de um projeto voluntário."
+        ]
+      },
+      "part_of_speech": "phrasal verb",
+      "meaning": "To be involved in an activity.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌteɪk ˈpɑrt ɪn/"
+    },
+    {
+      "terms": {
+        "English": "keep up with",
+        "Portuguese": "acompanhar; manter-se atualizado com"
+      },
+      "examples": {
+        "English": [
+          "I read the news to keep up with current events.",
+          "He struggles to keep up with the latest software updates.",
+          "She walks quickly, and I have to keep up with her."
+        ],
+        "Portuguese": [
+          "Leio as notícias para acompanhar o que está acontecendo.",
+          "Ele tem dificuldade para acompanhar as atualizações de software mais recentes.",
+          "Ela anda rápido, e eu tenho que acompanhar o passo dela."
+        ]
+      },
+      "part_of_speech": "phrasal verb",
+      "meaning": "To stay informed about something; to move at the same speed as someone.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌkip ˈʌp wɪð/"
+    },
+    {
+      "terms": {
+        "English": "take up",
+        "Portuguese": "começar (um hobby); ocupar (espaço)"
+      },
+      "examples": {
+        "English": [
+          "I want to take up swimming this year.",
+          "The new sofa takes up too much space.",
+          "She decided to take up painting after retirement."
+        ],
+        "Portuguese": [
+          "Quero começar a nadar este ano.",
+          "O sofá novo ocupa espaço demais.",
+          "Ela decidiu começar a pintar depois de se aposentar."
+        ]
+      },
+      "part_of_speech": "phrasal verb",
+      "meaning": "To start a new activity; to fill an amount of space or time.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-10-19T00:36:13.878426+00:00",
+      "last_reviewed_at": "2026-10-19T00:26:13.878426+00:00",
+      "pronunciation": "/ˌteɪk ˈʌp/"
+    },
+    {
+      "terms": {
+        "English": "come across",
+        "Portuguese": "encontrar por acaso; passar a impressão de"
+      },
+      "examples": {
+        "English": [
+          "I came across an old photo while cleaning the attic.",
+          "He comes across as confident in interviews.",
+          "You may come across unfamiliar words in the article."
+        ],
+        "Portuguese": [
+          "Encontrei uma foto antiga por acaso enquanto limpava o sótão.",
+          "Ele passa uma imagem de confiança nas entrevistas.",
+          "Você pode se deparar com palavras desconhecidas no artigo."
+        ]
+      },
+      "part_of_speech": "phrasal verb",
+      "meaning": "To find something by chance; to seem a certain way to others.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌkʌm əˈkrɔs/"
+    },
+    {
+      "terms": {
+        "English": "drop out",
+        "Portuguese": "abandonar; desistir; largar"
+      },
+      "examples": {
+        "English": [
+          "She decided to drop out of the course.",
+          "He had to drop out of the race because of an injury.",
+          "Many students drop out when they lack support."
+        ],
+        "Portuguese": [
+          "Ela decidiu largar o curso.",
+          "Ele teve que abandonar a corrida por causa de uma lesão.",
+          "Muitos alunos desistem quando não têm apoio."
+        ]
+      },
+      "part_of_speech": "phrasal verb",
+      "meaning": "To stop taking part in a course, race, or activity before finishing.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌdrɑp ˈaʊt/"
+    },
+    {
+      "terms": {
+        "English": "wind down",
+        "Portuguese": "relaxar; desacelerar; ir encerrando"
+      },
+      "examples": {
+        "English": [
+          "I like to read before bed to wind down.",
+          "The meeting began to wind down after an hour.",
+          "Let's wind down with some quiet music."
+        ],
+        "Portuguese": [
+          "Gosto de ler antes de dormir para relaxar.",
+          "A reunião começou a se encaminhar para o fim depois de uma hora.",
+          "Vamos relaxar com uma música tranquila."
+        ]
+      },
+      "part_of_speech": "phrasal verb",
+      "meaning": "To relax after activity; to gradually come to an end.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-10-19T00:36:08.087241+00:00",
+      "last_reviewed_at": "2026-10-19T00:26:08.087241+00:00",
+      "pronunciation": "/ˌwaɪnd ˈdaʊn/"
+    },
+    {
+      "terms": {
+        "English": "turn out",
+        "Portuguese": "acabar sendo; resultar"
+      },
+      "examples": {
+        "English": [
+          "The event turned out better than we expected."
+        ]
+      },
+      "pronunciation": "/tɝːn aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "To develop or be discovered in a particular way.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "come up with",
+        "Portuguese": "pensar em; criar"
+      },
+      "examples": {
+        "English": [
+          "Can you come up with a better solution?"
+        ]
+      },
+      "pronunciation": "/kʌm ʌp wɪð/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "To think of or produce an idea, plan, or answer.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "come down with",
+        "Portuguese": "adoecer de; pegar (doença)"
+      },
+      "examples": {
+        "English": [
+          "I think I am coming down with a cold."
+        ]
+      },
+      "pronunciation": "/kʌm daʊn wɪð/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "To become ill with a particular sickness.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "come around",
+        "Portuguese": "recuperar a consciência; mudar de ideia; aparecer"
+      },
+      "examples": {
+        "English": [
+          "She came around after a few minutes."
+        ]
+      },
+      "pronunciation": "/kʌm əˈraʊnd/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "To regain consciousness, change one’s opinion, or visit.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "come by",
+        "Portuguese": "conseguir; passar para visitar"
+      },
+      "examples": {
+        "English": [
+          "Good opportunities are hard to come by."
+        ]
+      },
+      "pronunciation": "/kʌm baɪ/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "To obtain something, or visit briefly.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "come along",
+        "Portuguese": "acompanhar; progredir; aparecer"
+      },
+      "examples": {
+        "English": [
+          "Your reading has come along really well."
+        ]
+      },
+      "pronunciation": "/kʌm əˈlɔːŋ/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "To accompany someone or make progress.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "come over",
+        "Portuguese": "vir à casa de alguém; passar por"
+      },
+      "examples": {
+        "English": [
+          "Would you like to come over for dinner?"
+        ]
+      },
+      "pronunciation": "/kʌm ˈoʊvɚ/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "To visit someone’s home or move toward a place.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "split out",
+        "Portuguese": "separar; dividir em partes"
+      },
+      "examples": {
+        "English": [
+          "We split out the travel costs from the main budget."
+        ]
+      },
+      "pronunciation": "/splɪt aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "To separate something into distinct parts or categories.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "go on",
+        "Portuguese": "continuar; prosseguir"
+      },
+      "examples": {
+        "English": [
+          "The meeting went on longer than expected."
+        ]
+      },
+      "pronunciation": "/ɡoʊ ɑːn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Continuar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "come back",
+        "Portuguese": "voltar; retornar"
+      },
+      "examples": {
+        "English": [
+          "She came back from work at six."
+        ]
+      },
+      "pronunciation": "/kʌm bæk/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Voltar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "come up",
+        "Portuguese": "surgir; ser mencionado"
+      },
+      "examples": {
+        "English": [
+          "A new question came up during the meeting."
+        ]
+      },
+      "pronunciation": "/kʌm ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Surgir.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "go back",
+        "Portuguese": "voltar"
+      },
+      "examples": {
+        "English": [
+          "We went back to the hotel before dinner."
+        ]
+      },
+      "pronunciation": "/ɡoʊ bæk/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Voltar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "pick up",
+        "Portuguese": "pegar; buscar; aprender"
+      },
+      "examples": {
+        "English": [
+          "I will pick you up after class."
+        ]
+      },
+      "pronunciation": "/pɪk ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Pegar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "find out",
+        "Portuguese": "descobrir"
+      },
+      "examples": {
+        "English": [
+          "We need to find out what happened."
+        ]
+      },
+      "pronunciation": "/faɪnd aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Descobrir.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "come out",
+        "Portuguese": "sair; ser publicado; revelar-se"
+      },
+      "examples": {
+        "English": [
+          "Her new book comes out next week."
+        ]
+      },
+      "pronunciation": "/kʌm aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Sair.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "go out",
+        "Portuguese": "sair; apagar-se (luz)"
+      },
+      "examples": {
+        "English": [
+          "They went out for dinner."
+        ]
+      },
+      "pronunciation": "/ɡoʊ aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Sair.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "grow up",
+        "Portuguese": "crescer; amadurecer"
+      },
+      "examples": {
+        "English": [
+          "He grew up in a small town."
+        ]
+      },
+      "pronunciation": "/ɡroʊ ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Crescer.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "point out",
+        "Portuguese": "apontar; destacar"
+      },
+      "examples": {
+        "English": [
+          "She pointed out a mistake in the report."
+        ]
+      },
+      "pronunciation": "/pɔɪnt aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Apontar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "come in",
+        "Portuguese": "entrar; chegar"
+      },
+      "examples": {
+        "English": [
+          "Please come in and take a seat."
+        ]
+      },
+      "pronunciation": "/kʌm ɪn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Entrar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "set up",
+        "Portuguese": "montar; configurar; organizar"
+      },
+      "examples": {
+        "English": [
+          "They set up a meeting for Monday."
+        ]
+      },
+      "pronunciation": "/sɛt ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Montar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "end up",
+        "Portuguese": "acabar; terminar em"
+      },
+      "examples": {
+        "English": [
+          "We ended up taking a taxi."
+        ]
+      },
+      "pronunciation": "/ɛnd ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Acabar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "give up",
+        "Portuguese": "desistir; abrir mão"
+      },
+      "examples": {
+        "English": [
+          "Don't give up on your goal."
+        ]
+      },
+      "pronunciation": "/ɡɪv ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Desistir.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "make up",
+        "Portuguese": "inventar; compensar; reconciliar-se"
+      },
+      "examples": {
+        "English": [
+          "He made up an excuse for being late."
+        ]
+      },
+      "pronunciation": "/meɪk ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Inventar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "be about",
+        "Portuguese": "estar prestes a; tratar-se de"
+      },
+      "examples": {
+        "English": [
+          "The movie is about a family of musicians."
+        ]
+      },
+      "pronunciation": "/biː əˈbaʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Estar prestes a.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "sit down",
+        "Portuguese": "sentar-se"
+      },
+      "examples": {
+        "English": [
+          "Please sit down while you wait."
+        ]
+      },
+      "pronunciation": "/sɪt daʊn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Sentar-se.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "look up",
+        "Portuguese": "procurar (informação); melhorar"
+      },
+      "examples": {
+        "English": [
+          "I looked up the word in a dictionary."
+        ]
+      },
+      "pronunciation": "/lʊk ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Procurar (informação).",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "come on",
+        "Portuguese": "vamos; andar; começar"
+      },
+      "examples": {
+        "English": [
+          "Come on, we are going to be late."
+        ]
+      },
+      "pronunciation": "/kʌm ɑːn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Vamos.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "get up",
+        "Portuguese": "levantar-se"
+      },
+      "examples": {
+        "English": [
+          "I get up early on weekdays."
+        ]
+      },
+      "pronunciation": "/ɡɛt ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Levantar-se.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "take on",
+        "Portuguese": "assumir; aceitar (desafio)"
+      },
+      "examples": {
+        "English": [
+          "She took on a new responsibility at work."
+        ]
+      },
+      "pronunciation": "/teɪk ɑːn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Assumir.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "go down",
+        "Portuguese": "descer; diminuir"
+      },
+      "examples": {
+        "English": [
+          "The temperature went down overnight."
+        ]
+      },
+      "pronunciation": "/ɡoʊ daʊn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Descer.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "figure out",
+        "Portuguese": "entender; descobrir"
+      },
+      "examples": {
+        "English": [
+          "We finally figured out how to fix it."
+        ]
+      },
+      "pronunciation": "/ˈfɪɡjɚ aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Entender.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "show up",
+        "Portuguese": "aparecer; comparecer"
+      },
+      "examples": {
+        "English": [
+          "He showed up ten minutes late."
+        ]
+      },
+      "pronunciation": "/ʃoʊ ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Aparecer.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "get back",
+        "Portuguese": "voltar; recuperar"
+      },
+      "examples": {
+        "English": [
+          "When did you get back from your trip?"
+        ]
+      },
+      "pronunciation": "/ɡɛt bæk/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Voltar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "come down",
+        "Portuguese": "descer; cair; diminuir"
+      },
+      "examples": {
+        "English": [
+          "The rain came down heavily."
+        ]
+      },
+      "pronunciation": "/kʌm daʊn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Descer.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "go up",
+        "Portuguese": "subir; aumentar"
+      },
+      "examples": {
+        "English": [
+          "Prices went up again this month."
+        ]
+      },
+      "pronunciation": "/ɡoʊ ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Subir.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "get out",
+        "Portuguese": "sair; escapar"
+      },
+      "examples": {
+        "English": [
+          "We got out of the building safely."
+        ]
+      },
+      "pronunciation": "/ɡɛt aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Sair.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "stand up",
+        "Portuguese": "ficar de pé; levantar-se"
+      },
+      "examples": {
+        "English": [
+          "Everyone stood up when the judge entered."
+        ]
+      },
+      "pronunciation": "/stænd ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Ficar de pé.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "run out",
+        "Portuguese": "acabar; ficar sem"
+      },
+      "examples": {
+        "English": [
+          "We've run out of coffee."
+        ]
+      },
+      "pronunciation": "/rʌn aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Acabar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "bring out",
+        "Portuguese": "lançar; realçar"
+      },
+      "examples": {
+        "English": [
+          "The chef's seasoning brings out the flavor."
+        ]
+      },
+      "pronunciation": "/brɪŋ aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Lançar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "work out",
+        "Portuguese": "dar certo; resolver; malhar"
+      },
+      "examples": {
+        "English": [
+          "We worked out a solution together."
+        ]
+      },
+      "pronunciation": "/wɝːk aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Dar certo.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "be back",
+        "Portuguese": "voltar; estar de volta"
+      },
+      "examples": {
+        "English": [
+          "I'll be back before lunchtime."
+        ]
+      },
+      "pronunciation": "/biː bæk/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Voltar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "wake up",
+        "Portuguese": "acordar; despertar"
+      },
+      "examples": {
+        "English": [
+          "I wake up at seven every morning."
+        ]
+      },
+      "pronunciation": "/weɪk ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Acordar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "look back",
+        "Portuguese": "olhar para trás; recordar"
+      },
+      "examples": {
+        "English": [
+          "She looked back on her school years fondly."
+        ]
+      },
+      "pronunciation": "/lʊk bæk/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Olhar para trás.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "go away",
+        "Portuguese": "ir embora; desaparecer"
+      },
+      "examples": {
+        "English": [
+          "The pain went away after a while."
+        ]
+      },
+      "pronunciation": "/ɡoʊ əˈweɪ/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Ir embora.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "take off",
+        "Portuguese": "decolar; tirar (roupa)"
+      },
+      "examples": {
+        "English": [
+          "The plane took off on time."
+        ]
+      },
+      "pronunciation": "/teɪk ɔːf/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Decolar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "carry out",
+        "Portuguese": "realizar; executar"
+      },
+      "examples": {
+        "English": [
+          "The team carried out the plan carefully."
+        ]
+      },
+      "pronunciation": "/ˈkæri aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Realizar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "look down",
+        "Portuguese": "olhar para baixo; desprezar"
+      },
+      "examples": {
+        "English": [
+          "He looked down at the map."
+        ]
+      },
+      "pronunciation": "/lʊk daʊn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Olhar para baixo.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "look out",
+        "Portuguese": "ter cuidado; olhar para fora"
+      },
+      "examples": {
+        "English": [
+          "Look out for cars when you cross."
+        ]
+      },
+      "pronunciation": "/lʊk aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Ter cuidado.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "take over",
+        "Portuguese": "assumir o controle"
+      },
+      "examples": {
+        "English": [
+          "A larger company took over the business."
+        ]
+      },
+      "pronunciation": "/teɪk ˈoʊvɚ/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Assumir o controle.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "pull out",
+        "Portuguese": "retirar; sair (de um acordo)"
+      },
+      "examples": {
+        "English": [
+          "The car pulled out into traffic."
+        ]
+      },
+      "pronunciation": "/pull aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Retirar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "hold up",
+        "Portuguese": "atrasar; sustentar"
+      },
+      "examples": {
+        "English": [
+          "Traffic held us up for an hour."
+        ]
+      },
+      "pronunciation": "/hoʊld ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Atrasar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "move on",
+        "Portuguese": "seguir em frente"
+      },
+      "examples": {
+        "English": [
+          "After a short break, we moved on."
+        ]
+      },
+      "pronunciation": "/muːv ɑːn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Seguir em frente.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "go in",
+        "Portuguese": "entrar"
+      },
+      "examples": {
+        "English": [
+          "The lights went out as we went in."
+        ]
+      },
+      "pronunciation": "/ɡoʊ ɪn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Entrar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "catch up",
+        "Portuguese": "alcançar; pôr o papo em dia"
+      },
+      "examples": {
+        "English": [
+          "Let's meet soon and catch up."
+        ]
+      },
+      "pronunciation": "/kætʃ ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Alcançar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "open up",
+        "Portuguese": "abrir; falar mais"
+      },
+      "examples": {
+        "English": [
+          "He opened up about his worries."
+        ]
+      },
+      "pronunciation": "/ˈoʊpən ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Abrir.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "reach out",
+        "Portuguese": "entrar em contato; oferecer ajuda"
+      },
+      "examples": {
+        "English": [
+          "Please reach out if you need support."
+        ]
+      },
+      "pronunciation": "/riːtʃ aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Entrar em contato.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "turn around",
+        "Portuguese": "virar-se; reverter"
+      },
+      "examples": {
+        "English": [
+          "The company turned around after a difficult year."
+        ]
+      },
+      "pronunciation": "/tɝːn əˈraʊnd/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Virar-se.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "look around",
+        "Portuguese": "olhar ao redor; dar uma olhada"
+      },
+      "examples": {
+        "English": [
+          "We looked around the museum for an hour."
+        ]
+      },
+      "pronunciation": "/lʊk əˈraʊnd/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Olhar ao redor.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "take out",
+        "Portuguese": "tirar; levar para sair"
+      },
+      "examples": {
+        "English": [
+          "She took the documents out of her bag."
+        ]
+      },
+      "pronunciation": "/teɪk aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Tirar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "go off",
+        "Portuguese": "disparar; estragar; sair (alarme)"
+      },
+      "examples": {
+        "English": [
+          "The alarm went off at midnight."
+        ]
+      },
+      "pronunciation": "/ɡoʊ ɔːf/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Disparar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "put up",
+        "Portuguese": "erguer; hospedar; tolerar"
+      },
+      "examples": {
+        "English": [
+          "They put up a tent near the lake."
+        ]
+      },
+      "pronunciation": "/pʊt ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Erguer.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "set out",
+        "Portuguese": "partir; expor; estabelecer"
+      },
+      "examples": {
+        "English": [
+          "We set out early to avoid traffic."
+        ]
+      },
+      "pronunciation": "/sɛt aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Partir.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "break down",
+        "Portuguese": "quebrar; parar de funcionar"
+      },
+      "examples": {
+        "English": [
+          "Our car broke down on the highway."
+        ]
+      },
+      "pronunciation": "/breɪk daʊn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Quebrar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "bring up",
+        "Portuguese": "mencionar; criar (filho)"
+      },
+      "examples": {
+        "English": [
+          "He brought up an important issue."
+        ]
+      },
+      "pronunciation": "/brɪŋ ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Mencionar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "check out",
+        "Portuguese": "conferir; fazer checkout"
+      },
+      "examples": {
+        "English": [
+          "You should check out that new café."
+        ]
+      },
+      "pronunciation": "/tʃɛk aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Conferir.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "wind up",
+        "Portuguese": "acabar; terminar"
+      },
+      "examples": {
+        "English": [
+          "We wound up staying home."
+        ]
+      },
+      "pronunciation": "/waɪnd ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Acabar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "clean up",
+        "Portuguese": "limpar; arrumar"
+      },
+      "examples": {
+        "English": [
+          "The children cleaned up their room."
+        ]
+      },
+      "pronunciation": "/kliːn ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Limpar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "shut down",
+        "Portuguese": "fechar; desligar"
+      },
+      "examples": {
+        "English": [
+          "The factory shut down for the holiday."
+        ]
+      },
+      "pronunciation": "/ʃʌt daʊn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Fechar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "stand out",
+        "Portuguese": "destacar-se"
+      },
+      "examples": {
+        "English": [
+          "Her bright red coat made her stand out."
+        ]
+      },
+      "pronunciation": "/stænd aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Destacar-se.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "set off",
+        "Portuguese": "partir; desencadear"
+      },
+      "examples": {
+        "English": [
+          "They set off before sunrise."
+        ]
+      },
+      "pronunciation": "/sɛt ɔːf/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Partir.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "go over",
+        "Portuguese": "revisar; examinar"
+      },
+      "examples": {
+        "English": [
+          "Let's go over the instructions once more."
+        ]
+      },
+      "pronunciation": "/ɡoʊ ˈoʊvɚ/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Revisar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "hold on",
+        "Portuguese": "esperar; segurar firme"
+      },
+      "examples": {
+        "English": [
+          "Hold on a moment while I check."
+        ]
+      },
+      "pronunciation": "/hoʊld ɑːn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Esperar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "line up",
+        "Portuguese": "formar fila; alinhar"
+      },
+      "examples": {
+        "English": [
+          "Fans lined up outside the theater."
+        ]
+      },
+      "pronunciation": "/laɪn ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Formar fila.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "hang on",
+        "Portuguese": "esperar; aguentar"
+      },
+      "examples": {
+        "English": [
+          "Hang on, I'll be right there."
+        ]
+      },
+      "pronunciation": "/hæŋ ɑːn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Esperar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "go through",
+        "Portuguese": "passar por; revisar"
+      },
+      "examples": {
+        "English": [
+          "She went through a difficult period."
+        ]
+      },
+      "pronunciation": "/ɡoʊ θruː/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Passar por.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "turn up",
+        "Portuguese": "aparecer; aumentar (volume)"
+      },
+      "examples": {
+        "English": [
+          "Turn up the music a little."
+        ]
+      },
+      "pronunciation": "/tɝːn ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Aparecer.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "pay off",
+        "Portuguese": "dar resultado; quitar (dívida)"
+      },
+      "examples": {
+        "English": [
+          "All their hard work paid off."
+        ]
+      },
+      "pronunciation": "/peɪ ɔːf/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Dar resultado.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "bring in",
+        "Portuguese": "introduzir; gerar (renda)"
+      },
+      "examples": {
+        "English": [
+          "The new product brought in more customers."
+        ]
+      },
+      "pronunciation": "/brɪŋ ɪn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Introduzir.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "turn back",
+        "Portuguese": "voltar; retornar"
+      },
+      "examples": {
+        "English": [
+          "We turned back when the road flooded."
+        ]
+      },
+      "pronunciation": "/tɝːn bæk/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Voltar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "hang up",
+        "Portuguese": "desligar (telefone); pendurar"
+      },
+      "examples": {
+        "English": [
+          "She hung up before I could answer."
+        ]
+      },
+      "pronunciation": "/hæŋ ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Desligar (telefone).",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "put out",
+        "Portuguese": "apagar; publicar; lançar"
+      },
+      "examples": {
+        "English": [
+          "Firefighters put out the fire quickly."
+        ]
+      },
+      "pronunciation": "/pʊt aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Apagar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "break up",
+        "Portuguese": "terminar (relacionamento); separar"
+      },
+      "examples": {
+        "English": [
+          "They broke up last summer."
+        ]
+      },
+      "pronunciation": "/breɪk ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Terminar (relacionamento).",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "lay out",
+        "Portuguese": "organizar; expor; apresentar"
+      },
+      "examples": {
+        "English": [
+          "She laid out the options clearly."
+        ]
+      },
+      "pronunciation": "/leɪ aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Organizar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "hang out",
+        "Portuguese": "passar tempo; relaxar"
+      },
+      "examples": {
+        "English": [
+          "We like to hang out at the park."
+        ]
+      },
+      "pronunciation": "/hæŋ aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Passar tempo.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "welcome back",
+        "Portuguese": "dar boas-vindas de volta"
+      },
+      "examples": {
+        "English": [
+          "The team welcomed back its captain."
+        ]
+      },
+      "pronunciation": "/ˈwɛlkəm bæk/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Dar boas-vindas de volta.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "build up",
+        "Portuguese": "acumular; desenvolver"
+      },
+      "examples": {
+        "English": [
+          "Stress can build up over time."
+        ]
+      },
+      "pronunciation": "/bɪld ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Acumular.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "start out",
+        "Portuguese": "começar; iniciar"
+      },
+      "examples": {
+        "English": [
+          "He started out as a teaching assistant."
+        ]
+      },
+      "pronunciation": "/stɑːrt aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Começar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "slow down",
+        "Portuguese": "diminuir a velocidade; desacelerar"
+      },
+      "examples": {
+        "English": [
+          "Please slow down near the school."
+        ]
+      },
+      "pronunciation": "/sloʊ daʊn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Diminuir a velocidade.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "sit up",
+        "Portuguese": "sentar-se ereto"
+      },
+      "examples": {
+        "English": [
+          "She sat up in bed when the phone rang."
+        ]
+      },
+      "pronunciation": "/sɪt ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Sentar-se ereto.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "get away",
+        "Portuguese": "escapar; tirar férias"
+      },
+      "examples": {
+        "English": [
+          "We got away for the weekend."
+        ]
+      },
+      "pronunciation": "/ɡɛt əˈweɪ/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Escapar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "move in",
+        "Portuguese": "mudar-se para dentro"
+      },
+      "examples": {
+        "English": [
+          "Our new neighbors moved in yesterday."
+        ]
+      },
+      "pronunciation": "/muːv ɪn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Mudar-se para dentro.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "look over",
+        "Portuguese": "examinar; dar uma olhada"
+      },
+      "examples": {
+        "English": [
+          "Could you look over my essay?"
+        ]
+      },
+      "pronunciation": "/lʊk ˈoʊvɚ/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Examinar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "pull up",
+        "Portuguese": "encostar; parar um veículo"
+      },
+      "examples": {
+        "English": [
+          "A taxi pulled up beside us."
+        ]
+      },
+      "pronunciation": "/pull ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Encostar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "walk away",
+        "Portuguese": "ir embora; afastar-se"
+      },
+      "examples": {
+        "English": [
+          "He walked away without saying goodbye."
+        ]
+      },
+      "pronunciation": "/wɔːk əˈweɪ/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Ir embora.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "call out",
+        "Portuguese": "chamar em voz alta; apontar"
+      },
+      "examples": {
+        "English": [
+          "The teacher called out her name."
+        ]
+      },
+      "pronunciation": "/kɔːl aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Chamar em voz alta.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "hold out",
+        "Portuguese": "resistir; aguentar; oferecer"
+      },
+      "examples": {
+        "English": [
+          "They held out until help arrived."
+        ]
+      },
+      "pronunciation": "/hoʊld aʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Resistir.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "cut off",
+        "Portuguese": "interromper; cortar; isolar"
+      },
+      "examples": {
+        "English": [
+          "The storm cut off power to the village."
+        ]
+      },
+      "pronunciation": "/kʌt ɔːf/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Interromper.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "take away",
+        "Portuguese": "levar embora; retirar"
+      },
+      "examples": {
+        "English": [
+          "Please take away the empty plates."
+        ]
+      },
+      "pronunciation": "/teɪk əˈweɪ/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Levar embora.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "bring about",
+        "Portuguese": "causar; provocar"
+      },
+      "examples": {
+        "English": [
+          "The new policy brought about major changes."
+        ]
+      },
+      "pronunciation": "/brɪŋ əˈbaʊt/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Causar.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "sign up",
+        "Portuguese": "inscrever-se"
+      },
+      "examples": {
+        "English": [
+          "I signed up for a cooking class."
+        ]
+      },
+      "pronunciation": "/saɪn ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Inscrever-se.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    },
+    {
+      "terms": {
+        "English": "back up",
+        "Portuguese": "fazer backup; apoiar; dar ré"
+      },
+      "examples": {
+        "English": [
+          "Remember to back up your files."
+        ]
+      },
+      "pronunciation": "/bæk ʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "Fazer backup.",
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+    }
+  ]
+}
