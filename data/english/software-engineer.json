@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "context": {
+    "name": "Inglês",
+    "learning_language": "English"
+  },
+  "deck": "Software Engineer",
+  "source": "Lista fornecida pelo usuário",
+  "cards": [
+    {
+      "terms": {
+        "English": "meet a deadline",
+        "Portuguese": "cumprir um prazo"
+      },
+      "examples": {
+        "English": [
+          "We worked late to meet the deadline for the release.",
+          "The team always meets its sprint deadlines.",
+          "If we cut this feature, we can still meet the deadline."
+        ],
+        "Portuguese": [
+          "Trabalhamos até tarde para cumprir o prazo do lançamento.",
+          "O time sempre cumpre os prazos das sprints.",
+          "Se cortarmos essa funcionalidade, ainda conseguimos cumprir o prazo."
+        ]
+      },
+      "pronunciation": "/ˌmit ə ˈdɛdˌlaɪn/",
+      "part_of_speech": "expression",
+      "meaning": "To finish a task by the agreed date or time.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "miss a deadline",
+        "Portuguese": "perder um prazo; não cumprir um prazo"
+      },
+      "examples": {
+        "English": [
+          "We missed the deadline because of a critical bug.",
+          "If we miss this deadline, the client will be upset.",
+          "He has never missed a deadline in five years."
+        ],
+        "Portuguese": [
+          "Perdemos o prazo por causa de um bug crítico.",
+          "Se não cumprirmos esse prazo, o cliente vai ficar chateado.",
+          "Ele nunca perdeu um prazo em cinco anos."
+        ]
+      },
+      "pronunciation": "/ˌmɪs ə ˈdɛdˌlaɪn/",
+      "part_of_speech": "expression",
+      "meaning": "To fail to finish a task by the agreed date or time.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "ahead of schedule",
+        "Portuguese": "adiantado; antes do previsto"
+      },
+      "examples": {
+        "English": [
+          "The migration finished two days ahead of schedule.",
+          "We're ahead of schedule, so we can add more tests.",
+          "The new API shipped ahead of schedule."
+        ],
+        "Portuguese": [
+          "A migração terminou dois dias antes do previsto.",
+          "Estamos adiantados, então podemos adicionar mais testes.",
+          "A nova API foi lançada antes do previsto."
+        ]
+      },
+      "pronunciation": "/əˈhɛd əv ˈskɛdʒul/",
+      "part_of_speech": "expression",
+      "meaning": "Earlier than planned.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "behind schedule",
+        "Portuguese": "atrasado; com o cronograma atrasado"
+      },
+      "examples": {
+        "English": [
+          "The project is three weeks behind schedule.",
+          "We fell behind schedule after two developers got sick.",
+          "Testing is behind schedule, so the release may slip."
+        ],
+        "Portuguese": [
+          "O projeto está três semanas atrasado.",
+          "Ficamos atrasados no cronograma depois que dois desenvolvedores ficaram doentes.",
+          "Os testes estão atrasados, então o lançamento pode atrasar."
+        ]
+      },
+      "pronunciation": "/bɪˈhaɪnd ˈskɛdʒul/",
+      "part_of_speech": "expression",
+      "meaning": "Later than planned.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "push back a deadline",
+        "Portuguese": "adiar um prazo"
+      },
+      "examples": {
+        "English": [
+          "The manager agreed to push back the deadline by a week.",
+          "Can we push back the deadline until Friday?",
+          "They had to push the deadline back because of the outage."
+        ],
+        "Portuguese": [
+          "O gerente concordou em adiar o prazo em uma semana.",
+          "Podemos adiar o prazo para sexta-feira?",
+          "Eles tiveram que adiar o prazo por causa da queda do sistema."
+        ]
+      },
+      "pronunciation": "/ˌpʊʃ ˈbæk ə ˈdɛdˌlaɪn/",
+      "part_of_speech": "expression",
+      "meaning": "To move a deadline to a later date.",
+      "source": "Lista fornecida pelo usuário"
+    }
+  ]
+}
