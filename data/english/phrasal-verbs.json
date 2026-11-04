@@ -5,7 +5,7 @@
     "learning_language": "English"
   },
   "deck": "Phrasal Verbs",
-  "source": "Lista fornecida pelo usuário",
+  "source": "local",
   "cards": [
     {
       "terms": {
@@ -83,9 +83,9 @@
       "source": "Preply",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 1,
-      "due_at": "2026-10-19T00:30:14.433613+00:00",
-      "last_reviewed_at": "2026-10-19T00:20:14.433613+00:00",
+      "review_total": 2,
+      "due_at": "2026-11-02T23:33:16.731484+00:00",
+      "last_reviewed_at": "2026-11-02T23:23:16.731484+00:00",
       "pronunciation": "/ˌɡroʊ ˈaʊt əv/"
     },
     {
@@ -272,9 +272,9 @@
       "source": "Preply",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 1,
-      "due_at": "2026-10-19T00:36:13.878426+00:00",
-      "last_reviewed_at": "2026-10-19T00:26:13.878426+00:00",
+      "review_total": 2,
+      "due_at": "2026-11-02T23:34:33.714494+00:00",
+      "last_reviewed_at": "2026-11-02T23:24:33.714494+00:00",
       "pronunciation": "/ˌteɪk ˈʌp/"
     },
     {
@@ -351,11 +351,11 @@
       "part_of_speech": "phrasal verb",
       "meaning": "To relax after activity; to gradually come to an end.",
       "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 1,
-      "due_at": "2026-10-19T00:36:08.087241+00:00",
-      "last_reviewed_at": "2026-10-19T00:26:08.087241+00:00",
+      "review_streak": 2,
+      "review_correct": 2,
+      "review_total": 3,
+      "due_at": "2026-11-05T23:26:25.248105+00:00",
+      "last_reviewed_at": "2026-11-02T23:26:25.248105+00:00",
       "pronunciation": "/ˌwaɪnd ˈdaʊn/"
     },
     {
@@ -365,16 +365,25 @@
       },
       "examples": {
         "English": [
-          "The event turned out better than we expected."
+          "The event turned out better than we expected.",
+          "The interview turned out to be easier than I thought.",
+          "Everything turned out well in the end."
         ],
         "Portuguese": [
-          "O evento acabou sendo melhor do que esperávamos."
+          "O evento acabou sendo melhor do que esperávamos.",
+          "A entrevista acabou sendo mais fácil do que eu imaginava.",
+          "No fim, tudo deu certo."
         ]
       },
-      "pronunciation": "/tɝːn aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "To develop or be discovered in a particular way.",
-      "source": "Lista fornecida pelo usuário"
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-02T23:37:40.421537+00:00",
+      "last_reviewed_at": "2026-11-02T23:27:40.421537+00:00",
+      "pronunciation": "/tɝːn aʊt/"
     },
     {
       "terms": {
@@ -383,16 +392,25 @@
       },
       "examples": {
         "English": [
-          "Can you come up with a better solution?"
+          "Can you come up with a better solution?",
+          "She came up with a clever name for the shop.",
+          "We need to come up with a plan before Monday."
         ],
         "Portuguese": [
-          "Você consegue pensar em uma solução melhor?"
+          "Você consegue pensar em uma solução melhor?",
+          "Ela teve uma ideia criativa para o nome da loja.",
+          "Precisamos elaborar um plano antes de segunda-feira."
         ]
       },
-      "pronunciation": "/kʌm ʌp wɪð/",
       "part_of_speech": "phrasal verb",
       "meaning": "To think of or produce an idea, plan, or answer.",
-      "source": "Lista fornecida pelo usuário"
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.056996+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kʌm ʌp wɪð/"
     },
     {
       "terms": {
@@ -401,16 +419,25 @@
       },
       "examples": {
         "English": [
-          "I think I am coming down with a cold."
+          "I think I am coming down with a cold.",
+          "He came down with the flu over the weekend.",
+          "She stayed home because she was coming down with a cold."
         ],
         "Portuguese": [
-          "Acho que estou ficando resfriado."
+          "Acho que estou ficando resfriado.",
+          "Ele pegou gripe no fim de semana.",
+          "Ela ficou em casa porque estava ficando resfriada."
         ]
       },
-      "pronunciation": "/kʌm daʊn wɪð/",
       "part_of_speech": "phrasal verb",
       "meaning": "To become ill with a particular sickness.",
-      "source": "Lista fornecida pelo usuário"
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.057012+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kʌm daʊn wɪð/"
     },
     {
       "terms": {
@@ -419,16 +446,25 @@
       },
       "examples": {
         "English": [
-          "She came around after a few minutes."
+          "She came around after a few minutes.",
+          "He slowly came around after fainting.",
+          "When she came around, the nurse explained what had happened."
         ],
         "Portuguese": [
-          "Ela recobrou a consciência depois de alguns minutos."
+          "Ela recobrou a consciência depois de alguns minutos.",
+          "Ele recobrou a consciência aos poucos depois de desmaiar.",
+          "Quando ela recobrou a consciência, a enfermeira explicou o que tinha acontecido."
         ]
       },
-      "pronunciation": "/kʌm əˈraʊnd/",
       "part_of_speech": "phrasal verb",
       "meaning": "To regain consciousness, change one’s opinion, or visit.",
-      "source": "Lista fornecida pelo usuário"
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.057027+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kʌm əˈraʊnd/"
     },
     {
       "terms": {
@@ -437,16 +473,25 @@
       },
       "examples": {
         "English": [
-          "Good opportunities are hard to come by."
+          "Good opportunities are hard to come by.",
+          "Fresh vegetables are hard to come by here in winter.",
+          "How did you come by such a rare book?"
         ],
         "Portuguese": [
-          "É difícil conseguir boas oportunidades."
+          "É difícil conseguir boas oportunidades.",
+          "É difícil conseguir verduras frescas aqui no inverno.",
+          "Como você conseguiu um livro tão raro?"
         ]
       },
-      "pronunciation": "/kʌm baɪ/",
       "part_of_speech": "phrasal verb",
       "meaning": "To obtain something, or visit briefly.",
-      "source": "Lista fornecida pelo usuário"
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.057040+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kʌm baɪ/"
     },
     {
       "terms": {
@@ -455,16 +500,25 @@
       },
       "examples": {
         "English": [
-          "Your reading has come along really well."
+          "Your reading has come along really well.",
+          "Her pronunciation has come along since the course began.",
+          "The renovation is coming along nicely."
         ],
         "Portuguese": [
-          "Sua leitura evoluiu muito bem."
+          "Sua leitura evoluiu muito bem.",
+          "A pronúncia dela melhorou desde o início do curso.",
+          "A reforma está progredindo bem."
         ]
       },
-      "pronunciation": "/kʌm əˈlɔːŋ/",
       "part_of_speech": "phrasal verb",
       "meaning": "To accompany someone or make progress.",
-      "source": "Lista fornecida pelo usuário"
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.057057+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kʌm əˈlɔːŋ/"
     },
     {
       "terms": {
@@ -473,16 +527,25 @@
       },
       "examples": {
         "English": [
-          "Would you like to come over for dinner?"
+          "Would you like to come over for dinner?",
+          "My cousins are coming over this afternoon.",
+          "Can I come over after work?"
         ],
         "Portuguese": [
-          "Você gostaria de vir aqui para jantar?"
+          "Você gostaria de vir aqui para jantar?",
+          "Meus primos vêm aqui em casa hoje à tarde.",
+          "Posso passar na sua casa depois do trabalho?"
         ]
       },
-      "pronunciation": "/kʌm ˈoʊvɚ/",
       "part_of_speech": "phrasal verb",
       "meaning": "To visit someone’s home or move toward a place.",
-      "source": "Lista fornecida pelo usuário"
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.057071+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kʌm ˈoʊvɚ/"
     },
     {
       "terms": {
@@ -491,16 +554,25 @@
       },
       "examples": {
         "English": [
-          "We split out the travel costs from the main budget."
+          "We split out the travel costs from the main budget.",
+          "Please split out the material costs in the report.",
+          "We split out the responses by age group."
         ],
         "Portuguese": [
-          "Separamos os custos de viagem do orçamento principal."
+          "Separamos os custos de viagem do orçamento principal.",
+          "Por favor, separe os custos dos materiais no relatório.",
+          "Separamos as respostas por faixa etária."
         ]
       },
-      "pronunciation": "/splɪt aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "To separate something into distinct parts or categories.",
-      "source": "Lista fornecida pelo usuário"
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.057084+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/splɪt aʊt/"
     },
     {
       "terms": {
@@ -509,16 +581,25 @@
       },
       "examples": {
         "English": [
-          "The meeting went on longer than expected."
+          "The meeting went on longer than expected.",
+          "The discussion went on for another hour.",
+          "Please go on with your story."
         ],
         "Portuguese": [
-          "A reunião continuou por mais tempo do que o esperado."
+          "A reunião continuou por mais tempo do que o esperado.",
+          "A discussão continuou por mais uma hora.",
+          "Por favor, continue sua história."
         ]
       },
-      "pronunciation": "/ɡoʊ ɑːn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Continuar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.893822+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɡoʊ ɑːn/"
     },
     {
       "terms": {
@@ -527,16 +608,25 @@
       },
       "examples": {
         "English": [
-          "She came back from work at six."
+          "She came back from work at six.",
+          "He came back to Brazil last summer.",
+          "Please come back before dark."
         ],
         "Portuguese": [
-          "Ela voltou do trabalho às seis."
+          "Ela voltou do trabalho às seis.",
+          "Ele voltou ao Brasil no verão passado.",
+          "Por favor, volte antes de escurecer."
         ]
       },
-      "pronunciation": "/kʌm bæk/",
       "part_of_speech": "phrasal verb",
       "meaning": "Voltar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.893837+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kʌm bæk/"
     },
     {
       "terms": {
@@ -545,16 +635,25 @@
       },
       "examples": {
         "English": [
-          "A new question came up during the meeting."
+          "A new question came up during the meeting.",
+          "The topic came up over dinner.",
+          "Let me know if any problems come up."
         ],
         "Portuguese": [
-          "Uma nova pergunta surgiu durante a reunião."
+          "Uma nova pergunta surgiu durante a reunião.",
+          "O assunto surgiu durante o jantar.",
+          "Avise-me se surgir algum problema."
         ]
       },
-      "pronunciation": "/kʌm ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Surgir.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.893850+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kʌm ʌp/"
     },
     {
       "terms": {
@@ -563,16 +662,25 @@
       },
       "examples": {
         "English": [
-          "We went back to the hotel before dinner."
+          "We went back to the hotel before dinner.",
+          "I need to go back to the office for my keys.",
+          "They went back to their hometown for the holidays."
         ],
         "Portuguese": [
-          "Voltamos ao hotel antes do jantar."
+          "Voltamos ao hotel antes do jantar.",
+          "Preciso voltar ao escritório para buscar minhas chaves.",
+          "Eles voltaram à cidade natal para as festas de fim de ano."
         ]
       },
-      "pronunciation": "/ɡoʊ bæk/",
       "part_of_speech": "phrasal verb",
       "meaning": "Voltar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894301+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɡoʊ bæk/"
     },
     {
       "terms": {
@@ -581,16 +689,25 @@
       },
       "examples": {
         "English": [
-          "I will pick you up after class."
+          "I will pick you up after class.",
+          "Can you pick me up at the station?",
+          "She picked up her brother from school."
         ],
         "Portuguese": [
-          "Vou buscar você depois da aula."
+          "Vou buscar você depois da aula.",
+          "Você pode me buscar na estação?",
+          "Ela buscou o irmão na escola."
         ]
       },
-      "pronunciation": "/pɪk ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Pegar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894322+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/pɪk ʌp/"
     },
     {
       "terms": {
@@ -599,16 +716,25 @@
       },
       "examples": {
         "English": [
-          "We need to find out what happened."
+          "We need to find out what happened.",
+          "I found out why the train was delayed.",
+          "Did you find out who called?"
         ],
         "Portuguese": [
-          "Precisamos descobrir o que aconteceu."
+          "Precisamos descobrir o que aconteceu.",
+          "Descobri por que o trem estava atrasado.",
+          "Você descobriu quem ligou?"
         ]
       },
-      "pronunciation": "/faɪnd aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Descobrir.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894344+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/faɪnd aʊt/"
     },
     {
       "terms": {
@@ -617,16 +743,25 @@
       },
       "examples": {
         "English": [
-          "Her new book comes out next week."
+          "Her new book comes out next week.",
+          "The album came out in September.",
+          "When does the next issue of the magazine come out?"
         ],
         "Portuguese": [
-          "O novo livro dela será lançado na semana que vem."
+          "O novo livro dela será lançado na semana que vem.",
+          "O álbum foi lançado em setembro.",
+          "Quando sai a próxima edição da revista?"
         ]
       },
-      "pronunciation": "/kʌm aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Sair.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894359+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kʌm aʊt/"
     },
     {
       "terms": {
@@ -635,16 +770,25 @@
       },
       "examples": {
         "English": [
-          "They went out for dinner."
+          "They went out for dinner.",
+          "We go out with friends on Fridays.",
+          "She went out to see a movie."
         ],
         "Portuguese": [
-          "Eles saíram para jantar."
+          "Eles saíram para jantar.",
+          "Saímos com amigos às sextas-feiras.",
+          "Ela saiu para assistir a um filme."
         ]
       },
-      "pronunciation": "/ɡoʊ aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Sair.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894376+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɡoʊ aʊt/"
     },
     {
       "terms": {
@@ -653,16 +797,25 @@
       },
       "examples": {
         "English": [
-          "He grew up in a small town."
+          "He grew up in a small town.",
+          "She grew up near the beach.",
+          "Where did your parents grow up?"
         ],
         "Portuguese": [
-          "Ele cresceu em uma cidade pequena."
+          "Ele cresceu em uma cidade pequena.",
+          "Ela cresceu perto da praia.",
+          "Onde seus pais cresceram?"
         ]
       },
-      "pronunciation": "/ɡroʊ ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Crescer.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-02T23:33:25.890638+00:00",
+      "last_reviewed_at": "2026-11-02T23:23:25.890638+00:00",
+      "pronunciation": "/ɡroʊ ʌp/"
     },
     {
       "terms": {
@@ -671,16 +824,25 @@
       },
       "examples": {
         "English": [
-          "She pointed out a mistake in the report."
+          "She pointed out a mistake in the report.",
+          "He pointed out that the dates were wrong.",
+          "The guide pointed out the oldest building in town."
         ],
         "Portuguese": [
-          "Ela apontou um erro no relatório."
+          "Ela apontou um erro no relatório.",
+          "Ele destacou que as datas estavam erradas.",
+          "O guia apontou o prédio mais antigo da cidade."
         ]
       },
-      "pronunciation": "/pɔɪnt aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Apontar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-02T23:36:39.339470+00:00",
+      "last_reviewed_at": "2026-11-02T23:26:39.339470+00:00",
+      "pronunciation": "/pɔɪnt aʊt/"
     },
     {
       "terms": {
@@ -689,16 +851,25 @@
       },
       "examples": {
         "English": [
-          "Please come in and take a seat."
+          "Please come in and take a seat.",
+          "She knocked and waited for someone to tell her to come in.",
+          "The cat came in through the kitchen window."
         ],
         "Portuguese": [
-          "Por favor, entre e sente-se."
+          "Por favor, entre e sente-se.",
+          "Ela bateu e esperou alguém dizer para entrar.",
+          "O gato entrou pela janela da cozinha."
         ]
       },
-      "pronunciation": "/kʌm ɪn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Entrar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894415+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kʌm ɪn/"
     },
     {
       "terms": {
@@ -707,16 +878,25 @@
       },
       "examples": {
         "English": [
-          "They set up a meeting for Monday."
+          "They set up a meeting for Monday.",
+          "I'll set up a call with the supplier.",
+          "She set up a workshop for new employees."
         ],
         "Portuguese": [
-          "Eles marcaram uma reunião para segunda-feira."
+          "Eles marcaram uma reunião para segunda-feira.",
+          "Vou organizar uma ligação com o fornecedor.",
+          "Ela organizou uma oficina para os funcionários novos."
         ]
       },
-      "pronunciation": "/sɛt ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Montar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894428+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/sɛt ʌp/"
     },
     {
       "terms": {
@@ -725,16 +905,25 @@
       },
       "examples": {
         "English": [
-          "We ended up taking a taxi."
+          "We ended up taking a taxi.",
+          "We took a wrong turn and ended up at the beach.",
+          "He ended up working late again."
         ],
         "Portuguese": [
-          "Acabamos pegando um táxi."
+          "Acabamos pegando um táxi.",
+          "Pegamos o caminho errado e acabamos na praia.",
+          "Ele acabou trabalhando até tarde de novo."
         ]
       },
-      "pronunciation": "/ɛnd ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Acabar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894442+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɛnd ʌp/"
     },
     {
       "terms": {
@@ -743,16 +932,25 @@
       },
       "examples": {
         "English": [
-          "Don't give up on your goal."
+          "Don't give up on your goal.",
+          "She refused to give up despite the difficulties.",
+          "Keep practicing and don't give up."
         ],
         "Portuguese": [
-          "Não desista do seu objetivo."
+          "Não desista do seu objetivo.",
+          "Ela se recusou a desistir apesar das dificuldades.",
+          "Continue praticando e não desista."
         ]
       },
-      "pronunciation": "/ɡɪv ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Desistir.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 1,
+      "review_correct": 1,
+      "review_total": 1,
+      "due_at": "2026-11-03T23:19:42.851804+00:00",
+      "last_reviewed_at": "2026-11-02T23:19:42.851804+00:00",
+      "pronunciation": "/ɡɪv ʌp/"
     },
     {
       "terms": {
@@ -761,16 +959,25 @@
       },
       "examples": {
         "English": [
-          "He made up an excuse for being late."
+          "He made up an excuse for being late.",
+          "She made up a story about a lost dog.",
+          "He made up a reason to leave early."
         ],
         "Portuguese": [
-          "Ele inventou uma desculpa para o atraso."
+          "Ele inventou uma desculpa para o atraso.",
+          "Ela inventou uma história sobre um cachorro perdido.",
+          "Ele inventou um motivo para sair mais cedo."
         ]
       },
-      "pronunciation": "/meɪk ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Inventar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894468+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/meɪk ʌp/"
     },
     {
       "terms": {
@@ -779,16 +986,25 @@
       },
       "examples": {
         "English": [
-          "The movie is about a family of musicians."
+          "The movie is about a family of musicians.",
+          "What is this book about?",
+          "The documentary is about life in the desert."
         ],
         "Portuguese": [
-          "O filme é sobre uma família de músicos."
+          "O filme é sobre uma família de músicos.",
+          "Sobre o que é este livro?",
+          "O documentário é sobre a vida no deserto."
         ]
       },
-      "pronunciation": "/biː əˈbaʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Estar prestes a.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 1,
+      "review_correct": 1,
+      "review_total": 1,
+      "due_at": "2026-11-03T23:27:57.900088+00:00",
+      "last_reviewed_at": "2026-11-02T23:27:57.900088+00:00",
+      "pronunciation": "/biː əˈbaʊt/"
     },
     {
       "terms": {
@@ -797,16 +1013,25 @@
       },
       "examples": {
         "English": [
-          "Please sit down while you wait."
+          "Please sit down while you wait.",
+          "He sat down beside the window.",
+          "Let's sit down and discuss the plan."
         ],
         "Portuguese": [
-          "Por favor, sente-se enquanto espera."
+          "Por favor, sente-se enquanto espera.",
+          "Ele se sentou ao lado da janela.",
+          "Vamos nos sentar e discutir o plano."
         ]
       },
-      "pronunciation": "/sɪt daʊn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Sentar-se.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894495+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/sɪt daʊn/"
     },
     {
       "terms": {
@@ -815,16 +1040,25 @@
       },
       "examples": {
         "English": [
-          "I looked up the word in a dictionary."
+          "I looked up the word in a dictionary.",
+          "She looked up the address on her phone.",
+          "Can you look up the train times for me?"
         ],
         "Portuguese": [
-          "Procurei a palavra em um dicionário."
+          "Procurei a palavra em um dicionário.",
+          "Ela procurou o endereço no celular.",
+          "Você pode consultar os horários dos trens para mim?"
         ]
       },
-      "pronunciation": "/lʊk ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Procurar (informação).",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894509+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/lʊk ʌp/"
     },
     {
       "terms": {
@@ -833,16 +1067,25 @@
       },
       "examples": {
         "English": [
-          "Come on, we are going to be late."
+          "Come on, we are going to be late.",
+          "Come on, let's try one more time.",
+          "Come on, you can finish the race!"
         ],
         "Portuguese": [
-          "Vamos, vamos nos atrasar."
+          "Vamos, vamos nos atrasar.",
+          "Vamos, vamos tentar mais uma vez.",
+          "Vamos, você consegue terminar a corrida!"
         ]
       },
-      "pronunciation": "/kʌm ɑːn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Vamos.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894522+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kʌm ɑːn/"
     },
     {
       "terms": {
@@ -851,16 +1094,25 @@
       },
       "examples": {
         "English": [
-          "I get up early on weekdays."
+          "I get up early on weekdays.",
+          "What time do you get up on Sundays?",
+          "She got up as soon as the alarm rang."
         ],
         "Portuguese": [
-          "Eu me levanto cedo nos dias de semana."
+          "Eu me levanto cedo nos dias de semana.",
+          "A que horas você se levanta aos domingos?",
+          "Ela se levantou assim que o despertador tocou."
         ]
       },
-      "pronunciation": "/ɡɛt ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Levantar-se.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-02T23:28:08.900428+00:00",
+      "last_reviewed_at": "2026-11-02T23:18:08.900428+00:00",
+      "pronunciation": "/ɡɛt ʌp/"
     },
     {
       "terms": {
@@ -869,16 +1121,25 @@
       },
       "examples": {
         "English": [
-          "She took on a new responsibility at work."
+          "She took on a new responsibility at work.",
+          "He took on the task of training the new staff.",
+          "Don't take on more work than you can handle."
         ],
         "Portuguese": [
-          "Ela assumiu uma nova responsabilidade no trabalho."
+          "Ela assumiu uma nova responsabilidade no trabalho.",
+          "Ele assumiu a tarefa de treinar os funcionários novos.",
+          "Não assuma mais trabalho do que consegue dar conta."
         ]
       },
-      "pronunciation": "/teɪk ɑːn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Assumir.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894548+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/teɪk ɑːn/"
     },
     {
       "terms": {
@@ -887,16 +1148,25 @@
       },
       "examples": {
         "English": [
-          "The temperature went down overnight."
+          "The temperature went down overnight.",
+          "The price of fuel went down last week.",
+          "We waited for the noise level to go down."
         ],
         "Portuguese": [
-          "A temperatura caiu durante a noite."
+          "A temperatura caiu durante a noite.",
+          "O preço do combustível caiu na semana passada.",
+          "Esperamos o nível de ruído diminuir."
         ]
       },
-      "pronunciation": "/ɡoʊ daʊn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Descer.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894561+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɡoʊ daʊn/"
     },
     {
       "terms": {
@@ -905,16 +1175,25 @@
       },
       "examples": {
         "English": [
-          "We finally figured out how to fix it."
+          "We finally figured out how to fix it.",
+          "Can you figure out how this lock works?",
+          "She figured out the answer without any help."
         ],
         "Portuguese": [
-          "Finalmente descobrimos como consertar isso."
+          "Finalmente descobrimos como consertar isso.",
+          "Você consegue descobrir como esta fechadura funciona?",
+          "Ela descobriu a resposta sem nenhuma ajuda."
         ]
       },
-      "pronunciation": "/ˈfɪɡjɚ aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Entender.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894573+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈfɪɡjɚ aʊt/"
     },
     {
       "terms": {
@@ -923,16 +1202,25 @@
       },
       "examples": {
         "English": [
-          "He showed up ten minutes late."
+          "He showed up ten minutes late.",
+          "Only five people showed up for the class.",
+          "We waited, but the taxi never showed up."
         ],
         "Portuguese": [
-          "Ele apareceu dez minutos atrasado."
+          "Ele apareceu dez minutos atrasado.",
+          "Só cinco pessoas apareceram para a aula.",
+          "Esperamos, mas o táxi não apareceu."
         ]
       },
-      "pronunciation": "/ʃoʊ ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Aparecer.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894586+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ʃoʊ ʌp/"
     },
     {
       "terms": {
@@ -941,16 +1229,25 @@
       },
       "examples": {
         "English": [
-          "When did you get back from your trip?"
+          "When did you get back from your trip?",
+          "We got back from the beach after sunset.",
+          "Call me when you get back home."
         ],
         "Portuguese": [
-          "Quando você voltou da viagem?"
+          "Quando você voltou da viagem?",
+          "Voltamos da praia depois do pôr do sol.",
+          "Ligue para mim quando voltar para casa."
         ]
       },
-      "pronunciation": "/ɡɛt bæk/",
       "part_of_speech": "phrasal verb",
       "meaning": "Voltar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894598+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɡɛt bæk/"
     },
     {
       "terms": {
@@ -959,16 +1256,25 @@
       },
       "examples": {
         "English": [
-          "The rain came down heavily."
+          "The rain came down heavily.",
+          "Snow came down all afternoon.",
+          "The rain was coming down so hard that we couldn't see the road."
         ],
         "Portuguese": [
-          "A chuva caía forte."
+          "A chuva caía forte.",
+          "A neve caiu a tarde inteira.",
+          "A chuva caía tão forte que não conseguíamos ver a estrada."
         ]
       },
-      "pronunciation": "/kʌm daʊn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Descer.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894611+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kʌm daʊn/"
     },
     {
       "terms": {
@@ -977,16 +1283,25 @@
       },
       "examples": {
         "English": [
-          "Prices went up again this month."
+          "Prices went up again this month.",
+          "The temperature will go up tomorrow.",
+          "Our rent went up at the start of the year."
         ],
         "Portuguese": [
-          "Os preços subiram novamente neste mês."
+          "Os preços subiram novamente neste mês.",
+          "A temperatura vai subir amanhã.",
+          "Nosso aluguel aumentou no início do ano."
         ]
       },
-      "pronunciation": "/ɡoʊ ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Subir.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894623+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɡoʊ ʌp/"
     },
     {
       "terms": {
@@ -995,16 +1310,25 @@
       },
       "examples": {
         "English": [
-          "We got out of the building safely."
+          "We got out of the building safely.",
+          "Everyone managed to get out before the fire spread.",
+          "Use the emergency door to get out."
         ],
         "Portuguese": [
-          "Saímos do prédio em segurança."
+          "Saímos do prédio em segurança.",
+          "Todos conseguiram sair antes de o fogo se espalhar.",
+          "Use a porta de emergência para sair."
         ]
       },
-      "pronunciation": "/ɡɛt aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Sair.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894637+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɡɛt aʊt/"
     },
     {
       "terms": {
@@ -1013,16 +1337,25 @@
       },
       "examples": {
         "English": [
-          "Everyone stood up when the judge entered."
+          "Everyone stood up when the judge entered.",
+          "Please stand up when your name is called.",
+          "He stood up to offer her his seat."
         ],
         "Portuguese": [
-          "Todos se levantaram quando o juiz entrou."
+          "Todos se levantaram quando o juiz entrou.",
+          "Por favor, levante-se quando seu nome for chamado.",
+          "Ele se levantou para oferecer o assento a ela."
         ]
       },
-      "pronunciation": "/stænd ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Ficar de pé.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894650+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/stænd ʌp/"
     },
     {
       "terms": {
@@ -1031,16 +1364,25 @@
       },
       "examples": {
         "English": [
-          "We've run out of coffee."
+          "We've run out of coffee.",
+          "We ran out of milk this morning.",
+          "The printer stopped because it had run out of paper."
         ],
         "Portuguese": [
-          "Ficamos sem café."
+          "Ficamos sem café.",
+          "Ficamos sem leite hoje de manhã.",
+          "A impressora parou porque ficou sem papel."
         ]
       },
-      "pronunciation": "/rʌn aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Acabar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894665+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/rʌn aʊt/"
     },
     {
       "terms": {
@@ -1049,16 +1391,25 @@
       },
       "examples": {
         "English": [
-          "The chef's seasoning brings out the flavor."
+          "The chef's seasoning brings out the flavor.",
+          "A little salt brings out the sweetness of the tomatoes.",
+          "The blue shirt brings out the color of her eyes."
         ],
         "Portuguese": [
-          "O tempero do chef realça o sabor."
+          "O tempero do chef realça o sabor.",
+          "Um pouco de sal realça a doçura dos tomates.",
+          "A camisa azul realça a cor dos olhos dela."
         ]
       },
-      "pronunciation": "/brɪŋ aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Lançar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894679+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/brɪŋ aʊt/"
     },
     {
       "terms": {
@@ -1067,16 +1418,25 @@
       },
       "examples": {
         "English": [
-          "We worked out a solution together."
+          "We worked out a solution together.",
+          "They worked out a fair agreement.",
+          "Can we work out a schedule that suits everyone?"
         ],
         "Portuguese": [
-          "Encontramos uma solução juntos."
+          "Encontramos uma solução juntos.",
+          "Eles chegaram a um acordo justo.",
+          "Podemos definir um horário que seja bom para todos?"
         ]
       },
-      "pronunciation": "/wɝːk aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Dar certo.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894692+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/wɝːk aʊt/"
     },
     {
       "terms": {
@@ -1085,16 +1445,25 @@
       },
       "examples": {
         "English": [
-          "I'll be back before lunchtime."
+          "I'll be back before lunchtime.",
+          "She'll be back in ten minutes.",
+          "Will you be back by Friday?"
         ],
         "Portuguese": [
-          "Estarei de volta antes da hora do almoço."
+          "Estarei de volta antes da hora do almoço.",
+          "Ela estará de volta em dez minutos.",
+          "Você estará de volta até sexta-feira?"
         ]
       },
-      "pronunciation": "/biː bæk/",
       "part_of_speech": "phrasal verb",
       "meaning": "Voltar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894704+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/biː bæk/"
     },
     {
       "terms": {
@@ -1103,16 +1472,25 @@
       },
       "examples": {
         "English": [
-          "I wake up at seven every morning."
+          "I wake up at seven every morning.",
+          "He woke up before sunrise.",
+          "I usually wake up feeling rested."
         ],
         "Portuguese": [
-          "Eu acordo às sete todas as manhãs."
+          "Eu acordo às sete todas as manhãs.",
+          "Ele acordou antes do nascer do sol.",
+          "Geralmente acordo me sentindo descansado."
         ]
       },
-      "pronunciation": "/weɪk ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Acordar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894717+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/weɪk ʌp/"
     },
     {
       "terms": {
@@ -1121,16 +1499,25 @@
       },
       "examples": {
         "English": [
-          "She looked back on her school years fondly."
+          "She looked back on her school years fondly.",
+          "I look back on that trip with a smile.",
+          "Looking back, she realized how much she had learned."
         ],
         "Portuguese": [
-          "Ela recordava com carinho seus anos de escola."
+          "Ela recordava com carinho seus anos de escola.",
+          "Recordo aquela viagem com um sorriso.",
+          "Ao olhar para o passado, ela percebeu o quanto tinha aprendido."
         ]
       },
-      "pronunciation": "/lʊk bæk/",
       "part_of_speech": "phrasal verb",
       "meaning": "Olhar para trás.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894745+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/lʊk bæk/"
     },
     {
       "terms": {
@@ -1139,16 +1526,25 @@
       },
       "examples": {
         "English": [
-          "The pain went away after a while."
+          "The pain went away after a while.",
+          "The headache went away after I rested.",
+          "The smell won't go away even with the windows open."
         ],
         "Portuguese": [
-          "A dor passou depois de um tempo."
+          "A dor passou depois de um tempo.",
+          "A dor de cabeça passou depois que descansei.",
+          "O cheiro não desaparece nem com as janelas abertas."
         ]
       },
-      "pronunciation": "/ɡoʊ əˈweɪ/",
       "part_of_speech": "phrasal verb",
       "meaning": "Ir embora.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-02T23:34:21.057747+00:00",
+      "last_reviewed_at": "2026-11-02T23:24:21.057747+00:00",
+      "pronunciation": "/ɡoʊ əˈweɪ/"
     },
     {
       "terms": {
@@ -1157,16 +1553,25 @@
       },
       "examples": {
         "English": [
-          "The plane took off on time."
+          "The plane took off on time.",
+          "Our flight took off twenty minutes late.",
+          "The helicopter took off from the roof."
         ],
         "Portuguese": [
-          "O avião decolou no horário."
+          "O avião decolou no horário.",
+          "Nosso voo decolou com vinte minutos de atraso.",
+          "O helicóptero decolou do telhado."
         ]
       },
-      "pronunciation": "/teɪk ɔːf/",
       "part_of_speech": "phrasal verb",
       "meaning": "Decolar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894775+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/teɪk ɔːf/"
     },
     {
       "terms": {
@@ -1175,16 +1580,25 @@
       },
       "examples": {
         "English": [
-          "The team carried out the plan carefully."
+          "The team carried out the plan carefully.",
+          "The lab carried out several tests.",
+          "The repairs must be carried out by a qualified technician."
         ],
         "Portuguese": [
-          "A equipe executou o plano com cuidado."
+          "A equipe executou o plano com cuidado.",
+          "O laboratório realizou vários testes.",
+          "Os reparos devem ser executados por um técnico qualificado."
         ]
       },
-      "pronunciation": "/ˈkæri aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Realizar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894788+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈkæri aʊt/"
     },
     {
       "terms": {
@@ -1193,16 +1607,25 @@
       },
       "examples": {
         "English": [
-          "He looked down at the map."
+          "He looked down at the map.",
+          "She looked down at her shoes.",
+          "Don't look down while you're crossing the bridge."
         ],
         "Portuguese": [
-          "Ele olhou para baixo, para o mapa."
+          "Ele olhou para baixo, para o mapa.",
+          "Ela olhou para baixo, para os sapatos.",
+          "Não olhe para baixo enquanto atravessa a ponte."
         ]
       },
-      "pronunciation": "/lʊk daʊn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Olhar para baixo.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-02T23:36:16.884570+00:00",
+      "last_reviewed_at": "2026-11-02T23:26:16.884570+00:00",
+      "pronunciation": "/lʊk daʊn/"
     },
     {
       "terms": {
@@ -1211,16 +1634,25 @@
       },
       "examples": {
         "English": [
-          "Look out for cars when you cross."
+          "Look out for cars when you cross.",
+          "Look out! There's a bike behind you.",
+          "Look out for slippery steps near the entrance."
         ],
         "Portuguese": [
-          "Fique atento aos carros ao atravessar."
+          "Fique atento aos carros ao atravessar.",
+          "Cuidado! Tem uma bicicleta atrás de você.",
+          "Tome cuidado com os degraus escorregadios perto da entrada."
         ]
       },
-      "pronunciation": "/lʊk aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Ter cuidado.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894814+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/lʊk aʊt/"
     },
     {
       "terms": {
@@ -1229,16 +1661,25 @@
       },
       "examples": {
         "English": [
-          "A larger company took over the business."
+          "A larger company took over the business.",
+          "She will take over the department next month.",
+          "Who will take over when the manager retires?"
         ],
         "Portuguese": [
-          "Uma empresa maior assumiu o controle do negócio."
+          "Uma empresa maior assumiu o controle do negócio.",
+          "Ela vai assumir o controle do departamento no mês que vem.",
+          "Quem vai assumir o controle quando o gerente se aposentar?"
         ]
       },
-      "pronunciation": "/teɪk ˈoʊvɚ/",
       "part_of_speech": "phrasal verb",
       "meaning": "Assumir o controle.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894826+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/teɪk ˈoʊvɚ/"
     },
     {
       "terms": {
@@ -1247,16 +1688,25 @@
       },
       "examples": {
         "English": [
-          "The car pulled out into traffic."
+          "The car pulled out into traffic.",
+          "The bus pulled out from the stop.",
+          "Check your mirrors before you pull out."
         ],
         "Portuguese": [
-          "O carro saiu de onde estava e entrou no fluxo do trânsito."
+          "O carro saiu de onde estava e entrou no fluxo do trânsito.",
+          "O ônibus saiu do ponto.",
+          "Confira os retrovisores antes de sair com o carro."
         ]
       },
-      "pronunciation": "/pull aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Retirar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894842+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/pull aʊt/"
     },
     {
       "terms": {
@@ -1265,16 +1715,25 @@
       },
       "examples": {
         "English": [
-          "Traffic held us up for an hour."
+          "Traffic held us up for an hour.",
+          "The accident held up the buses.",
+          "We were held up by a long security check."
         ],
         "Portuguese": [
-          "O trânsito nos atrasou por uma hora."
+          "O trânsito nos atrasou por uma hora.",
+          "O acidente atrasou os ônibus.",
+          "Fomos atrasados por uma longa inspeção de segurança."
         ]
       },
-      "pronunciation": "/hoʊld ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Atrasar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894855+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/hoʊld ʌp/"
     },
     {
       "terms": {
@@ -1283,16 +1742,25 @@
       },
       "examples": {
         "English": [
-          "After a short break, we moved on."
+          "After a short break, we moved on.",
+          "Let's move on to the next question.",
+          "After finishing the first chapter, she moved on to the second."
         ],
         "Portuguese": [
-          "Depois de uma pequena pausa, seguimos em frente."
+          "Depois de uma pequena pausa, seguimos em frente.",
+          "Vamos passar para a próxima pergunta.",
+          "Depois de terminar o primeiro capítulo, ela passou para o segundo."
         ]
       },
-      "pronunciation": "/muːv ɑːn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Seguir em frente.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894868+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/muːv ɑːn/"
     },
     {
       "terms": {
@@ -1301,16 +1769,25 @@
       },
       "examples": {
         "English": [
-          "The lights went out as we went in."
+          "The lights went out as we went in.",
+          "The door is open; you can go in.",
+          "We waited outside before going in."
         ],
         "Portuguese": [
-          "As luzes se apagaram quando entramos."
+          "As luzes se apagaram quando entramos.",
+          "A porta está aberta; você pode entrar.",
+          "Esperamos do lado de fora antes de entrar."
         ]
       },
-      "pronunciation": "/ɡoʊ ɪn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Entrar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894881+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɡoʊ ɪn/"
     },
     {
       "terms": {
@@ -1319,16 +1796,25 @@
       },
       "examples": {
         "English": [
-          "Let's meet soon and catch up."
+          "Let's meet soon and catch up.",
+          "We caught up over coffee after years apart.",
+          "I'd love to catch up with you this weekend."
         ],
         "Portuguese": [
-          "Vamos nos encontrar em breve para colocar o papo em dia."
+          "Vamos nos encontrar em breve para colocar o papo em dia.",
+          "Colocamos o papo em dia tomando café depois de anos separados.",
+          "Eu adoraria colocar o papo em dia com você neste fim de semana."
         ]
       },
-      "pronunciation": "/kætʃ ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Alcançar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-02T23:35:02.719011+00:00",
+      "last_reviewed_at": "2026-11-02T23:25:02.719011+00:00",
+      "pronunciation": "/kætʃ ʌp/"
     },
     {
       "terms": {
@@ -1337,16 +1823,25 @@
       },
       "examples": {
         "English": [
-          "He opened up about his worries."
+          "He opened up about his worries.",
+          "She opened up about her difficult childhood.",
+          "It took time for him to open up to his friends."
         ],
         "Portuguese": [
-          "Ele se abriu sobre suas preocupações."
+          "Ele se abriu sobre suas preocupações.",
+          "Ela se abriu sobre a infância difícil.",
+          "Levou tempo para ele se abrir com os amigos."
         ]
       },
-      "pronunciation": "/ˈoʊpən ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Abrir.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894908+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈoʊpən ʌp/"
     },
     {
       "terms": {
@@ -1355,16 +1850,25 @@
       },
       "examples": {
         "English": [
-          "Please reach out if you need support."
+          "Please reach out if you need support.",
+          "She reached out to an old colleague for advice.",
+          "We reached out to the organizer by email."
         ],
         "Portuguese": [
-          "Por favor, entre em contato se precisar de apoio."
+          "Por favor, entre em contato se precisar de apoio.",
+          "Ela entrou em contato com um antigo colega para pedir conselhos.",
+          "Entramos em contato com o organizador por e-mail."
         ]
       },
-      "pronunciation": "/riːtʃ aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Entrar em contato.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894921+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/riːtʃ aʊt/"
     },
     {
       "terms": {
@@ -1373,16 +1877,25 @@
       },
       "examples": {
         "English": [
-          "The company turned around after a difficult year."
+          "The company turned around after a difficult year.",
+          "The new manager helped turn around the struggling store.",
+          "Sales turned around after the new campaign."
         ],
         "Portuguese": [
-          "A empresa se recuperou depois de um ano difícil."
+          "A empresa se recuperou depois de um ano difícil.",
+          "O novo gerente ajudou a recuperar a loja que enfrentava dificuldades.",
+          "As vendas se recuperaram depois da nova campanha."
         ]
       },
-      "pronunciation": "/tɝːn əˈraʊnd/",
       "part_of_speech": "phrasal verb",
       "meaning": "Virar-se.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894933+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/tɝːn əˈraʊnd/"
     },
     {
       "terms": {
@@ -1391,16 +1904,25 @@
       },
       "examples": {
         "English": [
-          "We looked around the museum for an hour."
+          "We looked around the museum for an hour.",
+          "Feel free to look around the shop.",
+          "We looked around the apartment before signing the lease."
         ],
         "Portuguese": [
-          "Passamos uma hora explorando o museu."
+          "Passamos uma hora explorando o museu.",
+          "Fique à vontade para dar uma olhada na loja.",
+          "Exploramos o apartamento antes de assinar o contrato de aluguel."
         ]
       },
-      "pronunciation": "/lʊk əˈraʊnd/",
       "part_of_speech": "phrasal verb",
       "meaning": "Olhar ao redor.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894947+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/lʊk əˈraʊnd/"
     },
     {
       "terms": {
@@ -1409,16 +1931,25 @@
       },
       "examples": {
         "English": [
-          "She took the documents out of her bag."
+          "She took the documents out of her bag.",
+          "He took out his phone to check the time.",
+          "Take the cake out of the oven carefully."
         ],
         "Portuguese": [
-          "Ela tirou os documentos da bolsa."
+          "Ela tirou os documentos da bolsa.",
+          "Ele tirou o celular para ver as horas.",
+          "Tire o bolo do forno com cuidado."
         ]
       },
-      "pronunciation": "/teɪk aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Tirar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894960+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/teɪk aʊt/"
     },
     {
       "terms": {
@@ -1427,16 +1958,25 @@
       },
       "examples": {
         "English": [
-          "The alarm went off at midnight."
+          "The alarm went off at midnight.",
+          "My alarm didn't go off this morning.",
+          "The smoke alarm went off while we were cooking."
         ],
         "Portuguese": [
-          "O alarme disparou à meia-noite."
+          "O alarme disparou à meia-noite.",
+          "Meu despertador não tocou hoje de manhã.",
+          "O alarme de fumaça disparou enquanto cozinhávamos."
         ]
       },
-      "pronunciation": "/ɡoʊ ɔːf/",
       "part_of_speech": "phrasal verb",
       "meaning": "Disparar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894973+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɡoʊ ɔːf/"
     },
     {
       "terms": {
@@ -1445,16 +1985,25 @@
       },
       "examples": {
         "English": [
-          "They put up a tent near the lake."
+          "They put up a tent near the lake.",
+          "They put up a fence around the garden.",
+          "We put up the tent before it started raining."
         ],
         "Portuguese": [
-          "Eles montaram uma barraca perto do lago."
+          "Eles montaram uma barraca perto do lago.",
+          "Eles ergueram uma cerca ao redor do jardim.",
+          "Montamos a barraca antes de começar a chover."
         ]
       },
-      "pronunciation": "/pʊt ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Erguer.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.894986+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/pʊt ʌp/"
     },
     {
       "terms": {
@@ -1463,16 +2012,25 @@
       },
       "examples": {
         "English": [
-          "We set out early to avoid traffic."
+          "We set out early to avoid traffic.",
+          "The hikers set out at dawn.",
+          "We set out for the coast after breakfast."
         ],
         "Portuguese": [
-          "Partimos cedo para evitar o trânsito."
+          "Partimos cedo para evitar o trânsito.",
+          "Os caminhantes partiram ao amanhecer.",
+          "Partimos para o litoral depois do café da manhã."
         ]
       },
-      "pronunciation": "/sɛt aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Partir.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895001+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/sɛt aʊt/"
     },
     {
       "terms": {
@@ -1481,16 +2039,25 @@
       },
       "examples": {
         "English": [
-          "Our car broke down on the highway."
+          "Our car broke down on the highway.",
+          "The washing machine broke down yesterday.",
+          "The bus broke down halfway through the trip."
         ],
         "Portuguese": [
-          "Nosso carro parou de funcionar na rodovia."
+          "Nosso carro parou de funcionar na rodovia.",
+          "A máquina de lavar parou de funcionar ontem.",
+          "O ônibus quebrou no meio da viagem."
         ]
       },
-      "pronunciation": "/breɪk daʊn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Quebrar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-02T23:35:15.350593+00:00",
+      "last_reviewed_at": "2026-11-02T23:25:15.350593+00:00",
+      "pronunciation": "/breɪk daʊn/"
     },
     {
       "terms": {
@@ -1499,16 +2066,25 @@
       },
       "examples": {
         "English": [
-          "He brought up an important issue."
+          "He brought up an important issue.",
+          "She brought up the budget during the meeting.",
+          "Don't bring up that subject at dinner."
         ],
         "Portuguese": [
-          "Ele mencionou uma questão importante."
+          "Ele mencionou uma questão importante.",
+          "Ela mencionou o orçamento durante a reunião.",
+          "Não toque nesse assunto durante o jantar."
         ]
       },
-      "pronunciation": "/brɪŋ ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Mencionar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895040+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/brɪŋ ʌp/"
     },
     {
       "terms": {
@@ -1517,16 +2093,25 @@
       },
       "examples": {
         "English": [
-          "You should check out that new café."
+          "You should check out that new café.",
+          "Check out this article when you have time.",
+          "We checked out the new bookstore downtown."
         ],
         "Portuguese": [
-          "Você deveria conhecer aquele café novo."
+          "Você deveria conhecer aquele café novo.",
+          "Dê uma olhada neste artigo quando tiver tempo.",
+          "Fomos conhecer a livraria nova no centro."
         ]
       },
-      "pronunciation": "/tʃɛk aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Conferir.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 1,
+      "review_correct": 1,
+      "review_total": 1,
+      "due_at": "2026-11-03T23:20:42.505192+00:00",
+      "last_reviewed_at": "2026-11-02T23:20:42.505192+00:00",
+      "pronunciation": "/tʃɛk aʊt/"
     },
     {
       "terms": {
@@ -1535,16 +2120,25 @@
       },
       "examples": {
         "English": [
-          "We wound up staying home."
+          "We wound up staying home.",
+          "If we miss the bus, we'll wind up walking.",
+          "He wound up paying for everyone's lunch."
         ],
         "Portuguese": [
-          "Acabamos ficando em casa."
+          "Acabamos ficando em casa.",
+          "Se perdermos o ônibus, vamos acabar indo a pé.",
+          "Ele acabou pagando o almoço de todos."
         ]
       },
-      "pronunciation": "/waɪnd ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Acabar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895075+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/waɪnd ʌp/"
     },
     {
       "terms": {
@@ -1553,16 +2147,25 @@
       },
       "examples": {
         "English": [
-          "The children cleaned up their room."
+          "The children cleaned up their room.",
+          "We cleaned up the kitchen after dinner.",
+          "Please clean up your desk before you leave."
         ],
         "Portuguese": [
-          "As crianças arrumaram o quarto."
+          "As crianças arrumaram o quarto.",
+          "Arrumamos a cozinha depois do jantar.",
+          "Por favor, arrume sua mesa antes de sair."
         ]
       },
-      "pronunciation": "/kliːn ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Limpar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895087+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kliːn ʌp/"
     },
     {
       "terms": {
@@ -1571,16 +2174,25 @@
       },
       "examples": {
         "English": [
-          "The factory shut down for the holiday."
+          "The factory shut down for the holiday.",
+          "The plant shut down for essential repairs.",
+          "The restaurant shut down after losing its lease."
         ],
         "Portuguese": [
-          "A fábrica fechou para o feriado."
+          "A fábrica fechou para o feriado.",
+          "A fábrica fechou para reparos essenciais.",
+          "O restaurante fechou depois de perder o contrato de aluguel."
         ]
       },
-      "pronunciation": "/ʃʌt daʊn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Fechar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895100+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ʃʌt daʊn/"
     },
     {
       "terms": {
@@ -1589,16 +2201,25 @@
       },
       "examples": {
         "English": [
-          "Her bright red coat made her stand out."
+          "Her bright red coat made her stand out.",
+          "His application stood out from the others.",
+          "The white house stands out against the dark trees."
         ],
         "Portuguese": [
-          "O casaco vermelho vivo dela a fazia se destacar."
+          "O casaco vermelho vivo dela a fazia se destacar.",
+          "A candidatura dele se destacou das demais.",
+          "A casa branca se destaca em contraste com as árvores escuras."
         ]
       },
-      "pronunciation": "/stænd aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Destacar-se.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895113+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/stænd aʊt/"
     },
     {
       "terms": {
@@ -1607,16 +2228,25 @@
       },
       "examples": {
         "English": [
-          "They set off before sunrise."
+          "They set off before sunrise.",
+          "We set off for the airport at five.",
+          "They set off on their journey early in the morning."
         ],
         "Portuguese": [
-          "Eles partiram antes do nascer do sol."
+          "Eles partiram antes do nascer do sol.",
+          "Partimos para o aeroporto às cinco.",
+          "Eles partiram em viagem bem cedo pela manhã."
         ]
       },
-      "pronunciation": "/sɛt ɔːf/",
       "part_of_speech": "phrasal verb",
       "meaning": "Partir.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895126+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/sɛt ɔːf/"
     },
     {
       "terms": {
@@ -1625,16 +2255,25 @@
       },
       "examples": {
         "English": [
-          "Let's go over the instructions once more."
+          "Let's go over the instructions once more.",
+          "She went over her notes before the exam.",
+          "Can we go over the details together?"
         ],
         "Portuguese": [
-          "Vamos revisar as instruções mais uma vez."
+          "Vamos revisar as instruções mais uma vez.",
+          "Ela revisou as anotações antes da prova.",
+          "Podemos revisar os detalhes juntos?"
         ]
       },
-      "pronunciation": "/ɡoʊ ˈoʊvɚ/",
       "part_of_speech": "phrasal verb",
       "meaning": "Revisar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895139+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɡoʊ ˈoʊvɚ/"
     },
     {
       "terms": {
@@ -1643,16 +2282,25 @@
       },
       "examples": {
         "English": [
-          "Hold on a moment while I check."
+          "Hold on a moment while I check.",
+          "Hold on while I find a pen.",
+          "Could you hold on for a few seconds?"
         ],
         "Portuguese": [
-          "Espere um momento enquanto eu verifico."
+          "Espere um momento enquanto eu verifico.",
+          "Espere enquanto eu procuro uma caneta.",
+          "Você poderia esperar alguns segundos?"
         ]
       },
-      "pronunciation": "/hoʊld ɑːn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Esperar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895154+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/hoʊld ɑːn/"
     },
     {
       "terms": {
@@ -1661,16 +2309,25 @@
       },
       "examples": {
         "English": [
-          "Fans lined up outside the theater."
+          "Fans lined up outside the theater.",
+          "The children lined up for lunch.",
+          "People lined up to buy tickets."
         ],
         "Portuguese": [
-          "Os fãs formaram fila do lado de fora do teatro."
+          "Os fãs formaram fila do lado de fora do teatro.",
+          "As crianças formaram fila para o almoço.",
+          "As pessoas formaram fila para comprar ingressos."
         ]
       },
-      "pronunciation": "/laɪn ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Formar fila.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-02T23:35:39.100065+00:00",
+      "last_reviewed_at": "2026-11-02T23:25:39.100065+00:00",
+      "pronunciation": "/laɪn ʌp/"
     },
     {
       "terms": {
@@ -1679,16 +2336,25 @@
       },
       "examples": {
         "English": [
-          "Hang on, I'll be right there."
+          "Hang on, I'll be right there.",
+          "Hang on a second; I've forgotten my keys.",
+          "Can you hang on while I answer the door?"
         ],
         "Portuguese": [
-          "Espere, já estou indo."
+          "Espere, já estou indo.",
+          "Espere um segundo; esqueci minhas chaves.",
+          "Você pode esperar enquanto eu atendo à porta?"
         ]
       },
-      "pronunciation": "/hæŋ ɑːn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Esperar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895179+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/hæŋ ɑːn/"
     },
     {
       "terms": {
@@ -1697,16 +2363,25 @@
       },
       "examples": {
         "English": [
-          "She went through a difficult period."
+          "She went through a difficult period.",
+          "They went through a lot during the move.",
+          "He went through a difficult recovery after the accident."
         ],
         "Portuguese": [
-          "Ela passou por um período difícil."
+          "Ela passou por um período difícil.",
+          "Eles passaram por muita coisa durante a mudança.",
+          "Ele passou por uma recuperação difícil depois do acidente."
         ]
       },
-      "pronunciation": "/ɡoʊ θruː/",
       "part_of_speech": "phrasal verb",
       "meaning": "Passar por.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895193+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɡoʊ θruː/"
     },
     {
       "terms": {
@@ -1715,16 +2390,25 @@
       },
       "examples": {
         "English": [
-          "Turn up the music a little."
+          "Turn up the music a little.",
+          "Can you turn up the volume a little?",
+          "She turned up the radio to hear the news."
         ],
         "Portuguese": [
-          "Aumente um pouco o volume da música."
+          "Aumente um pouco o volume da música.",
+          "Você pode aumentar um pouco o volume?",
+          "Ela aumentou o volume do rádio para ouvir as notícias."
         ]
       },
-      "pronunciation": "/tɝːn ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Aparecer.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895206+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/tɝːn ʌp/"
     },
     {
       "terms": {
@@ -1733,16 +2417,25 @@
       },
       "examples": {
         "English": [
-          "All their hard work paid off."
+          "All their hard work paid off.",
+          "Her daily practice paid off at the audition.",
+          "Our patience finally paid off."
         ],
         "Portuguese": [
-          "Todo o esforço deles deu resultado."
+          "Todo o esforço deles deu resultado.",
+          "A prática diária dela deu resultado na audição.",
+          "Nossa paciência finalmente deu resultado."
         ]
       },
-      "pronunciation": "/peɪ ɔːf/",
       "part_of_speech": "phrasal verb",
       "meaning": "Dar resultado.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895219+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/peɪ ɔːf/"
     },
     {
       "terms": {
@@ -1751,16 +2444,25 @@
       },
       "examples": {
         "English": [
-          "The new product brought in more customers."
+          "The new product brought in more customers.",
+          "The festival brought in visitors from nearby towns.",
+          "The special offer brought in many new shoppers."
         ],
         "Portuguese": [
-          "O novo produto atraiu mais clientes."
+          "O novo produto atraiu mais clientes.",
+          "O festival atraiu visitantes de cidades vizinhas.",
+          "A oferta especial atraiu muitos compradores novos."
         ]
       },
-      "pronunciation": "/brɪŋ ɪn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Introduzir.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895232+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/brɪŋ ɪn/"
     },
     {
       "terms": {
@@ -1769,16 +2471,25 @@
       },
       "examples": {
         "English": [
-          "We turned back when the road flooded."
+          "We turned back when the road flooded.",
+          "We had to turn back because of the fog.",
+          "They turned back before reaching the summit."
         ],
         "Portuguese": [
-          "Voltamos quando a estrada ficou alagada."
+          "Voltamos quando a estrada ficou alagada.",
+          "Tivemos que voltar por causa da neblina.",
+          "Eles voltaram antes de chegar ao cume."
         ]
       },
-      "pronunciation": "/tɝːn bæk/",
       "part_of_speech": "phrasal verb",
       "meaning": "Voltar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895245+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/tɝːn bæk/"
     },
     {
       "terms": {
@@ -1787,16 +2498,25 @@
       },
       "examples": {
         "English": [
-          "She hung up before I could answer."
+          "She hung up before I could answer.",
+          "He said goodbye and hung up.",
+          "Don't hang up; I need to ask you something."
         ],
         "Portuguese": [
-          "Ela desligou antes que eu pudesse responder."
+          "Ela desligou antes que eu pudesse responder.",
+          "Ele se despediu e desligou o telefone.",
+          "Não desligue; preciso perguntar uma coisa."
         ]
       },
-      "pronunciation": "/hæŋ ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Desligar (telefone).",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895261+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/hæŋ ʌp/"
     },
     {
       "terms": {
@@ -1805,16 +2525,25 @@
       },
       "examples": {
         "English": [
-          "Firefighters put out the fire quickly."
+          "Firefighters put out the fire quickly.",
+          "We put out the campfire before leaving.",
+          "He used a fire extinguisher to put out the flames."
         ],
         "Portuguese": [
-          "Os bombeiros apagaram o incêndio rapidamente."
+          "Os bombeiros apagaram o incêndio rapidamente.",
+          "Apagamos a fogueira antes de sair.",
+          "Ele usou um extintor para apagar as chamas."
         ]
       },
-      "pronunciation": "/pʊt aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Apagar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895275+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/pʊt aʊt/"
     },
     {
       "terms": {
@@ -1823,16 +2552,25 @@
       },
       "examples": {
         "English": [
-          "They broke up last summer."
+          "They broke up last summer.",
+          "She broke up with her boyfriend in May.",
+          "They decided to break up after three years together."
         ],
         "Portuguese": [
-          "Eles terminaram o relacionamento no verão passado."
+          "Eles terminaram o relacionamento no verão passado.",
+          "Ela terminou com o namorado em maio.",
+          "Eles decidiram terminar depois de três anos juntos."
         ]
       },
-      "pronunciation": "/breɪk ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Terminar (relacionamento).",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895289+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/breɪk ʌp/"
     },
     {
       "terms": {
@@ -1841,16 +2579,25 @@
       },
       "examples": {
         "English": [
-          "She laid out the options clearly."
+          "She laid out the options clearly.",
+          "The report lays out the steps we need to take.",
+          "He laid out his plan during the meeting."
         ],
         "Portuguese": [
-          "Ela apresentou as opções com clareza."
+          "Ela apresentou as opções com clareza.",
+          "O relatório apresenta as medidas que precisamos tomar.",
+          "Ele apresentou o plano durante a reunião."
         ]
       },
-      "pronunciation": "/leɪ aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Organizar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895301+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/leɪ aʊt/"
     },
     {
       "terms": {
@@ -1859,16 +2606,25 @@
       },
       "examples": {
         "English": [
-          "We like to hang out at the park."
+          "We like to hang out at the park.",
+          "They hang out at the café after class.",
+          "Do you want to hang out this afternoon?"
         ],
         "Portuguese": [
-          "Gostamos de passar tempo no parque."
+          "Gostamos de passar tempo no parque.",
+          "Eles passam tempo no café depois da aula.",
+          "Você quer passar um tempo junto hoje à tarde?"
         ]
       },
-      "pronunciation": "/hæŋ aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Passar tempo.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-02T23:27:58.259841+00:00",
+      "last_reviewed_at": "2026-11-02T23:17:58.259841+00:00",
+      "pronunciation": "/hæŋ aʊt/"
     },
     {
       "terms": {
@@ -1877,16 +2633,25 @@
       },
       "examples": {
         "English": [
-          "The team welcomed back its captain."
+          "The team welcomed back its captain.",
+          "The school welcomed back its students after the break.",
+          "We welcomed back our neighbors after their long trip."
         ],
         "Portuguese": [
-          "A equipe deu as boas-vindas ao capitão em seu retorno."
+          "A equipe deu as boas-vindas ao capitão em seu retorno.",
+          "A escola deu as boas-vindas aos alunos no retorno das férias.",
+          "Demos as boas-vindas aos vizinhos quando voltaram da longa viagem."
         ]
       },
-      "pronunciation": "/ˈwɛlkəm bæk/",
       "part_of_speech": "phrasal verb",
       "meaning": "Dar boas-vindas de volta.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895329+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈwɛlkəm bæk/"
     },
     {
       "terms": {
@@ -1895,16 +2660,25 @@
       },
       "examples": {
         "English": [
-          "Stress can build up over time."
+          "Stress can build up over time.",
+          "Dust builds up quickly on this shelf.",
+          "Traffic began to build up near the bridge."
         ],
         "Portuguese": [
-          "O estresse pode se acumular com o tempo."
+          "O estresse pode se acumular com o tempo.",
+          "A poeira se acumula rapidamente nesta prateleira.",
+          "O trânsito começou a se acumular perto da ponte."
         ]
       },
-      "pronunciation": "/bɪld ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Acumular.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895344+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/bɪld ʌp/"
     },
     {
       "terms": {
@@ -1913,16 +2687,25 @@
       },
       "examples": {
         "English": [
-          "He started out as a teaching assistant."
+          "He started out as a teaching assistant.",
+          "She started out as a volunteer at the museum.",
+          "The company started out as a small family business."
         ],
         "Portuguese": [
-          "Ele começou como assistente de ensino."
+          "Ele começou como assistente de ensino.",
+          "Ela começou como voluntária no museu.",
+          "A empresa começou como um pequeno negócio familiar."
         ]
       },
-      "pronunciation": "/stɑːrt aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Começar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895358+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/stɑːrt aʊt/"
     },
     {
       "terms": {
@@ -1931,16 +2714,25 @@
       },
       "examples": {
         "English": [
-          "Please slow down near the school."
+          "Please slow down near the school.",
+          "The driver slowed down before the turn.",
+          "Slow down so I can keep up with you."
         ],
         "Portuguese": [
-          "Por favor, reduza a velocidade perto da escola."
+          "Por favor, reduza a velocidade perto da escola.",
+          "O motorista reduziu a velocidade antes da curva.",
+          "Diminua a velocidade para eu conseguir acompanhar você."
         ]
       },
-      "pronunciation": "/sloʊ daʊn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Diminuir a velocidade.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895373+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/sloʊ daʊn/"
     },
     {
       "terms": {
@@ -1949,16 +2741,25 @@
       },
       "examples": {
         "English": [
-          "She sat up in bed when the phone rang."
+          "She sat up in bed when the phone rang.",
+          "He sat up in his chair to listen.",
+          "Sit up straight while you eat."
         ],
         "Portuguese": [
-          "Ela se sentou na cama quando o telefone tocou."
+          "Ela se sentou na cama quando o telefone tocou.",
+          "Ele se endireitou na cadeira para ouvir.",
+          "Sente-se direito enquanto come."
         ]
       },
-      "pronunciation": "/sɪt ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Sentar-se ereto.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895815+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/sɪt ʌp/"
     },
     {
       "terms": {
@@ -1967,16 +2768,25 @@
       },
       "examples": {
         "English": [
-          "We got away for the weekend."
+          "We got away for the weekend.",
+          "They got away for a few days in the mountains.",
+          "We hope to get away for a short holiday in June."
         ],
         "Portuguese": [
-          "Saímos para passar o fim de semana fora."
+          "Saímos para passar o fim de semana fora.",
+          "Eles tiraram alguns dias de descanso nas montanhas.",
+          "Esperamos sair para umas férias curtas em junho."
         ]
       },
-      "pronunciation": "/ɡɛt əˈweɪ/",
       "part_of_speech": "phrasal verb",
       "meaning": "Escapar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895838+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɡɛt əˈweɪ/"
     },
     {
       "terms": {
@@ -1985,16 +2795,25 @@
       },
       "examples": {
         "English": [
-          "Our new neighbors moved in yesterday."
+          "Our new neighbors moved in yesterday.",
+          "She's moving in next Saturday.",
+          "They moved in as soon as the apartment was ready."
         ],
         "Portuguese": [
-          "Nossos novos vizinhos se mudaram para cá ontem."
+          "Nossos novos vizinhos se mudaram para cá ontem.",
+          "Ela vai se mudar para cá no próximo sábado.",
+          "Eles se mudaram assim que o apartamento ficou pronto."
         ]
       },
-      "pronunciation": "/muːv ɪn/",
       "part_of_speech": "phrasal verb",
       "meaning": "Mudar-se para dentro.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-02T23:29:37.393755+00:00",
+      "last_reviewed_at": "2026-11-02T23:19:37.393755+00:00",
+      "pronunciation": "/muːv ɪn/"
     },
     {
       "terms": {
@@ -2003,16 +2822,25 @@
       },
       "examples": {
         "English": [
-          "Could you look over my essay?"
+          "Could you look over my essay?",
+          "Please look over the contract before signing.",
+          "She looked over the figures and found an error."
         ],
         "Portuguese": [
-          "Você poderia dar uma olhada na minha redação?"
+          "Você poderia dar uma olhada na minha redação?",
+          "Por favor, examine o contrato antes de assinar.",
+          "Ela examinou os números e encontrou um erro."
         ]
       },
-      "pronunciation": "/lʊk ˈoʊvɚ/",
       "part_of_speech": "phrasal verb",
       "meaning": "Examinar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895869+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/lʊk ˈoʊvɚ/"
     },
     {
       "terms": {
@@ -2021,16 +2849,25 @@
       },
       "examples": {
         "English": [
-          "A taxi pulled up beside us."
+          "A taxi pulled up beside us.",
+          "The bus pulled up in front of the hotel.",
+          "He pulled up beside the gas station."
         ],
         "Portuguese": [
-          "Um táxi parou ao nosso lado."
+          "Um táxi parou ao nosso lado.",
+          "O ônibus parou em frente ao hotel.",
+          "Ele parou o carro ao lado do posto de gasolina."
         ]
       },
-      "pronunciation": "/pull ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Encostar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895882+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/pull ʌp/"
     },
     {
       "terms": {
@@ -2039,16 +2876,25 @@
       },
       "examples": {
         "English": [
-          "He walked away without saying goodbye."
+          "He walked away without saying goodbye.",
+          "She walked away from the argument.",
+          "We watched him walk away down the street."
         ],
         "Portuguese": [
-          "Ele foi embora sem se despedir."
+          "Ele foi embora sem se despedir.",
+          "Ela se afastou da discussão.",
+          "Nós o vimos ir embora pela rua."
         ]
       },
-      "pronunciation": "/wɔːk əˈweɪ/",
       "part_of_speech": "phrasal verb",
       "meaning": "Ir embora.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-02T23:33:57.114463+00:00",
+      "last_reviewed_at": "2026-11-02T23:23:57.114463+00:00",
+      "pronunciation": "/wɔːk əˈweɪ/"
     },
     {
       "terms": {
@@ -2057,16 +2903,25 @@
       },
       "examples": {
         "English": [
-          "The teacher called out her name."
+          "The teacher called out her name.",
+          "He called out for help from the window.",
+          "She called out to warn us about the hole."
         ],
         "Portuguese": [
-          "O professor chamou o nome dela em voz alta."
+          "O professor chamou o nome dela em voz alta.",
+          "Ele gritou por socorro da janela.",
+          "Ela gritou para nos avisar sobre o buraco."
         ]
       },
-      "pronunciation": "/kɔːl aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Chamar em voz alta.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895910+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kɔːl aʊt/"
     },
     {
       "terms": {
@@ -2075,16 +2930,25 @@
       },
       "examples": {
         "English": [
-          "They held out until help arrived."
+          "They held out until help arrived.",
+          "The climbers held out through the freezing night.",
+          "The town held out until supplies arrived."
         ],
         "Portuguese": [
-          "Eles resistiram até a ajuda chegar."
+          "Eles resistiram até a ajuda chegar.",
+          "Os alpinistas resistiram durante a noite gelada.",
+          "A cidade resistiu até os suprimentos chegarem."
         ]
       },
-      "pronunciation": "/hoʊld aʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Resistir.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895923+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/hoʊld aʊt/"
     },
     {
       "terms": {
@@ -2093,16 +2957,25 @@
       },
       "examples": {
         "English": [
-          "The storm cut off power to the village."
+          "The storm cut off power to the village.",
+          "The flood cut off the road to the village.",
+          "Our internet connection was cut off during the storm."
         ],
         "Portuguese": [
-          "A tempestade interrompeu o fornecimento de energia para o vilarejo."
+          "A tempestade interrompeu o fornecimento de energia para o vilarejo.",
+          "A enchente interrompeu o acesso pela estrada ao vilarejo.",
+          "Nossa conexão com a internet foi interrompida durante a tempestade."
         ]
       },
-      "pronunciation": "/kʌt ɔːf/",
       "part_of_speech": "phrasal verb",
       "meaning": "Interromper.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895936+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kʌt ɔːf/"
     },
     {
       "terms": {
@@ -2111,16 +2984,25 @@
       },
       "examples": {
         "English": [
-          "Please take away the empty plates."
+          "Please take away the empty plates.",
+          "The waiter took away the empty glasses.",
+          "They took away the old furniture yesterday."
         ],
         "Portuguese": [
-          "Por favor, retire os pratos vazios."
+          "Por favor, retire os pratos vazios.",
+          "O garçom retirou os copos vazios.",
+          "Eles levaram os móveis velhos ontem."
         ]
       },
-      "pronunciation": "/teɪk əˈweɪ/",
       "part_of_speech": "phrasal verb",
       "meaning": "Levar embora.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895949+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/teɪk əˈweɪ/"
     },
     {
       "terms": {
@@ -2129,16 +3011,25 @@
       },
       "examples": {
         "English": [
-          "The new policy brought about major changes."
+          "The new policy brought about major changes.",
+          "The discovery brought about a new approach to treatment.",
+          "Their efforts brought about lasting improvements."
         ],
         "Portuguese": [
-          "A nova política provocou grandes mudanças."
+          "A nova política provocou grandes mudanças.",
+          "A descoberta levou a uma nova abordagem de tratamento.",
+          "Os esforços deles provocaram melhorias duradouras."
         ]
       },
-      "pronunciation": "/brɪŋ əˈbaʊt/",
       "part_of_speech": "phrasal verb",
       "meaning": "Causar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-02T23:35:27.902173+00:00",
+      "last_reviewed_at": "2026-11-02T23:25:27.902173+00:00",
+      "pronunciation": "/brɪŋ əˈbaʊt/"
     },
     {
       "terms": {
@@ -2147,16 +3038,25 @@
       },
       "examples": {
         "English": [
-          "I signed up for a cooking class."
+          "I signed up for a cooking class.",
+          "She signed up for swimming lessons.",
+          "You can sign up online before Friday."
         ],
         "Portuguese": [
-          "Eu me inscrevi em uma aula de culinária."
+          "Eu me inscrevi em uma aula de culinária.",
+          "Ela se inscreveu em aulas de natação.",
+          "Você pode se inscrever pela internet até sexta-feira."
         ]
       },
-      "pronunciation": "/saɪn ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Inscrever-se.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895975+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/saɪn ʌp/"
     },
     {
       "terms": {
@@ -2165,16 +3065,47 @@
       },
       "examples": {
         "English": [
-          "Remember to back up your files."
+          "Remember to back up your files.",
+          "I back up my photos every week.",
+          "Back up the document before you edit it."
         ],
         "Portuguese": [
-          "Lembre-se de fazer backup dos seus arquivos."
+          "Lembre-se de fazer backup dos seus arquivos.",
+          "Faço backup das minhas fotos toda semana.",
+          "Faça uma cópia de segurança do documento antes de editá-lo."
         ]
       },
-      "pronunciation": "/bæk ʌp/",
       "part_of_speech": "phrasal verb",
       "meaning": "Fazer backup.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30"
+      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:52:09.895988+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/bæk ʌp/"
+    },
+    {
+      "terms": {
+        "English": "break in",
+        "Portuguese": "arrombar; entrar à força"
+      },
+      "examples": {
+        "English": [
+          "Someone tried to break in through the kitchen window.",
+          "Thieves broke in while we were on vacation.",
+          "The alarm went off when they broke in."
+        ],
+        "Portuguese": [
+          "Alguém tentou entrar à força pela janela da cozinha.",
+          "Ladrões arrombaram a casa enquanto estávamos de férias.",
+          "O alarme disparou quando eles entraram à força."
+        ]
+      },
+      "pronunciation": "/ˌbreɪk ˈɪn/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "To enter a place by force, usually to steal something.",
+      "source": "Lista fornecida pelo usuário"
     }
   ]
 }
