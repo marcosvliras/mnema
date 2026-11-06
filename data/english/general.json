@@ -9,33 +9,6 @@
   "cards": [
     {
       "terms": {
-        "English": "in terms of",
-        "Portuguese": "em termos de"
-      },
-      "examples": {
-        "English": [
-          "In terms of cost this is the best option.",
-          "The project was successful in terms of meeting deadlines.",
-          "In terms of quality, this is the better option."
-        ],
-        "Portuguese": [
-          "Em termos de custo esta é a melhor opção.",
-          "O projeto foi bem-sucedido em termos de cumprimento dos prazos.",
-          "Em termos de qualidade, esta é a melhor opção."
-        ]
-      },
-      "part_of_speech": "prepositional phrase",
-      "meaning": "With regard to or in relation to a particular aspect or topic.",
-      "source": "Preply",
-      "review_streak": 1,
-      "review_correct": 1,
-      "review_total": 3,
-      "due_at": "2026-10-29T12:14:35.020270+00:00",
-      "last_reviewed_at": "2026-10-28T12:14:35.020270+00:00",
-      "pronunciation": "/ɪn ˈtɝmz əv/"
-    },
-    {
-      "terms": {
         "English": "rusty",
         "Portuguese": "oxidado; enferrujado"
       },
@@ -711,60 +684,6 @@
       "due_at": "2026-10-18T21:43:57.174271+00:00",
       "last_reviewed_at": "",
       "pronunciation": "/ˌfʌŋkʃəˈnæləti/"
-    },
-    {
-      "terms": {
-        "English": "sleep on it",
-        "Portuguese": "pensar melhor; dormir sobre o assunto"
-      },
-      "examples": {
-        "English": [
-          "I am not sure yet; let me sleep on it.",
-          "She decided to sleep on it before accepting the offer.",
-          "You do not need to answer now—sleep on it."
-        ],
-        "Portuguese": [
-          "Ainda não tenho certeza; deixa eu pensar melhor.",
-          "Ela decidiu pensar com calma antes de aceitar a oferta.",
-          "Você não precisa responder agora — pense com calma."
-        ]
-      },
-      "part_of_speech": "idiom",
-      "meaning": "To delay a decision until the next day to think about it.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˈslip ɑn ɪt/"
-    },
-    {
-      "terms": {
-        "English": "dragging your heels",
-        "Portuguese": "enrolar; fazer corpo mole"
-      },
-      "examples": {
-        "English": [
-          "Stop dragging your heels and send the application.",
-          "They are dragging their heels on the repairs.",
-          "He kept dragging his heels instead of making a decision."
-        ],
-        "Portuguese": [
-          "Pare de enrolar e envie a inscrição.",
-          "Eles estão fazendo corpo mole com os reparos.",
-          "Ele continuava enrolando em vez de tomar uma decisão."
-        ]
-      },
-      "part_of_speech": "idiom",
-      "meaning": "Delaying something on purpose or doing it slowly and unwillingly.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˈdræɡɪŋ jʊr ˈhilz/"
     },
     {
       "terms": {
@@ -2234,33 +2153,6 @@
     },
     {
       "terms": {
-        "English": "packed with",
-        "Portuguese": "cheio de; lotado de"
-      },
-      "examples": {
-        "English": [
-          "The suitcase was packed with warm clothes.",
-          "The market was packed with shoppers.",
-          "Her talk was packed with useful advice."
-        ],
-        "Portuguese": [
-          "A mala estava cheia de roupas de frio.",
-          "O mercado estava lotado de clientes.",
-          "A palestra dela estava cheia de conselhos úteis."
-        ]
-      },
-      "part_of_speech": "adjective phrase",
-      "meaning": "Completely full of something.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˈpækt wɪð/"
-    },
-    {
-      "terms": {
         "English": "jams",
         "Portuguese": "engarrafamentos; congestionamentos"
       },
@@ -3703,60 +3595,6 @@
     },
     {
       "terms": {
-        "English": "are we still good",
-        "Portuguese": "ainda está de pé?; ainda está combinado?"
-      },
-      "examples": {
-        "English": [
-          "Are we still good for lunch at noon?",
-          "Are we still good to use the meeting room tomorrow?",
-          "I wanted to check: are we still good for the trip?"
-        ],
-        "Portuguese": [
-          "Ainda está de pé o almoço ao meio-dia?",
-          "Ainda está combinado usarmos a sala de reunião amanhã?",
-          "Queria confirmar: a viagem ainda está de pé?"
-        ]
-      },
-      "part_of_speech": "phrase",
-      "meaning": "Used to check that a plan or arrangement has not changed.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ɑr wi ˌstɪl ˈɡʊd/"
-    },
-    {
-      "terms": {
-        "English": "back then",
-        "Portuguese": "naquela época; antigamente"
-      },
-      "examples": {
-        "English": [
-          "Back then, we did not have smartphones.",
-          "I lived in Recife back then.",
-          "Back then, the road was only a dirt track."
-        ],
-        "Portuguese": [
-          "Naquela época, não tínhamos smartphones.",
-          "Eu morava em Recife naquela época.",
-          "Antigamente, a estrada era só uma trilha de terra."
-        ]
-      },
-      "part_of_speech": "phrase",
-      "meaning": "At that time in the past.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˈbæk ˌðɛn/"
-    },
-    {
-      "terms": {
         "English": "Algarve",
         "Portuguese": "Algarve"
       },
@@ -4922,33 +4760,6 @@
     },
     {
       "terms": {
-        "English": "I'm afraid",
-        "Portuguese": "receio que; infelizmente"
-      },
-      "examples": {
-        "English": [
-          "I'm afraid I won't be able to join you tonight.",
-          "I'm afraid we took the wrong road.",
-          "I'm afraid there's been a change of plans."
-        ],
-        "Portuguese": [
-          "Infelizmente não vou conseguir ir com vocês hoje à noite.",
-          "Receio que pegamos a estrada errada.",
-          "Infelizmente houve uma mudança de planos."
-        ]
-      },
-      "part_of_speech": "phrase",
-      "meaning": "A polite way to introduce bad or disappointing news.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/aɪm əˈfreɪd/"
-    },
-    {
-      "terms": {
         "English": "committed",
         "Portuguese": "comprometido; dedicado"
       },
@@ -5795,33 +5606,6 @@
     },
     {
       "terms": {
-        "English": "up to",
-        "Portuguese": "até; depende de (você)"
-      },
-      "examples": {
-        "English": [
-          "The train can carry up to six hundred passengers.",
-          "You can choose up to three options.",
-          "It is up to you to decide what happens next."
-        ],
-        "Portuguese": [
-          "O trem pode levar até seiscentos passageiros.",
-          "Você pode escolher até três opções.",
-          "Cabe a você decidir o que acontece em seguida."
-        ]
-      },
-      "part_of_speech": "preposition phrase",
-      "meaning": "As many or as much as; (up to someone) their decision.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˈʌp tu/"
-    },
-    {
-      "terms": {
         "English": "compass",
         "Portuguese": "bússola"
       },
@@ -5875,62 +5659,6 @@
       "last_reviewed_at": "2026-11-02T23:15:43.993012+00:00",
       "pronunciation": "/ˈspeɪs ˌblæŋkɪt/",
       "image": "data/english/images/general/space-blanket.svg"
-    },
-    {
-      "terms": {
-        "English": "make a toast",
-        "Portuguese": "fazer um brinde"
-      },
-      "examples": {
-        "English": [
-          "Let's make a toast to the happy couple.",
-          "He stood up to make a toast at dinner.",
-          "We made a toast to our friend's new job."
-        ],
-        "Portuguese": [
-          "Vamos fazer um brinde ao casal feliz.",
-          "Ele se levantou para fazer um brinde no jantar.",
-          "Fizemos um brinde ao novo emprego do nosso amigo."
-        ]
-      },
-      "part_of_speech": "phrase",
-      "meaning": "To raise glasses and drink in honor of someone or something.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˌmeɪk ə ˈtoʊst/",
-      "image": "data/english/images/general/make-a-toast.svg"
-    },
-    {
-      "terms": {
-        "English": "have a picnic",
-        "Portuguese": "fazer um piquenique"
-      },
-      "examples": {
-        "English": [
-          "We had a picnic beside the lake.",
-          "Let's have a picnic if the weather stays sunny.",
-          "They had a picnic in the park after work."
-        ],
-        "Portuguese": [
-          "Fizemos um piquenique na beira do lago.",
-          "Vamos fazer um piquenique se o tempo continuar ensolarado.",
-          "Eles fizeram um piquenique no parque depois do trabalho."
-        ]
-      },
-      "part_of_speech": "phrase",
-      "meaning": "To eat a meal outdoors, usually sitting on the ground.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 1,
-      "due_at": "2026-10-22T11:43:08.520345+00:00",
-      "last_reviewed_at": "2026-10-22T11:33:08.520345+00:00",
-      "pronunciation": "/ˌhæv ə ˈpɪkˌnɪk/",
-      "image": "data/english/images/general/have-a-picnic.svg"
     },
     {
       "terms": {
@@ -6150,33 +5878,6 @@
       "due_at": "2026-10-18T21:43:57.174271+00:00",
       "last_reviewed_at": "",
       "pronunciation": "/ˈrɪŋər/"
-    },
-    {
-      "terms": {
-        "English": "so and so",
-        "Portuguese": "fulano; fulano de tal"
-      },
-      "examples": {
-        "English": [
-          "The message said that so-and-so would call me later.",
-          "She referred to the neighbor as so-and-so because she forgot his name.",
-          "I heard so-and-so is moving to another city."
-        ],
-        "Portuguese": [
-          "A mensagem dizia que fulano ia me ligar mais tarde.",
-          "Ela chamou o vizinho de fulano porque esqueceu o nome dele.",
-          "Ouvi dizer que fulano vai se mudar para outra cidade."
-        ]
-      },
-      "part_of_speech": "noun",
-      "meaning": "A way to refer to a person without saying their name.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˈsoʊ ən ˌsoʊ/"
     },
     {
       "terms": {
@@ -6893,33 +6594,6 @@
       "last_reviewed_at": "",
       "pronunciation": "/ˈpædlɪŋ/",
       "image": "data/english/images/general/paddling.svg"
-    },
-    {
-      "terms": {
-        "English": "they claim",
-        "Portuguese": "eles alegam; dizem que"
-      },
-      "examples": {
-        "English": [
-          "They claim the new system will save time.",
-          "They claim to have seen the rare bird near the coast.",
-          "They claim that the documents were delivered yesterday."
-        ],
-        "Portuguese": [
-          "Eles alegam que o novo sistema vai economizar tempo.",
-          "Eles dizem ter visto a ave rara perto do litoral.",
-          "Eles alegam que os documentos foram entregues ontem."
-        ]
-      },
-      "part_of_speech": "phrase",
-      "meaning": "They say something is true, often without proof.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 1,
-      "due_at": "2026-10-19T00:35:52.235687+00:00",
-      "last_reviewed_at": "2026-10-19T00:25:52.235687+00:00",
-      "pronunciation": "/ðeɪ ˈkleɪm/"
     },
     {
       "terms": {
@@ -8387,33 +8061,6 @@
     },
     {
       "terms": {
-        "English": "to the best of my ability",
-        "Portuguese": "da melhor forma possível; o melhor que eu puder"
-      },
-      "examples": {
-        "English": [
-          "I'll complete the task to the best of my ability.",
-          "She answered every question to the best of her ability.",
-          "We will support the team to the best of our ability."
-        ],
-        "Portuguese": [
-          "Vou concluir a tarefa da melhor forma possível.",
-          "Ela respondeu a todas as perguntas da melhor forma que pôde.",
-          "Vamos apoiar a equipe no que estiver ao nosso alcance."
-        ]
-      },
-      "part_of_speech": "phrase",
-      "meaning": "As well as I possibly can.",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/tə ðə ˈbɛst əv maɪ əˈbɪləti/"
-    },
-    {
-      "terms": {
         "English": "vigilant",
         "Portuguese": "atento; vigilante"
       },
@@ -8762,33 +8409,6 @@
       "due_at": "2026-10-23T11:39:10.419546+00:00",
       "last_reviewed_at": "2026-10-22T11:39:10.419546+00:00",
       "pronunciation": "/ˈdɪsəplɪn/"
-    },
-    {
-      "terms": {
-        "English": "stand for it",
-        "Portuguese": "tolerar; aceitar isso"
-      },
-      "examples": {
-        "English": [
-          "I won't stand for it if they treat you unfairly.",
-          "She said she wouldn't stand for that kind of behavior.",
-          "The coach will not stand for lateness."
-        ],
-        "Portuguese": [
-          "Não vou tolerar se te tratarem de forma injusta.",
-          "Ela disse que não aceitaria esse tipo de comportamento.",
-          "O treinador não tolera atrasos."
-        ]
-      },
-      "part_of_speech": "phrase",
-      "meaning": "To accept bad behavior without complaining (usually negative: won't stand for it).",
-      "source": "Preply",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-18T21:43:57.174271+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˈstænd fɔr ɪt/"
     },
     {
       "terms": {
@@ -11634,33 +11254,6 @@
     },
     {
       "terms": {
-        "English": "by chance",
-        "Portuguese": "por acaso"
-      },
-      "examples": {
-        "English": [
-          "I found the old photo by chance.",
-          "We met by chance at the airport.",
-          "She discovered the small café entirely by chance."
-        ],
-        "Portuguese": [
-          "Encontrei a foto antiga por acaso.",
-          "Nós nos encontramos por acaso no aeroporto.",
-          "Ela descobriu o pequeno café totalmente por acaso."
-        ]
-      },
-      "part_of_speech": "adverbial phrase",
-      "meaning": "Without planning or intention.",
-      "source": "Lista fornecida pelo usuário",
-      "review_streak": 1,
-      "review_correct": 1,
-      "review_total": 1,
-      "due_at": "2026-11-04T11:24:36.509250+00:00",
-      "last_reviewed_at": "2026-11-03T11:24:36.509250+00:00",
-      "pronunciation": "/baɪ tʃæns/"
-    },
-    {
-      "terms": {
         "English": "garage",
         "Portuguese": "garagem; oficina"
       },
@@ -11715,114 +11308,6 @@
     },
     {
       "terms": {
-        "English": "lacking something",
-        "Portuguese": "sem algo; com falta de algo"
-      },
-      "examples": {
-        "English": [
-          "The report is clear, but it is lacking specific examples.",
-          "The soup is lacking salt.",
-          "His explanation was lacking important details."
-        ],
-        "Portuguese": [
-          "O relatório é claro, mas faltam exemplos específicos.",
-          "Está faltando sal na sopa.",
-          "Estavam faltando detalhes importantes na explicação dele."
-        ]
-      },
-      "part_of_speech": "phrase",
-      "meaning": "Not having or not containing something needed or expected.",
-      "source": "Lista fornecida pelo usuário",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-20T11:19:17.054610+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ˈlækɪŋ ˈsʌmθɪŋ/"
-    },
-    {
-      "terms": {
-        "English": "to the best of your ability",
-        "Portuguese": "da melhor forma possível; o melhor que você puder"
-      },
-      "examples": {
-        "English": [
-          "Please complete the task to the best of your ability.",
-          "Answer each question to the best of your ability.",
-          "She asked us to do the work to the best of our ability."
-        ],
-        "Portuguese": [
-          "Por favor, realize a tarefa da melhor forma que puder.",
-          "Responda a cada pergunta da melhor forma que puder.",
-          "Ela nos pediu que fizéssemos o trabalho da melhor forma possível."
-        ]
-      },
-      "part_of_speech": "phrase",
-      "meaning": "As well as you are capable of doing something.",
-      "source": "Lista fornecida pelo usuário",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-20T11:19:17.054624+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/tə ðə bɛst əv jɚ əˈbɪləti/"
-    },
-    {
-      "terms": {
-        "English": "above and beyond",
-        "Portuguese": "além do esperado; muito além"
-      },
-      "examples": {
-        "English": [
-          "The nurse went above and beyond to help us.",
-          "Her support went above and beyond what we expected.",
-          "He went above and beyond his duties to finish the project."
-        ],
-        "Portuguese": [
-          "A enfermeira fez muito mais do que o esperado para nos ajudar.",
-          "O apoio dela foi muito além do que esperávamos.",
-          "Ele fez mais do que suas obrigações exigiam para terminar o projeto."
-        ]
-      },
-      "part_of_speech": "idiom",
-      "meaning": "More than what is required or expected.",
-      "source": "Lista fornecida pelo usuário",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-20T11:19:17.054638+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/əˈbʌv ən bɪˈjɑːnd/"
-    },
-    {
-      "terms": {
-        "English": "went out of her way",
-        "Portuguese": "fez um esforço especial; fez de tudo"
-      },
-      "examples": {
-        "English": [
-          "She went out of her way to make us feel welcome.",
-          "The receptionist went out of her way to find us a room.",
-          "My sister went out of her way to help me move."
-        ],
-        "Portuguese": [
-          "Ela fez um esforço especial para nos fazer sentir bem-vindos.",
-          "A recepcionista fez um esforço especial para encontrar um quarto para nós.",
-          "Minha irmã fez um esforço especial para me ajudar na mudança."
-        ]
-      },
-      "part_of_speech": "idiom / verb phrase",
-      "meaning": "Made a special effort to do something for someone.",
-      "source": "Lista fornecida pelo usuário",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 1,
-      "due_at": "2026-11-03T11:29:26.561049+00:00",
-      "last_reviewed_at": "2026-11-03T11:19:26.561049+00:00",
-      "pronunciation": "/wɛnt aʊt əv hɚ weɪ/"
-    },
-    {
-      "terms": {
         "English": "stride",
         "Portuguese": "passada larga; avançar a passos largos"
       },
@@ -11847,33 +11332,6 @@
       "due_at": "2026-10-20T11:19:17.054665+00:00",
       "last_reviewed_at": "",
       "pronunciation": "/straɪd/"
-    },
-    {
-      "terms": {
-        "English": "a few seconds shy of the record",
-        "Portuguese": "a poucos segundos do recorde"
-      },
-      "examples": {
-        "English": [
-          "She finished a few seconds shy of the record.",
-          "His winning time was a few seconds shy of the record.",
-          "The runner crossed the line a few seconds shy of the record."
-        ],
-        "Portuguese": [
-          "Ela terminou a poucos segundos de bater o recorde.",
-          "O tempo com que ele venceu ficou a poucos segundos do recorde.",
-          "O corredor cruzou a linha de chegada a poucos segundos do recorde."
-        ]
-      },
-      "part_of_speech": "phrase",
-      "meaning": "Only a few seconds slower than a record time.",
-      "source": "Lista fornecida pelo usuário",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-20T11:19:17.054678+00:00",
-      "last_reviewed_at": "",
-      "pronunciation": "/ə fjuː ˈsɛkəndz ʃaɪ əv ðə ˈrɛkɚd/"
     },
     {
       "terms": {
@@ -12552,28 +12010,6 @@
     },
     {
       "terms": {
-        "English": "on purpose",
-        "Portuguese": "de propósito; intencionalmente"
-      },
-      "examples": {
-        "English": [
-          "She left the door open on purpose.",
-          "I didn't step on your foot on purpose.",
-          "He arrived late on purpose to avoid the speech."
-        ],
-        "Portuguese": [
-          "Ela deixou a porta aberta de propósito.",
-          "Não pisei no seu pé de propósito.",
-          "Ele chegou atrasado de propósito para evitar o discurso."
-        ]
-      },
-      "pronunciation": "/ɑn ˈpɝpəs/",
-      "part_of_speech": "expression",
-      "meaning": "Intentionally; not by accident.",
-      "source": "Lista fornecida pelo usuário"
-    },
-    {
-      "terms": {
         "English": "frightened",
         "Portuguese": "assustado; com medo"
       },
@@ -12618,28 +12054,6 @@
     },
     {
       "terms": {
-        "English": "something along those lines",
-        "Portuguese": "algo nesse sentido; algo do tipo"
-      },
-      "examples": {
-        "English": [
-          "He said he was quitting, or something along those lines.",
-          "We could offer a discount or something along those lines.",
-          "I don't remember her exact words, but it was something along those lines."
-        ],
-        "Portuguese": [
-          "Ele disse que ia se demitir, ou algo nesse sentido.",
-          "Poderíamos oferecer um desconto ou algo do tipo.",
-          "Não me lembro das palavras exatas dela, mas foi algo nesse sentido."
-        ]
-      },
-      "pronunciation": "/ˈsʌmθɪŋ əˈlɔŋ ðoʊz ˈlaɪnz/",
-      "part_of_speech": "expression",
-      "meaning": "Something similar to what was just mentioned, though not exactly the same.",
-      "source": "Lista fornecida pelo usuário"
-    },
-    {
-      "terms": {
         "English": "headliner",
         "Portuguese": "atração principal"
       },
@@ -12658,28 +12072,6 @@
       "pronunciation": "/ˈhɛdˌlaɪnɚ/",
       "part_of_speech": "noun",
       "meaning": "The main performer or act at a show or event.",
-      "source": "Lista fornecida pelo usuário"
-    },
-    {
-      "terms": {
-        "English": "How to?",
-        "Portuguese": "Como fazer?; Como faço?"
-      },
-      "examples": {
-        "English": [
-          "I need to reset my password. How to?",
-          "She told me to submit the form online, but how to?",
-          "\"Just update the app.\" \"How to?\""
-        ],
-        "Portuguese": [
-          "Preciso redefinir minha senha. Como faço?",
-          "Ela me disse para enviar o formulário online, mas como fazer?",
-          "— É só atualizar o aplicativo. — Como faço?"
-        ]
-      },
-      "pronunciation": "/ˈhaʊ tu/",
-      "part_of_speech": "expression",
-      "meaning": "A very informal short question asking how to do something; \"How do I do that?\" is the more standard form.",
       "source": "Lista fornecida pelo usuário"
     },
     {
