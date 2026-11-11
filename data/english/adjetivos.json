@@ -2981,6 +2981,28 @@
       "part_of_speech": "adjective",
       "meaning": "Feeling a need or desire to drink something.",
       "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "relieved",
+        "Portuguese": "aliviado"
+      },
+      "examples": {
+        "English": [
+          "I was so relieved when I heard the test results.",
+          "She felt relieved that the long trip was finally over.",
+          "We were relieved to find our lost dog safe at the neighbor's house."
+        ],
+        "Portuguese": [
+          "Fiquei tão aliviado quando soube o resultado dos exames.",
+          "Ela se sentiu aliviada porque a longa viagem finalmente tinha acabado.",
+          "Ficamos aliviados ao encontrar nosso cachorro perdido são e salvo na casa do vizinho."
+        ]
+      },
+      "pronunciation": "/rɪˈlivd/",
+      "part_of_speech": "adjective",
+      "meaning": "Feeling happy because something unpleasant has stopped or did not happen.",
+      "source": "Lista fornecida pelo usuário"
     }
   ]
 }
