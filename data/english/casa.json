@@ -1304,6 +1304,61 @@
       "part_of_speech": "noun",
       "meaning": "The area of land behind a house, often with grass or a garden.",
       "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "cushion",
+        "Portuguese": "almofada"
+      },
+      "examples": {
+        "English": [
+          "She placed a cushion on the wooden chair.",
+          "The cushion softened the seat.",
+          "He used a cushion to support his back."
+        ],
+        "Portuguese": [
+          "Ela colocou uma almofada na cadeira de madeira.",
+          "A almofada deixou o assento mais macio.",
+          "Ele usou uma almofada para apoiar as costas."
+        ]
+      },
+      "part_of_speech": "noun",
+      "meaning": "A soft pillow used to make a seat more comfortable.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈkʊʃən/",
+      "image": "data/english/images/general/cushion.svg"
+    },
+    {
+      "terms": {
+        "English": "spacious",
+        "Portuguese": "espaçoso; amplo"
+      },
+      "examples": {
+        "English": [
+          "They moved into a spacious apartment with large windows.",
+          "The kitchen feels spacious after we removed the old table.",
+          "We need a spacious room for the whole team."
+        ],
+        "Portuguese": [
+          "Eles se mudaram para um apartamento espaçoso com janelas grandes.",
+          "A cozinha parece ampla depois que tiramos a mesa velha.",
+          "Precisamos de uma sala espaçosa para a equipe inteira."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Having a lot of space.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈspeɪʃəs/"
     }
   ]
 }
