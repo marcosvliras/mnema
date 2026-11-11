@@ -1,0 +1,1309 @@
+{
+  "schema_version": 1,
+  "context": {
+    "name": "Inglês",
+    "learning_language": "English"
+  },
+  "deck": "Casa",
+  "source": "Lista fornecida pelo usuário",
+  "cards": [
+    {
+      "terms": {
+        "English": "furnishings",
+        "Portuguese": "mobília; móveis e decoração"
+      },
+      "examples": {
+        "English": [
+          "The apartment comes with all the furnishings you need.",
+          "We spent a fortune on new furnishings for the living room.",
+          "The hotel's furnishings looked old and worn."
+        ],
+        "Portuguese": [
+          "O apartamento vem com toda a mobília de que você precisa.",
+          "Gastamos uma fortuna com móveis novos para a sala.",
+          "A mobília do hotel parecia velha e gasta."
+        ]
+      },
+      "pronunciation": "/ˈfɝnɪʃɪŋz/",
+      "part_of_speech": "noun (plural)",
+      "meaning": "The furniture, carpets, curtains, and other items in a room or house.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "skylight",
+        "Portuguese": "claraboia"
+      },
+      "examples": {
+        "English": [
+          "The skylight fills the kitchen with natural light.",
+          "We could see the stars through the skylight at night.",
+          "Rain was leaking through the old skylight."
+        ],
+        "Portuguese": [
+          "A claraboia enche a cozinha de luz natural.",
+          "Dava para ver as estrelas pela claraboia à noite.",
+          "A chuva estava entrando pela claraboia velha."
+        ]
+      },
+      "pronunciation": "/ˈskaɪˌlaɪt/",
+      "part_of_speech": "noun",
+      "meaning": "A window built into a roof or ceiling to let in light.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "staircase",
+        "Portuguese": "escadaria; escada"
+      },
+      "examples": {
+        "English": [
+          "The house has a beautiful wooden staircase.",
+          "She walked slowly down the staircase.",
+          "The spiral staircase leads up to the attic."
+        ],
+        "Portuguese": [
+          "A casa tem uma linda escadaria de madeira.",
+          "Ela desceu a escada devagar.",
+          "A escada em caracol leva até o sótão."
+        ]
+      },
+      "pronunciation": "/ˈstɛrˌkeɪs/",
+      "part_of_speech": "noun",
+      "meaning": "A set of stairs inside a building, including its rails and structure.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "cosy",
+        "Portuguese": "aconchegante"
+      },
+      "examples": {
+        "English": [
+          "It's a small but cosy flat.",
+          "We spent the evening in a cosy little café.",
+          "The fireplace makes the living room feel really cosy."
+        ],
+        "Portuguese": [
+          "É um apartamento pequeno, mas aconchegante.",
+          "Passamos a noite em um cafezinho aconchegante.",
+          "A lareira deixa a sala bem aconchegante."
+        ]
+      },
+      "pronunciation": "/ˈkoʊzi/",
+      "part_of_speech": "adjective",
+      "meaning": "Warm, comfortable, and pleasant, especially in a small space (British spelling of cozy).",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "crammed",
+        "Portuguese": "abarrotado; lotado"
+      },
+      "examples": {
+        "English": [
+          "The closet was crammed with old clothes.",
+          "Six of us were crammed into a tiny apartment.",
+          "Every shelf was crammed with books."
+        ],
+        "Portuguese": [
+          "O armário estava abarrotado de roupas velhas.",
+          "Nós seis estávamos espremidos em um apartamento minúsculo.",
+          "Todas as prateleiras estavam abarrotadas de livros."
+        ]
+      },
+      "pronunciation": "/kræmd/",
+      "part_of_speech": "adjective",
+      "meaning": "Completely full of things or people, with no free space.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "pottery",
+        "Portuguese": "cerâmica"
+      },
+      "examples": {
+        "English": [
+          "She decorated the shelves with handmade pottery.",
+          "We bought some local pottery on our trip.",
+          "The pottery on the dining table was a wedding gift."
+        ],
+        "Portuguese": [
+          "Ela decorou as prateleiras com cerâmica feita à mão.",
+          "Compramos algumas peças de cerâmica local na viagem.",
+          "A cerâmica na mesa de jantar foi um presente de casamento."
+        ]
+      },
+      "pronunciation": "/ˈpɑtəri/",
+      "part_of_speech": "noun",
+      "meaning": "Pots, dishes, and other objects made from baked clay.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "roomy",
+        "Portuguese": "espaçoso"
+      },
+      "examples": {
+        "English": [
+          "The new apartment is much roomier than the old one.",
+          "It's a roomy house with four bedrooms.",
+          "The kitchen is roomy enough for a big table."
+        ],
+        "Portuguese": [
+          "O apartamento novo é muito mais espaçoso que o antigo.",
+          "É uma casa espaçosa com quatro quartos.",
+          "A cozinha é espaçosa o bastante para uma mesa grande."
+        ]
+      },
+      "pronunciation": "/ˈrumi/",
+      "part_of_speech": "adjective",
+      "meaning": "Having plenty of space inside.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "plain interior",
+        "Portuguese": "interior simples; decoração sem enfeites"
+      },
+      "examples": {
+        "English": [
+          "The house has a plain interior with white walls.",
+          "I prefer a plain interior to a lot of decoration.",
+          "Behind the colorful front door was a surprisingly plain interior."
+        ],
+        "Portuguese": [
+          "A casa tem um interior simples com paredes brancas.",
+          "Prefiro um interior simples a muita decoração.",
+          "Atrás da porta colorida havia um interior surpreendentemente simples."
+        ]
+      },
+      "pronunciation": "/pleɪn ɪnˈtɪriər/",
+      "part_of_speech": "noun phrase",
+      "meaning": "The inside of a building or room decorated simply, without much ornament.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "gut",
+        "Portuguese": "esvaziar por completo (para reformar); demolir o interior"
+      },
+      "examples": {
+        "English": [
+          "We're going to gut the bathroom and put in new tiles.",
+          "The new owners gutted the house before moving in.",
+          "It's cheaper to repair the walls than to gut the whole place."
+        ],
+        "Portuguese": [
+          "Vamos demolir o banheiro por dentro e colocar azulejos novos.",
+          "Os novos donos esvaziaram a casa toda por dentro antes de se mudar.",
+          "É mais barato consertar as paredes do que demolir o interior do lugar inteiro."
+        ]
+      },
+      "pronunciation": "/ɡʌt/",
+      "part_of_speech": "verb",
+      "meaning": "To remove all the inside parts of a building or room, usually in order to rebuild them.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "attic",
+        "Portuguese": "sótão"
+      },
+      "examples": {
+        "English": [
+          "We keep the Christmas decorations in the attic.",
+          "They turned the attic into an extra bedroom.",
+          "I found some old photos in a box in the attic."
+        ],
+        "Portuguese": [
+          "Guardamos os enfeites de Natal no sótão.",
+          "Eles transformaram o sótão em um quarto extra.",
+          "Encontrei umas fotos antigas numa caixa no sótão."
+        ]
+      },
+      "pronunciation": "/ˈætɪk/",
+      "part_of_speech": "noun",
+      "meaning": "The space or room just below the roof of a house.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "basement",
+        "Portuguese": "porão; subsolo"
+      },
+      "examples": {
+        "English": [
+          "The washing machine is down in the basement.",
+          "Our basement flooded after the storm.",
+          "He built a home gym in the basement."
+        ],
+        "Portuguese": [
+          "A máquina de lavar fica lá embaixo no porão.",
+          "Nosso porão inundou depois da tempestade.",
+          "Ele montou uma academia em casa no porão."
+        ]
+      },
+      "pronunciation": "/ˈbeɪsmənt/",
+      "part_of_speech": "noun",
+      "meaning": "A floor of a building that is partly or completely below ground level.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "porch",
+        "Portuguese": "varanda (de entrada); alpendre"
+      },
+      "examples": {
+        "English": [
+          "We like to sit on the porch in the evening.",
+          "Leave the package on the front porch.",
+          "The porch light was still on when I got home."
+        ],
+        "Portuguese": [
+          "Gostamos de sentar na varanda à noite.",
+          "Deixe o pacote na varanda da frente.",
+          "A luz da varanda ainda estava acesa quando cheguei em casa."
+        ]
+      },
+      "pronunciation": "/pɔrtʃ/",
+      "part_of_speech": "noun",
+      "meaning": "A covered area at the entrance of a house.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "driveway",
+        "Portuguese": "entrada para carros; garagem descoberta"
+      },
+      "examples": {
+        "English": [
+          "There's a car parked in our driveway.",
+          "He spent the morning shoveling snow off the driveway.",
+          "The kids were drawing with chalk on the driveway."
+        ],
+        "Portuguese": [
+          "Tem um carro estacionado na nossa entrada.",
+          "Ele passou a manhã tirando neve da entrada da garagem.",
+          "As crianças estavam desenhando com giz na entrada da casa."
+        ]
+      },
+      "pronunciation": "/ˈdraɪvˌweɪ/",
+      "part_of_speech": "noun",
+      "meaning": "A short private road leading from the street to a house or garage.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "hallway",
+        "Portuguese": "corredor; hall"
+      },
+      "examples": {
+        "English": [
+          "The bathroom is at the end of the hallway.",
+          "We hung family photos along the hallway.",
+          "Please don't leave your shoes in the hallway."
+        ],
+        "Portuguese": [
+          "O banheiro fica no fim do corredor.",
+          "Penduramos fotos da família ao longo do corredor.",
+          "Por favor, não deixe seus sapatos no corredor."
+        ]
+      },
+      "pronunciation": "/ˈhɔlˌweɪ/",
+      "part_of_speech": "noun",
+      "meaning": "A passage inside a building that connects rooms.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "banister",
+        "Portuguese": "corrimão"
+      },
+      "examples": {
+        "English": [
+          "Hold on to the banister when you go down.",
+          "The kids loved sliding down the banister.",
+          "We painted the banister white."
+        ],
+        "Portuguese": [
+          "Segure no corrimão quando descer.",
+          "As crianças adoravam escorregar pelo corrimão.",
+          "Pintamos o corrimão de branco."
+        ]
+      },
+      "pronunciation": "/ˈbænɪstər/",
+      "part_of_speech": "noun",
+      "meaning": "The rail along the side of a staircase that you hold onto.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "windowsill",
+        "Portuguese": "parapeito da janela"
+      },
+      "examples": {
+        "English": [
+          "She grows herbs on the kitchen windowsill.",
+          "The cat likes to sleep on the windowsill.",
+          "There was dust all over the windowsill."
+        ],
+        "Portuguese": [
+          "Ela cultiva ervas no parapeito da janela da cozinha.",
+          "O gato gosta de dormir no parapeito da janela.",
+          "Havia poeira por todo o parapeito da janela."
+        ]
+      },
+      "pronunciation": "/ˈwɪndoʊˌsɪl/",
+      "part_of_speech": "noun",
+      "meaning": "The flat shelf at the bottom of a window.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "doormat",
+        "Portuguese": "capacho"
+      },
+      "examples": {
+        "English": [
+          "Please wipe your feet on the doormat.",
+          "I left the spare key under the doormat.",
+          "The doormat says 'Welcome Home'."
+        ],
+        "Portuguese": [
+          "Por favor, limpe os pés no capacho.",
+          "Deixei a chave reserva embaixo do capacho.",
+          "O capacho diz 'Bem-vindo ao lar'."
+        ]
+      },
+      "pronunciation": "/ˈdɔrˌmæt/",
+      "part_of_speech": "noun",
+      "meaning": "A mat placed at a door for people to wipe their shoes on.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "blinds",
+        "Portuguese": "persianas"
+      },
+      "examples": {
+        "English": [
+          "Can you close the blinds? The sun is in my eyes.",
+          "We installed new blinds in the bedroom.",
+          "Light came through the gaps in the blinds."
+        ],
+        "Portuguese": [
+          "Você pode fechar as persianas? O sol está no meu rosto.",
+          "Instalamos persianas novas no quarto.",
+          "A luz entrava pelas frestas das persianas."
+        ]
+      },
+      "pronunciation": "/blaɪndz/",
+      "part_of_speech": "noun (plural)",
+      "meaning": "Window coverings made of strips or a sheet that can be raised, lowered, or angled.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "rug",
+        "Portuguese": "tapete"
+      },
+      "examples": {
+        "English": [
+          "We put a big rug in the living room.",
+          "The dog fell asleep on the rug.",
+          "I spilled coffee on the new rug."
+        ],
+        "Portuguese": [
+          "Colocamos um tapete grande na sala.",
+          "O cachorro dormiu no tapete.",
+          "Derramei café no tapete novo."
+        ]
+      },
+      "pronunciation": "/rʌɡ/",
+      "part_of_speech": "noun",
+      "meaning": "A piece of thick material that covers part of a floor.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "duvet",
+        "Portuguese": "edredom"
+      },
+      "examples": {
+        "English": [
+          "It's cold tonight, so I'll use the thick duvet.",
+          "She pulled the duvet over her head.",
+          "I need a new cover for my duvet."
+        ],
+        "Portuguese": [
+          "Está frio hoje, então vou usar o edredom grosso.",
+          "Ela puxou o edredom por cima da cabeça.",
+          "Preciso de uma capa nova para o meu edredom."
+        ]
+      },
+      "pronunciation": "/duˈveɪ/",
+      "part_of_speech": "noun",
+      "meaning": "A thick, soft cover filled with feathers or other material, used on a bed.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "wardrobe",
+        "Portuguese": "guarda-roupa; armário"
+      },
+      "examples": {
+        "English": [
+          "Hang your jacket in the wardrobe.",
+          "The bedroom has a built-in wardrobe.",
+          "My wardrobe is too small for all my clothes."
+        ],
+        "Portuguese": [
+          "Pendure sua jaqueta no guarda-roupa.",
+          "O quarto tem um guarda-roupa embutido.",
+          "Meu guarda-roupa é pequeno demais para todas as minhas roupas."
+        ]
+      },
+      "pronunciation": "/ˈwɔrˌdroʊb/",
+      "part_of_speech": "noun",
+      "meaning": "A tall piece of furniture where you hang clothes.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "nightstand",
+        "Portuguese": "criado-mudo; mesa de cabeceira"
+      },
+      "examples": {
+        "English": [
+          "I keep a glass of water on my nightstand.",
+          "My phone is charging on the nightstand.",
+          "There's a lamp and a book on the nightstand."
+        ],
+        "Portuguese": [
+          "Deixo um copo de água no meu criado-mudo.",
+          "Meu celular está carregando na mesa de cabeceira.",
+          "Tem um abajur e um livro no criado-mudo."
+        ]
+      },
+      "pronunciation": "/ˈnaɪtˌstænd/",
+      "part_of_speech": "noun",
+      "meaning": "A small table beside a bed.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "faucet",
+        "Portuguese": "torneira"
+      },
+      "examples": {
+        "English": [
+          "The kitchen faucet is dripping again.",
+          "Turn off the faucet while you brush your teeth.",
+          "We replaced the old faucet with a new one."
+        ],
+        "Portuguese": [
+          "A torneira da cozinha está pingando de novo.",
+          "Feche a torneira enquanto escova os dentes.",
+          "Trocamos a torneira velha por uma nova."
+        ]
+      },
+      "pronunciation": "/ˈfɔsɪt/",
+      "part_of_speech": "noun",
+      "meaning": "A device that controls the flow of water from a pipe (American English; British: tap).",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "countertop",
+        "Portuguese": "bancada (de cozinha)"
+      },
+      "examples": {
+        "English": [
+          "The kitchen has granite countertops.",
+          "Don't leave dirty dishes on the countertop.",
+          "She rolled out the dough on the countertop."
+        ],
+        "Portuguese": [
+          "A cozinha tem bancadas de granito.",
+          "Não deixe louça suja na bancada.",
+          "Ela abriu a massa na bancada."
+        ]
+      },
+      "pronunciation": "/ˈkaʊntərˌtɑp/",
+      "part_of_speech": "noun",
+      "meaning": "The flat work surface in a kitchen.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "cupboard",
+        "Portuguese": "armário (de cozinha)"
+      },
+      "examples": {
+        "English": [
+          "The glasses are in the cupboard above the sink.",
+          "We need more cupboard space in the kitchen.",
+          "There's nothing to eat in the cupboards."
+        ],
+        "Portuguese": [
+          "Os copos estão no armário em cima da pia.",
+          "Precisamos de mais espaço de armário na cozinha.",
+          "Não tem nada para comer nos armários."
+        ]
+      },
+      "pronunciation": "/ˈkʌbərd/",
+      "part_of_speech": "noun",
+      "meaning": "A piece of furniture or a built-in space with doors and shelves, used for storing dishes or food.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "pantry",
+        "Portuguese": "despensa"
+      },
+      "examples": {
+        "English": [
+          "There's rice and pasta in the pantry.",
+          "We keep the pantry well stocked.",
+          "She organized the pantry with labeled jars."
+        ],
+        "Portuguese": [
+          "Tem arroz e macarrão na despensa.",
+          "Mantemos a despensa bem abastecida.",
+          "Ela organizou a despensa com potes etiquetados."
+        ]
+      },
+      "pronunciation": "/ˈpæntri/",
+      "part_of_speech": "noun",
+      "meaning": "A small room or cupboard where food is stored.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "outlet",
+        "Portuguese": "tomada"
+      },
+      "examples": {
+        "English": [
+          "Is there an outlet near the bed?",
+          "Don't plug too many things into one outlet.",
+          "The outlet in the kitchen stopped working."
+        ],
+        "Portuguese": [
+          "Tem alguma tomada perto da cama?",
+          "Não ligue coisas demais em uma tomada só.",
+          "A tomada da cozinha parou de funcionar."
+        ]
+      },
+      "pronunciation": "/ˈaʊtˌlɛt/",
+      "part_of_speech": "noun",
+      "meaning": "A place in a wall where you plug in electrical equipment (American English; British: socket).",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "light switch",
+        "Portuguese": "interruptor (de luz)"
+      },
+      "examples": {
+        "English": [
+          "I couldn't find the light switch in the dark.",
+          "The light switch is next to the door.",
+          "Someone left fingerprints all over the light switch."
+        ],
+        "Portuguese": [
+          "Não consegui achar o interruptor no escuro.",
+          "O interruptor fica ao lado da porta.",
+          "Alguém deixou marcas de dedo por todo o interruptor."
+        ]
+      },
+      "pronunciation": "/ˈlaɪt ˌswɪtʃ/",
+      "part_of_speech": "noun",
+      "meaning": "A small device on a wall used to turn lights on and off.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "chimney",
+        "Portuguese": "chaminé"
+      },
+      "examples": {
+        "English": [
+          "Smoke was rising from the chimney.",
+          "We had the chimney cleaned before winter.",
+          "Birds built a nest in our chimney."
+        ],
+        "Portuguese": [
+          "A fumaça subia da chaminé.",
+          "Mandamos limpar a chaminé antes do inverno.",
+          "Uns pássaros fizeram um ninho na nossa chaminé."
+        ]
+      },
+      "pronunciation": "/ˈtʃɪmni/",
+      "part_of_speech": "noun",
+      "meaning": "A structure that carries smoke from a fire up and out through the roof.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "fireplace",
+        "Portuguese": "lareira"
+      },
+      "examples": {
+        "English": [
+          "We sat by the fireplace and drank hot chocolate.",
+          "The living room has a stone fireplace.",
+          "They hung stockings above the fireplace."
+        ],
+        "Portuguese": [
+          "Sentamos perto da lareira e tomamos chocolate quente.",
+          "A sala tem uma lareira de pedra.",
+          "Eles penduraram meias em cima da lareira."
+        ]
+      },
+      "pronunciation": "/ˈfaɪərˌpleɪs/",
+      "part_of_speech": "noun",
+      "meaning": "An open place in a wall of a room where a fire is lit.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "gutter",
+        "Portuguese": "calha"
+      },
+      "examples": {
+        "English": [
+          "The gutters are full of leaves.",
+          "Water is overflowing from the gutter.",
+          "He climbed a ladder to clean the gutters."
+        ],
+        "Portuguese": [
+          "As calhas estão cheias de folhas.",
+          "A água está transbordando da calha.",
+          "Ele subiu numa escada para limpar as calhas."
+        ]
+      },
+      "pronunciation": "/ˈɡʌtər/",
+      "part_of_speech": "noun",
+      "meaning": "A channel along the edge of a roof that carries rainwater away.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "shed",
+        "Portuguese": "galpão; depósito (no quintal)"
+      },
+      "examples": {
+        "English": [
+          "The lawn mower is in the shed.",
+          "He spends hours in his garden shed.",
+          "We built a small shed in the backyard."
+        ],
+        "Portuguese": [
+          "O cortador de grama está no galpão.",
+          "Ele passa horas no depósito do jardim.",
+          "Construímos um pequeno galpão no quintal."
+        ]
+      },
+      "pronunciation": "/ʃɛd/",
+      "part_of_speech": "noun",
+      "meaning": "A small simple building, usually in a garden, used for storing tools.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "floorboard",
+        "Portuguese": "tábua do assoalho"
+      },
+      "examples": {
+        "English": [
+          "The floorboards creak when you walk on them.",
+          "We sanded and varnished the old floorboards.",
+          "One of the floorboards in the hall is loose."
+        ],
+        "Portuguese": [
+          "As tábuas do assoalho rangem quando você pisa nelas.",
+          "Lixamos e envernizamos as tábuas antigas do assoalho.",
+          "Uma das tábuas do assoalho do corredor está solta."
+        ]
+      },
+      "pronunciation": "/ˈflɔrˌbɔrd/",
+      "part_of_speech": "noun",
+      "meaning": "One of the long wooden boards that make up a floor.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "wallpaper",
+        "Portuguese": "papel de parede"
+      },
+      "examples": {
+        "English": [
+          "We're going to take down the old wallpaper.",
+          "The bedroom has flowery wallpaper.",
+          "The wallpaper is peeling off in the corner."
+        ],
+        "Portuguese": [
+          "Vamos tirar o papel de parede velho.",
+          "O quarto tem papel de parede florido.",
+          "O papel de parede está descolando no canto."
+        ]
+      },
+      "pronunciation": "/ˈwɔlˌpeɪpər/",
+      "part_of_speech": "noun",
+      "meaning": "Decorative paper used to cover the walls of a room.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "mortgage",
+        "Portuguese": "financiamento imobiliário; hipoteca"
+      },
+      "examples": {
+        "English": [
+          "We took out a mortgage to buy our first home.",
+          "Most of my salary goes to the mortgage.",
+          "They finally paid off their mortgage last year."
+        ],
+        "Portuguese": [
+          "Fizemos um financiamento para comprar nossa primeira casa.",
+          "A maior parte do meu salário vai para o financiamento.",
+          "Eles finalmente quitaram o financiamento no ano passado."
+        ]
+      },
+      "pronunciation": "/ˈmɔrɡɪdʒ/",
+      "part_of_speech": "noun",
+      "meaning": "A loan used to buy a house, paid back over many years.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "landlord",
+        "Portuguese": "senhorio; proprietário (do imóvel alugado)"
+      },
+      "examples": {
+        "English": [
+          "Our landlord raised the rent again.",
+          "I called the landlord about the broken heater.",
+          "The landlord doesn't allow pets."
+        ],
+        "Portuguese": [
+          "Nosso senhorio aumentou o aluguel de novo.",
+          "Liguei para o proprietário por causa do aquecedor quebrado.",
+          "O proprietário não permite animais de estimação."
+        ]
+      },
+      "pronunciation": "/ˈlændˌlɔrd/",
+      "part_of_speech": "noun",
+      "meaning": "A person who owns a house or apartment and rents it to others.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "tenant",
+        "Portuguese": "inquilino"
+      },
+      "examples": {
+        "English": [
+          "The previous tenants left the place very clean.",
+          "Tenants must give one month's notice before leaving.",
+          "The landlord is looking for a new tenant."
+        ],
+        "Portuguese": [
+          "Os inquilinos anteriores deixaram o lugar bem limpo.",
+          "Os inquilinos precisam avisar com um mês de antecedência antes de sair.",
+          "O proprietário está procurando um novo inquilino."
+        ]
+      },
+      "pronunciation": "/ˈtɛnənt/",
+      "part_of_speech": "noun",
+      "meaning": "A person who pays rent to live in a house or apartment.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "lease",
+        "Portuguese": "contrato de aluguel"
+      },
+      "examples": {
+        "English": [
+          "We signed a one-year lease.",
+          "Our lease ends in December.",
+          "Read the lease carefully before you sign it."
+        ],
+        "Portuguese": [
+          "Assinamos um contrato de aluguel de um ano.",
+          "Nosso contrato de aluguel termina em dezembro.",
+          "Leia o contrato de aluguel com atenção antes de assinar."
+        ]
+      },
+      "pronunciation": "/lis/",
+      "part_of_speech": "noun",
+      "meaning": "A legal agreement to rent a property for a period of time.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "utility bills",
+        "Portuguese": "contas de consumo (luz, água, gás)"
+      },
+      "examples": {
+        "English": [
+          "Does the rent include utility bills?",
+          "Our utility bills are higher in the winter.",
+          "We split the utility bills between the three of us."
+        ],
+        "Portuguese": [
+          "O aluguel inclui as contas de luz, água e gás?",
+          "Nossas contas de consumo são mais altas no inverno.",
+          "Dividimos as contas de consumo entre nós três."
+        ]
+      },
+      "pronunciation": "/juˈtɪləti ˌbɪlz/",
+      "part_of_speech": "noun (plural)",
+      "meaning": "Regular bills for services such as electricity, water, and gas.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "cluttered",
+        "Portuguese": "bagunçado; entulhado"
+      },
+      "examples": {
+        "English": [
+          "My desk is so cluttered that I can't find anything.",
+          "The garage is cluttered with old boxes.",
+          "A cluttered room can make you feel stressed."
+        ],
+        "Portuguese": [
+          "Minha mesa está tão bagunçada que não consigo achar nada.",
+          "A garagem está entulhada de caixas velhas.",
+          "Um cômodo bagunçado pode deixar você estressado."
+        ]
+      },
+      "pronunciation": "/ˈklʌtərd/",
+      "part_of_speech": "adjective",
+      "meaning": "Filled with too many things in an untidy way.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "cramped",
+        "Portuguese": "apertado; sem espaço"
+      },
+      "examples": {
+        "English": [
+          "The apartment was cramped and dark.",
+          "Four of us shared a cramped bedroom.",
+          "The kitchen feels cramped with the new fridge."
+        ],
+        "Portuguese": [
+          "O apartamento era apertado e escuro.",
+          "Nós quatro dividíamos um quarto apertado.",
+          "A cozinha fica apertada com a geladeira nova."
+        ]
+      },
+      "pronunciation": "/kræmpt/",
+      "part_of_speech": "adjective",
+      "meaning": "Too small for the people or things in it; uncomfortable because of lack of space.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "drafty",
+        "Portuguese": "com corrente de ar; cheio de frestas"
+      },
+      "examples": {
+        "English": [
+          "The old house is drafty in winter.",
+          "We need to fix those drafty windows.",
+          "It's a lovely room, but a bit drafty."
+        ],
+        "Portuguese": [
+          "A casa velha tem muita corrente de ar no inverno.",
+          "Precisamos consertar aquelas janelas cheias de frestas.",
+          "É um quarto lindo, mas entra um pouco de vento frio."
+        ]
+      },
+      "pronunciation": "/ˈdræfti/",
+      "part_of_speech": "adjective",
+      "meaning": "Letting cold air come in, usually through gaps in windows or doors.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "leaky",
+        "Portuguese": "com vazamento; que pinga"
+      },
+      "examples": {
+        "English": [
+          "We called a plumber to fix the leaky pipe.",
+          "The leaky roof let rain into the attic.",
+          "That leaky faucet kept me awake all night."
+        ],
+        "Portuguese": [
+          "Chamamos um encanador para consertar o cano com vazamento.",
+          "O telhado com goteira deixou a chuva entrar no sótão.",
+          "Aquela torneira pingando me deixou acordado a noite toda."
+        ]
+      },
+      "pronunciation": "/ˈliki/",
+      "part_of_speech": "adjective",
+      "meaning": "Having a hole or crack that lets water or air escape or come in.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "renovate",
+        "Portuguese": "reformar"
+      },
+      "examples": {
+        "English": [
+          "We're renovating the kitchen this summer.",
+          "They bought an old farmhouse and renovated it.",
+          "It took two years to renovate the whole apartment."
+        ],
+        "Portuguese": [
+          "Vamos reformar a cozinha neste verão.",
+          "Eles compraram uma casa de fazenda antiga e a reformaram.",
+          "Levou dois anos para reformar o apartamento inteiro."
+        ]
+      },
+      "pronunciation": "/ˈrɛnəˌveɪt/",
+      "part_of_speech": "verb",
+      "meaning": "To repair and improve a building or room so that it is in good condition again.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "declutter",
+        "Portuguese": "destralhar; desentulhar; organizar tirando excessos"
+      },
+      "examples": {
+        "English": [
+          "I spent the weekend decluttering my closet.",
+          "Decluttering the house made it feel so much bigger.",
+          "We need to declutter before we move."
+        ],
+        "Portuguese": [
+          "Passei o fim de semana destralhando meu armário.",
+          "Tirar o excesso de coisas da casa fez ela parecer muito maior.",
+          "Precisamos desentulhar antes de nos mudarmos."
+        ]
+      },
+      "pronunciation": "/diˈklʌtər/",
+      "part_of_speech": "verb",
+      "meaning": "To remove things you do not need from a place to make it tidier.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "plumbing",
+        "Portuguese": "encanamento; parte hidráulica"
+      },
+      "examples": {
+        "English": [
+          "The plumbing in this old house needs to be replaced.",
+          "There's something wrong with the plumbing upstairs.",
+          "Fixing the plumbing cost more than we expected."
+        ],
+        "Portuguese": [
+          "O encanamento desta casa velha precisa ser trocado.",
+          "Tem algo errado com o encanamento lá em cima.",
+          "Consertar a parte hidráulica custou mais do que esperávamos."
+        ]
+      },
+      "pronunciation": "/ˈplʌmɪŋ/",
+      "part_of_speech": "noun",
+      "meaning": "The system of pipes and fixtures that carries water through a building.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "wiring",
+        "Portuguese": "fiação; instalação elétrica"
+      },
+      "examples": {
+        "English": [
+          "The electrician said the wiring is unsafe.",
+          "We had to replace all the wiring in the house.",
+          "Faulty wiring can cause a fire."
+        ],
+        "Portuguese": [
+          "O eletricista disse que a fiação não é segura.",
+          "Tivemos que trocar toda a fiação da casa.",
+          "Fiação com defeito pode causar um incêndio."
+        ]
+      },
+      "pronunciation": "/ˈwaɪərɪŋ/",
+      "part_of_speech": "noun",
+      "meaning": "The system of electrical wires in a building.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "insulation",
+        "Portuguese": "isolamento (térmico)"
+      },
+      "examples": {
+        "English": [
+          "Good insulation keeps the house warm in winter.",
+          "We added insulation to the attic.",
+          "Poor insulation means higher heating bills."
+        ],
+        "Portuguese": [
+          "Um bom isolamento mantém a casa quente no inverno.",
+          "Colocamos isolamento térmico no sótão.",
+          "Isolamento ruim significa contas de aquecimento mais altas."
+        ]
+      },
+      "pronunciation": "/ˌɪnsəˈleɪʃən/",
+      "part_of_speech": "noun",
+      "meaning": "Material used to stop heat or sound from passing through walls, roofs, or floors.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "thermostat",
+        "Portuguese": "termostato"
+      },
+      "examples": {
+        "English": [
+          "Can you turn the thermostat down a little?",
+          "We set the thermostat to 20 degrees.",
+          "The new thermostat can be controlled from your phone."
+        ],
+        "Portuguese": [
+          "Você pode baixar um pouco o termostato?",
+          "Ajustamos o termostato para 20 graus.",
+          "O termostato novo pode ser controlado pelo celular."
+        ]
+      },
+      "pronunciation": "/ˈθɝməˌstæt/",
+      "part_of_speech": "noun",
+      "meaning": "A device that controls the temperature of a heating or cooling system.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "layout",
+        "Portuguese": "planta; disposição (dos cômodos)"
+      },
+      "examples": {
+        "English": [
+          "I love the layout of this apartment.",
+          "The kitchen has an awkward layout.",
+          "We changed the layout to make the living room bigger."
+        ],
+        "Portuguese": [
+          "Adoro a planta deste apartamento.",
+          "A cozinha tem uma disposição estranha.",
+          "Mudamos a planta para deixar a sala maior."
+        ]
+      },
+      "pronunciation": "/ˈleɪˌaʊt/",
+      "part_of_speech": "noun",
+      "meaning": "The way the rooms and spaces of a house or apartment are arranged.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "open-plan",
+        "Portuguese": "de conceito aberto; integrado (sem paredes)"
+      },
+      "examples": {
+        "English": [
+          "The apartment has an open-plan kitchen and living room.",
+          "Open-plan homes feel bigger and brighter.",
+          "I'm not sure I'd like an open-plan layout with small kids."
+        ],
+        "Portuguese": [
+          "O apartamento tem cozinha e sala integradas.",
+          "Casas de conceito aberto parecem maiores e mais claras.",
+          "Não sei se eu gostaria de uma planta aberta com crianças pequenas."
+        ]
+      },
+      "pronunciation": "/ˌoʊpən ˈplæn/",
+      "part_of_speech": "adjective",
+      "meaning": "Having few or no walls between areas such as the kitchen, dining, and living room.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "en suite",
+        "Portuguese": "suíte; banheiro privativo (no quarto)"
+      },
+      "examples": {
+        "English": [
+          "The master bedroom has an en suite.",
+          "Each room in the hotel has an en suite bathroom.",
+          "We're adding an en suite to the guest room."
+        ],
+        "Portuguese": [
+          "O quarto principal tem banheiro privativo.",
+          "Cada quarto do hotel tem um banheiro privativo.",
+          "Vamos fazer uma suíte no quarto de hóspedes."
+        ]
+      },
+      "pronunciation": "/ˌɑn ˈswit/",
+      "part_of_speech": "noun; adjective",
+      "meaning": "A bathroom connected directly to a bedroom.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "fixer-upper",
+        "Portuguese": "imóvel para reformar"
+      },
+      "examples": {
+        "English": [
+          "We bought a fixer-upper and renovated it ourselves.",
+          "That house is a real fixer-upper.",
+          "Fixer-uppers are cheaper, but the repairs add up."
+        ],
+        "Portuguese": [
+          "Compramos um imóvel para reformar e fizemos a reforma nós mesmos.",
+          "Aquela casa precisa de uma reforma completa.",
+          "Imóveis para reformar são mais baratos, mas os consertos vão somando."
+        ]
+      },
+      "pronunciation": "/ˌfɪksər ˈʌpər/",
+      "part_of_speech": "noun",
+      "meaning": "A house in poor condition that needs repairs, often sold at a low price.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "housewarming",
+        "Portuguese": "festa de casa nova; chá de casa nova"
+      },
+      "examples": {
+        "English": [
+          "We're having a housewarming on Saturday.",
+          "She brought a plant as a housewarming gift.",
+          "Everyone from work came to our housewarming party."
+        ],
+        "Portuguese": [
+          "Vamos dar uma festa de casa nova no sábado.",
+          "Ela trouxe uma planta de presente de casa nova.",
+          "Todo mundo do trabalho veio à nossa festa de casa nova."
+        ]
+      },
+      "pronunciation": "/ˈhaʊsˌwɔrmɪŋ/",
+      "part_of_speech": "noun",
+      "meaning": "A party held to celebrate moving into a new home.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "household chores",
+        "Portuguese": "tarefas domésticas"
+      },
+      "examples": {
+        "English": [
+          "We share the household chores equally.",
+          "I usually do the household chores on Sunday.",
+          "The kids help with some household chores."
+        ],
+        "Portuguese": [
+          "Dividimos as tarefas domésticas igualmente.",
+          "Costumo fazer as tarefas domésticas no domingo.",
+          "As crianças ajudam com algumas tarefas domésticas."
+        ]
+      },
+      "pronunciation": "/ˈhaʊsˌhoʊld ˈtʃɔrz/",
+      "part_of_speech": "noun (plural)",
+      "meaning": "Regular jobs done at home, such as cleaning, cooking, and washing.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "appliance",
+        "Portuguese": "eletrodoméstico; aparelho"
+      },
+      "examples": {
+        "English": [
+          "The apartment comes with all the kitchen appliances.",
+          "We bought new appliances when we moved in.",
+          "Unplug small appliances when you're not using them."
+        ],
+        "Portuguese": [
+          "O apartamento vem com todos os eletrodomésticos da cozinha.",
+          "Compramos eletrodomésticos novos quando nos mudamos.",
+          "Tire da tomada os aparelhos pequenos quando não estiver usando."
+        ]
+      },
+      "pronunciation": "/əˈplaɪəns/",
+      "part_of_speech": "noun",
+      "meaning": "A machine used in the home, such as a fridge, washing machine, or microwave.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "doorstep",
+        "Portuguese": "soleira da porta; porta (de casa)"
+      },
+      "examples": {
+        "English": [
+          "The package was left on the doorstep.",
+          "She was waiting for me on the doorstep.",
+          "There's a great bakery right on our doorstep."
+        ],
+        "Portuguese": [
+          "O pacote foi deixado na porta de casa.",
+          "Ela estava me esperando na soleira da porta.",
+          "Tem uma ótima padaria bem na porta da nossa casa."
+        ]
+      },
+      "pronunciation": "/ˈdɔrˌstɛp/",
+      "part_of_speech": "noun",
+      "meaning": "The step or area right outside the front door of a house.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "doorbell",
+        "Portuguese": "campainha"
+      },
+      "examples": {
+        "English": [
+          "The doorbell rang while I was in the shower.",
+          "Please ring the doorbell when you arrive.",
+          "We installed a video doorbell last month."
+        ],
+        "Portuguese": [
+          "A campainha tocou enquanto eu estava no banho.",
+          "Por favor, toque a campainha quando chegar.",
+          "Instalamos uma campainha com câmera no mês passado."
+        ]
+      },
+      "pronunciation": "/ˈdɔrˌbɛl/",
+      "part_of_speech": "noun",
+      "meaning": "A bell or buzzer outside a front door that visitors press.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    },
+    {
+      "terms": {
+        "English": "backyard",
+        "Portuguese": "quintal (dos fundos)"
+      },
+      "examples": {
+        "English": [
+          "The kids are playing in the backyard.",
+          "We had a barbecue in the backyard.",
+          "Their backyard has a small vegetable garden."
+        ],
+        "Portuguese": [
+          "As crianças estão brincando no quintal.",
+          "Fizemos um churrasco no quintal.",
+          "O quintal deles tem uma pequena horta."
+        ]
+      },
+      "pronunciation": "/ˌbækˈjɑrd/",
+      "part_of_speech": "noun",
+      "meaning": "The area of land behind a house, often with grass or a garden.",
+      "source": "Sugestões do assistente (vocabulário de casa)"
+    }
+  ]
+}
