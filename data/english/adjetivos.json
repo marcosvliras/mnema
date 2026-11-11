@@ -1,0 +1,2986 @@
+{
+  "schema_version": 1,
+  "context": {
+    "name": "Inglês",
+    "learning_language": "English"
+  },
+  "deck": "Adjetivos",
+  "source": "Lista fornecida pelo usuário",
+  "cards": [
+    {
+      "terms": {
+        "English": "pleasant",
+        "Portuguese": "agradável"
+      },
+      "examples": {
+        "English": [
+          "We had a pleasant evening with our friends.",
+          "The weather was pleasant, so we walked to the beach.",
+          "She has a very pleasant voice."
+        ],
+        "Portuguese": [
+          "Tivemos uma noite agradável com nossos amigos.",
+          "O tempo estava agradável, então fomos a pé até a praia.",
+          "Ela tem uma voz muito agradável."
+        ]
+      },
+      "pronunciation": "/ˈplɛzənt/",
+      "part_of_speech": "adjective",
+      "meaning": "Enjoyable, nice, or giving a feeling of satisfaction.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "rusty",
+        "Portuguese": "oxidado; enferrujado"
+      },
+      "examples": {
+        "English": [
+          "The rusty gate squeaked when I opened it.",
+          "The rusty hinges creaked loudly in the wind.",
+          "The bicycle chain was rusty after years in the rain."
+        ],
+        "Portuguese": [
+          "O portão enferrujado rangeu quando eu o abri.",
+          "As dobradiças enferrujadas rangeram alto com o vento.",
+          "A corrente da bicicleta estava enferrujada depois de anos na chuva."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Covered with rust or affected by oxidation.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 2,
+      "due_at": "2026-10-23T13:26:30.902626+00:00",
+      "last_reviewed_at": "2026-10-23T13:16:30.902626+00:00",
+      "pronunciation": "/ˈrʌsti/",
+      "image": "data/english/images/general/rusty.svg"
+    },
+    {
+      "terms": {
+        "English": "concerned",
+        "Portuguese": "preocupado"
+      },
+      "examples": {
+        "English": [
+          "She was concerned about her father's health.",
+          "I'm concerned about the cost of the repairs.",
+          "His parents were concerned when he didn't call."
+        ],
+        "Portuguese": [
+          "Ela estava preocupada com a saúde do pai.",
+          "Estou preocupado com o custo dos reparos.",
+          "Os pais dele ficaram preocupados quando ele não ligou."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Worried or anxious about something or someone.",
+      "source": "Preply",
+      "review_streak": 1,
+      "review_correct": 1,
+      "review_total": 3,
+      "due_at": "2026-11-05T22:47:00.941370+00:00",
+      "last_reviewed_at": "2026-11-04T22:47:00.941370+00:00",
+      "pronunciation": "/kənˈsɝnd/"
+    },
+    {
+      "terms": {
+        "English": "drained",
+        "Portuguese": "esgotado; exausto; drenado"
+      },
+      "examples": {
+        "English": [
+          "I felt drained after the long meeting.",
+          "The cracked pipe drained the tank overnight.",
+          "She drained the pasta before adding the sauce."
+        ],
+        "Portuguese": [
+          "Eu me senti esgotado depois da longa reunião.",
+          "O cano rachado esvaziou o tanque durante a noite.",
+          "Ela escorreu o macarrão antes de colocar o molho."
+        ]
+      },
+      "part_of_speech": "adjective / verb (past)",
+      "meaning": "Very tired; also emptied of liquid.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/dreɪnd/"
+    },
+    {
+      "terms": {
+        "English": "scalable",
+        "Portuguese": "escalável"
+      },
+      "examples": {
+        "English": [
+          "We need a scalable plan for a growing team.",
+          "The system is scalable as demand increases.",
+          "They chose a scalable design for the new service."
+        ],
+        "Portuguese": [
+          "Precisamos de um plano escalável para uma equipe em crescimento.",
+          "O sistema é escalável conforme a demanda aumenta.",
+          "Eles escolheram um design escalável para o novo serviço."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Able to grow or expand easily as demand increases.",
+      "source": "Preply",
+      "review_streak": 1,
+      "review_correct": 1,
+      "review_total": 1,
+      "due_at": "2026-10-24T12:57:56.736284+00:00",
+      "last_reviewed_at": "2026-10-23T12:57:56.736284+00:00",
+      "pronunciation": "/ˈskeɪləbəl/"
+    },
+    {
+      "terms": {
+        "English": "cautious",
+        "Portuguese": "cauteloso; cuidadoso"
+      },
+      "examples": {
+        "English": [
+          "Be cautious when crossing the wet floor.",
+          "She gave a cautious answer about the deadline.",
+          "Investors remained cautious after the announcement."
+        ],
+        "Portuguese": [
+          "Tenha cuidado ao atravessar o chão molhado.",
+          "Ela deu uma resposta cautelosa sobre o prazo.",
+          "Os investidores continuaram cautelosos depois do anúncio."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Careful to avoid risks or problems.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈkɔʃəs/"
+    },
+    {
+      "terms": {
+        "English": "advantageous",
+        "Portuguese": "vantajoso"
+      },
+      "examples": {
+        "English": [
+          "The flexible schedule is advantageous for parents.",
+          "It may be advantageous to book early.",
+          "Their location is advantageous for commuters."
+        ],
+        "Portuguese": [
+          "O horário flexível é vantajoso para os pais.",
+          "Pode ser vantajoso reservar com antecedência.",
+          "A localização deles é vantajosa para quem vai e volta do trabalho."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Giving an advantage or benefit.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-02T23:21:26.697477+00:00",
+      "last_reviewed_at": "2026-11-02T23:11:26.697477+00:00",
+      "pronunciation": "/ˌædvənˈteɪdʒəs/"
+    },
+    {
+      "terms": {
+        "English": "sore",
+        "Portuguese": "dolorido"
+      },
+      "examples": {
+        "English": [
+          "My legs were sore after the hike.",
+          "The strap left a sore spot on his shoulder.",
+          "She had a sore back from sitting all day."
+        ],
+        "Portuguese": [
+          "Minhas pernas ficaram doloridas depois da trilha.",
+          "A alça deixou um ponto dolorido no ombro dele.",
+          "Ela estava com as costas doloridas de ficar sentada o dia todo."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Painful, especially from overuse or injury.",
+      "source": "Preply",
+      "review_streak": 1,
+      "review_correct": 1,
+      "review_total": 1,
+      "due_at": "2026-10-21T23:21:51.651345+00:00",
+      "last_reviewed_at": "2026-10-20T23:21:51.651345+00:00",
+      "pronunciation": "/sɔr/"
+    },
+    {
+      "terms": {
+        "English": "demanding",
+        "Portuguese": "exigente; puxado"
+      },
+      "examples": {
+        "English": [
+          "The course is demanding but rewarding.",
+          "She has a demanding job with frequent travel.",
+          "The customer was demanding a full refund."
+        ],
+        "Portuguese": [
+          "O curso é puxado, mas recompensador.",
+          "Ela tem um trabalho exigente, com viagens frequentes.",
+          "O cliente estava exigindo o reembolso total."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Needing a lot of effort or skill; also insisting on something.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-10-28T12:32:02.893859+00:00",
+      "last_reviewed_at": "2026-10-28T12:22:02.893859+00:00",
+      "pronunciation": "/dɪˈmændɪŋ/"
+    },
+    {
+      "terms": {
+        "English": "overweight",
+        "Portuguese": "acima do peso; com excesso de peso"
+      },
+      "examples": {
+        "English": [
+          "The doctor suggested more exercise for the overweight patient.",
+          "The airline charged for an overweight suitcase.",
+          "Some people are unfairly judged for being overweight."
+        ],
+        "Portuguese": [
+          "O médico recomendou mais exercícios ao paciente acima do peso.",
+          "A companhia aérea cobrou pela mala com excesso de peso.",
+          "Algumas pessoas são julgadas injustamente por estarem acima do peso."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Heavier than is normal, healthy, or allowed.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌoʊvərˈweɪt/"
+    },
+    {
+      "terms": {
+        "English": "conflicting",
+        "Portuguese": "conflitante; contraditório"
+      },
+      "examples": {
+        "English": [
+          "We received conflicting advice about the route.",
+          "The two reports contain conflicting figures.",
+          "She had conflicting feelings about moving abroad."
+        ],
+        "Portuguese": [
+          "Recebemos conselhos conflitantes sobre o trajeto.",
+          "Os dois relatórios trazem números contraditórios.",
+          "Ela tinha sentimentos conflitantes sobre se mudar para o exterior."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not agreeing with each other.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kənˈflɪktɪŋ/"
+    },
+    {
+      "terms": {
+        "English": "withdrawn",
+        "Portuguese": "retraído; retirado; sacado"
+      },
+      "examples": {
+        "English": [
+          "He became withdrawn after changing schools.",
+          "She withdrew the money from her account.",
+          "The offer was withdrawn before we could respond."
+        ],
+        "Portuguese": [
+          "Ele ficou retraído depois de mudar de escola.",
+          "Ela sacou o dinheiro da conta.",
+          "A oferta foi retirada antes que pudéssemos responder."
+        ]
+      },
+      "part_of_speech": "adjective / verb (past participle)",
+      "meaning": "Quiet and not wanting to interact; also taken back or removed.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-04T23:17:37.955536+00:00",
+      "last_reviewed_at": "2026-11-04T23:07:37.955536+00:00",
+      "pronunciation": "/wɪðˈdrɔn/"
+    },
+    {
+      "terms": {
+        "English": "sleek",
+        "Portuguese": "elegante; moderno; de linhas suaves"
+      },
+      "examples": {
+        "English": [
+          "She bought a sleek black laptop.",
+          "The new train has a sleek design.",
+          "He wore a sleek suit to the event."
+        ],
+        "Portuguese": [
+          "Ela comprou um notebook preto elegante.",
+          "O novo trem tem um design moderno.",
+          "Ele usou um terno elegante no evento."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Smooth, stylish, and modern in appearance.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/slik/"
+    },
+    {
+      "terms": {
+        "English": "protruding",
+        "Portuguese": "saliente; projetando-se"
+      },
+      "examples": {
+        "English": [
+          "A nail was protruding from the wooden board.",
+          "He noticed a branch protruding over the path.",
+          "The package had a sharp object protruding from one side."
+        ],
+        "Portuguese": [
+          "Um prego estava saindo da tábua de madeira.",
+          "Ele notou um galho projetando-se sobre o caminho.",
+          "O pacote tinha um objeto pontiagudo saindo de um lado."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Sticking out from a surface.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 2,
+      "due_at": "2026-11-04T23:19:04.740681+00:00",
+      "last_reviewed_at": "2026-11-04T23:09:04.740681+00:00",
+      "pronunciation": "/proʊˈtrudɪŋ/"
+    },
+    {
+      "terms": {
+        "English": "crooked",
+        "Portuguese": "torto; desonesto"
+      },
+      "examples": {
+        "English": [
+          "The picture looked crooked on the wall.",
+          "A crooked path led through the woods.",
+          "He gave us a crooked smile."
+        ],
+        "Portuguese": [
+          "O quadro parecia torto na parede.",
+          "Uma trilha sinuosa atravessava o bosque.",
+          "Ele nos deu um sorriso torto."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not straight; also dishonest.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 3,
+      "due_at": "2026-10-28T12:23:10.240271+00:00",
+      "last_reviewed_at": "2026-10-28T12:13:10.240271+00:00",
+      "pronunciation": "/ˈkrʊkɪd/"
+    },
+    {
+      "terms": {
+        "English": "windy",
+        "Portuguese": "ventoso; com muito vento; sinuoso"
+      },
+      "examples": {
+        "English": [
+          "It was too windy to eat outside.",
+          "The windy road climbed up the hillside.",
+          "A windy afternoon scattered leaves across the yard."
+        ],
+        "Portuguese": [
+          "Estava ventando demais para comer lá fora.",
+          "A estrada sinuosa subia a encosta.",
+          "Uma tarde de muito vento espalhou folhas pelo quintal."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "With a lot of wind; (pronounced differently) also full of curves.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈwɪndi/"
+    },
+    {
+      "terms": {
+        "English": "messy",
+        "Portuguese": "bagunçado; desarrumado; complicado"
+      },
+      "examples": {
+        "English": [
+          "The kitchen was messy after dinner.",
+          "They had a messy disagreement about money.",
+          "Her notes are messy but easy for her to understand."
+        ],
+        "Portuguese": [
+          "A cozinha ficou bagunçada depois do jantar.",
+          "Eles tiveram uma briga complicada por causa de dinheiro.",
+          "As anotações dela são bagunçadas, mas fáceis para ela entender."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Untidy or dirty; also complicated and unpleasant.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈmɛsi/"
+    },
+    {
+      "terms": {
+        "English": "appropriate",
+        "Portuguese": "apropriado; adequado"
+      },
+      "examples": {
+        "English": [
+          "Jeans are appropriate for the casual event.",
+          "Please choose an appropriate example for the lesson.",
+          "The manager took appropriate action after the complaint."
+        ],
+        "Portuguese": [
+          "Jeans são adequados para o evento informal.",
+          "Por favor, escolha um exemplo apropriado para a aula.",
+          "O gerente tomou as medidas adequadas depois da reclamação."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Suitable or right for a particular situation.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/əˈproʊpriət/"
+    },
+    {
+      "terms": {
+        "English": "manageable",
+        "Portuguese": "administrável; viável; fácil de lidar"
+      },
+      "examples": {
+        "English": [
+          "The smaller suitcase is easier to carry and more manageable.",
+          "We broke the project into manageable steps.",
+          "The workload became manageable after we hired help."
+        ],
+        "Portuguese": [
+          "A mala menor é mais fácil de carregar e de lidar.",
+          "Dividimos o projeto em etapas viáveis.",
+          "A carga de trabalho ficou administrável depois que contratamos ajuda."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Possible to deal with or control.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈmænɪdʒəbəl/"
+    },
+    {
+      "terms": {
+        "English": "tight",
+        "Portuguese": "apertado; justo"
+      },
+      "examples": {
+        "English": [
+          "This jar lid is too tight to open.",
+          "We have a tight schedule today.",
+          "The runner wore tight shoes that caused pain."
+        ],
+        "Portuguese": [
+          "A tampa deste pote está apertada demais para abrir.",
+          "Temos uma agenda apertada hoje.",
+          "O corredor usou tênis apertados que causaram dor."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Firmly fixed or close-fitting; also with little free time.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/taɪt/"
+    },
+    {
+      "terms": {
+        "English": "incompatible",
+        "Portuguese": "incompatível"
+      },
+      "examples": {
+        "English": [
+          "The charger is incompatible with my old phone.",
+          "Their schedules are incompatible this week.",
+          "The software is incompatible with that operating system."
+        ],
+        "Portuguese": [
+          "O carregador é incompatível com meu celular antigo.",
+          "Os horários deles são incompatíveis esta semana.",
+          "O software é incompatível com esse sistema operacional."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not able to work or exist together.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌɪnkəmˈpætəbəl/"
+    },
+    {
+      "terms": {
+        "English": "likely",
+        "Portuguese": "provável; provavelmente"
+      },
+      "examples": {
+        "English": [
+          "It is likely to rain this afternoon.",
+          "She is the most likely person to know the answer.",
+          "We are likely to arrive before sunset."
+        ],
+        "Portuguese": [
+          "É provável que chova hoje à tarde.",
+          "Ela é a pessoa com mais chance de saber a resposta.",
+          "Provavelmente vamos chegar antes do pôr do sol."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Probably going to happen or be true.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈlaɪkli/"
+    },
+    {
+      "terms": {
+        "English": "extrinsic",
+        "Portuguese": "extrínseco; externo"
+      },
+      "examples": {
+        "English": [
+          "The prize was an extrinsic reward for the volunteers.",
+          "Extrinsic motivation can come from bonuses or praise.",
+          "He cared more about learning than extrinsic rewards."
+        ],
+        "Portuguese": [
+          "O prêmio foi uma recompensa extrínseca para os voluntários.",
+          "A motivação extrínseca pode vir de bônus ou elogios.",
+          "Ele se importava mais com aprender do que com recompensas externas."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Coming from outside, not from within a person or thing.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɛkˈstrɪnzɪk/"
+    },
+    {
+      "terms": {
+        "English": "communicative",
+        "Portuguese": "comunicativo"
+      },
+      "examples": {
+        "English": [
+          "The teacher is warm and communicative.",
+          "Good managers are open and communicative with their teams.",
+          "Her communicative style helped the group work together."
+        ],
+        "Portuguese": [
+          "O professor é caloroso e comunicativo.",
+          "Bons gestores são abertos e comunicativos com suas equipes.",
+          "O jeito comunicativo dela ajudou o grupo a trabalhar junto."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Willing and able to talk and share information.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kəˈmjunəˌkeɪtɪv/"
+    },
+    {
+      "terms": {
+        "English": "fluent",
+        "Portuguese": "fluente"
+      },
+      "examples": {
+        "English": [
+          "After a year abroad, she became fluent in Spanish.",
+          "He is fluent in English and Portuguese.",
+          "The guide gave a fluent explanation of the route."
+        ],
+        "Portuguese": [
+          "Depois de um ano no exterior, ela ficou fluente em espanhol.",
+          "Ele é fluente em inglês e português.",
+          "O guia deu uma explicação clara e fluida do trajeto."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Able to speak a language easily and well; smooth and clear.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈfluənt/"
+    },
+    {
+      "terms": {
+        "English": "restless",
+        "Portuguese": "inquieto; agitado"
+      },
+      "examples": {
+        "English": [
+          "The restless child kept moving around the room.",
+          "I felt restless while waiting for the results.",
+          "She had a restless night before the exam."
+        ],
+        "Portuguese": [
+          "A criança inquieta não parava de andar pela sala.",
+          "Fiquei inquieto enquanto esperava os resultados.",
+          "Ela teve uma noite agitada antes da prova."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Unable to stay still or relax.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈrɛstləs/"
+    },
+    {
+      "terms": {
+        "English": "nourished",
+        "Portuguese": "nutrido; alimentado"
+      },
+      "examples": {
+        "English": [
+          "The seedlings were nourished by rich soil.",
+          "A balanced meal kept the children nourished.",
+          "She felt nourished after the warm soup."
+        ],
+        "Portuguese": [
+          "As mudas foram nutridas por um solo rico.",
+          "Uma refeição equilibrada manteve as crianças bem alimentadas.",
+          "Ela se sentiu revigorada depois da sopa quente."
+        ]
+      },
+      "part_of_speech": "adjective / verb (past participle)",
+      "meaning": "Given the food or substances needed to grow and stay healthy.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈnɝɪʃt/"
+    },
+    {
+      "terms": {
+        "English": "overpriced",
+        "Portuguese": "caro demais; superfaturado"
+      },
+      "examples": {
+        "English": [
+          "The coffee near the station was overpriced.",
+          "They left the shop without buying the overpriced coat.",
+          "That restaurant is good, but the desserts are overpriced."
+        ],
+        "Portuguese": [
+          "O café perto da estação era caro demais.",
+          "Eles saíram da loja sem comprar o casaco caro demais.",
+          "Aquele restaurante é bom, mas as sobremesas são caras demais."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Costing more than it is worth.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌoʊvərˈpraɪst/"
+    },
+    {
+      "terms": {
+        "English": "pricy",
+        "Portuguese": "caro; salgado"
+      },
+      "examples": {
+        "English": [
+          "The hotel was pricy, so we chose a smaller room.",
+          "Those headphones are a little pricy for me.",
+          "We found a less pricy café around the corner."
+        ],
+        "Portuguese": [
+          "O hotel era caro, então escolhemos um quarto menor.",
+          "Esses fones são um pouco caros para mim.",
+          "Encontramos um café mais barato na esquina."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Expensive (informal).",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈpraɪsi/"
+    },
+    {
+      "terms": {
+        "English": "reliable",
+        "Portuguese": "confiável"
+      },
+      "examples": {
+        "English": [
+          "We need a reliable source for these figures.",
+          "Her old car is still reliable.",
+          "The train is usually reliable in the morning."
+        ],
+        "Portuguese": [
+          "Precisamos de uma fonte confiável para esses números.",
+          "O carro antigo dela ainda é confiável.",
+          "O trem costuma ser confiável de manhã."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Able to be trusted to work well or be accurate.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/rɪˈlaɪəbəl/"
+    },
+    {
+      "terms": {
+        "English": "unbelievable",
+        "Portuguese": "inacreditável; incrível"
+      },
+      "examples": {
+        "English": [
+          "The view from the mountain was unbelievable.",
+          "It is unbelievable how quickly the children grew.",
+          "She made an unbelievable save in the final minute."
+        ],
+        "Portuguese": [
+          "A vista da montanha era inacreditável.",
+          "É inacreditável como as crianças cresceram rápido.",
+          "Ela fez uma defesa incrível no último minuto."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "So surprising or impressive that it is hard to believe.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌʌnbɪˈlivəbəl/"
+    },
+    {
+      "terms": {
+        "English": "daring",
+        "Portuguese": "ousado; audacioso"
+      },
+      "examples": {
+        "English": [
+          "It was a daring plan, but the team succeeded.",
+          "She wore a daring red outfit to the party.",
+          "The climbers made a daring ascent before sunrise."
+        ],
+        "Portuguese": [
+          "Era um plano ousado, mas a equipe conseguiu.",
+          "Ela usou uma roupa vermelha ousada na festa.",
+          "Os alpinistas fizeram uma subida audaciosa antes do amanhecer."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Brave and willing to take risks.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-10-22T11:45:10.056834+00:00",
+      "last_reviewed_at": "2026-10-22T11:35:10.056834+00:00",
+      "pronunciation": "/ˈdɛrɪŋ/"
+    },
+    {
+      "terms": {
+        "English": "intrinsic",
+        "Portuguese": "intrínseco"
+      },
+      "examples": {
+        "English": [
+          "Curiosity is an intrinsic part of learning.",
+          "The task has intrinsic value beyond its final result.",
+          "Intrinsic motivation helped her continue practicing."
+        ],
+        "Portuguese": [
+          "A curiosidade é uma parte intrínseca do aprendizado.",
+          "A tarefa tem um valor intrínseco além do resultado final.",
+          "A motivação intrínseca a ajudou a continuar praticando."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Belonging naturally to something; coming from within.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɪnˈtrɪnzɪk/"
+    },
+    {
+      "terms": {
+        "English": "gloomy",
+        "Portuguese": "sombrio; nublado; desanimado"
+      },
+      "examples": {
+        "English": [
+          "The sky looked gloomy before the storm.",
+          "He felt gloomy after hearing the news.",
+          "The gloomy room needed brighter curtains."
+        ],
+        "Portuguese": [
+          "O céu parecia sombrio antes da tempestade.",
+          "Ele ficou desanimado depois de ouvir a notícia.",
+          "O quarto escuro precisava de cortinas mais claras."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Dark and depressing; also feeling sad and without hope.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈɡlumi/"
+    },
+    {
+      "terms": {
+        "English": "rewarding",
+        "Portuguese": "gratificante; recompensador"
+      },
+      "examples": {
+        "English": [
+          "Teaching can be challenging but rewarding.",
+          "She found volunteering at the shelter rewarding.",
+          "Finishing the project was a rewarding experience."
+        ],
+        "Portuguese": [
+          "Dar aula pode ser desafiador, mas gratificante.",
+          "Ela achou gratificante ser voluntária no abrigo.",
+          "Terminar o projeto foi uma experiência gratificante."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Giving satisfaction or a sense of achievement.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/rɪˈwɔrdɪŋ/"
+    },
+    {
+      "terms": {
+        "English": "unfair",
+        "Portuguese": "injusto"
+      },
+      "examples": {
+        "English": [
+          "It is unfair to blame one person for the mistake.",
+          "The referee made an unfair decision.",
+          "She felt the rules were unfair to new employees."
+        ],
+        "Portuguese": [
+          "É injusto culpar uma só pessoa pelo erro.",
+          "O árbitro tomou uma decisão injusta.",
+          "Ela achava as regras injustas com os funcionários novos."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not treating people equally or fairly.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ʌnˈfɛr/"
+    },
+    {
+      "terms": {
+        "English": "consequential",
+        "Portuguese": "importante; significativo; decorrente"
+      },
+      "examples": {
+        "English": [
+          "The court heard evidence about the consequential loss.",
+          "It was a consequential decision for the whole company.",
+          "Small choices can have consequential effects over time."
+        ],
+        "Portuguese": [
+          "O tribunal ouviu provas sobre os danos decorrentes.",
+          "Foi uma decisão importante para a empresa inteira.",
+          "Pequenas escolhas podem ter efeitos significativos com o tempo."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Important and having significant results; also (legal) happening as a result.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌkɑnsəˈkwɛnʃəl/"
+    },
+    {
+      "terms": {
+        "English": "outgoing",
+        "Portuguese": "extrovertido; sociável; de saída"
+      },
+      "examples": {
+        "English": [
+          "She is outgoing and enjoys meeting new people.",
+          "My outgoing message included all the travel details.",
+          "He has an outgoing personality at work."
+        ],
+        "Portuguese": [
+          "Ela é extrovertida e gosta de conhecer gente nova.",
+          "Minha mensagem de ausência incluía todos os detalhes da viagem.",
+          "Ele tem uma personalidade extrovertida no trabalho."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Friendly and enjoying meeting people; also going out or leaving.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈaʊtˌɡoʊɪŋ/"
+    },
+    {
+      "terms": {
+        "English": "astonished",
+        "Portuguese": "espantado; impressionado; pasmo"
+      },
+      "examples": {
+        "English": [
+          "We were astonished by the size of the old tree.",
+          "She looked astonished when they announced her name.",
+          "I was astonished to find the shop still open."
+        ],
+        "Portuguese": [
+          "Ficamos impressionados com o tamanho da árvore antiga.",
+          "Ela pareceu espantada quando anunciaram o nome dela.",
+          "Fiquei surpreso ao ver que a loja ainda estava aberta."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Very surprised.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/əˈstɑnɪʃt/"
+    },
+    {
+      "terms": {
+        "English": "unpleasant",
+        "Portuguese": "desagradável"
+      },
+      "examples": {
+        "English": [
+          "An unpleasant smell came from the refrigerator.",
+          "The conversation became unpleasant after the accusation.",
+          "He had an unpleasant experience at the airport."
+        ],
+        "Portuguese": [
+          "Um cheiro desagradável vinha da geladeira.",
+          "A conversa ficou desagradável depois da acusação.",
+          "Ele teve uma experiência desagradável no aeroporto."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not enjoyable or pleasant.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ʌnˈplɛzənt/"
+    },
+    {
+      "terms": {
+        "English": "reluctant",
+        "Portuguese": "relutante; hesitante"
+      },
+      "examples": {
+        "English": [
+          "He was reluctant to share his personal details.",
+          "She felt reluctant to leave the party early.",
+          "They were reluctant to change the original plan."
+        ],
+        "Portuguese": [
+          "Ele estava relutante em compartilhar seus dados pessoais.",
+          "Ela não estava com vontade de sair da festa cedo.",
+          "Eles estavam relutantes em mudar o plano original."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not willing to do something.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/rɪˈlʌktənt/"
+    },
+    {
+      "terms": {
+        "English": "overwhelmed",
+        "Portuguese": "sobrecarregado; tomado (por emoção)"
+      },
+      "examples": {
+        "English": [
+          "I felt overwhelmed by all the paperwork.",
+          "She was overwhelmed with joy at the reunion.",
+          "The small team became overwhelmed by customer requests."
+        ],
+        "Portuguese": [
+          "Eu me senti sobrecarregado com toda aquela papelada.",
+          "Ela ficou tomada de alegria no reencontro.",
+          "A equipe pequena ficou sobrecarregada com os pedidos dos clientes."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Having too much to deal with; also feeling a very strong emotion.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 2,
+      "due_at": "2026-10-20T23:41:36.130489+00:00",
+      "last_reviewed_at": "2026-10-20T23:31:36.130489+00:00",
+      "pronunciation": "/ˌoʊvərˈwɛlmd/"
+    },
+    {
+      "terms": {
+        "English": "intelligent",
+        "Portuguese": "inteligente"
+      },
+      "examples": {
+        "English": [
+          "The intelligent dog learned the command quickly.",
+          "She asked an intelligent question during the lecture.",
+          "They designed an intelligent system to manage traffic."
+        ],
+        "Portuguese": [
+          "O cachorro inteligente aprendeu o comando rapidamente.",
+          "Ela fez uma pergunta inteligente durante a palestra.",
+          "Eles criaram um sistema inteligente para gerenciar o trânsito."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Able to learn, understand, and think well.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɪnˈtɛlədʒənt/"
+    },
+    {
+      "terms": {
+        "English": "committed",
+        "Portuguese": "comprometido; dedicado"
+      },
+      "examples": {
+        "English": [
+          "She is committed to improving public health.",
+          "The team committed to finishing the work by Friday.",
+          "He remained committed to his training plan."
+        ],
+        "Portuguese": [
+          "Ela está comprometida em melhorar a saúde pública.",
+          "A equipe se comprometeu a terminar o trabalho até sexta.",
+          "Ele continuou dedicado ao seu plano de treino."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Strongly dedicated to something.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kəˈmɪtɪd/"
+    },
+    {
+      "terms": {
+        "English": "appealing",
+        "Portuguese": "atraente; interessante"
+      },
+      "examples": {
+        "English": [
+          "The job is appealing because it offers flexible hours.",
+          "They chose the most appealing design.",
+          "The quiet village looked appealing to the visitors."
+        ],
+        "Portuguese": [
+          "O emprego é atraente porque oferece horário flexível.",
+          "Eles escolheram o design mais atraente.",
+          "O vilarejo tranquilo pareceu atraente aos visitantes."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Attractive or interesting.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/əˈpilɪŋ/"
+    },
+    {
+      "terms": {
+        "English": "tangible",
+        "Portuguese": "tangível; concreto"
+      },
+      "examples": {
+        "English": [
+          "The project produced tangible benefits for local families.",
+          "We need tangible evidence before making a decision.",
+          "Her support made a tangible difference to the team."
+        ],
+        "Portuguese": [
+          "O projeto trouxe benefícios concretos para as famílias locais.",
+          "Precisamos de provas concretas antes de tomar uma decisão.",
+          "O apoio dela fez uma diferença real para a equipe."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Real and able to be seen, measured, or proven.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈtændʒəbəl/"
+    },
+    {
+      "terms": {
+        "English": "naive",
+        "Portuguese": "ingênuo"
+      },
+      "examples": {
+        "English": [
+          "It was naive to believe the offer without checking it.",
+          "He was young and naive when he moved abroad.",
+          "The naive plan ignored the cost of repairs."
+        ],
+        "Portuguese": [
+          "Foi ingênuo acreditar na oferta sem verificar.",
+          "Ele era jovem e ingênuo quando se mudou para o exterior.",
+          "O plano ingênuo ignorava o custo dos reparos."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Lacking experience and too ready to believe things.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-03T11:32:56.956797+00:00",
+      "last_reviewed_at": "2026-11-03T11:22:56.956797+00:00",
+      "pronunciation": "/naɪˈiv/"
+    },
+    {
+      "terms": {
+        "English": "analytical",
+        "Portuguese": "analítico"
+      },
+      "examples": {
+        "English": [
+          "Her analytical approach helped solve the puzzle.",
+          "The report gives an analytical view of the market.",
+          "He is analytical and careful with numbers."
+        ],
+        "Portuguese": [
+          "A abordagem analítica dela ajudou a resolver o quebra-cabeça.",
+          "O relatório traz uma visão analítica do mercado.",
+          "Ele é analítico e cuidadoso com números."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Using careful, logical examination of details.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌænəˈlɪtɪkəl/"
+    },
+    {
+      "terms": {
+        "English": "affordable",
+        "Portuguese": "acessível; com preço acessível"
+      },
+      "examples": {
+        "English": [
+          "The neighborhood has affordable apartments.",
+          "They found an affordable flight to Lisbon.",
+          "The clinic offers affordable dental care."
+        ],
+        "Portuguese": [
+          "O bairro tem apartamentos com preços acessíveis.",
+          "Eles encontraram um voo barato para Lisboa.",
+          "A clínica oferece tratamento odontológico acessível."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Cheap enough for people to be able to buy.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/əˈfɔrdəbəl/"
+    },
+    {
+      "terms": {
+        "English": "relatable",
+        "Portuguese": "com que dá para se identificar; identificável"
+      },
+      "examples": {
+        "English": [
+          "The character feels relatable because she makes ordinary mistakes.",
+          "His story about learning a new language was relatable to me.",
+          "The film's relatable humor made the audience laugh."
+        ],
+        "Portuguese": [
+          "É fácil se identificar com a personagem porque ela comete erros comuns.",
+          "Eu me identifiquei com a história dele sobre aprender um novo idioma.",
+          "O humor fácil de se identificar do filme fez a plateia rir."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Easy for people to understand or feel connected to.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/rɪˈleɪtəbəl/"
+    },
+    {
+      "terms": {
+        "English": "chilly",
+        "Portuguese": "frio; friozinho"
+      },
+      "examples": {
+        "English": [
+          "It was chilly outside, so I put on a jacket.",
+          "The evening air felt chilly near the coast.",
+          "A chilly wind came through the open window."
+        ],
+        "Portuguese": [
+          "Estava frio lá fora, então coloquei uma jaqueta.",
+          "O ar da noite estava fresco perto do litoral.",
+          "Um vento frio entrou pela janela aberta."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Unpleasantly cool.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈtʃɪli/"
+    },
+    {
+      "terms": {
+        "English": "boiling",
+        "Portuguese": "fervendo; muito quente"
+      },
+      "examples": {
+        "English": [
+          "The water is boiling, so the pasta is ready.",
+          "It was boiling hot inside the crowded bus.",
+          "She waited for the boiling kettle to switch off."
+        ],
+        "Portuguese": [
+          "A água está fervendo, então dá para colocar o macarrão.",
+          "Estava um calor de rachar dentro do ônibus lotado.",
+          "Ela esperou a chaleira fervendo desligar."
+        ]
+      },
+      "part_of_speech": "adjective / verb (present participle)",
+      "meaning": "At the temperature where liquid turns to gas; also extremely hot.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈbɔɪlɪŋ/",
+      "image": "data/english/images/general/boiling.svg"
+    },
+    {
+      "terms": {
+        "English": "foggy",
+        "Portuguese": "com neblina; enevoado; embaçado"
+      },
+      "examples": {
+        "English": [
+          "The road was foggy, so we drove slowly.",
+          "It gets foggy near the river in the morning.",
+          "My glasses became foggy when I entered the warm room."
+        ],
+        "Portuguese": [
+          "A estrada estava com neblina, então dirigimos devagar.",
+          "Fica enevoado perto do rio de manhã.",
+          "Meus óculos embaçaram quando entrei na sala quente."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Full of fog; also covered in condensation.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈfɑɡi/",
+      "image": "data/english/images/general/foggy.svg"
+    },
+    {
+      "terms": {
+        "English": "eager",
+        "Portuguese": "ansioso (por); empolgado; ávido"
+      },
+      "examples": {
+        "English": [
+          "The children were eager to open their presents.",
+          "I'm eager to hear what you think of the idea.",
+          "She was eager for the trip to begin."
+        ],
+        "Portuguese": [
+          "As crianças estavam ansiosas para abrir os presentes.",
+          "Estou ansioso para saber o que você acha da ideia.",
+          "Ela estava empolgada para a viagem começar."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Wanting very much to do or have something.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-10-19T00:35:48.656107+00:00",
+      "last_reviewed_at": "2026-10-19T00:25:48.656107+00:00",
+      "pronunciation": "/ˈiɡər/"
+    },
+    {
+      "terms": {
+        "English": "unconstitutional",
+        "Portuguese": "inconstitucional"
+      },
+      "examples": {
+        "English": [
+          "The court ruled that the law was unconstitutional.",
+          "They argued that the search was unconstitutional.",
+          "The new rule could be challenged as unconstitutional."
+        ],
+        "Portuguese": [
+          "O tribunal decidiu que a lei era inconstitucional.",
+          "Eles argumentaram que a revista foi inconstitucional.",
+          "A nova regra pode ser contestada como inconstitucional."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not allowed by a country's constitution.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌʌnkɑnstəˈtuʃənəl/"
+    },
+    {
+      "terms": {
+        "English": "cutting edge",
+        "Portuguese": "de ponta; de vanguarda"
+      },
+      "examples": {
+        "English": [
+          "The hospital uses cutting-edge medical equipment.",
+          "She works on cutting-edge research in renewable energy.",
+          "The company hopes to stay at the cutting edge of design."
+        ],
+        "Portuguese": [
+          "O hospital usa equipamentos médicos de ponta.",
+          "Ela trabalha em pesquisas de ponta em energia renovável.",
+          "A empresa quer continuar na vanguarda do design."
+        ]
+      },
+      "part_of_speech": "adjective / noun phrase",
+      "meaning": "The most modern and advanced.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌkʌtɪŋ ˈɛdʒ/"
+    },
+    {
+      "terms": {
+        "English": "rough",
+        "Portuguese": "áspero; acidentado; difícil; aproximado"
+      },
+      "examples": {
+        "English": [
+          "The road is rough after the heavy rain.",
+          "We had a rough week, but things are improving.",
+          "Cut the paper into rough circles before shaping them."
+        ],
+        "Portuguese": [
+          "A estrada está esburacada depois da chuva forte.",
+          "Tivemos uma semana difícil, mas as coisas estão melhorando.",
+          "Corte o papel em círculos aproximados antes de modelá-los."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not smooth; difficult or unpleasant; not exact.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/rʌf/"
+    },
+    {
+      "terms": {
+        "English": "reassuring",
+        "Portuguese": "tranquilizador; reconfortante"
+      },
+      "examples": {
+        "English": [
+          "Her calm voice was reassuring during the emergency.",
+          "It was reassuring to hear that everyone was safe.",
+          "The doctor gave us a reassuring update."
+        ],
+        "Portuguese": [
+          "A voz calma dela foi tranquilizadora durante a emergência.",
+          "Foi um alívio saber que todos estavam bem.",
+          "O médico nos deu uma notícia tranquilizadora."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Making someone feel less worried.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌriəˈʃʊrɪŋ/"
+    },
+    {
+      "terms": {
+        "English": "frustrated",
+        "Portuguese": "frustrado; irritado"
+      },
+      "examples": {
+        "English": [
+          "I felt frustrated when the computer froze again.",
+          "He was frustrated by the slow progress.",
+          "She gets frustrated when people interrupt her."
+        ],
+        "Portuguese": [
+          "Fiquei frustrado quando o computador travou de novo.",
+          "Ele estava frustrado com o progresso lento.",
+          "Ela fica irritada quando as pessoas a interrompem."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Annoyed because you cannot do or achieve something.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈfrʌˌstreɪtɪd/"
+    },
+    {
+      "terms": {
+        "English": "irritated",
+        "Portuguese": "irritado"
+      },
+      "examples": {
+        "English": [
+          "The loud music irritated the neighbors.",
+          "She felt irritated by the constant interruptions.",
+          "His eyes became irritated from the dust."
+        ],
+        "Portuguese": [
+          "A música alta irritou os vizinhos.",
+          "Ela ficou irritada com as interrupções constantes.",
+          "Os olhos dele ficaram irritados por causa da poeira."
+        ]
+      },
+      "part_of_speech": "adjective / verb (past)",
+      "meaning": "Annoyed; also (of skin or eyes) red and sore.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈɪrəˌteɪtɪd/"
+    },
+    {
+      "terms": {
+        "English": "vague",
+        "Portuguese": "vago; impreciso"
+      },
+      "examples": {
+        "English": [
+          "His directions were too vague to follow.",
+          "She gave a vague answer about her plans.",
+          "I have a vague memory of meeting him before."
+        ],
+        "Portuguese": [
+          "As instruções dele eram vagas demais para seguir.",
+          "Ela deu uma resposta vaga sobre seus planos.",
+          "Tenho uma vaga lembrança de tê-lo conhecido antes."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not clear or detailed.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/veɪɡ/"
+    },
+    {
+      "terms": {
+        "English": "blunt",
+        "Portuguese": "direto; franco; sem corte; cego"
+      },
+      "examples": {
+        "English": [
+          "He was blunt about the problems with my proposal.",
+          "The blunt knife struggled to cut the bread.",
+          "She gave me a blunt but useful answer."
+        ],
+        "Portuguese": [
+          "Ele foi direto sobre os problemas da minha proposta.",
+          "A faca cega mal conseguia cortar o pão.",
+          "Ela me deu uma resposta franca, mas útil."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Saying what you think without trying to be polite; (of a blade) not sharp.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/blʌnt/"
+    },
+    {
+      "terms": {
+        "English": "tactful",
+        "Portuguese": "diplomático; discreto; com tato"
+      },
+      "examples": {
+        "English": [
+          "It was tactful of her to change the subject.",
+          "He gave tactful feedback about the presentation.",
+          "Try to be tactful when discussing a sensitive issue."
+        ],
+        "Portuguese": [
+          "Foi delicado da parte dela mudar de assunto.",
+          "Ele deu um retorno cuidadoso sobre a apresentação.",
+          "Tente ter tato ao falar de um assunto delicado."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Careful not to upset or offend people.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-10-23T13:31:44.045050+00:00",
+      "last_reviewed_at": "2026-10-23T13:21:44.045050+00:00",
+      "pronunciation": "/ˈtæktfəl/"
+    },
+    {
+      "terms": {
+        "English": "outspoken",
+        "Portuguese": "franco; que não tem papas na língua"
+      },
+      "examples": {
+        "English": [
+          "She is outspoken about protecting the environment.",
+          "The outspoken journalist challenged the minister.",
+          "He became known for his outspoken opinions."
+        ],
+        "Portuguese": [
+          "Ela fala abertamente sobre a proteção do meio ambiente.",
+          "A jornalista que não tem papas na língua confrontou o ministro.",
+          "Ele ficou conhecido pelas opiniões francas."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Expressing opinions openly, even if they upset people.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌaʊtˈspoʊkən/"
+    },
+    {
+      "terms": {
+        "English": "decent",
+        "Portuguese": "decente; razoável; bom"
+      },
+      "examples": {
+        "English": [
+          "We found a decent hotel near the station.",
+          "He earns a decent salary for his experience.",
+          "That was a decent thing to do."
+        ],
+        "Portuguese": [
+          "Encontramos um hotel razoável perto da estação.",
+          "Ele ganha um salário decente para a experiência que tem.",
+          "Foi uma atitude bacana."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Good enough; acceptable; also kind and honest.",
+      "source": "Preply",
+      "review_streak": 1,
+      "review_correct": 1,
+      "review_total": 1,
+      "due_at": "2026-11-03T23:11:40.065888+00:00",
+      "last_reviewed_at": "2026-11-02T23:11:40.065888+00:00",
+      "pronunciation": "/ˈdisənt/"
+    },
+    {
+      "terms": {
+        "English": "surrounded",
+        "Portuguese": "cercado; rodeado"
+      },
+      "examples": {
+        "English": [
+          "The cottage is surrounded by tall trees.",
+          "She felt surrounded by supportive friends.",
+          "The old town is surrounded by a stone wall."
+        ],
+        "Portuguese": [
+          "O chalé é cercado de árvores altas.",
+          "Ela se sentiu rodeada de amigos que a apoiavam.",
+          "A cidade antiga é cercada por uma muralha de pedra."
+        ]
+      },
+      "part_of_speech": "adjective / verb (past participle)",
+      "meaning": "Having something all around.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/səˈraʊndɪd/"
+    },
+    {
+      "terms": {
+        "English": "Old fashioned",
+        "Portuguese": "antiquado; à moda antiga; tradicional"
+      },
+      "examples": {
+        "English": [
+          "My grandfather prefers old-fashioned manners.",
+          "The café serves an old-fashioned dessert.",
+          "That payment method seems old-fashioned now."
+        ],
+        "Portuguese": [
+          "Meu avô prefere as boas maneiras à moda antiga.",
+          "O café serve uma sobremesa tradicional.",
+          "Essa forma de pagamento parece antiquada hoje em dia."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "From the past and no longer common or fashionable.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌoʊld ˈfæʃənd/"
+    },
+    {
+      "terms": {
+        "English": "Balinese",
+        "Portuguese": "balinês"
+      },
+      "examples": {
+        "English": [
+          "They tried a traditional Balinese dish.",
+          "Balinese music played during the festival.",
+          "She learned about Balinese culture on the trip."
+        ],
+        "Portuguese": [
+          "Eles provaram um prato balinês tradicional.",
+          "Música balinesa tocava durante o festival.",
+          "Ela conheceu a cultura balinesa na viagem."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "From or relating to Bali, Indonesia.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌbɑləˈniz/"
+    },
+    {
+      "terms": {
+        "English": "intricate",
+        "Portuguese": "complexo; intrincado; cheio de detalhes"
+      },
+      "examples": {
+        "English": [
+          "The artist created an intricate pattern by hand.",
+          "The watch has an intricate mechanism.",
+          "We admired the intricate carvings on the door."
+        ],
+        "Portuguese": [
+          "O artista criou à mão uma estampa cheia de detalhes.",
+          "O relógio tem um mecanismo complexo.",
+          "Admiramos os entalhes intrincados da porta."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Having many small, complicated parts or details.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-10-19T23:39:07.209357+00:00",
+      "last_reviewed_at": "2026-10-19T23:29:07.209357+00:00",
+      "pronunciation": "/ˈɪntrɪkət/"
+    },
+    {
+      "terms": {
+        "English": "convinced",
+        "Portuguese": "convencido; convenceu"
+      },
+      "examples": {
+        "English": [
+          "I'm convinced that we made the right choice.",
+          "She convinced her brother to come along.",
+          "The evidence convinced the jury."
+        ],
+        "Portuguese": [
+          "Estou convencido de que fizemos a escolha certa.",
+          "Ela convenceu o irmão a ir junto.",
+          "As provas convenceram o júri."
+        ]
+      },
+      "part_of_speech": "adjective / verb (past)",
+      "meaning": "Completely sure; also persuaded someone.",
+      "source": "Preply",
+      "review_streak": 1,
+      "review_correct": 1,
+      "review_total": 1,
+      "due_at": "2026-11-04T11:27:26.726928+00:00",
+      "last_reviewed_at": "2026-11-03T11:27:26.726928+00:00",
+      "pronunciation": "/kənˈvɪnst/"
+    },
+    {
+      "terms": {
+        "English": "dim",
+        "Portuguese": "fraco; escuro; pouco iluminado"
+      },
+      "examples": {
+        "English": [
+          "We sat in a dim room lit by candles.",
+          "The screen became dim in the sunlight.",
+          "He could see a dim light at the end of the hallway."
+        ],
+        "Portuguese": [
+          "Sentamos numa sala à meia-luz, iluminada por velas.",
+          "A tela ficou fraca sob o sol.",
+          "Ele via uma luz fraca no fim do corredor."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not bright; with little light.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/dɪm/"
+    },
+    {
+      "terms": {
+        "English": "tuned",
+        "Portuguese": "sintonizado; afinado; ajustado"
+      },
+      "examples": {
+        "English": [
+          "The radio was tuned to a local news station.",
+          "She tuned the guitar before the performance.",
+          "The team is finely tuned to its customers' needs."
+        ],
+        "Portuguese": [
+          "O rádio estava sintonizado numa estação de notícias local.",
+          "Ela afinou o violão antes da apresentação.",
+          "A equipe está muito bem afinada com as necessidades dos clientes."
+        ]
+      },
+      "part_of_speech": "adjective / verb (past)",
+      "meaning": "Set to a particular station; adjusted to the correct musical pitch; well adapted.",
+      "source": "Preply",
+      "review_streak": 1,
+      "review_correct": 1,
+      "review_total": 1,
+      "due_at": "2026-11-03T23:12:51.073871+00:00",
+      "last_reviewed_at": "2026-11-02T23:12:51.073871+00:00",
+      "pronunciation": "/tund/"
+    },
+    {
+      "terms": {
+        "English": "vigilant",
+        "Portuguese": "atento; vigilante"
+      },
+      "examples": {
+        "English": [
+          "Please remain vigilant when crossing the busy road.",
+          "The guards stayed vigilant throughout the night.",
+          "Parents should be vigilant about online safety."
+        ],
+        "Portuguese": [
+          "Por favor, fique atento ao atravessar a rua movimentada.",
+          "Os guardas ficaram vigilantes a noite toda.",
+          "Os pais devem ficar atentos à segurança on-line."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Carefully watching for danger or problems.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈvɪdʒələnt/"
+    },
+    {
+      "terms": {
+        "English": "subtle",
+        "Portuguese": "sutil"
+      },
+      "examples": {
+        "English": [
+          "There was a subtle change in her expression.",
+          "The sauce has a subtle taste of lemon.",
+          "He made a subtle suggestion during the meeting."
+        ],
+        "Portuguese": [
+          "Houve uma mudança sutil na expressão dela.",
+          "O molho tem um gosto sutil de limão.",
+          "Ele fez uma sugestão sutil durante a reunião."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Small and not obvious, but important or noticeable.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈsʌtəl/"
+    },
+    {
+      "terms": {
+        "English": "thrilled",
+        "Portuguese": "muito feliz; empolgado; radiante"
+      },
+      "examples": {
+        "English": [
+          "We were thrilled to hear the good news.",
+          "She was thrilled with her exam results.",
+          "I'm thrilled that you can come to the party."
+        ],
+        "Portuguese": [
+          "Ficamos muito felizes com a boa notícia.",
+          "Ela ficou radiante com o resultado da prova.",
+          "Estou empolgado que você vai poder vir à festa."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Extremely pleased and excited.",
+      "source": "Preply",
+      "review_streak": 1,
+      "review_correct": 1,
+      "review_total": 1,
+      "due_at": "2026-10-21T23:23:27.410671+00:00",
+      "last_reviewed_at": "2026-10-20T23:23:27.410671+00:00",
+      "pronunciation": "/θrɪld/"
+    },
+    {
+      "terms": {
+        "English": "mischievous",
+        "Portuguese": "travesso; arteiro; levado"
+      },
+      "examples": {
+        "English": [
+          "The mischievous puppy hid one of my shoes.",
+          "He gave me a mischievous smile.",
+          "The children played a mischievous trick on their teacher."
+        ],
+        "Portuguese": [
+          "O filhote arteiro escondeu um dos meus sapatos.",
+          "Ele me deu um sorriso travesso.",
+          "As crianças pregaram uma peça na professora."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Playfully causing small trouble.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 2,
+      "due_at": "2026-11-03T11:27:26.405270+00:00",
+      "last_reviewed_at": "2026-11-03T11:17:26.405270+00:00",
+      "pronunciation": "/ˈmɪstʃɪvəs/"
+    },
+    {
+      "terms": {
+        "English": "vicious",
+        "Portuguese": "feroz; cruel; violento"
+      },
+      "examples": {
+        "English": [
+          "A vicious dog chased the cyclist.",
+          "They criticized the article for its vicious tone.",
+          "The storm caused a vicious cycle of flooding and damage."
+        ],
+        "Portuguese": [
+          "Um cachorro feroz perseguiu o ciclista.",
+          "Criticaram o artigo pelo tom cruel.",
+          "A tempestade provocou um ciclo vicioso de enchentes e estragos."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Very violent or aggressive; also intended to hurt.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈvɪʃəs/"
+    },
+    {
+      "terms": {
+        "English": "lazy",
+        "Portuguese": "preguiçoso; tranquilo"
+      },
+      "examples": {
+        "English": [
+          "I felt lazy after a big lunch.",
+          "The lazy cat slept in the sun all afternoon.",
+          "It was a lazy Sunday with no plans."
+        ],
+        "Portuguese": [
+          "Fiquei com preguiça depois de um almoço pesado.",
+          "O gato preguiçoso dormiu no sol a tarde toda.",
+          "Foi um domingo tranquilo, sem planos."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not wanting to work or make an effort; also relaxed and slow.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈleɪzi/"
+    },
+    {
+      "terms": {
+        "English": "sweet and sour",
+        "Portuguese": "agridoce"
+      },
+      "examples": {
+        "English": [
+          "I ordered sweet-and-sour chicken with rice.",
+          "The sauce tastes sweet and sour.",
+          "She made a sweet-and-sour dressing for the salad."
+        ],
+        "Portuguese": [
+          "Pedi frango agridoce com arroz.",
+          "O molho tem um sabor agridoce.",
+          "Ela fez um molho agridoce para a salada."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Having both a sweet and a sour taste.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌswit ən ˈsaʊər/"
+    },
+    {
+      "terms": {
+        "English": "worthwhile",
+        "Portuguese": "que vale a pena; proveitoso"
+      },
+      "examples": {
+        "English": [
+          "The course was challenging but worthwhile.",
+          "It is worthwhile to compare prices before buying.",
+          "Volunteering was a worthwhile experience for him."
+        ],
+        "Portuguese": [
+          "O curso foi desafiador, mas valeu a pena.",
+          "Vale a pena comparar preços antes de comprar.",
+          "Ser voluntário foi uma experiência proveitosa para ele."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Worth the time, money, or effort.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 2,
+      "due_at": "2026-10-19T23:53:40.383606+00:00",
+      "last_reviewed_at": "2026-10-19T23:43:40.383606+00:00",
+      "pronunciation": "/ˌwɝθˈwaɪl/"
+    },
+    {
+      "terms": {
+        "English": "pointless",
+        "Portuguese": "inútil; sem sentido"
+      },
+      "examples": {
+        "English": [
+          "It is pointless to argue about something we cannot change.",
+          "The search seemed pointless until they found the key.",
+          "He felt the meeting was pointless without a clear goal."
+        ],
+        "Portuguese": [
+          "É inútil discutir sobre algo que não podemos mudar.",
+          "A busca parecia inútil até encontrarem a chave.",
+          "Ele achou a reunião sem sentido, sem um objetivo claro."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Having no purpose or useful result.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈpɔɪntləs/"
+    },
+    {
+      "terms": {
+        "English": "spare",
+        "Portuguese": "reserva; disponibilizar; poupar"
+      },
+      "examples": {
+        "English": [
+          "Could you spare a few minutes to help me?",
+          "This tire is a spare in case one goes flat.",
+          "The nurse tried to spare him unnecessary pain."
+        ],
+        "Portuguese": [
+          "Você poderia me dar alguns minutos para me ajudar?",
+          "Este pneu é o estepe, caso algum fure.",
+          "A enfermeira tentou poupá-lo de dor desnecessária."
+        ]
+      },
+      "part_of_speech": "adjective / verb",
+      "meaning": "Extra, kept in case it is needed; to give time or something you can do without; to save someone from something.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/spɛr/"
+    },
+    {
+      "terms": {
+        "English": "farfetched",
+        "Portuguese": "exagerado; improvável; forçado"
+      },
+      "examples": {
+        "English": [
+          "That explanation sounds a little far-fetched.",
+          "It is not far-fetched to think prices may rise.",
+          "Her story seemed far-fetched at first, but it was true."
+        ],
+        "Portuguese": [
+          "Essa explicação parece um pouco forçada.",
+          "Não é absurdo pensar que os preços podem subir.",
+          "A história dela pareceu improvável no começo, mas era verdade."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Very unlikely to be true; hard to believe.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌfɑrˈfɛtʃt/"
+    },
+    {
+      "terms": {
+        "English": "inquisitive",
+        "Portuguese": "curioso; questionador"
+      },
+      "examples": {
+        "English": [
+          "The inquisitive child asked questions about everything.",
+          "She has an inquisitive mind and loves learning.",
+          "The dog gave me an inquisitive look."
+        ],
+        "Portuguese": [
+          "A criança curiosa fazia perguntas sobre tudo.",
+          "Ela tem uma mente curiosa e adora aprender.",
+          "O cachorro me lançou um olhar curioso."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Wanting to learn and asking many questions.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ɪnˈkwɪzətɪv/"
+    },
+    {
+      "terms": {
+        "English": "elderly",
+        "Portuguese": "idoso"
+      },
+      "examples": {
+        "English": [
+          "The clinic offers free transport for elderly patients.",
+          "An elderly neighbor helped us carry the groceries.",
+          "The building has an elevator for elderly residents."
+        ],
+        "Portuguese": [
+          "A clínica oferece transporte gratuito para pacientes idosos.",
+          "Um vizinho idoso nos ajudou a carregar as compras.",
+          "O prédio tem elevador para os moradores idosos."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Old (a polite word for older people).",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-10-19T00:35:47.533675+00:00",
+      "last_reviewed_at": "2026-10-19T00:25:47.533675+00:00",
+      "pronunciation": "/ˈɛldərli/"
+    },
+    {
+      "terms": {
+        "English": "keen",
+        "Portuguese": "interessado; entusiasmado; com vontade de"
+      },
+      "examples": {
+        "English": [
+          "She is keen to learn how the machine works.",
+          "He is keen on playing tennis after work.",
+          "The students were keen to join the science club."
+        ],
+        "Portuguese": [
+          "Ela está interessada em aprender como a máquina funciona.",
+          "Ele adora jogar tênis depois do trabalho.",
+          "Os alunos estavam animados para entrar no clube de ciências."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Very interested and eager to do something.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/kin/"
+    },
+    {
+      "terms": {
+        "English": "punctual",
+        "Portuguese": "pontual"
+      },
+      "examples": {
+        "English": [
+          "The new employee is always punctual.",
+          "Please be punctual for your interview.",
+          "The train service is usually punctual."
+        ],
+        "Portuguese": [
+          "O novo funcionário é sempre pontual.",
+          "Por favor, seja pontual na sua entrevista.",
+          "O serviço de trem costuma ser pontual."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Arriving or doing something at the expected time.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈpʌŋktʃuəl/"
+    },
+    {
+      "terms": {
+        "English": "smooth",
+        "Portuguese": "liso; suave; tranquilo"
+      },
+      "examples": {
+        "English": [
+          "The table has a smooth surface.",
+          "We had a smooth journey despite the rain.",
+          "Use a spoon to make the sauce smooth."
+        ],
+        "Portuguese": [
+          "A mesa tem uma superfície lisa.",
+          "Fizemos uma viagem tranquila apesar da chuva.",
+          "Use uma colher para deixar o molho homogêneo."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Having an even surface; happening without problems.",
+      "source": "Preply",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-18T21:43:57.174271+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/smuð/"
+    },
+    {
+      "terms": {
+        "English": "careful",
+        "Portuguese": "cuidadoso; atento; ter cuidado"
+      },
+      "examples": {
+        "English": [
+          "Be careful when you cross the busy street.",
+          "He was careful to check every detail.",
+          "Please be careful with that glass bowl."
+        ],
+        "Portuguese": [
+          "Tenha cuidado ao atravessar a rua movimentada.",
+          "Ele teve o cuidado de verificar cada detalhe.",
+          "Por favor, tome cuidado com essa tigela de vidro."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Giving attention to avoid harm or mistakes.",
+      "source": "Preply",
+      "review_streak": 1,
+      "review_correct": 2,
+      "review_total": 4,
+      "due_at": "2026-10-21T23:15:43.403270+00:00",
+      "last_reviewed_at": "2026-10-20T23:15:43.403270+00:00",
+      "pronunciation": "/ˈkɛrfəl/"
+    },
+    {
+      "terms": {
+        "English": "disproportionate",
+        "Portuguese": "desproporcional"
+      },
+      "examples": {
+        "English": [
+          "The response seemed disproportionate to the mistake.",
+          "The punishment was disproportionate to the offense.",
+          "Rent takes up a disproportionate share of his income."
+        ],
+        "Portuguese": [
+          "A reação pareceu desproporcional ao erro.",
+          "A punição foi desproporcional à infração.",
+          "O aluguel consome uma parcela desproporcional da renda dele."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Too large or small in relation to something else.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.053961+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌdɪsprəˈpɔːrʃənət/"
+    },
+    {
+      "terms": {
+        "English": "long-lasting",
+        "Portuguese": "duradouro"
+      },
+      "examples": {
+        "English": [
+          "They built a long-lasting friendship.",
+          "The treatment provided long-lasting relief.",
+          "We want a long-lasting solution to the problem."
+        ],
+        "Portuguese": [
+          "Eles construíram uma amizade duradoura.",
+          "O tratamento proporcionou um alívio duradouro.",
+          "Queremos uma solução duradoura para o problema."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Continuing for a long time.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054041+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌlɔːŋ ˈlæstɪŋ/"
+    },
+    {
+      "terms": {
+        "English": "discredited",
+        "Portuguese": "desacreditado; desmentido"
+      },
+      "examples": {
+        "English": [
+          "The report was discredited by new evidence.",
+          "The theory was discredited after repeated failed experiments.",
+          "The witness was discredited when her story changed."
+        ],
+        "Portuguese": [
+          "O relatório perdeu a credibilidade diante de novas evidências.",
+          "A teoria foi desacreditada após vários experimentos fracassados.",
+          "A testemunha perdeu a credibilidade quando sua versão mudou."
+        ]
+      },
+      "part_of_speech": "adjective / verb (past participle)",
+      "meaning": "Shown to be untrustworthy or false.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054053+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/dɪˈskrɛdɪtɪd/"
+    },
+    {
+      "terms": {
+        "English": "underrated",
+        "Portuguese": "subestimado"
+      },
+      "examples": {
+        "English": [
+          "This small café is an underrated place for lunch.",
+          "That actor is underrated despite his excellent performances.",
+          "Walking is an underrated form of exercise."
+        ],
+        "Portuguese": [
+          "Este pequeno café é um lugar subestimado para almoçar.",
+          "Aquele ator é subestimado apesar de suas excelentes atuações.",
+          "Caminhar é uma forma subestimada de exercício."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not valued or recognized as highly as it deserves.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054105+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌʌndɚˈreɪtɪd/"
+    },
+    {
+      "terms": {
+        "English": "homemade",
+        "Portuguese": "caseiro; feito em casa"
+      },
+      "examples": {
+        "English": [
+          "We had homemade soup for dinner.",
+          "She brought homemade bread to the picnic.",
+          "This homemade sauce tastes better than the bottled one."
+        ],
+        "Portuguese": [
+          "Tomamos sopa caseira no jantar.",
+          "Ela levou pão caseiro para o piquenique.",
+          "Este molho caseiro é mais gostoso do que o engarrafado."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Made at home rather than commercially.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054130+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌhoʊmˈmeɪd/"
+    },
+    {
+      "terms": {
+        "English": "formidable",
+        "Portuguese": "formidável; impressionante"
+      },
+      "examples": {
+        "English": [
+          "They faced a formidable opponent in the final.",
+          "Climbing the mountain was a formidable challenge.",
+          "Her formidable debating skills impressed the audience."
+        ],
+        "Portuguese": [
+          "Eles enfrentaram um adversário formidável na final.",
+          "Escalar a montanha foi um desafio formidável.",
+          "A impressionante habilidade dela nos debates impressionou o público."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Inspiring respect or fear because of great size, strength, or difficulty.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 1,
+      "due_at": "2026-11-02T23:26:54.485939+00:00",
+      "last_reviewed_at": "2026-11-02T23:16:54.485939+00:00",
+      "pronunciation": "/ˈfɔːrmɪdəbəl/"
+    },
+    {
+      "terms": {
+        "English": "brave",
+        "Portuguese": "corajoso; enfrentar"
+      },
+      "examples": {
+        "English": [
+          "The brave firefighter entered the building.",
+          "She was brave enough to speak in front of the crowd.",
+          "The brave child stayed calm during the rescue."
+        ],
+        "Portuguese": [
+          "O bombeiro corajoso entrou no prédio.",
+          "Ela foi corajosa o bastante para falar diante da multidão.",
+          "A criança corajosa manteve a calma durante o resgate."
+        ]
+      },
+      "part_of_speech": "adjective / verb",
+      "meaning": "Showing courage in a difficult or dangerous situation.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054318+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/breɪv/"
+    },
+    {
+      "terms": {
+        "English": "rare",
+        "Portuguese": "raro"
+      },
+      "examples": {
+        "English": [
+          "It is rare to see snow in this region.",
+          "This museum owns several rare books.",
+          "A quiet afternoon is rare in this busy office."
+        ],
+        "Portuguese": [
+          "É raro nevar nesta região.",
+          "Este museu possui vários livros raros.",
+          "Uma tarde tranquila é rara neste escritório movimentado."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not common or occurring infrequently.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054331+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/rɛr/"
+    },
+    {
+      "terms": {
+        "English": "extreme",
+        "Portuguese": "extremo; extremo(a)"
+      },
+      "examples": {
+        "English": [
+          "The hikers were unprepared for the extreme heat.",
+          "The plants cannot survive in extreme cold.",
+          "The region has experienced extreme drought this year."
+        ],
+        "Portuguese": [
+          "Os caminhantes não estavam preparados para o calor extremo.",
+          "As plantas não conseguem sobreviver ao frio extremo.",
+          "A região enfrentou uma seca extrema neste ano."
+        ]
+      },
+      "part_of_speech": "adjective / noun",
+      "meaning": "Very great in degree or intensity; the greatest possible degree.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 1,
+      "review_correct": 1,
+      "review_total": 1,
+      "due_at": "2026-10-23T11:26:03.624491+00:00",
+      "last_reviewed_at": "2026-10-22T11:26:03.624491+00:00",
+      "pronunciation": "/ɪkˈstriːm/"
+    },
+    {
+      "terms": {
+        "English": "obvious",
+        "Portuguese": "óbvio; evidente"
+      },
+      "examples": {
+        "English": [
+          "It was obvious that he was tired.",
+          "The answer seemed obvious once she explained it.",
+          "There was an obvious mistake in the calculation."
+        ],
+        "Portuguese": [
+          "Era óbvio que ele estava cansado.",
+          "A resposta pareceu óbvia depois que ela explicou.",
+          "Havia um erro evidente no cálculo."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Easy to notice or understand.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054404+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈɑːbviəs/"
+    },
+    {
+      "terms": {
+        "English": "unwilling",
+        "Portuguese": "relutante; sem vontade"
+      },
+      "examples": {
+        "English": [
+          "He was unwilling to share the details.",
+          "She seemed unwilling to change her plans.",
+          "They were unwilling to accept the offer."
+        ],
+        "Portuguese": [
+          "Ele não estava disposto a compartilhar os detalhes.",
+          "Ela parecia relutante em mudar seus planos.",
+          "Eles não estavam dispostos a aceitar a oferta."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Not wanting to do something.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054507+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ʌnˈwɪlɪŋ/"
+    },
+    {
+      "terms": {
+        "English": "broad",
+        "Portuguese": "amplo; largo"
+      },
+      "examples": {
+        "English": [
+          "The course gives a broad overview of history.",
+          "The book covers a broad range of topics.",
+          "She has a broad knowledge of European history."
+        ],
+        "Portuguese": [
+          "O curso oferece uma visão geral ampla da história.",
+          "O livro aborda uma ampla variedade de temas.",
+          "Ela tem um amplo conhecimento da história europeia."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Wide in extent or covering many areas.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-20T11:19:17.054533+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/brɔːd/"
+    },
+    {
+      "terms": {
+        "English": "bold",
+        "Portuguese": "ousado; audacioso"
+      },
+      "examples": {
+        "English": [
+          "Starting her own company was a bold decision.",
+          "He made a bold proposal to change the entire system.",
+          "Her bold approach impressed the investors."
+        ],
+        "Portuguese": [
+          "Abrir a própria empresa foi uma decisão ousada.",
+          "Ele fez uma proposta audaciosa para mudar o sistema inteiro.",
+          "A abordagem ousada dela impressionou os investidores."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Confident and willing to take risks or act decisively.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-23T12:41:02.495781+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/boʊld/"
+    },
+    {
+      "terms": {
+        "English": "reckless",
+        "Portuguese": "imprudente; inconsequente"
+      },
+      "examples": {
+        "English": [
+          "His reckless driving put everyone at risk.",
+          "It was reckless to swim during the storm.",
+          "He made a reckless decision without considering the risks."
+        ],
+        "Portuguese": [
+          "A direção imprudente dele colocou todos em risco.",
+          "Foi imprudente nadar durante a tempestade.",
+          "Ele tomou uma decisão imprudente sem considerar os riscos."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Acting without enough care for danger or consequences.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-23T12:41:02.495799+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈrɛkləs/"
+    },
+    {
+      "terms": {
+        "English": "wise",
+        "Portuguese": "sábio; sensato"
+      },
+      "examples": {
+        "English": [
+          "My grandmother gave me some wise advice.",
+          "Saving some money for emergencies is a wise decision.",
+          "It would be wise to check the weather before leaving."
+        ],
+        "Portuguese": [
+          "Minha avó me deu alguns conselhos sábios.",
+          "Guardar um pouco de dinheiro para emergências é uma decisão sensata.",
+          "Seria sensato conferir a previsão do tempo antes de sair."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Showing good judgment based on knowledge or experience.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-23T12:41:02.496106+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/waɪz/"
+    },
+    {
+      "terms": {
+        "English": "shallow",
+        "Portuguese": "raso; de pouca profundidade"
+      },
+      "examples": {
+        "English": [
+          "The water is shallow near the shore.",
+          "We crossed the river at a shallow spot.",
+          "The children played in a shallow pool."
+        ],
+        "Portuguese": [
+          "A água é rasa perto da margem.",
+          "Atravessamos o rio em um trecho raso.",
+          "As crianças brincaram em uma piscina rasa."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Having little distance from the surface to the bottom.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-23T12:41:02.497988+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈʃæloʊ/"
+    },
+    {
+      "terms": {
+        "English": "suitable",
+        "Portuguese": "adequado; apropriado"
+      },
+      "examples": {
+        "English": [
+          "These shoes are suitable for hiking.",
+          "We need to find a suitable place for the meeting.",
+          "This film is suitable for young children."
+        ],
+        "Portuguese": [
+          "Estes sapatos são adequados para caminhadas em trilhas.",
+          "Precisamos encontrar um lugar adequado para a reunião.",
+          "Este filme é apropriado para crianças pequenas."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Right or appropriate for a particular person or purpose.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-10-23T12:41:02.498915+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈsutəbəl/"
+    },
+    {
+      "terms": {
+        "English": "frightened",
+        "Portuguese": "assustado; com medo"
+      },
+      "examples": {
+        "English": [
+          "The frightened child held his mother's hand.",
+          "I was frightened by the loud noise.",
+          "She is frightened of flying."
+        ],
+        "Portuguese": [
+          "A criança assustada segurou a mão da mãe.",
+          "Fiquei assustado com o barulho alto.",
+          "Ela tem medo de voar."
+        ]
+      },
+      "part_of_speech": "adjective",
+      "meaning": "Feeling fear or alarm.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-11-04T22:49:56.290567+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˈfraɪtənd/"
+    },
+    {
+      "terms": {
+        "English": "uneven",
+        "Portuguese": "irregular; desnivelado; desigual"
+      },
+      "examples": {
+        "English": [
+          "Be careful, the floor is uneven here.",
+          "The paint looks uneven on this wall.",
+          "The team's performance has been uneven this season."
+        ],
+        "Portuguese": [
+          "Cuidado, o chão é desnivelado aqui.",
+          "A tinta parece irregular nesta parede.",
+          "O desempenho do time tem sido irregular nesta temporada."
+        ]
+      },
+      "pronunciation": "/ʌnˈivən/",
+      "part_of_speech": "adjective",
+      "meaning": "Not level, smooth, or consistent in surface, quality, or distribution.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "unequal",
+        "Portuguese": "desigual; diferente"
+      },
+      "examples": {
+        "English": [
+          "Women often receive unequal pay for the same work.",
+          "The two pieces of cake were unequal in size.",
+          "It was an unequal fight from the start."
+        ],
+        "Portuguese": [
+          "As mulheres muitas vezes recebem salários desiguais pelo mesmo trabalho.",
+          "Os dois pedaços de bolo tinham tamanhos diferentes.",
+          "Foi uma luta desigual desde o começo."
+        ]
+      },
+      "pronunciation": "/ʌnˈikwəl/",
+      "part_of_speech": "adjective",
+      "meaning": "Not the same in size, amount, or value; not fair or balanced between people or groups.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "deceived",
+        "Portuguese": "enganado; iludido"
+      },
+      "examples": {
+        "English": [
+          "I felt deceived when I found out the truth.",
+          "Many customers were deceived by the fake advertisement.",
+          "Don't be deceived by his friendly smile."
+        ],
+        "Portuguese": [
+          "Eu me senti enganado quando descobri a verdade.",
+          "Muitos clientes foram enganados pelo anúncio falso.",
+          "Não se deixe enganar pelo sorriso simpático dele."
+        ]
+      },
+      "pronunciation": "/dɪˈsivd/",
+      "part_of_speech": "adjective; verb (past participle)",
+      "meaning": "Tricked into believing something that is not true.",
+      "source": "Lista fornecida pelo usuário"
+    },
+    {
+      "terms": {
+        "English": "thirsty",
+        "Portuguese": "com sede; sedento"
+      },
+      "examples": {
+        "English": [
+          "I'm really thirsty after that long run.",
+          "The kids were hot and thirsty, so we bought some water.",
+          "Salty food always makes me thirsty."
+        ],
+        "Portuguese": [
+          "Estou com muita sede depois daquela corrida longa.",
+          "As crianças estavam com calor e com sede, então compramos água.",
+          "Comida salgada sempre me dá sede."
+        ]
+      },
+      "pronunciation": "/ˈθɝsti/",
+      "part_of_speech": "adjective",
+      "meaning": "Feeling a need or desire to drink something.",
+      "source": "Lista fornecida pelo usuário"
+    }
+  ]
+}
