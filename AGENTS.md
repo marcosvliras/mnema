@@ -34,8 +34,8 @@ Write directly to `data/<context-slug>/<deck-slug>.json`. Create parent director
     {
       "terms": { "English": "save", "Portuguese": "poupar; economizar" },
       "examples": {
-        "English": ["I save money every month.", "She saved enough for a trip."],
-        "Portuguese": ["Eu economizo dinheiro todo mês.", "Ela juntou o bastante para uma viagem."]
+        "English": ["I save money every month.", "She saved enough for a trip.", "We save part of our income for emergencies."],
+        "Portuguese": ["Eu economizo dinheiro todo mês.", "Ela juntou o bastante para uma viagem.", "Guardamos parte da nossa renda para emergências."]
       },
       "pronunciation": "/seɪv/",
       "part_of_speech": "verb",
@@ -46,7 +46,7 @@ Write directly to `data/<context-slug>/<deck-slug>.json`. Create parent director
 }
 ```
 
-Each card must include the learned term under a language key matching `learning_language`. Include translations, the IPA pronunciation of the learned term (`pronunciation`, American English for English), a concise sense-specific meaning, and natural examples in the learned language. Add examples in other languages when useful and supported. Keep the same sense across the examples. Use UTF-8 and valid JSON.
+Each card must include the learned term under a language key matching `learning_language`. Include translations, the IPA pronunciation of the learned term (`pronunciation`, American English for English), and a concise sense-specific meaning. Every card must contain at least three distinct, natural examples in the learned language and corresponding translations in every other language in `terms` (English and Portuguese for the current collections). Keep the same number and order of examples in each language: index 0 translates index 0, and so on. Keep the same sense across the examples. Never consider a card complete merely because it has one nonempty example. Preserve existing examples when enriching a card. Use UTF-8 and valid JSON.
 
 ## Backup and synchronization
 
@@ -55,5 +55,6 @@ The `data/` folder is the portable source of truth for both card content and rev
 ## After writing
 
 - Re-read/parse the JSON you changed and summarize how many cards were added, skipped as duplicates, and which sources were used.
+- Run `python3 start.py --check`. Verify that every card has at least three nonempty, distinct examples per language in `terms`, with equal counts across languages. Inspect the sentences for natural usage, consistent meaning, and matching translations; counts alone do not establish quality.
 - Do not restart the server just to load changed JSON: Mnema syncs file collections as the app reads its API.
 - Never commit `flashcards.db`; the portable JSON files are the backup format.

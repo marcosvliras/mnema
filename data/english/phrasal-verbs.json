@@ -83,9 +83,9 @@
       "source": "Preply",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 2,
-      "due_at": "2026-11-02T23:33:16.731484+00:00",
-      "last_reviewed_at": "2026-11-02T23:23:16.731484+00:00",
+      "review_total": 3,
+      "due_at": "2026-11-04T23:35:05.034430+00:00",
+      "last_reviewed_at": "2026-11-04T23:25:05.034430+00:00",
       "pronunciation": "/ˌɡroʊ ˈaʊt əv/"
     },
     {
@@ -502,12 +502,24 @@
         "English": [
           "Your reading has come along really well.",
           "Her pronunciation has come along since the course began.",
-          "The renovation is coming along nicely."
+          "The renovation is coming along nicely.",
+          "We're going to the beach. Do you want to come along?",
+          "My sister came along with me to the doctor.",
+          "You can come along to the party if you're free on Saturday.",
+          "I took the job as soon as a good opportunity came along.",
+          "Don't wait for the perfect moment to come along.",
+          "Smartphones changed everything when they came along."
         ],
         "Portuguese": [
           "Sua leitura evoluiu muito bem.",
           "A pronúncia dela melhorou desde o início do curso.",
-          "A reforma está progredindo bem."
+          "A reforma está progredindo bem.",
+          "Vamos à praia. Você quer ir com a gente?",
+          "Minha irmã me acompanhou ao médico.",
+          "Você pode nos acompanhar na festa se estiver livre no sábado.",
+          "Aceitei o emprego assim que apareceu uma boa oportunidade.",
+          "Não espere o momento perfeito aparecer.",
+          "Os smartphones mudaram tudo quando apareceram."
         ]
       },
       "part_of_speech": "phrasal verb",
@@ -515,9 +527,9 @@
       "source": "Lista fornecida pelo usuário",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-20T11:19:17.057057+00:00",
-      "last_reviewed_at": "",
+      "review_total": 1,
+      "due_at": "2026-11-06T11:29:36.913939+00:00",
+      "last_reviewed_at": "2026-11-06T11:19:36.913939+00:00",
       "pronunciation": "/kʌm əˈlɔːŋ/"
     },
     {
@@ -839,9 +851,9 @@
       "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 1,
-      "due_at": "2026-11-02T23:36:39.339470+00:00",
-      "last_reviewed_at": "2026-11-02T23:26:39.339470+00:00",
+      "review_total": 2,
+      "due_at": "2026-11-04T23:36:36.583537+00:00",
+      "last_reviewed_at": "2026-11-04T23:26:36.583537+00:00",
       "pronunciation": "/pɔɪnt aʊt/"
     },
     {
@@ -1163,9 +1175,9 @@
       "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-20T11:52:09.894561+00:00",
-      "last_reviewed_at": "",
+      "review_total": 1,
+      "due_at": "2026-11-04T23:30:25.001194+00:00",
+      "last_reviewed_at": "2026-11-04T23:20:25.001194+00:00",
       "pronunciation": "/ɡoʊ daʊn/"
     },
     {
@@ -1406,9 +1418,9 @@
       "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-20T11:52:09.894679+00:00",
-      "last_reviewed_at": "",
+      "review_total": 1,
+      "due_at": "2026-11-04T23:33:35.277755+00:00",
+      "last_reviewed_at": "2026-11-04T23:23:35.277755+00:00",
       "pronunciation": "/brɪŋ aʊt/"
     },
     {
@@ -1703,9 +1715,9 @@
       "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-20T11:52:09.894842+00:00",
-      "last_reviewed_at": "",
+      "review_total": 1,
+      "due_at": "2026-11-06T11:32:39.611029+00:00",
+      "last_reviewed_at": "2026-11-06T11:22:39.611029+00:00",
       "pronunciation": "/pull aʊt/"
     },
     {
@@ -2052,11 +2064,11 @@
       "part_of_speech": "phrasal verb",
       "meaning": "Quebrar.",
       "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 1,
-      "due_at": "2026-11-02T23:35:15.350593+00:00",
-      "last_reviewed_at": "2026-11-02T23:25:15.350593+00:00",
+      "review_streak": 1,
+      "review_correct": 1,
+      "review_total": 2,
+      "due_at": "2026-11-07T11:14:43.492337+00:00",
+      "last_reviewed_at": "2026-11-06T11:14:43.492337+00:00",
       "pronunciation": "/breɪk daʊn/"
     },
     {
@@ -2405,9 +2417,9 @@
       "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-20T11:52:09.895206+00:00",
-      "last_reviewed_at": "",
+      "review_total": 1,
+      "due_at": "2026-11-06T11:35:15.134344+00:00",
+      "last_reviewed_at": "2026-11-06T11:25:15.134344+00:00",
       "pronunciation": "/tɝːn ʌp/"
     },
     {
@@ -2513,9 +2525,9 @@
       "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
       "review_streak": 0,
       "review_correct": 0,
-      "review_total": 0,
-      "due_at": "2026-10-20T11:52:09.895261+00:00",
-      "last_reviewed_at": "",
+      "review_total": 1,
+      "due_at": "2026-11-06T11:26:56.343789+00:00",
+      "last_reviewed_at": "2026-11-06T11:16:56.343789+00:00",
       "pronunciation": "/hæŋ ʌp/"
     },
     {
@@ -3006,33 +3018,6 @@
     },
     {
       "terms": {
-        "English": "bring about",
-        "Portuguese": "causar; provocar"
-      },
-      "examples": {
-        "English": [
-          "The new policy brought about major changes.",
-          "The discovery brought about a new approach to treatment.",
-          "Their efforts brought about lasting improvements."
-        ],
-        "Portuguese": [
-          "A nova política provocou grandes mudanças.",
-          "A descoberta levou a uma nova abordagem de tratamento.",
-          "Os esforços deles provocaram melhorias duradouras."
-        ]
-      },
-      "part_of_speech": "phrasal verb",
-      "meaning": "Causar.",
-      "source": "A Frequency Dictionary of Contemporary American English (Davies & Gardner, 2010), seção 30",
-      "review_streak": 0,
-      "review_correct": 0,
-      "review_total": 1,
-      "due_at": "2026-11-02T23:35:27.902173+00:00",
-      "last_reviewed_at": "2026-11-02T23:25:27.902173+00:00",
-      "pronunciation": "/brɪŋ əˈbaʊt/"
-    },
-    {
-      "terms": {
         "English": "sign up",
         "Portuguese": "inscrever-se"
       },
@@ -3102,9 +3087,36 @@
           "O alarme disparou quando eles entraram à força."
         ]
       },
-      "pronunciation": "/ˌbreɪk ˈɪn/",
       "part_of_speech": "phrasal verb",
       "meaning": "To enter a place by force, usually to steal something.",
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-11-04T22:45:18.226157+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ˌbreɪk ˈɪn/"
+    },
+    {
+      "terms": {
+        "English": "pile up",
+        "Portuguese": "acumular(-se); amontoar(-se); concentrar(-se)"
+      },
+      "examples": {
+        "English": [
+          "A few heavy users can pile up on one server.",
+          "Requests started to pile up in the queue during the outage.",
+          "Dirty dishes piled up in the sink all week."
+        ],
+        "Portuguese": [
+          "Alguns usuários pesados podem se concentrar em um único servidor.",
+          "As requisições começaram a se acumular na fila durante a queda.",
+          "A louça suja se acumulou na pia a semana toda."
+        ]
+      },
+      "pronunciation": "/ˌpaɪl ˈʌp/",
+      "part_of_speech": "phrasal verb",
+      "meaning": "To accumulate or gather in large numbers in one place.",
       "source": "Lista fornecida pelo usuário"
     }
   ]

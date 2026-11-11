@@ -460,6 +460,8 @@ class Handler(SimpleHTTPRequestHandler):
         path = urlparse(self.path).path
         try:
             body = self.read_json()
+            # Writes mirror SQLite back to the JSON files, so absorb file changes first.
+            sync_file_collections()
             if path == "/api/contexts":
                 name = str(body.get("name", "")).strip()
                 language = str(body.get("learning_language", "")).strip()
@@ -607,6 +609,7 @@ class Handler(SimpleHTTPRequestHandler):
             return self.send_json({"error": "Rota não encontrada."}, 404)
         try:
             card_id = int(path.rsplit("/", 1)[-1]); body = self.read_json()
+            sync_file_collections()
             context, deck, language, terms, examples, notes, part_of_speech, source, key = normalize_card(body)
             now = datetime.now(timezone.utc).isoformat()
             with connect() as db:
@@ -629,6 +632,7 @@ class Handler(SimpleHTTPRequestHandler):
             return self.send_json({"error": "Rota não encontrada."}, 404)
         try:
             card_id = int(path.rsplit("/", 1)[-1])
+            sync_file_collections()
             with connect() as db:
                 old = db.execute("SELECT context_name,deck_name FROM cards WHERE id=?", (card_id,)).fetchone()
                 cur = db.execute("DELETE FROM cards WHERE id=?", (card_id,))

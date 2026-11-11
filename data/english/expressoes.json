@@ -27,11 +27,11 @@
       "part_of_speech": "prepositional phrase",
       "meaning": "With regard to or in relation to a particular aspect or topic.",
       "source": "Preply",
-      "review_streak": 1,
-      "review_correct": 1,
-      "review_total": 3,
-      "due_at": "2026-10-29T12:14:35.020270+00:00",
-      "last_reviewed_at": "2026-10-28T12:14:35.020270+00:00",
+      "review_streak": 2,
+      "review_correct": 2,
+      "review_total": 4,
+      "due_at": "2026-11-12T00:15:02.327769+00:00",
+      "last_reviewed_at": "2026-11-09T00:15:02.327769+00:00",
       "pronunciation": "/ɪn ˈtɝmz əv/"
     },
     {
@@ -647,10 +647,15 @@
           "Ela colocou algumas piadas no discurso sem exagerar."
         ]
       },
-      "pronunciation": "/wɪˈðaʊt ˌoʊvɚˈduɪŋ/",
       "part_of_speech": "expression",
       "meaning": "Doing something to a suitable degree, without going too far.",
-      "source": "Lista fornecida pelo usuário"
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-11-06T11:01:15.429633+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/wɪˈðaʊt ˌoʊvɚˈduɪŋ/"
     },
     {
       "terms": {
@@ -669,10 +674,15 @@
           "O bife vem com um acompanhamento de legumes grelhados."
         ]
       },
-      "pronunciation": "/ə ˈsaɪd əv/",
       "part_of_speech": "expression",
       "meaning": "An extra portion of food served alongside the main dish.",
-      "source": "Lista fornecida pelo usuário"
+      "source": "Lista fornecida pelo usuário",
+      "review_streak": 0,
+      "review_correct": 0,
+      "review_total": 0,
+      "due_at": "2026-11-06T11:01:15.430065+00:00",
+      "last_reviewed_at": "",
+      "pronunciation": "/ə ˈsaɪd əv/"
     }
   ]
 }

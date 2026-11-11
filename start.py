@@ -12,9 +12,41 @@ import os
 from html.parser import HTMLParser
 from pathlib import Path
 import re
+import unicodedata
 from urllib.parse import unquote, urlsplit
 
 ROOT = Path(__file__).resolve().parent
+
+
+def language_key(label):
+    key = "".join(c for c in unicodedata.normalize("NFD", label.casefold().strip())
+                  if unicodedata.category(c) != "Mn")
+    groups = ("en eng ingles english", "pt por portugues portuguese", "es spa espanhol spanish",
+              "fr fra frances french", "de deu alemao german", "it ita italiano italian")
+    return next((group.split()[-1] for group in groups if key in group.split()), key)
+
+
+def check_card_examples(card, learning_language):
+    term = next((value for label, value in card["terms"].items()
+                 if language_key(label) == language_key(learning_language)), None)
+    if not isinstance(term, str) or not term.strip():
+        raise ValueError(f"missing learned term for {learning_language}")
+    examples = card.get("examples")
+    if not isinstance(examples, dict):
+        raise ValueError(f"{term}: examples must be a language map")
+    counts = set()
+    for language in card["terms"]:
+        sentences = [sentence for label, values in examples.items()
+                     if language_key(label) == language_key(language)
+                     for sentence in (values if isinstance(values, list) else [])]
+        if len(sentences) < 3 or any(not isinstance(s, str) or not s.strip() for s in sentences):
+            raise ValueError(f"{term}: at least 3 nonempty examples required in {language}")
+        normalized = {" ".join(s.casefold().split()) for s in sentences}
+        if len(normalized) != len(sentences):
+            raise ValueError(f"{term}: duplicate examples in {language}")
+        counts.add(len(sentences))
+    if len(counts) != 1:
+        raise ValueError(f"{term}: example counts must match across languages")
 
 
 class AssetParser(HTMLParser):
@@ -86,6 +118,7 @@ def check_project(root=ROOT):
             for card in collection:
                 if not isinstance(card, dict) or not isinstance(card.get("terms"), dict):
                     raise ValueError("each card must contain terms")
+                check_card_examples(card, context["learning_language"])
                 if card.get("image"):
                     images.add(local_asset(root, card["image"]))
             cards += len(collection)

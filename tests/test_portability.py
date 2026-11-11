@@ -200,6 +200,32 @@ class InstallationCheckTests(unittest.TestCase):
         self.assertIn(str(path.relative_to(self.root)), result.stderr)
         self.assertNotIn("Traceback", result.stderr)
 
+    def test_incomplete_or_repeated_examples_fail_before_launch(self):
+        path = next((self.root / "data").rglob("*.json"))
+        original = path.read_text(encoding="utf-8")
+        for problem in ("one_example", "missing_translation", "blank", "duplicate", "unequal_counts"):
+            with self.subTest(problem=problem):
+                payload = json.loads(original)
+                card = payload["cards"][0]
+                examples = card["examples"]
+                if problem == "one_example":
+                    card["examples"] = {lang: sentences[:1] for lang, sentences in examples.items()}
+                elif problem == "missing_translation":
+                    del examples["Portuguese"]
+                elif problem == "blank":
+                    examples["English"][1] = "  "
+                elif problem == "duplicate":
+                    examples["English"][1] = "  " + examples["English"][0].upper() + "  "
+                else:
+                    examples["Portuguese"].append("Uma tradução sem frase correspondente.")
+                path.write_text(json.dumps(payload), encoding="utf-8")
+                result = self.check()
+                self.assertNotEqual(result.returncode, 0)
+                self.assertIn(card["terms"]["English"], result.stderr)
+                self.assertIn("examples" if problem != "unequal_counts" else "counts", result.stderr)
+                self.assertNotIn("Traceback", result.stderr)
+                self.assertFalse((self.root / "flashcards.db").exists())
+
 
 if __name__ == "__main__":
     unittest.main()

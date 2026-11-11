@@ -32,11 +32,13 @@ Example: `data/english/airport.json` can describe context “English” and deck
       "examples": {
         "English": [
           "I save money every month.",
-          "We saved enough for a trip."
+          "We saved enough for a trip.",
+          "We save part of our income for emergencies."
         ],
         "Portuguese": [
           "Eu economizo dinheiro todo mês.",
-          "Juntamos o suficiente para uma viagem."
+          "Juntamos o suficiente para uma viagem.",
+          "Guardamos parte da nossa renda para emergências."
         ]
       },
       "pronunciation": "/seɪv/",
@@ -57,7 +59,7 @@ Example: `data/english/airport.json` can describe context “English” and deck
 - `source`: optional collection-level origin; a card may override it with its own `source`.
 - `cards`: array of flashcards.
 - `terms`: map from language names to the equivalent term or phrase. Every card must contain a term for `learning_language`.
-- `examples`: map from language names to arrays of natural example sentences. Prefer multiple examples for the learned term; examples should show the same sense as `meaning`.
+- `examples`: map from language names to arrays containing at least three distinct, nonempty natural example sentences for every language in `terms`. All languages must have equal counts, with corresponding translations at the same array index. Examples should show the same sense as `meaning`. Run `python3 start.py --check` to verify counts and structure; also review meaning and translation quality.
 - `pronunciation`: optional IPA for the learned term, with slashes (for example `/ˈkɛrfəl/`). Use American English for English. Mnema shows it under the word.
 - `part_of_speech`: optional class such as `verb`, `noun`, `adjective`, or `expression`.
 - `meaning`: optional concise, sense-specific definition. This is stored with the card's notes.
@@ -70,7 +72,7 @@ The app stores the same identity rule in SQLite as a final safeguard. On refresh
 
 ## Source and examples
 
-Sources may be Preply, user text, books, web research, or another requested origin. Use the source the user requested, and do not imply that an unverified item came from a source. Include examples in the language being learned; add translations in other languages when available. Keep each card focused on a single sense so the term and examples do not teach conflicting meanings.
+Sources may be Preply, user text, books, web research, or another requested origin. Use the source the user requested, and do not imply that an unverified item came from a source. Include at least three examples in the language being learned and corresponding translations in every other language in `terms`. Keep each card focused on a single sense so the term and examples do not teach conflicting meanings.
 
 ## Optional CSV interchange
 
