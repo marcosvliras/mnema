@@ -9249,6 +9249,28 @@
       "due_at": "2026-11-04T23:04:55.928839+00:00",
       "last_reviewed_at": "",
       "pronunciation": "/ɪˈskeɪp/"
+    },
+    {
+      "terms": {
+        "English": "contend",
+        "Portuguese": "lidar com; enfrentar (dificuldades)"
+      },
+      "examples": {
+        "English": [
+          "Farmers have to contend with long periods of dry weather.",
+          "She had to contend with a lot of criticism in her first year as manager.",
+          "Besides the heavy traffic, we also had to contend with the rain."
+        ],
+        "Portuguese": [
+          "Os agricultores precisam lidar com longos períodos de seca.",
+          "Ela teve que enfrentar muitas críticas no primeiro ano como gerente.",
+          "Além do trânsito pesado, também tivemos que lidar com a chuva."
+        ]
+      },
+      "pronunciation": "/kənˈtɛnd/",
+      "part_of_speech": "verb",
+      "meaning": "To have to deal with a difficult or unpleasant situation or problem (usually 'contend with').",
+      "source": "Lista fornecida pelo usuário"
     }
   ]
 }
