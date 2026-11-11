@@ -683,6 +683,28 @@
       "due_at": "2026-11-06T11:01:15.430065+00:00",
       "last_reviewed_at": "",
       "pronunciation": "/ə ˈsaɪd əv/"
+    },
+    {
+      "terms": {
+        "English": "cool it down",
+        "Portuguese": "acalmar os ânimos; pegar leve; baixar a bola"
+      },
+      "examples": {
+        "English": [
+          "Things were getting heated in the meeting, so the manager told everyone to cool it down.",
+          "Hey, cool it down! There's no need to shout.",
+          "They had a big argument, so they decided to cool it down for a few days."
+        ],
+        "Portuguese": [
+          "As coisas estavam esquentando na reunião, então o gerente pediu para todo mundo acalmar os ânimos.",
+          "Ei, pega leve! Não precisa gritar.",
+          "Eles tiveram uma grande discussão, então decidiram dar um tempo para os ânimos esfriarem por alguns dias."
+        ]
+      },
+      "pronunciation": "/kul ɪt ˈdaʊn/",
+      "part_of_speech": "expression",
+      "meaning": "To calm down or make a tense situation less intense.",
+      "source": "Lista fornecida pelo usuário"
     }
   ]
 }
